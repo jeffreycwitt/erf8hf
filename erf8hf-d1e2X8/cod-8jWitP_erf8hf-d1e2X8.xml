@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Summa</title>
+        <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Summa</title>
+          <date when="2020-12-04">December 04, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="12-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="erf8hf-d1e2X8">
+        <head xml:id="erf8hf-d1e2X8-Hd1e105">Summa</head>
+        <p xml:id="erf8hf-d1e2X8-d1e108">
+          <lb ed="#W" n="16"/>SVMMA 
+          <lb ed="#W" n="17"/>Si ad praedestinationem referas humanam 
+          <lb ed="#W" n="18"/>uoluntatem nec in externis nec in internis 
+          <lb ed="#W" n="19"/>operibus ulla est libertas, sed eueniunt om¬ 
+          <lb ed="#W" n="20"/>nia iuxta destinationem diuinam.  
+          <lb ed="#W" n="21"/>Si ad opera externa referas uoluntatem, quae¬ 
+          <lb ed="#W" n="22"/>dam uidetur esse iuditio naturae libertas. 
+          <lb ed="#W" n="23"/>Si ad adfectus referas uoluntatem, nulla pla 
+          <lb ed="#W" n="24"/>ne libertas est etiam naturae iuditio.
+        </p>
+        <p xml:id="erf8hf-d1e2X8-d1e130">
+          <!--28.xml-->
+          <pb ed="#G" n="13-r"/>
+          <lb ed="#W" n="1"/>Iam ubi adfectus coeperit furere &amp; aestuare,  
+          <lb ed="#W" n="2"/>cohiberi non potest quin erumpat.
+        </p>
+        <p xml:id="erf8hf-d1e2X8-d1e141">
+          <lb ed="#W" n="3"/>⁋ Vides lector, quanto certius de libero ar 
+          <lb ed="#W" n="4"/>bitrio scripserimus, quam uel Dernardus uel 
+          <lb ed="#W" n="5"/>ulli scholastici, porro haec qui hactenus dispu 
+          <lb ed="#W" n="6"/>tauimus subinde clarescent in reliquis com 
+          <lb ed="#W" n="7"/>pendii nostri locis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
