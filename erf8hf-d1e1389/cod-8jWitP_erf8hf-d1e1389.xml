@@ -1,128 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>De peccato mortali et quotidiano</title>
-            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>De peccato mortali et quotidiano</title>
-               <date when="2020-12-04">December 04, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-12-04" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#W" n="119-v"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="erf8hf-d1e1389">
-            <head xml:id="erf8hf-d1e1389-Hd1e105">De peccato mortali et quotidiano</head>
-            <head xml:id="erf8hf-d1e1389-Hd1e108" type="question-title">De peccato mortali et quotidiano</head>
-            <p xml:id="erf8hf-d1e1389-d1e111">
-      <!--239.xml-->
-               <pb ed="#W" n="119-v"/>
-               <lb ed="#W" n="1"/>DE PECCATO MOR¬ 
-      <lb ed="#W" n="2"/>tali &amp; quotidiano.
-    </p>
-            <p xml:id="erf8hf-d1e1389-d1e122">
-               <lb ed="#W" n="3"/>⁋ Supra de peccato dictum est, ubi consul 
-      <lb ed="#W" n="4"/>to omisimus peccati formas tractare, mor 
-      <lb ed="#W" n="5"/>tale, ut loquuntur, &amp; ueniale. Est enim mor 
-      <lb ed="#W" n="6"/>tale peccatum, omne opus hominis, qui non 
-      <lb ed="#W" n="7"/>est in Christo, quia malae arboris nempe 
-      <lb ed="#W" n="8"/>camis, malus fructus est. Adfectus autem car¬ 
-      <lb ed="#W" n="9"/>nis mors est, ad Roma. viii. Item adfectus 
-      <lb ed="#W" n="10"/>camis inimicitia est aduersus deum. Item,  
-      <lb ed="#W" n="11"/>qui in came sunt deo placere non possunt,  
-      <lb ed="#W" n="12"/>Quibus locis necesse est, ut canem interpre 
-      <lb ed="#W" n="13"/>teris de tota hominis natura, adeoque de prae 
-      <lb ed="#W" n="14"/>stantissimis naturae uiribus, ut supra docuims.
-    </p>
-            <p xml:id="erf8hf-d1e1389-d1e151">
-               <lb ed="#W" n="15"/>⁋ Immo non alia pars hominis magis ca¬ 
-      <lb ed="#W" n="16"/>ro est, quam suprema uis, ratio, que in illam pro 
-      <lb ed="#W" n="17"/>prie sit ignoratio &amp; contemptus dei, incre¬ 
-      <lb ed="#W" n="18"/>dulitas &amp; hoc genus sonticae pestes, quarum 
-      <lb ed="#W" n="19"/>fructus &amp; opera sunt, omnes functiones hu 
-      <lb ed="#W" n="20"/>manae, sontra uenialia peccata sunt, omia 
-      <lb ed="#W" n="21"/>fanctorum opera, nempe, que per misericondiam 
-      <lb ed="#W" n="22"/>dei, credentibus condonentur. Nonnunquam 
-      <lb ed="#W" n="23"/>sanctis eripit deus spiritum, ita ut in manife¬ 
-      <lb ed="#W" n="24"/>sta uicia prolabantur, quae uoceut sane, me 
-      <!--240.xml-->
-      <pb ed="#W" n="120-r"/>
-               <lb ed="#W" n="1"/>nihil refragante peccata mortalia, modo 
-      <lb ed="#W" n="2"/>sciant me mortalia ad eum modum adpel 
-      <lb ed="#W" n="3"/>lare quidquid fit ab iis qui spiritu dei carent. 
-      <lb ed="#W" n="4"/>Quondam fere crimina uocabantur, quae 
-      <lb ed="#W" n="5"/>Sophistae nunc uocant peccata mortalia, 
-      <lb ed="#W" n="6"/>facinora palam mala. Et quotidiana pecca 
-      <lb ed="#W" n="7"/>ta quae isti uenialia.
-    </p>
-            <p xml:id="erf8hf-d1e1389-d1e196">
-               <lb ed="#W" n="8"/>De lege ac Euangelio, de ueteri ac nouo 
-      <lb ed="#W" n="9"/>testamento, haec quae dixi puto requiri po¬ 
-      <lb ed="#W" n="10"/>tissimum, quae ipse uideo a me tenuius, quam 
-      <lb ed="#W" n="11"/>pro rei dignitate tractata esse, sed nolo Ra¬ 
-      <lb ed="#W" n="12"/>bi uocati. Abunde suppeditabit scripturae 
-      <lb ed="#W" n="13"/>usus, quod nos praeteriuimus. Satis esse pu 
-      <lb ed="#W" n="14"/>taui indicare, quid potissimum in scriptura 
-      <lb ed="#W" n="15"/>requireres. Requires autem legem ac Euan¬ 
-      <lb ed="#W" n="16"/>gelium. Eex peccatum ostendit, ac conscien¬ 
-      <lb ed="#W" n="17"/>tiam pauefacit. Euangelio peccatum condo¬ 
-      <lb ed="#W" n="18"/>natur, &amp; exhibetur spiritus qui ad faciendam 
-      <lb ed="#W" n="19"/>legem cor inssammet. Si testamenti nomen 
-      <lb ed="#W" n="20"/>propius consideres, uetus testameneum, uvs 
-      <lb ed="#W" n="21"/>noui testamenti, non testamentum fuerit,  
-      <lb ed="#W" n="22"/>ut in quo non decesserit testator. Nouo testa 
-      <lb ed="#W" n="23"/>mento decessit testator. Vetere pro testato¬ 
-      <lb ed="#W" n="24"/>re typi gratia pecudes caedebantur, quae testa 
-      <!--241.xml-->
-      <pb ed="#W" n="120-v"/>
-               <lb ed="#W" n="1"/>toris mortem significabant. Sed haec argutio¬ 
-      <lb ed="#W" n="2"/>ra sunt, qua quae huius commentarii ratio ad 
-      <lb ed="#W" n="3"/>mittat. Solet hic de litera &amp; spiritu disputa 
-      <lb ed="#W" n="4"/>ri, de quibus malo uel Augustinum, uel Ru¬ 
-      <lb ed="#W" n="5"/>therum quam me consuli. Quanquam supra 
-      <lb ed="#W" n="6"/>etiam in legis ratione attigerim.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De peccato mortali et quotidiano</title>
+        <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De peccato mortali et quotidiano</title>
+          <date when="2020-12-04">December 04, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="119-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="erf8hf-d1e1389">
+        <head xml:id="erf8hf-d1e1389-Hd1e105">De peccato mortali et quotidiano</head>
+        <head xml:id="erf8hf-d1e1389-Hd1e108" type="question-title">De peccato mortali et quotidiano</head>
+        <p xml:id="erf8hf-d1e1389-d1e111">
+          <!--239.xml-->
+          <pb ed="#W" n="119-v"/>
+          <lb ed="#W" n="1"/>DE PECCATO
+          MOR<lb ed="#W" n="2" break="no"/>tali &amp; quotidiano.
+        </p>
+        <p xml:id="erf8hf-d1e1389-d1e122">
+          <lb ed="#W" n="3"/>⁋ Supra de peccato dictum est, ubi consul 
+          <lb ed="#W" n="4"/>to omisimus peccati formas tractare, mor 
+          <lb ed="#W" n="5"/>tale, ut loquuntur, &amp; ueniale. Est enim mor 
+          <lb ed="#W" n="6"/>tale peccatum, omne opus hominis, qui non 
+          <lb ed="#W" n="7"/>est in Christo, quia malae arboris nempe 
+          <lb ed="#W" n="8"/>camis, malus fructus est. Adfectus autem
+          car<lb ed="#W" n="9" break="no"/>nis mors est, ad Roma. viii. Item adfectus 
+          <lb ed="#W" n="10"/>camis inimicitia est aduersus deum. Item,  
+          <lb ed="#W" n="11"/>qui in came sunt deo placere non possunt,  
+          <lb ed="#W" n="12"/>Quibus locis necesse est, ut canem interpre 
+          <lb ed="#W" n="13"/>teris de tota hominis natura, adeoque de prae 
+          <lb ed="#W" n="14"/>stantissimis naturae uiribus, ut supra docuims.
+        </p>
+        <p xml:id="erf8hf-d1e1389-d1e151">
+          <lb ed="#W" n="15"/>⁋ Immo non alia pars hominis magis
+          ca<lb ed="#W" n="16" break="no"/>ro est, quam suprema uis, ratio, que in illam pro 
+          <lb ed="#W" n="17"/>prie sit ignoratio &amp; contemptus dei,
+          incre<lb ed="#W" n="18" break="no"/>dulitas &amp; hoc genus sonticae pestes, quarum 
+          <lb ed="#W" n="19"/>fructus &amp; opera sunt, omnes functiones hu 
+          <lb ed="#W" n="20"/>manae, sontra uenialia peccata sunt, omia 
+          <lb ed="#W" n="21"/>fanctorum opera, nempe, que per misericondiam 
+          <lb ed="#W" n="22"/>dei, credentibus condonentur. Nonnunquam 
+          <lb ed="#W" n="23"/>sanctis eripit deus spiritum, ita ut in
+          manife<lb ed="#W" n="24" break="no"/>sta uicia prolabantur, quae uoceut sane, me 
+          <!--240.xml-->
+          <pb ed="#W" n="120-r"/>
+          <lb ed="#W" n="1"/>nihil refragante peccata mortalia, modo 
+          <lb ed="#W" n="2"/>sciant me mortalia ad eum modum adpel 
+          <lb ed="#W" n="3"/>lare quidquid fit ab iis qui spiritu dei carent. 
+          <lb ed="#W" n="4"/>Quondam fere crimina uocabantur, quae 
+          <lb ed="#W" n="5"/>Sophistae nunc uocant peccata mortalia, 
+          <lb ed="#W" n="6"/>facinora palam mala. Et quotidiana pecca 
+          <lb ed="#W" n="7"/>ta quae isti uenialia.
+        </p>
+        <p xml:id="erf8hf-d1e1389-d1e196">
+          <lb ed="#W" n="8"/>De lege ac Euangelio, de ueteri ac nouo 
+          <lb ed="#W" n="9"/>testamento, haec quae dixi puto requiri
+          po<lb ed="#W" n="10" break="no"/>tissimum, quae ipse uideo a me tenuius, quam 
+          <lb ed="#W" n="11"/>pro rei dignitate tractata esse, sed nolo
+          Ra<lb ed="#W" n="12" break="no"/>bi uocati. Abunde suppeditabit scripturae 
+          <lb ed="#W" n="13"/>usus, quod nos praeteriuimus. Satis esse pu 
+          <lb ed="#W" n="14"/>taui indicare, quid potissimum in scriptura 
+          <lb ed="#W" n="15"/>requireres. Requires autem legem ac
+          Euan<lb ed="#W" n="16" break="no"/>gelium. Eex peccatum ostendit, ac
+          conscien<lb ed="#W" n="17" break="no"/>tiam pauefacit. Euangelio peccatum
+          condo<lb ed="#W" n="18" break="no"/>natur, &amp; exhibetur spiritus qui ad faciendam 
+          <lb ed="#W" n="19"/>legem cor inssammet. Si testamenti nomen 
+          <lb ed="#W" n="20"/>propius consideres, uetus testameneum, uvs 
+          <lb ed="#W" n="21"/>noui testamenti, non testamentum fuerit,  
+          <lb ed="#W" n="22"/>ut in quo non decesserit testator. Nouo testa 
+          <lb ed="#W" n="23"/>mento decessit testator. Vetere pro
+          testato<lb ed="#W" n="24" break="no"/>re typi gratia pecudes caedebantur, quae testa 
+          <!--241.xml-->
+          <pb ed="#W" n="120-v"/>
+          <lb ed="#W" n="1"/>toris mortem significabant. Sed haec
+          argutio<lb ed="#W" n="2" break="no"/>ra sunt, qua quae huius commentarii ratio ad 
+          <lb ed="#W" n="3"/>mittat. Solet hic de litera &amp; spiritu disputa 
+          <lb ed="#W" n="4"/>ri, de quibus malo uel Augustinum, uel
+          Ru<lb ed="#W" n="5" break="no"/>therum quam me consuli. Quanquam supra 
+          <lb ed="#W" n="6"/>etiam in legis ratione attigerim.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

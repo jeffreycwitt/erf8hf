@@ -1,177 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>De consiliis</title>
-            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>De consiliis</title>
-               <date when="2020-12-04">December 04, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-12-04" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#W" n="40-r"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="erf8hf-d1e821">
-            <head xml:id="erf8hf-d1e821-Hd1e105">De consiliis</head>
-            <head xml:id="erf8hf-d1e821-Hd1e108" type="question-title">De consiliis</head>
-            <p xml:id="erf8hf-d1e821-d1e111">
-               <lb ed="#W" n="20"/>DE CONSILIIS.
-    </p>
-            <p xml:id="erf8hf-d1e821-d1e116">
-               <lb ed="#W" n="21"/>⁋ Est &amp; hic foede ac impie erratum a Sophi¬ 
-      <lb ed="#W" n="22"/>stis, cum ex lege diuina fecerunt consilia, hoc est 
-      <lb ed="#W" n="23"/>docuerunt quaedam non exigi a deo necessario,  
-      <lb ed="#W" n="24"/>sed suaderi tantum, ut si cui libeat, obtem¬ 
-      <lb ed="#W" n="25"/>peret, liberamtque periculo eum que non obtemperet. 
-      <!--83.xml-->
-      <pb ed="#W" n="40-v"/>
-               <lb ed="#W" n="1"/>Recensent autem inter consilia ea fere, quae 
-      <lb ed="#W" n="2"/>sunt in capite. v. apud Matheum. Diligere. 
-      <lb ed="#W" n="3"/>inimicos, non resistere malo, nescire lites &amp; 
-      <lb ed="#W" n="4"/>contentiones fori, de male merentibus be¬ 
-      <lb ed="#W" n="5"/>ne meteri, donare, mutuo dare cuiuis egen 
-      <lb ed="#W" n="6"/>ti, desperata etiam sorte. Haec omnia exigi 
-      <lb ed="#W" n="7"/>dicimus &amp; inter praecepta numerams. Chri 
-      <lb ed="#W" n="8"/>stus enim palam damnat eos, qui non dili 
-      <lb ed="#W" n="9"/>gunt nisi amicos, cum gentibus &amp; publica¬ 
-      <lb ed="#W" n="10"/>nis aequat. Item eum qui irascitur proxi¬ 
-      <lb ed="#W" n="11"/>mo, aut qui fastidit proximum racha dicens,  
-      <lb ed="#W" n="12"/>iudicii reum facit. Quod si consulebat tan¬ 
-      <lb ed="#W" n="13"/>tum, ne irasceremur, quid interminabatur 
-      <lb ed="#W" n="14"/>iudicium? Si liberum est irasci offendenti,  
-      <lb ed="#W" n="15"/>aut non irasci, cur poenas intentabat? Exi¬ 
-      <lb ed="#W" n="16"/>git qui poenas intentat non consulit, Praete 
-      <lb ed="#W" n="17"/>rea cum praeceptum sit diligi proximos, an 
-      <lb ed="#W" n="18"/>non illa omnia, quae isti inter consilia nu¬ 
-      <lb ed="#W" n="19"/>merant, amor complectitur. Et Paulus in 
-      <lb ed="#W" n="20"/>cap. xiii. ad Romanos, haec omnia refert in 
-      <lb ed="#W" n="21"/>legem, Diligas proximum sicut teipsum. Et 
-      <lb ed="#W" n="22"/>i. Iohan. iii. Filioli non diligamus uerbo 
-      <lb ed="#W" n="23"/>neque lingua, sed opere &amp; ueritate, id est, &amp; 
-      <lb ed="#W" n="24"/>ab animo, candideque diligamus, &amp; illum 
-      <!--84.xml-->
-      <pb ed="#W" n="41-r"/>
-               <lb ed="#W" n="1"/>amorem nostrum testemur studiis ac offi¬ 
-      <lb ed="#W" n="2"/>ciis. Iam si inter leges numerant, quod scrip 
-      <lb ed="#W" n="3"/>tum est. Non concupisces &amp;c, cur non habent 
-      <lb ed="#W" n="4"/>pro legibus ea quae complectitur. An non 
-      <lb ed="#W" n="5"/>concupiscentiae opus est irasci inimico, rem 
-      <lb ed="#W" n="6"/>uindicare, nolle pecuniam periclitari apud 
-      <lb ed="#W" n="7"/>inopem. Fateantur igitur &amp; haec praecipi, si 
-      <lb ed="#W" n="8"/>quidem praecipi uidetur ne quid concupisca¬ 
-      <lb ed="#W" n="9"/>mus. Denique cur non totam legem, consi¬ 
-      <lb ed="#W" n="10"/>lium interpretantur, siquidem partem legis 
-      <lb ed="#W" n="11"/>refigunt? Sed inquies. Actum est de mea re 
-      <lb ed="#W" n="12"/>familiari, si cuiuis largiendum est. Respon 
-      <lb ed="#W" n="13"/>deo, hoc a camis prudentia praetexi cupi¬ 
-      <lb ed="#W" n="14"/>ditati tuae. Nam spiritus iudicabit facile, qua¬ 
-      <lb ed="#W" n="15"/>tenus largiendum sit, &amp; libenter suo carebit 
-      <lb ed="#W" n="16"/>modo subuentum sit inopiae fratris. An ig¬ 
-      <lb ed="#W" n="17"/>noras deberi proximo, quod uelles tibi fie¬ 
-      <lb ed="#W" n="18"/>rit? At omnium iniuriae obnoxii erimus si uin 
-      <lb ed="#W" n="19"/>dicare non licet? Recte, Nam haec uita cru¬ 
-      <lb ed="#W" n="20"/>cis est, ut inuriae sis obnoxius. Rapient no 
-      <lb ed="#W" n="21"/>stra mali, si repetere iudicio non licet? Hoc 
-      <lb ed="#W" n="22"/>magistratus interexit cauere, ne damnum det 
-      <lb ed="#W" n="23"/>ciuis ciui, tuum est boni consulere, hoc ge¬ 
-      <lb ed="#W" n="24"/>nus casus. Sed quid ego argumenta carna¬ 
-      <!--85.xml-->
-      <pb ed="#W" n="41-v"/>
-               <lb ed="#W" n="1"/>lis prudentiae diluere conort?r cum fieri nequeat 
-      <lb ed="#W" n="2"/>unquam ut probet lege diuinam nisi qui spiritua 
-      <lb ed="#W" n="3"/>lis est. Quid, cur praeceperit Christus non in 
-      <lb ed="#W" n="4"/>telliges, ni libeat facere. Imposuerunt etiam 
-      <lb ed="#W" n="5"/>huiusmodi carnales argutiae sophistis, cum 
-      <lb ed="#W" n="6"/>parum ciuile uideretur omnium opes ita uulgari 
-      <lb ed="#W" n="7"/>ut non liceret uidicare suum cuique. Inhumanum 
-      <lb ed="#W" n="8"/>etiam habebatur, ignauis fructui esse ocium, si ali 
-      <lb ed="#W" n="9"/>enis opibs frui tuto possent. Hinc e praecep 
-      <lb ed="#W" n="10"/>tis consilia facta sunt, &amp; recepta est pestilen¬ 
-      <lb ed="#W" n="11"/>tissima opinio, non posse res publicas admi 
-      <lb ed="#W" n="12"/>nistrari iuxta Euangelium, quasi tale aliquid 
-      <lb ed="#W" n="13"/>tradiderit Christus, quod ad pauculos tan¬ 
-      <lb ed="#W" n="14"/>tum monachos, &amp; non potius ad uniuersum 
-      <lb ed="#W" n="15"/>genus humanum pertineat. Quid enim oportet 
-      <lb ed="#W" n="16"/>esse communius Euangelio, quod Christus uni¬ 
-      <lb ed="#W" n="17"/>uersae naturae praedicari iussit. Diluit autem &amp; 
-      <lb ed="#W" n="18"/>Augusti. in Epistola ad Marcellinum, quae in 
-      <lb ed="#W" n="19"/>ordine Augustiniatum Epistolax quinta est. 
-      <lb ed="#W" n="20"/>hoc genus carnales calumnias aduersus le¬ 
-      <lb ed="#W" n="21"/>ge qua uindicta prohibetur. Porro non uetat 
-      <lb ed="#W" n="22"/>scelera puniri a magistratibus, Immo hi ge 
-      <lb ed="#W" n="23"/>runt gladium ad terrendos malos, ut Apo¬ 
-      <lb ed="#W" n="24"/>stolus Ro. xiii: dicit, sed uetat ne nos priua¬ 
-      <lb ed="#W" n="25"/>tim, cupiditate uindictae, mutuo conficia¬ 
-      <!--86.xml-->
-      <pb ed="#W" n="42-r"/>
-               <lb ed="#W" n="1"/>mus. Magistrats interest cauere, ne damnum 
-      <lb ed="#W" n="2"/>accipiat respublica. Tuum est priuatam iniuriam 
-      <lb ed="#W" n="3"/>ferre ac dissimulare. Fortassis autem hac de re 
-      <lb ed="#W" n="4"/>infra copiosius disputabitur.
-    </p>
-            <p xml:id="erf8hf-d1e821-d1e313">
-               <lb ed="#W" n="5"/>⁋ Est autem in Euangelicis literis consilium, idque,  
-      <lb ed="#W" n="6"/>quod sciam, unicum de coelibatu, de quo Chius 
-      <lb ed="#W" n="7"/>ait, Qui pont capere capiat, Mat. xxi. cap. Et 
-      <lb ed="#W" n="8"/>in priore Epistola ad Corint. cap. vii. Pau¬ 
-      <lb ed="#W" n="9"/>lus. De uirginibus praeceptum duni non habeo, 
-      <lb ed="#W" n="10"/>consilium autem do, tanquam misericordiam con¬ 
-      <lb ed="#W" n="11"/>secutus a duno, ut sim fidelis. Existimo ergo 
-      <lb ed="#W" n="12"/>hoc bonum esse ppter instantem necessitatem,  
-      <lb ed="#W" n="13"/>quoniam bonum est homini sic esse. Alligatus 
-      <lb ed="#W" n="14"/>es uxori, noli quaerere solutionem, solutus es 
-      <lb ed="#W" n="15"/>ab uxore, noli quaerere uxorem &amp;c. Non est au 
-      <lb ed="#W" n="16"/>tem quod hic disputes, utrum consilia sint supe¬ 
-      <lb ed="#W" n="17"/>riora praeceptis, Scholasticorum sunt istae in¬ 
-      <lb ed="#W" n="18"/>eptiae, qui neque quid praeceptum, neque quid consi¬ 
-      <lb ed="#W" n="19"/>lium esset, intelligebant. Non enim implet praecep¬ 
-      <lb ed="#W" n="20"/>tum de non moechando, quantumuis coelebs. Quam 
-      <lb ed="#W" n="21"/>do non pont fieri, ut non irritet concupiscentia, 
-      <lb ed="#W" n="22"/>quantumuis castum. At praecepto concupiscentia 
-      <lb ed="#W" n="23"/>phibita est, cui fieri pont ut propius respon¬ 
-      <lb ed="#W" n="24"/>deat aliquis coniugum, quam alicubi uirgines.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De consiliis</title>
+        <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De consiliis</title>
+          <date when="2020-12-04">December 04, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="40-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="erf8hf-d1e821">
+        <head xml:id="erf8hf-d1e821-Hd1e105">De consiliis</head>
+        <head xml:id="erf8hf-d1e821-Hd1e108" type="question-title">De consiliis</head>
+        <p xml:id="erf8hf-d1e821-d1e111">
+          <lb ed="#W" n="20"/>DE CONSILIIS.
+        </p>
+        <p xml:id="erf8hf-d1e821-d1e116">
+          <lb ed="#W" n="21"/>⁋ Est &amp; hic foede ac impie erratum a
+          Sophi<lb ed="#W" n="22" break="no"/>stis, cum ex lege diuina fecerunt consilia, hoc est 
+          <lb ed="#W" n="23"/>docuerunt quaedam non exigi a deo necessario,  
+          <lb ed="#W" n="24"/>sed suaderi tantum, ut si cui libeat,
+          obtem<lb ed="#W" n="25" break="no"/>peret, liberamtque periculo eum que non obtemperet. 
+          <!--83.xml-->
+          <pb ed="#W" n="40-v"/>
+          <lb ed="#W" n="1"/>Recensent autem inter consilia ea fere, quae 
+          <lb ed="#W" n="2"/>sunt in capite. v. apud Matheum. Diligere. 
+          <lb ed="#W" n="3"/>inimicos, non resistere malo, nescire lites &amp; 
+          <lb ed="#W" n="4"/>contentiones fori, de male merentibus
+          be<lb ed="#W" n="5" break="no"/>ne meteri, donare, mutuo dare cuiuis egen 
+          <lb ed="#W" n="6"/>ti, desperata etiam sorte. Haec omnia exigi 
+          <lb ed="#W" n="7"/>dicimus &amp; inter praecepta numerams. Chri 
+          <lb ed="#W" n="8"/>stus enim palam damnat eos, qui non dili 
+          <lb ed="#W" n="9"/>gunt nisi amicos, cum gentibus &amp;
+          publica<lb ed="#W" n="10" break="no"/>nis aequat. Item eum qui irascitur
+          proxi<lb ed="#W" n="11" break="no"/>mo, aut qui fastidit proximum racha dicens,  
+          <lb ed="#W" n="12"/>iudicii reum facit. Quod si consulebat
+          tan<lb ed="#W" n="13" break="no"/>tum, ne irasceremur, quid interminabatur 
+          <lb ed="#W" n="14"/>iudicium? Si liberum est irasci offendenti,  
+          <lb ed="#W" n="15"/>aut non irasci, cur poenas intentabat?
+          Exi<lb ed="#W" n="16" break="no"/>git qui poenas intentat non consulit, Praete 
+          <lb ed="#W" n="17"/>rea cum praeceptum sit diligi proximos, an 
+          <lb ed="#W" n="18"/>non illa omnia, quae isti inter consilia
+          nu<lb ed="#W" n="19" break="no"/>merant, amor complectitur. Et Paulus in 
+          <lb ed="#W" n="20"/>cap. xiii. ad Romanos, haec omnia refert in 
+          <lb ed="#W" n="21"/>legem, Diligas proximum sicut teipsum. Et 
+          <lb ed="#W" n="22"/>i. Iohan. iii. Filioli non diligamus uerbo 
+          <lb ed="#W" n="23"/>neque lingua, sed opere &amp; ueritate, id est, &amp; 
+          <lb ed="#W" n="24"/>ab animo, candideque diligamus, &amp; illum 
+          <!--84.xml-->
+          <pb ed="#W" n="41-r"/>
+          <lb ed="#W" n="1"/>amorem nostrum testemur studiis ac
+          offi<lb ed="#W" n="2" break="no"/>ciis. Iam si inter leges numerant, quod scrip 
+          <lb ed="#W" n="3"/>tum est. Non concupisces &amp;c, cur non habent 
+          <lb ed="#W" n="4"/>pro legibus ea quae complectitur. An non 
+          <lb ed="#W" n="5"/>concupiscentiae opus est irasci inimico, rem 
+          <lb ed="#W" n="6"/>uindicare, nolle pecuniam periclitari apud 
+          <lb ed="#W" n="7"/>inopem. Fateantur igitur &amp; haec praecipi, si 
+          <lb ed="#W" n="8"/>quidem praecipi uidetur ne quid
+          concupisca<lb ed="#W" n="9" break="no"/>mus. Denique cur non totam legem,
+          consi<lb ed="#W" n="10" break="no"/>lium interpretantur, siquidem partem legis 
+          <lb ed="#W" n="11"/>refigunt? Sed inquies. Actum est de mea re 
+          <lb ed="#W" n="12"/>familiari, si cuiuis largiendum est. Respon 
+          <lb ed="#W" n="13"/>deo, hoc a camis prudentia praetexi
+          cupi<lb ed="#W" n="14" break="no"/>ditati tuae. Nam spiritus iudicabit facile,
+          qua<lb ed="#W" n="15" break="no"/>tenus largiendum sit, &amp; libenter suo carebit 
+          <lb ed="#W" n="16"/>modo subuentum sit inopiae fratris. An
+          ig<lb ed="#W" n="17" break="no"/>noras deberi proximo, quod uelles tibi
+          fie<lb ed="#W" n="18" break="no"/>rit? At omnium iniuriae obnoxii erimus si uin 
+          <lb ed="#W" n="19"/>dicare non licet? Recte, Nam haec uita
+          cru<lb ed="#W" n="20" break="no"/>cis est, ut inuriae sis obnoxius. Rapient no 
+          <lb ed="#W" n="21"/>stra mali, si repetere iudicio non licet? Hoc 
+          <lb ed="#W" n="22"/>magistratus interexit cauere, ne damnum det 
+          <lb ed="#W" n="23"/>ciuis ciui, tuum est boni consulere, hoc
+          ge<lb ed="#W" n="24" break="no"/>nus casus. Sed quid ego argumenta carna¬ 
+          <!--85.xml-->
+          <pb ed="#W" n="41-v"/>
+          <lb ed="#W" n="1"/>lis prudentiae diluere conort?r cum fieri nequeat 
+          <lb ed="#W" n="2"/>unquam ut probet lege diuinam nisi qui spiritua 
+          <lb ed="#W" n="3"/>lis est. Quid, cur praeceperit Christus non in 
+          <lb ed="#W" n="4"/>telliges, ni libeat facere. Imposuerunt etiam 
+          <lb ed="#W" n="5"/>huiusmodi carnales argutiae sophistis, cum 
+          <lb ed="#W" n="6"/>parum ciuile uideretur omnium opes ita uulgari 
+          <lb ed="#W" n="7"/>ut non liceret uidicare suum cuique. Inhumanum 
+          <lb ed="#W" n="8"/>etiam habebatur, ignauis fructui esse ocium, si ali 
+          <lb ed="#W" n="9"/>enis opibs frui tuto possent. Hinc e praecep 
+          <lb ed="#W" n="10"/>tis consilia facta sunt, &amp; recepta est
+          pestilen<lb ed="#W" n="11" break="no"/>tissima opinio, non posse res publicas admi 
+          <lb ed="#W" n="12"/>nistrari iuxta Euangelium, quasi tale aliquid 
+          <lb ed="#W" n="13"/>tradiderit Christus, quod ad pauculos
+          tan<lb ed="#W" n="14" break="no"/>tum monachos, &amp; non potius ad uniuersum 
+          <lb ed="#W" n="15"/>genus humanum pertineat. Quid enim oportet 
+          <lb ed="#W" n="16"/>esse communius Euangelio, quod Christus
+          uni<lb ed="#W" n="17" break="no"/>uersae naturae praedicari iussit. Diluit autem &amp; 
+          <lb ed="#W" n="18"/>Augusti. in Epistola ad Marcellinum, quae in 
+          <lb ed="#W" n="19"/>ordine Augustiniatum Epistolax quinta est. 
+          <lb ed="#W" n="20"/>hoc genus carnales calumnias aduersus
+          le<lb ed="#W" n="21" break="no"/>ge qua uindicta prohibetur. Porro non uetat 
+          <lb ed="#W" n="22"/>scelera puniri a magistratibus, Immo hi ge 
+          <lb ed="#W" n="23"/>runt gladium ad terrendos malos, ut
+          Apo<lb ed="#W" n="24" break="no"/>stolus Ro. xiii: dicit, sed uetat ne nos
+          priua<lb ed="#W" n="25" break="no"/>tim, cupiditate uindictae, mutuo conficia¬ 
+          <!--86.xml-->
+          <pb ed="#W" n="42-r"/>
+          <lb ed="#W" n="1"/>mus. Magistrats interest cauere, ne damnum 
+          <lb ed="#W" n="2"/>accipiat respublica. Tuum est priuatam iniuriam 
+          <lb ed="#W" n="3"/>ferre ac dissimulare. Fortassis autem hac de re 
+          <lb ed="#W" n="4"/>infra copiosius disputabitur.
+        </p>
+        <p xml:id="erf8hf-d1e821-d1e313">
+          <lb ed="#W" n="5"/>⁋ Est autem in Euangelicis literis consilium, idque,  
+          <lb ed="#W" n="6"/>quod sciam, unicum de coelibatu, de quo Chius 
+          <lb ed="#W" n="7"/>ait, Qui pont capere capiat, Mat. xxi. cap. Et 
+          <lb ed="#W" n="8"/>in priore <ref xml:id="erf8hf-d1e821-Rd1e323">Epistola ad Corint. cap. vii.
+            Pau<lb ed="#W" n="9" break="no"/>lus</ref>. <quote xml:id="erf8hf-d1e821-Qd1e329" source="http://scta.info/resource/Icor7_25 http://scta.info/resource/Icor7_26 http://scta.info/resource/Icor7_27">De uirginibus praeceptum duni non habeo, 
+          <lb ed="#W" n="10"/>consilium autem do, tanquam misericordiam
+          con<lb ed="#W" n="11" break="no"/>secutus a duno, ut sim fidelis. Existimo ergo 
+          <lb ed="#W" n="12"/>hoc bonum esse ppter instantem necessitatem,  
+          <lb ed="#W" n="13"/>quoniam bonum est homini sic esse. Alligatus 
+          <lb ed="#W" n="14"/>es uxori, noli quaerere solutionem, solutus es 
+          <lb ed="#W" n="15"/>ab uxore, noli quaerere uxorem</quote> &amp;c. Non est au 
+          <lb ed="#W" n="16"/>tem quod hic disputes, utrum consilia sint
+          supe<lb ed="#W" n="17" break="no"/>riora praeceptis, Scholasticorum sunt istae
+          in<lb ed="#W" n="18" break="no"/>eptiae, qui neque quid praeceptum, neque quid
+          consi<lb ed="#W" n="19" break="no"/>lium esset, intelligebant. Non enim implet
+          praecep<lb ed="#W" n="20" break="no"/>tum de non moechando, quantumuis coelebs. Quam 
+          <lb ed="#W" n="21"/>do non pont fieri, ut non irritet concupiscentia, 
+          <lb ed="#W" n="22"/>quantumuis castum. At praecepto concupiscentia 
+          <lb ed="#W" n="23"/>phibita est, cui fieri pont ut propius
+          respon<lb ed="#W" n="24" break="no"/>deat aliquis coniugum, quam alicubi uirgines.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

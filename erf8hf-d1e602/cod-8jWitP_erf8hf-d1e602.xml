@@ -1,985 +1,985 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Vis peccati et fructus</title>
-            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Vis peccati et fructus</title>
-               <date when="2020-12-04">December 04, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-12-04" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#W" n="15-v"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="erf8hf-d1e602">
-            <head xml:id="erf8hf-d1e602-Hd1e105">Vis peccati et fructus</head>
-            <head xml:id="erf8hf-d1e602-Hd1e108" type="question-title">Vis peccati et fructus</head>
-            <p xml:id="erf8hf-d1e602-d1e111">
-               <lb ed="#W" n="15"/>VIS PECCATI &amp; fructus.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e116">
-               <lb ed="#W" n="16"/>⁋ Minore negotio Pelagianim ueteres reuelli 
-      <lb ed="#W" n="17"/>possunt, quam nostrorum temporum noui Pe¬ 
-      <lb ed="#W" n="18"/>lagiani, qui &amp; si non negent esse peccatum ori¬ 
-      <lb ed="#W" n="19"/>ginale, negant tamem, eam esse uim peccati 
-      <lb ed="#W" n="20"/>originalis, ut omnia hominum opera, omnes ho¬ 
-      <lb ed="#W" n="21"/>minum conatus sint peccata. Proinde de uim, 
-      <lb ed="#W" n="22"/>energiaque peccati originalis paulo copiosis 
-      <lb ed="#W" n="23"/>dicemus. Viuax quaedam energia est peccatum 
-      <lb ed="#W" n="24"/>originale, nulla non parte nostri, nullo non 
-      <!--34.xml-->
-      <pb ed="#W" n="16-r"/>
-               <lb ed="#W" n="1"/>tempore fructum ferens, uitia. Quando enim ho¬ 
-      <lb ed="#W" n="2"/>minis animus non aestuat malis cupiditati¬ 
-      <lb ed="#W" n="3"/>bus, in quibus quae teterrimae ac foedissimae 
-      <lb ed="#W" n="4"/>sunt, ne deprehenduntur quidem, auaritiam, am e 
-      <lb ed="#W" n="5"/>bitionem, odium, inuidentiam, aemulationem, libi  
-      <lb ed="#W" n="6"/>dinum fiammas, iram, quis est qui non aliquando 
-      <lb ed="#W" n="7"/>sentiat? arrogantiam, fastum, tumorem phari¬ 
-      <lb ed="#W" n="8"/>saicum, contemptum dei, diffidere deo, blasphe¬ 
-      <lb ed="#W" n="9"/>miam, principes adfectus rari sentiunt, Sunt 
-      <lb ed="#W" n="10"/>qui in speciem uiuunt honestissime, &amp; Pau 
-      <lb ed="#W" n="11"/>lus se ita uixisse ante cognitum Christum testa¬ 
-      <lb ed="#W" n="12"/>tur ut reprehendi non posset. Hi non habent 
-      <lb ed="#W" n="13"/>quod glorientur, siquidem animi sunt ob¬ 
-      <lb ed="#W" n="14"/>noxii turpissimis illis atque miserrimis adfe¬ 
-      <lb ed="#W" n="15"/>ctibus, quos non sentiscunt. Quid enim si 
-      <lb ed="#W" n="16"/>aliquando, ut in morte, aperiat illis oculos 
-      <lb ed="#W" n="17"/>deus, ut sua uicia, suos morbos sanctuli cog 
-      <lb ed="#W" n="18"/>noscant. Nonne intelligent id, quod est 
-      <lb ed="#W" n="19"/>apud Esaiam? Omnem gloriam camis, esse 
-      <lb ed="#W" n="20"/>ceu gloriam foeni. Vides quam profunda 
-      <lb ed="#W" n="21"/>sit, immo quam imperscrutabilis malicia 
-      <lb ed="#W" n="22"/>humani cordis. Et Sophistas nostros non 
-      <lb ed="#W" n="23"/>dum pudet docere operum iusticiam, do¬ 
-      <lb ed="#W" n="24"/>cere satisfactiones ac philosophicas uirtutes. 
-      <!--35.xml-->
-      <pb ed="#W" n="16-v"/>
-               <lb ed="#W" n="1"/>Esto fuerit quaedam in Socrate constantia, 
-      <lb ed="#W" n="2"/>in xenocrate castitas, in Senone temperan¬ 
-      <lb ed="#W" n="3"/>tia, tamen quia in animis impuris fuetunt,  
-      <lb ed="#W" n="4"/>immo que amore sui, ex philautia orieban¬ 
-      <lb ed="#W" n="5"/>tur istae uirtutum umbrae, non debent pro 
-      <lb ed="#W" n="6"/>ueris uirtutibus, sed pro uiciis habeti. Tole¬ 
-      <lb ed="#W" n="7"/>tans fuit Socrates, sed amans gloriae, aut 
-      <lb ed="#W" n="8"/>certe placens sibi de uirtute. Fortis fuit Cato 
-      <lb ed="#W" n="9"/>ed amore laudis. Effundit autem huiusmo¬ 
-      <lb ed="#W" n="10"/>uirtutum umbras deus in gentes, in impios,  
-      <lb ed="#W" n="11"/>in quosuis, non aliter atque formam, opes,  
-      <lb ed="#W" n="12"/>&amp; similia dona largitur. Et cum hanc exter 
-      <lb ed="#W" n="13"/>nam uirtutis personam ac laruam miretur 
-      <lb ed="#W" n="14"/>tota humana ratio, pseudotheologi nostri 
-      <lb ed="#W" n="15"/>falsi caeco naturae iudicio commendarunt. 
-      <lb ed="#W" n="16"/>nobis philosophica studia, philosophi¬ 
-      <lb ed="#W" n="17"/>casque uirtutes &amp; operum externorum merita. 
-      <lb ed="#W" n="18"/>At quid in uniuersum docent philosophi,  
-      <lb ed="#W" n="19"/>si qui optime docent, nisi fiduciam &amp; amorem 
-      <lb ed="#W" n="20"/>nostriM. Cicero in finibus bonorum &amp; ma¬ 
-      <lb ed="#W" n="21"/>lorum omnem rationem uirtutis, ab amore 
-      <lb ed="#W" n="22"/>nostri, &amp; philautia aestimat. Quantum in 
-      <lb ed="#W" n="23"/>Platone tumoris est &amp; fastus. Neque facile fie 
-      <lb ed="#W" n="24"/>ri mihi posse uidetur, quin ab illa Plato¬ 
-      <!--36.xml-->
-      <pb ed="#W" n="17-r"/>
-               <lb ed="#W" n="1"/>nica ambitione contrahat aliquid uicii, si 
-      <lb ed="#W" n="2"/>in illius lectionem inciderit, ingenium pet 
-      <lb ed="#W" n="3"/>sese altum, &amp; uehemens. Aristotelis doctri¬ 
-      <lb ed="#W" n="4"/>na est in uniuersum quaedam libido rixan¬ 
-      <lb ed="#W" n="5"/>di, ut eum in paraeneticae philosophiae scrip¬ 
-      <lb ed="#W" n="6"/>toribus ne postremo quidem loco nume¬ 
-      <lb ed="#W" n="7"/>tare conueniat. Sed de philosophia posthac 
-      <lb ed="#W" n="8"/>in legum ratione dicemus.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e272">
-               <lb ed="#W" n="9"/>⁋ Et ut rem omnem uelut in compendium 
-      <lb ed="#W" n="10"/>cogam. Omnes homines per uires naturae 
-      <lb ed="#W" n="11"/>uere, semperque peccatores sunt, &amp; peccant. 
-      <lb ed="#W" n="12"/>Genesis vi. Omne desiderium cogitationum 
-      <lb ed="#W" n="13"/>cordis humani uanum &amp; prauum omni tem 
-      <lb ed="#W" n="14"/>pore. Et repetita est eadem sententia in capite 
-      <lb ed="#W" n="15"/>octauo, Sensus &amp; cogitatio humani cordis 
-      <lb ed="#W" n="16"/>praua, a pueticia. Vbi nos legimus prona 
-      <lb ed="#W" n="17"/>est ad malum, quod quanquam non multum 
-      <lb ed="#W" n="18"/>a sententia absit, tamen uti malebam ger¬ 
-      <lb ed="#W" n="19"/>mana lectione, que clarior sit, simpliciter ad¬ 
-      <lb ed="#W" n="20"/>firmans hominem prauum esse. Ne quis mihi 
-      <lb ed="#W" n="21"/>Thomista eludat Mosen, que cum pronitas, 
-      <lb ed="#W" n="22"/>seu inclinatio non sit actus, non possit esse 
-      <lb ed="#W" n="23"/>peccatum, sic enim philosophantur stolidi so 
-      <lb ed="#W" n="24"/>phistae. <ref xml:id="erf8hf-d1e602-Rd1e308">Esaiae. ix.</ref> Omnes hypocritae sunt, &amp;  
-      <!--37.xml-->
-      <pb ed="#W" n="17-v"/>
-               <lb ed="#W" n="1"/>nequam, &amp; uniuersum os locutum est stulti¬ 
-      <lb ed="#W" n="2"/>ciam. Rursum Esaie xli. Ecce omnes uani,  
-      <lb ed="#W" n="3"/>&amp; uana opera eorum, uentus &amp; inane consi¬ 
-      <lb ed="#W" n="4"/>liam eorum. Iterum Esaie. liii. Omes nos quasi 
-      <lb ed="#W" n="5"/>oues errauimus, unusquisque in uiam suam decli 
-      <lb ed="#W" n="6"/>nauit, &amp; posuit dins in eo iniquitatem om 
-      <lb ed="#W" n="7"/>nium nostrum. Quo loco propheta luculento 
-      <lb ed="#W" n="8"/>uaticinio &amp; historiam passionis Christi, &amp; 
-      <lb ed="#W" n="9"/>fructum exposuit, cum praedixit, talia passu 
-      <lb ed="#W" n="10"/>rum Christum, ut omnium hominum uideri 
-      <lb ed="#W" n="11"/>possit abiectissimus, at ideo passurum, ut 
-      <lb ed="#W" n="12"/>iustificet multos, Siquidem omnes plane 
-      <lb ed="#W" n="13"/>peccatores simus, nec aliunde iustificemur 
-      <lb ed="#W" n="14"/>nisi per fidem in Christum. Et de iis qui suis 
-      <lb ed="#W" n="15"/>uiribus ac operibus iustificari uolunt, non 
-      <lb ed="#W" n="16"/>per fidem in Christum, inquit, dabit im¬ 
-      <lb ed="#W" n="17"/>pios pro sepultura, &amp; diuites pro morte sua 
-      <lb ed="#W" n="18"/>Item fortium diuidet spolia. Nam impii, di¬ 
-      <lb ed="#W" n="19"/>uites, fortes plane sunt isti humanae iusti¬ 
-      <lb ed="#W" n="20"/>ciae, liberi arbitrii, philosophicarum uirtutum, 
-      <lb ed="#W" n="21"/>breuiter humanarum uirium adsertores, ig 
-      <lb ed="#W" n="22"/>nari Christi. Vides quam breui concione totam 
-      <lb ed="#W" n="23"/>Euangelii uim descripserit Esaias. Tu uero, 
-      <lb ed="#W" n="24"/>Christe spiritum imperti tuum qui haec nobis 
-      <lb ed="#W" n="25"/>aperiat &amp; explicet mystetia. Iam &amp; Dauidem 
-      <!--38.xml-->
-      <pb ed="#W" n="18-r"/>
-               <lb ed="#W" n="1"/>audiamus, qui cum idem plerisque locis sentiat,  
-      <lb ed="#W" n="2"/>ut cum ait, omnem hominem mendacem esse, ta¬ 
-      <lb ed="#W" n="3"/>men toto psalmo. xiii: hoc intonat, cum in¬ 
-      <lb ed="#W" n="4"/>quit. Dixit insipiens in corde suo, non est des,  
-      <lb ed="#W" n="5"/>Corrupti sunt, &amp; abominabiles facti sunt in 
-      <lb ed="#W" n="6"/>studiis suis, Non est qui faciat bonum. Domi¬ 
-      <lb ed="#W" n="7"/>nus de coelo prospexit super filios Adam, ut 
-      <lb ed="#W" n="8"/>uideat, num sit intelliges aut requirens deum. 
-      <lb ed="#W" n="9"/>Omnes defecerunt, simul inutiles facti sunt,  
-      <lb ed="#W" n="10"/>non est qui faciat bonum, non est ne unus quidem 
-      <lb ed="#W" n="11"/>&amp;c. Ecce non accusat hominem simplicium ui¬ 
-      <lb ed="#W" n="12"/>ciorum, sed atrocissimorum sceleg, impietatis,  
-      <lb ed="#W" n="13"/>incredulitatis, insipientiae, odii &amp; contemptus 
-      <lb ed="#W" n="14"/>dei, quae uicia, deprehendere nemo potest 
-      <lb ed="#W" n="15"/>praeter spititum. Quid hic hypocritae theolo 
-      <lb ed="#W" n="16"/>gistae? quae nobis opera liberi arbitrii, quas 
-      <lb ed="#W" n="17"/>humanas uires praedicabitis? peccatum origi 
-      <lb ed="#W" n="18"/>nale fingitis non negari a uobis, &amp; tumen docetis 
-      <lb ed="#W" n="19"/>posse hominem suis uiribs aliqd boni facere¬ 
-      <lb ed="#W" n="20"/>Num arbos mala bonum fructum ferre potest: 
-      <lb ed="#W" n="21"/>An non uidetis ut hic ppheta arborem cum fru¬ 
-      <lb ed="#W" n="22"/>ctibus descripserit, cum non modo de corde in 
-      <lb ed="#W" n="23"/>sipientis, sed &amp; de omib. hominis studiis, con¬ 
-      <lb ed="#W" n="24"/>siliis, desideriis, operibs, conatibus loquitum.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e428">
-      <!--39.xml-->
-               <pb ed="#W" n="18-v"/>
-               <lb ed="#W" n="1"/>
-               <pc type="indent"/>Vides autem quanto discrimine de homi¬ 
-      <lb ed="#W" n="2"/>ne iudicent philosophia, seu humana ra¬ 
-      <lb ed="#W" n="3"/>tio, &amp; sacrae literae. Philosophia non respi¬ 
-      <lb ed="#W" n="4"/>cit nisi externas hominum laruas. Sacrae li¬ 
-      <lb ed="#W" n="5"/>terae penitissimos &amp; incomprehensibiles ad¬ 
-      <lb ed="#W" n="6"/>fectus obseruant, quibus cum regatur ho¬ 
-      <lb ed="#W" n="7"/>mo, de operibus pro adfectuum ratione iu¬ 
-      <lb ed="#W" n="8"/>dicant. Et cum in omnibus operibus nostra 
-      <lb ed="#W" n="9"/>queramus, necesse est ea, reuera peccata esse,  
-      <lb ed="#W" n="10"/>&amp; ut non dicam interim de crassissimis cu 
-      <lb ed="#W" n="11"/>piditatibus, nonne eorum qui in speciem be¬ 
-      <lb ed="#W" n="12"/>ne uiuunt, alius ad huiusmodi mores tra¬ 
-      <lb ed="#W" n="13"/>hitur fastidio rerum humanarum, alius me¬ 
-      <lb ed="#W" n="14"/>tu fortunae, alius ambitione, alius amore 
-      <lb ed="#W" n="15"/>tranquillitatis, nam hae caussae melioris in 
-      <lb ed="#W" n="16"/>speciem uitae &amp; quondam fuere philosophis,  
-      <lb ed="#W" n="17"/>&amp; nunc sunt plerisque hominibus, alius simu 
-      <lb ed="#W" n="18"/>lato quodam poenarum diuinarum metu, 
-      <lb ed="#W" n="19"/>alii aliis caussis, quis enim labyrinthum hu¬ 
-      <lb ed="#W" n="20"/>mani cordis possit explicaretmaxime cum 
-      <lb ed="#W" n="21"/>tanta sit adfectuum, quanta ingeniorum di¬ 
-      <lb ed="#W" n="22"/>uersitas. Quis est autem omnium hominum 
-      <lb ed="#W" n="23"/>secundum naturam, qui non malit licere,  
-      <lb ed="#W" n="24"/>indulgere genio, qui non aegre ferat coher¬ 
-      <!--40.xml-->
-      <pb ed="#W" n="19-r"/>
-               <lb ed="#W" n="1"/>ceri lege. Quod si nunc non sentis, nihil re 
-      <lb ed="#W" n="2"/>fert, erit enim quom certiss. senties, quam 
-      <lb ed="#W" n="3"/>indignetur animus cupiditates suas lege co 
-      <lb ed="#W" n="4"/>herceri,. Praeterea lohannis. i. Quotquot re¬ 
-      <lb ed="#W" n="5"/>ceperunt eum, dedit eis potestatem filios dei 
-      <lb ed="#W" n="6"/>fieri, iis qui credunt in nomine eius, qui non 
-      <lb ed="#W" n="7"/>ex sanguinibus, neque ex uoluntate canis, i 
-      <lb ed="#W" n="8"/>neque ex uoluntate uiri, sed ex deo nati sunt,  
-      <lb ed="#W" n="9"/>Vides damnari sanguinem, uoluntatem 
-      <lb ed="#W" n="10"/>uiri, uoluntatem camis, hoc est, omnino 
-      <lb ed="#W" n="11"/>quidquid est uirium naturae, ex deo uero 
-      <lb ed="#W" n="12"/>filios renasci. Et ut multos locos praeteream. 
-      <lb ed="#W" n="13"/>quos studiosus lector per sese obseruabit,  
-      <lb ed="#W" n="14"/>lohan. xv. Sicut palmes non potest ferre fru¬ 
-      <lb ed="#W" n="15"/>ctum a semetipso, nisi manserit in uite, sic 
-      <lb ed="#W" n="16"/>nec uos, nisi in me manseritis.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e528">
-               <lb ed="#W" n="17"/>Obiter incidit confutandum quod im¬ 
-      <lb ed="#W" n="18"/>pii isti Sophistae hic ogganniunt, cum diluunt 
-      <lb ed="#W" n="19"/>has tam claras sententias, uerum esse ho¬ 
-      <lb ed="#W" n="20"/>minem secundum naturam non posse be¬ 
-      <lb ed="#W" n="21"/>ne agere, meritorie, Sic enim loquuntur. 
-      <lb ed="#W" n="22"/>ltaque duplex bonum fingunt, meritorium 
-      <lb ed="#W" n="23"/>&amp; non meritorium, &amp; in hoc tantum, ne 
-      <lb ed="#W" n="24"/>philosophicas libeti arbitrii uirtutes, exter¬ 
-      <!--41.xml-->
-      <pb ed="#W" n="19-v"/>
-               <lb ed="#W" n="1"/>nas istas uirtutum umbras, oporteat eos uici 
-      <lb ed="#W" n="2"/>arguere. O impietatem. An non est haec illa  
-      <lb ed="#W" n="3"/>ltuoti&amp; uerborum fingere bonum, alias merito¬ 
-      <lb ed="#W" n="4"/>rium uitae aethernae, alias non meritorium. Tu ue 
-      <lb ed="#W" n="5"/>ro certo sic sentias, nihil neque boni neque me¬ 
-      <lb ed="#W" n="6"/>ritorii fieri posse ab homine per uires natu¬ 
-      <lb ed="#W" n="7"/>rae. Quando quidem dicit scriptura. Omne de 
-      <lb ed="#W" n="8"/>siderium cogitationum cordis humani uanum 
-      <lb ed="#W" n="9"/>esse &amp; prauum. Certe quod uanum est &amp; prauum, 
-      <lb ed="#W" n="10"/>id non modo non est meritorium uitae aeter 
-      <lb ed="#W" n="11"/>nae, oportet enim uti me illorum uerbis, sed 
-      <lb ed="#W" n="12"/>nec bonum. Sic Dauid, Omnis homo men¬ 
-      <lb ed="#W" n="13"/>dax. Esaias. Omnes sunt hypocritae, &amp; pra¬ 
-      <lb ed="#W" n="14"/>ui, &amp; uniuersum os locutum est stultitiam. Ecce 
-      <lb ed="#W" n="15"/>non modo non meritorium dicit, sed plane 
-      <lb ed="#W" n="16"/>malum. Porro ex his quae &amp; hactenus tra¬ 
-      <lb ed="#W" n="17"/>ctauimus, &amp; paulo post adnotabimus hoc 
-      <lb ed="#W" n="18"/>genus illorum nugas facile quisque per sese con 
-      <lb ed="#W" n="19"/>futabit. Impii Sophistae non aestimabant. 
-      <lb ed="#W" n="20"/>ab adfectibus cordis opera, sed philosophi¬ 
-      <lb ed="#W" n="21"/>co more de eis iudicabant, quod in caussa 
-      <lb ed="#W" n="22"/>fuit, cur hallucinarentur.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e600">
-               <lb ed="#W" n="23"/>⁋ Iam Paulus in omnibus fere Epistolis,  
-      <lb ed="#W" n="24"/>maxime uero in iis, quae ad Romanos &amp; 
-      <!--42.xml-->
-      <pb ed="#W" n="20-r"/>
-               <lb ed="#W" n="1"/>Calathas scriptae sunt, quid in uniuersum 
-      <lb ed="#W" n="2"/>aliud agit, quam ut doceat peccata, seu ui¬ 
-      <lb ed="#W" n="3"/>cia esse, omnia opera &amp; omnes conatus ui 
-      <lb ed="#W" n="4"/>rium humanarum. Habes caput ad Roma 
-      <lb ed="#W" n="5"/>nos tertium, ubi ait, omnes homines sub 
-      <lb ed="#W" n="6"/>peccato esse, idque magnifice &amp; splendide e 
-      <lb ed="#W" n="7"/>prophetarum testimoniis docet. In capite 
-      <lb ed="#W" n="8"/>octauo, postquam disputauerat non posse 
-      <lb ed="#W" n="9"/>legem a nobis fieri, confert canem &amp; spiri¬ 
-      <lb ed="#W" n="10"/>tum. Docens canem esse prorsus obnoxiam 
-      <lb ed="#W" n="11"/>peccato, spiritum autem esse uitam &amp; pa 
-      <lb ed="#W" n="12"/>cem. Hic Sophistae uocant canmem, adpeti¬ 
-      <lb ed="#W" n="13"/>tum sensitiuum obliti phraseos ac tropi scrip 
-      <lb ed="#W" n="14"/>turae. Non enim corpus, partem hominis, 
-      <lb ed="#W" n="15"/>sed totum hominem, tam animam quam 
-      <lb ed="#W" n="16"/>corpus scriptura uoce canis signat, &amp; quo¬ 
-      <lb ed="#W" n="17"/>ties cum spiritu confertur, significat opti¬ 
-      <lb ed="#W" n="18"/>mas naturae humanae ac prestantissimas ui 
-      <lb ed="#W" n="19"/>res citra spiritum sanctum. Rursus spiritus 
-      <lb ed="#W" n="20"/>significat, ipsum spiritum sanctum, &amp; eius 
-      <lb ed="#W" n="21"/>motiones atque opera in nobis. Sic loham. iii. 
-      <lb ed="#W" n="22"/>Quod natum est ex cane caro est, quod 
-      <lb ed="#W" n="23"/>natum est ex spiritu spiritus est. Et Iohan¬ 
-      <lb ed="#W" n="24"/>octauo. Vos secundum camem iudicatis. Et 
-      <!--43.xml-->
-      <pb ed="#W" n="20-v"/>
-               <lb ed="#W" n="1"/>Genesis. vi. Non permanebit spiritus meus 
-      <lb ed="#W" n="2"/>in homine, quia caro est. Oportet ergo in¬ 
-      <lb ed="#W" n="3"/>telligamus camis uocabulum de omnibus 
-      <lb ed="#W" n="4"/>humanae naturae uiribus. Alioqui non con¬ 
-      <lb ed="#W" n="5"/>sistent Pauli argumenta in tota Epistola 
-      <lb ed="#W" n="6"/>ad Romanos. Sic enim solet argumentari, 
-      <lb ed="#W" n="7"/>Caro non potuit legem implere, ergo spi¬ 
-      <lb ed="#W" n="8"/>ritu est opus qui impleat. Ibi si camem pro 
-      <lb ed="#W" n="9"/>parte hominis tantum usurpemus, quomo 
-      <lb ed="#W" n="10"/>do consistet Pauli Enthymema? Posset 
-      <lb ed="#W" n="11"/>enim eludi ad hunc modum, &amp; si caro lege 
-      <lb ed="#W" n="12"/>facere non potuerit, potuisse tamen melio 
-      <lb ed="#W" n="13"/>rem aliquam hominis partem, atque ita spi¬ 
-      <lb ed="#W" n="14"/>ritu non fuisse opus ad implendam legem.  
-      <lb ed="#W" n="15"/>Verum dedidicimus non modo scripturae 
-      <lb ed="#W" n="16"/>sententiam, sed &amp; sermonem, doctoribus 
-      <lb ed="#W" n="17"/>philosophastris, &amp; ut in Esdra legitur, alie 
-      <lb ed="#W" n="18"/>nigenas uxores duximus, &amp; earum linguam 
-      <lb ed="#W" n="19"/>pro nostra usurpauimus. Itaque camis uoca¬ 
-      <lb ed="#W" n="20"/>bulo utere &amp; pro optimis humanae naturae 
-      <lb ed="#W" n="21"/>uiribus, &amp; pro pulcherrimis illius conati¬ 
-      <lb ed="#W" n="22"/>bus. Camis fructus est, tam speciosa illa So 
-      <lb ed="#W" n="23"/>cratis aut Catonis uittus, quam Caesaris par¬ 
-      <lb ed="#W" n="24"/>ricidia. Tam camis fructus sunt speciosiss.  
-      <!--44.xml-->
-      <pb ed="#W" n="21-r"/>
-               <lb ed="#W" n="1"/>Pauli uirtutes, quibus praeditus etat, pri¬ 
-      <lb ed="#W" n="2"/>usquam Christum agnosset, quam Clodia 
-      <lb ed="#W" n="3"/>na adulteria. Iam quod hic uocamus car¬ 
-      <lb ed="#W" n="4"/>nem, solemus alias nuncupare ueterem ho 
-      <lb ed="#W" n="5"/>minem, qui itidem significat quidquid est 
-      <lb ed="#W" n="6"/>uirium humanae naturae. ld quod ipsum uo¬ 
-      <lb ed="#W" n="7"/>cabulum palam arguit. Nam communi sen¬ 
-      <lb ed="#W" n="8"/>su carete uideatur, qui hominis partem mo¬ 
-      <lb ed="#W" n="9"/>do, adpellatione ueteris hominis notari ue 
-      <lb ed="#W" n="10"/>lit. Quis enim audito hominis uocabulo 
-      <lb ed="#W" n="11"/>corpus tantum intellexerit? Vsurpat autem 
-      <lb ed="#W" n="12"/>promiscue Paulus ueteris hominis, camis 
-      <lb ed="#W" n="13"/>&amp; corporis peccati uoces. Iam &amp; exterior 
-      <lb ed="#W" n="14"/>homo significat prorsus id quod uetus ho¬ 
-      <lb ed="#W" n="15"/>mo, seu caro, hoc est, non modo partes ho¬ 
-      <lb ed="#W" n="16"/>minis exteriores, sed omnes hominis natu 
-      <lb ed="#W" n="17"/>rales uires. Et de particionibus quidem ho¬ 
-      <lb ed="#W" n="18"/>minis infra, ubi de gratia egero, plura di¬ 
-      <lb ed="#W" n="19"/>cam. Nunc satis sit admonuisse, quid caro 
-      <lb ed="#W" n="20"/>significet. Falluntur enim qui in homine quem 
-      <lb ed="#W" n="21"/>non instaurauit purgauitque spiritus sanctus 
-      <lb ed="#W" n="22"/>esse censent quidpiam, quod non possit ca¬ 
-      <lb ed="#W" n="23"/>ro, adeoque uiciosum dici. Proinde ut Pau¬ 
-      <lb ed="#W" n="24"/>linam sententiam de naturalibus hominis 
-      <!--45.xml-->
-      <pb ed="#W" n="21-v"/>
-               <lb ed="#W" n="1"/>uiribus excutiamus, uerba illius sublitics. 
-      <lb ed="#W" n="2"/>Impossibilitatem legis cquia infiima erat 
-      <lb ed="#W" n="3"/>per canem deus filium suum mittens in 
-      <lb ed="#W" n="4"/>similitudinem camis peccati, &amp; de peccato 
-      <lb ed="#W" n="5"/>damnauit peccatum in carne, ut iustificatio 
-      <lb ed="#W" n="6"/>legis impleretur in nobis, qui non secundum 
-      <lb ed="#W" n="7"/>camem ambulamus, sed secundum spiritum. 
-      <lb ed="#W" n="8"/>Hactenus proposuit Paulus summam caussae 
-      <lb ed="#W" n="9"/>nempe que cum impossibile sit legem fieri a 
-      <lb ed="#W" n="10"/>nobis quia carnales sumus, miserit deus fi¬ 
-      <lb ed="#W" n="11"/>lium, ut legi satisfaceret per nos, dum came 
-      <lb ed="#W" n="12"/>mortui, spiritu uiuimus. Quaeso hic quid 
-      <lb ed="#W" n="13"/>uocat camem. Nam cum palam sit spiritum 
-      <lb ed="#W" n="14"/>uocari spiritum sanctum &amp; eius motiones ac 
-      <lb ed="#W" n="15"/>impulsus, consequitur necessario ut canem 
-      <lb ed="#W" n="16"/>uoces quidquid in nobis est a spiritu sancto 
-      <lb ed="#W" n="17"/>alienum. Porro propositae sententiae rationem 
-      <lb ed="#W" n="18"/>reddit Apostolus, Qui secundum camem sunt,  
-      <lb ed="#W" n="19"/>quae camis sunt adfectant, qui uero secun¬ 
-      <lb ed="#W" n="20"/>dum spiritum sunt, quae sunt spiritus adfectant. 
-      <lb ed="#W" n="21"/>Nam adfectus camis mors est. Adfectus au 
-      <lb ed="#W" n="22"/>tem spiritus uita &amp; pax. Ecce quare legi non 
-      <lb ed="#W" n="23"/>possit per canem satisfieri, Quia qui secun 
-      <!--46.xml-->
-      <pb ed="#W" n="22-r"/>
-               <lb ed="#W" n="1"/>dum camem sunt, quae camis sunt adfectant,  
-      <lb ed="#W" n="2"/>quasi diceret, uos pharisaei &amp; hypocritae le¬ 
-      <lb ed="#W" n="3"/>gem uiribus uestris fieri posse censetis. De¬ 
-      <lb ed="#W" n="4"/>ne in speciem operari uidemini, uidemini 
-      <lb ed="#W" n="5"/>praediti pulcherrimis uirtutibus. Sed ea om 
-      <lb ed="#W" n="6"/>nia fucus sunt, Nam cum caro sitis, uestra 
-      <lb ed="#W" n="7"/>queritis, uel metu poenarum uel amore con¬ 
-      <lb ed="#W" n="8"/>modi, uel alio quopiam carnali adfectu be 
-      <lb ed="#W" n="9"/>ne facitis in speciem. Neque fieri potest, ut sit 
-      <lb ed="#W" n="10"/>in uobis dei sensus aliquis, cum caro sitis. 
-      <lb ed="#W" n="11"/>Adeo nec quae dei sunt cupere &amp; adfectare 
-      <lb ed="#W" n="12"/>potestis, quis est enim, quantumuis bonus 
-      <lb ed="#W" n="13"/>uideatur in speciem, qui sic amet deum, ut 
-      <lb ed="#W" n="14"/>si ille uelit libenter mortem &amp; inferos perfe¬ 
-      <lb ed="#W" n="15"/>tat. Dici non potest, quam multa, quam 
-      <lb ed="#W" n="16"/>grandia, Apostolus tam breui uersiculo 
-      <lb ed="#W" n="17"/>comprehenderit, Qui secundum camem 
-      <lb ed="#W" n="18"/>sunt, quae canis sunt adfectant. Contra 
-      <lb ed="#W" n="19"/>qui secundum spiritum sunt, quae spiritus 
-      <lb ed="#W" n="20"/>sunt adfectant, idest, in quos spiritus san¬ 
-      <lb ed="#W" n="21"/>ctus effusus est, in iis est sensus dei, fiducia 
-      <lb ed="#W" n="22"/>in deum, amor dei, Sicut econtra in car¬ 
-      <lb ed="#W" n="23"/>ne, non nisi contemptus &amp; odium dei¬ 
-      <!--47.xml-->
-      <pb ed="#W" n="22-v"/>
-               <lb ed="#W" n="1"/>ld quod uult Apostolus eum ait, Adfectus 
-      <lb ed="#W" n="2"/>camis mors est, adfectus autem spiritus ui¬ 
-      <lb ed="#W" n="3"/>ta &amp; pax. Et sequitur, Adfectus camis ini¬ 
-      <lb ed="#W" n="4"/>micitia est aduersus deum, legi enim dei non 
-      <lb ed="#W" n="5"/>est subditus, neque uero potest subdi. Vide 
-      <lb ed="#W" n="6"/>quaeso Paulinum Epilogum, cum ita finit.  
-      <lb ed="#W" n="7"/>Vim omnem camis nostrae esse inimicam 
-      <lb ed="#W" n="8"/>deo, nec posse legi dei subici, Quod si non 
-      <lb ed="#W" n="9"/>potest legi dei subici, qd dubitamus, quos 
-      <lb ed="#W" n="10"/>fructus ferat? Iam non modo, inquit, non 
-      <lb ed="#W" n="11"/>subicitur legi dei, sed &amp; ne posse quidem legi 
-      <lb ed="#W" n="12"/>subici, Consequitur itaque omnia hominum 
-      <lb ed="#W" n="13"/>quantumuis laudabilia in speciem opera 
-      <lb ed="#W" n="14"/>plane uiciosa esse, &amp; morte digna peccata. 
-      <lb ed="#W" n="15"/>Huc adferant si libet Sophistae friuolas suas 
-      <lb ed="#W" n="16"/>distinctiunculas de came, &amp; spiritu, de bo¬ 
-      <lb ed="#W" n="17"/>no &amp; meritorio, &amp; quidquid est similium 
-      <lb ed="#W" n="18"/>nugarum, ut hanc nobis Pauli sententiam  
-      <lb ed="#W" n="19"/>extorqueant. Quid enim clarius est quam quod 
-      <lb ed="#W" n="20"/>ait Paulus non impleri iustificationem le¬ 
-      <lb ed="#W" n="21"/>gis, nisi in iis qui secundum spiritum sunt,  
-      <lb ed="#W" n="22"/>Ergo qui non sunt perfusi spiritu sancto, non 
-      <lb ed="#W" n="23"/>satis faciunt legi. At legem non facere, quid 
-      <lb ed="#W" n="24"/>aliud est quam peccare? Siquidem peccatum 
-      <!--48.xml-->
-      <pb ed="#W" n="23-r"/>
-               <lb ed="#W" n="1"/>est omnis motus &amp; impulsus animi aduet 
-      <lb ed="#W" n="2"/>sus legem.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e949">
-               <lb ed="#W" n="3"/>Proinde cum Sophistae docent, peccatum 
-      <lb ed="#W" n="4"/>originale esse, excidisse fauore dei &amp; carere 
-      <lb ed="#W" n="5"/>originali iustitia, debebant addere, que cum 
-      <lb ed="#W" n="6"/>absita nobis dei spiritus &amp; benedictio, ma¬ 
-      <lb ed="#W" n="7"/>sedicti sims, cum lux absit, esse in nobis nihil 
-      <lb ed="#W" n="8"/>nisi tenebras, coecitatem &amp; ertorem. Cum ab¬ 
-      <lb ed="#W" n="9"/> sit ueritas, nihil in nobis esse nisi mendacium. 
-      <lb ed="#W" n="10"/>Cum absit uita, nihil esse in nobis nisi pec¬ 
-      <lb ed="#W" n="11"/>catum &amp; mortem. Sic Paulus exponit, qd 
-      <lb ed="#W" n="12"/>uocet filios irae, in secundo capite ad Ephe 
-      <lb ed="#W" n="13"/>sios. Et nos omnes aliquando conuersati su 
-      <lb ed="#W" n="14"/>mus in desideriis canis nostrae, facientes uo 
-      <lb ed="#W" n="15"/>luntatem camis, &amp; cogitationum, &amp; era¬ 
-      <lb ed="#W" n="16"/>mus natura filii irae. Infra ubi de legis uiri¬ 
-      <lb ed="#W" n="17"/>bus disseremus, pleraque ad hunc quoque lo¬ 
-      <lb ed="#W" n="18"/>cum accomodari poterunt, ideo non libet 
-      <lb ed="#W" n="19"/>diutius hic immorari. Quae enim uis pecca 
-      <lb ed="#W" n="20"/>ti sit, tum demum cernitur quom lex reue¬ 
-      <lb ed="#W" n="21"/>latur, quae omnes homines peccati arguit. 
-      <lb ed="#W" n="22"/>Conclusit enim omnia scriptura sub pecca 
-      <lb ed="#W" n="23"/>to, ut ad Calatas scribit Apostolus, ut pro¬ 
-      <lb ed="#W" n="24"/>missio ex fide lesu Christi daretur credentibus. 
-      <!--49.xml-->
-      <pb ed="#W" n="23-v"/>
-               <lb ed="#W" n="1"/>Et ex his quae hoc loco disputauimus col¬ 
-      <lb ed="#W" n="2"/>ligere potes quid sit de humarus sentien¬ 
-      <lb ed="#W" n="3"/>dum. Num qua sit libertas, quam iactant. 
-      <lb ed="#W" n="4"/>Theologi uere libeti arbitrii, quia pro suo 
-      <lb ed="#W" n="5"/>arbitrio, sine scriptura, quiduis decernunt. 
-      <lb ed="#W" n="6"/>Quae enim potest esse sine spiritu libertas, cum 
-      <lb ed="#W" n="7"/>ille tyrannus noster, peccatum in carne no¬ 
-      <lb ed="#W" n="8"/>stra, etiam negotium faciat uiris exundan¬ 
-      <lb ed="#W" n="9"/>tibus spititu. Quis enim sanctorum fuit unquam, 
-      <lb ed="#W" n="10"/>qui non deplorauerit hanc seruitutem, im¬ 
-      <lb ed="#W" n="11"/>mo captiuitatem. Et Paulus cap. vii. ad Ro¬ 
-      <lb ed="#W" n="12"/>manos, Videre se ait lege in membris suis,  
-      <lb ed="#W" n="13"/>repugnantem sibi, &amp; captiuantem se, ea lex 
-      <lb ed="#W" n="14"/>membrorum, seu tyrannis peccati ardor &amp; 
-      <lb ed="#W" n="15"/>impetus est peccati, quod nobis congenitum 
-      <lb ed="#W" n="16"/>est. Et de his quidem infra, qui partim spiritu¬ 
-      <lb ed="#W" n="17"/>iusti, partim came peccatores sunt. 
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1040">
-               <lb ed="#W" n="18"/>⁋ Hinc item consequitur impossibilia, ut 
-      <lb ed="#W" n="19"/>infra disputabimus copiosius, praecepta 
-      <lb ed="#W" n="20"/>esse. ld quod ex eo loco quem supra produxi 
-      <lb ed="#W" n="21"/>mus ex octauo capite ad Romanos. Non 
-      <lb ed="#W" n="22"/>posse canem legi dei subici satis adparet. 
-      <lb ed="#W" n="23"/>Item, ex eo quod ibidem dicitur, Impossi¬ 
-      <lb ed="#W" n="24"/>bile erat legi iustificare. id est, Non satis erat 
-      <!--50.xml-->
-      <pb ed="#W" n="24-r"/>
-               <lb ed="#W" n="1"/>lex quae ostenderet qd faceremus, Sed opor¬ 
-      <lb ed="#W" n="2"/>tuit etiam spiritum conferri per Christum, 
-      <lb ed="#W" n="3"/>qui nos ad legem amandam infsammaret. 
-      <lb ed="#W" n="4"/>Et hic ruit illa philosophiae moralis, &amp; libe 
-      <lb ed="#W" n="5"/>ri arbitrii Theologorum sententia, impia, 
-      <lb ed="#W" n="6"/>&amp; stulta, quam plenis buccis nunquam non in¬ 
-      <lb ed="#W" n="7"/>tonant Scotistae. Voluntatem posse se con 
-      <lb ed="#W" n="8"/>formare omni dictamini rectae rationis, id 
-      <lb ed="#W" n="9"/>est, uoluntatem posse uelle, quidquid recta 
-      <lb ed="#W" n="10"/>ratio, rectum consilium intellectus praescri 
-      <lb ed="#W" n="11"/>bit. Contra Paulus inquit, legi impossibile 
-      <lb ed="#W" n="12"/>fuisse iustificare, id est. Non fuit satis, prae¬ 
-      <lb ed="#W" n="13"/>scribere legem, quid ageremus que caro in¬ 
-      <lb ed="#W" n="14"/>firma esset, &amp; auetseretur legem. Sed hic im 
-      <lb ed="#W" n="15"/>pegerunt, que nouam quandam uoluntatem 
-      <lb ed="#W" n="16"/>finxerunt, quae haberet actus elicitos, quor¬ 
-      <lb ed="#W" n="17"/>suncunque traheret adfectus. Quod si scriptu 
-      <lb ed="#W" n="18"/>rae sermonem ac phrasin obseruassent, facile 
-      <lb ed="#W" n="19"/>uidissent mendacia, &amp; uanas cogitationes 
-      <lb ed="#W" n="20"/>intellectus esse, quae confinxerunt de actibus 
-      <lb ed="#W" n="21"/>elicitis. Possunt enim impelli exteriora mebra, 
-      <lb ed="#W" n="22"/>alio nonnumquam, qui quo trahebat adfectus, sed 
-      <lb ed="#W" n="23"/>hoc cum fit, per simulationem ac mendacium fit.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1112">
-               <lb ed="#W" n="24"/>Non possum hic mihi temperare, quamquam de ui legis 
-      <!--51.xml-->
-      <pb ed="#W" n="24-v"/>
-               <lb ed="#W" n="1"/>postea sim dicturus abunde, quin obiter in 
-      <lb ed="#W" n="2"/>dicem Christiano lectori fatuas, insulsas, &amp;  
-      <lb ed="#W" n="3"/>impias Sophistarum argutias, quibus pro 
-      <lb ed="#W" n="4"/>bant posse nos per uires naturae diligere deum. 
-      <lb ed="#W" n="5"/>Sic enim argutantur. Diligi potest minus 
-      <lb ed="#W" n="6"/>bonum, nempe creatura quaepiam, posse 
-      <lb ed="#W" n="7"/>igitur &amp; maius bonum diligi. Scilicet hic est 
-      <lb ed="#W" n="8"/>sermo Christianorum quem Paulus uult esse 
-      <lb ed="#W" n="9"/>sale conditum. Adeo hoc est &amp; festiuum &amp; 
-      <lb ed="#W" n="10"/>mete Aristotelicum, &amp; Aristotelicis dignum 
-      <lb ed="#W" n="11"/>Theologis commentum. Primum ea est amo¬ 
-      <lb ed="#W" n="12"/>ris natura, ut non amemus, nisi quae nobis 
-      <lb ed="#W" n="13"/>bona, tum iucunda, tum commoda uidentur,  
-      <lb ed="#W" n="14"/>adeoque quidquid amamus, nostri commodi 
-      <lb ed="#W" n="15"/>respectu amamus. Amas opes, amas pecu¬ 
-      <lb ed="#W" n="16"/>niam, nonque ipsa per sese bona res sit, sed 
-      <lb ed="#W" n="17"/>quod usibus uitae tuae seruitura uidetur. Sic deum 
-      <lb ed="#W" n="18"/>non amas quantumuis bonum, nisi tuis ra 
-      <lb ed="#W" n="19"/>tionibus tibique utilem esse sentias. Iam etiam 
-      <lb ed="#W" n="20"/>si hac ratione respectu tui commodi amares,  
-      <lb ed="#W" n="21"/>seruiliter amares, &amp; prauo peruersoque adfe¬ 
-      <lb ed="#W" n="22"/>ctu naturae, planeque peccares. At ne sic qui¬  
-      <lb ed="#W" n="23"/>dem unquam amas, neque enim ex deo ulla con 
-      <lb ed="#W" n="24"/>moda sentiuntur, nisi per spiritum sanctum 
-      <!--52.xml-->
-      <pb ed="#W" n="25-r"/>
-               <lb ed="#W" n="1"/>iam cor sit putificatum, &amp; insculpta sit pu¬ 
-      <lb ed="#W" n="2"/>ro pioque cordi dei beneficentia. Quid autem 
-      <lb ed="#W" n="3"/>cum conscientia tibi deum ostendit itatum, 
-      <lb ed="#W" n="4"/>interminantem perpetuam mortem, &amp; il¬ 
-      <lb ed="#W" n="5"/>lud horrendum tempus uultus sui, sic Da 
-      <lb ed="#W" n="6"/>uid ait, Hic cum, non bonorum sed malo¬ 
-      <lb ed="#W" n="7"/>rum tantum sensu, nempe poenarum quae 
-      <lb ed="#W" n="8"/>a deo infliguntur, tangatur, quaeso eo po¬ 
-      <lb ed="#W" n="9"/>test aduertere animum natura humana, ut 
-      <lb ed="#W" n="10"/>amet, ut benigne ferat etiam inferorum poe 
-      <lb ed="#W" n="11"/>nam? Atqui ubi conscientia perculit ani¬ 
-      <lb ed="#W" n="12"/>mum, iam ita auersatur, &amp; exhorret deum,  
-      <lb ed="#W" n="13"/>ut carnificem crudelem, &amp; uindicem, &amp; quod 
-      <lb ed="#W" n="14"/>est atrociss, iniquum. Hic Sophistae quid illi 
-      <lb ed="#W" n="15"/>uestri actus eliciti, quid illa egregia uestra 
-      <lb ed="#W" n="16"/>uoluntas, quam finxistis efficiet? An non ille 
-      <lb ed="#W" n="17"/>irae dies, ille ignis declarabit nihil nisi men¬ 
-      <lb ed="#W" n="18"/>dacium &amp; cerussam esse humanas illas liberi 
-      <lb ed="#W" n="19"/>arbitrii iusticias? &amp; omnem gloriam camis,  
-      <lb ed="#W" n="20"/>esse ueluti foeni gloriam. Nonne ignem ac 
-      <lb ed="#W" n="21"/>caliginem, immo ipsam etiam Mosi facig 
-      <lb ed="#W" n="22"/>reformidabat lsrael, cum lex promulgaretur g 
-      <lb ed="#W" n="23"/>Nonne commota est, &amp; contremuit terra, &amp; 
-      <lb ed="#W" n="24"/>fundamenta montium conturbata sunt,  
-      <!--53.xml-->
-      <pb ed="#W" n="25-v"/>
-               <lb ed="#W" n="1"/>&amp; commota sunt, quoniam iratus est eis deus  
-      <lb ed="#W" n="2"/>Sed hac de re infra ut spero multa satis di¬ 
-      <lb ed="#W" n="3"/>cemus, ubi de legis ui disseretur. Habes lector 
-      <lb ed="#W" n="4"/>hic primum non amari, nisi quae nobis com 
-      <lb ed="#W" n="5"/>moda sunt. At deus nullius commodi respe¬ 
-      <lb ed="#W" n="6"/>ctu amari uult, sed liberaliter, Neque enim 
-      <lb ed="#W" n="7"/>adeum amat, sed sese qui commodum amat, &amp;  
-      <lb ed="#W" n="8"/>contra prauum hunc amorem quam multa 
-      <lb ed="#W" n="9"/>passim seripturae monent. Subicienda est 
-      <lb ed="#W" n="10"/>&amp; alia quaedam argutia non admodum huic  
-      <lb ed="#W" n="11"/>absimilis, non absurdum uideri debere, que 
-      <lb ed="#W" n="12"/>docent citra spiritus sancti operam, posse 
-      <lb ed="#W" n="13"/>nos ardentius amare deum quam nos ipsos 
-      <lb ed="#W" n="14"/>quando quidem saepe etiam pro caducis re 
-      <lb ed="#W" n="15"/>bus, pro hominibus, pro amoribus, pro li 
-      <lb ed="#W" n="16"/>beris, pro coniugibus mortem obimus. Hic  
-      <lb ed="#W" n="17"/>quid responderi debeat ex ratione adfectuum 
-      <lb ed="#W" n="18"/>colligendum est. Primum enim nemo gau¬ 
-      <lb ed="#W" n="19"/>det mori per naturam, &amp; quorum uita pro 
-      <lb ed="#W" n="20"/>Repub. pro re familiari periclitatur, illi ipsi 
-      <lb ed="#W" n="21"/>plane mallent uiuere. Mallet enim uiuere 
-      <lb ed="#W" n="22"/>Curtius, mallet uiuere Eucretia. Sed quia 
-      <lb ed="#W" n="23"/>adeo refugit aduersa, natura humana, ma¬ 
-      <lb ed="#W" n="24"/>lumus non esse, quam male esse, quam algere,  
-      <!--54.xml-->
-      <pb ed="#W" n="26-r"/>
-               <lb ed="#W" n="1"/>Mallet uiuere Pyramus, sed quia infoelicem 
-      <lb ed="#W" n="2"/>sibi uitam arbitratur futuram, sine Thisbe 
-      <lb ed="#W" n="3"/>uult abrumpere id mali, &amp; uelut una cum 
-      <lb ed="#W" n="4"/>anima ponere. Mallet uiuere Saul, sed me¬ 
-      <lb ed="#W" n="5"/>tu dedecoris &amp; ira &amp; desperatione, uelut se¬ 
-      <lb ed="#W" n="6"/>mel finiturus cum uita omnia aduersa, ab¬ 
-      <lb ed="#W" n="7"/>rumpit uitam. Sed quid ego exactam adeo ad¬ 
-      <lb ed="#W" n="8"/>fectuum rationem reddere contendo, cum rarae istae 
-      <lb ed="#W" n="9"/>neces, qualis est Eucretiae, Saulis, &amp; similium, 
-      <lb ed="#W" n="10"/>sint mirabilia diuinae maiestatis exempla.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1313">
-               <lb ed="#W" n="11"/>⁋ Iam quae prodidere Sophistae, de meri¬ 
-      <lb ed="#W" n="12"/>to congrui, scilicet, que ex operibus morali¬ 
-      <lb ed="#W" n="13"/>bus, id est, quae uiribus naturae nostrae faci¬ 
-      <lb ed="#W" n="14"/>mus de congruo, sic loquuntur, mereamur 
-      <lb ed="#W" n="15"/>gratiam, Ipse lector, intelligis blasphemias 
-      <lb ed="#W" n="16"/>esse in iniuriam gratiae dei ementitas, etiam cum 
-      <lb ed="#W" n="17"/>naturae humanae uires citra spirits sancti ad 
-      <lb ed="#W" n="18"/>ssatum, non possint, nisi peccare, quid merebi¬ 
-      <lb ed="#W" n="19"/>mur nostris conatibus nisi irams simulatioes,  
-      <lb ed="#W" n="20"/>&amp; mendacia sunt illi actus eliciti, illa fictitia 
-      <lb ed="#W" n="21"/>proposita, illae quas falso uocant bonas, in¬ 
-      <lb ed="#W" n="22"/>tentiones, quas praescribunt sophistae. Quare 
-      <lb ed="#W" n="23"/>tantum abest ut gratiam per eas impetremus, ut 
-      <lb ed="#W" n="24"/>nihil sit quod perinde gratiae aduersetur. 
-      <!--55.xml-->
-      <pb ed="#W" n="26-v"/>
-               <lb ed="#W" n="1"/>atque illae pharisaicae praeparationes. Porro 
-      <lb ed="#W" n="2"/>hanc impietatem pertinacissime insectatur 
-      <lb ed="#W" n="3"/>Paulus cum alias, tum in tota ad Romanos 
-      <lb ed="#W" n="4"/>Epistola non aliud agens, nisi gratiam non 
-      <lb ed="#W" n="5"/>esse gratiam, si pro operibus detur. Quis est 
-      <lb ed="#W" n="6"/>enim misericondiae locus, si respectus est no 
-      <lb ed="#W" n="7"/>strorum operum? quae est gratiae gloria, ut 
-      <lb ed="#W" n="8"/>Paulinis uerbis utat, si debetur nostris ope 
-      <lb ed="#W" n="9"/>ribus? Palam capite tertio Paulus ad Ro¬ 
-      <lb ed="#W" n="10"/>manos docet, &amp; omnes homines sub pec¬ 
-      <lb ed="#W" n="11"/>ato esse, &amp; gratis iustificari eos qui credunt. 
-      <lb ed="#W" n="12"/>Quid quod in capite nono ait? Israel sectam 
-      <lb ed="#W" n="13"/>do legem, ad legem iusticiae non peruenisse,  
-      <lb ed="#W" n="14"/>id est, eos qui sui liberi arbitrii uiribus ag¬ 
-      <lb ed="#W" n="15"/>igrederentur legem facere, nunquam facere le 
-      <lb ed="#W" n="16"/>gem, sed simulare tantum in speciem, Esaias 
-      <lb ed="#W" n="17"/>propheta cap. Iv. ad Christum inuitat gra¬ 
-      <lb ed="#W" n="18"/>tis empturos quosuis. Venite, emite absque ar 
-      <lb ed="#W" n="19"/>gento &amp; absque ulla commutatione uinum &amp; 
-      <lb ed="#W" n="20"/>lac. Quare adpenditis argentum non in pa 
-      <lb ed="#W" n="21"/>nibus, &amp; laborem uestrum in saturitater id 
-      <lb ed="#W" n="22"/>est, quare fiditis uestris operibus? quae fru¬ 
-      <lb ed="#W" n="23"/>strabuntur uos. Audite audientes me, &amp; co 
-      <lb ed="#W" n="24"/>medite bonum, &amp; delectabitur in crassitu¬ 
-      <!--56.xml-->
-      <pb ed="#W" n="27-r"/>
-               <lb ed="#W" n="1"/>dine anima uestra. Inclinate aurem uestram, 
-      <lb ed="#W" n="2"/>id est, OREDITE, &amp; uiuet anima ue¬ 
-      <lb ed="#W" n="3"/>stra, &amp; feriam uobiscum pactum sempiter¬ 
-      <lb ed="#W" n="4"/>num M IS ER ICO RDIAs DA¬ 
-      <lb ed="#W" n="5"/>VID EIDE E ES, id est, promittam mi¬ 
-      <lb ed="#W" n="6"/>sericordiam Dauidi fidelem, id est, ratam.  
-      <lb ed="#W" n="7"/>Hierem. xvii. Maledictus homo qui confidit 
-      <lb ed="#W" n="8"/>in homine, &amp; ponit canem brachium suum, 
-      <lb ed="#W" n="9"/>&amp; a domino recedit cor eius. Erit enim quasi 
-      <lb ed="#W" n="10"/>imyricae in deserto &amp; non uidebit cum uene¬ 
-      <lb ed="#W" n="11"/>rit bonum, sed habitabit in siccitate in de¬ 
-      <lb ed="#W" n="12"/>serto, in terra salsuginis &amp; inhabitabili. De¬ 
-      <lb ed="#W" n="13"/>nedictus uit qui confidit in domino, &amp; erit, 
-      <lb ed="#W" n="14"/>dominus fiducia eius, &amp; erit quasi lignum, 
-      <lb ed="#W" n="15"/>quod transplantatur super aquas, quod ad 
-      <lb ed="#W" n="16"/>humorem mittit radices suas, &amp; cum uene¬ 
-      <lb ed="#W" n="17"/>rit estus non timebit &amp;c. Vide reliqua. Nam 
-      <lb ed="#W" n="18"/>uel unum illud eius prophetae caput satis cla¬ 
-      <lb ed="#W" n="19"/>re coarguerit, nihil esse opera moralia, nisi 
-      <lb ed="#W" n="20"/>simulationes &amp; mendacia camis nostrae.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1450">
-               <lb ed="#W" n="21"/>Huc pertinet quod scholastica theologia 
-      <lb ed="#W" n="22"/>de poenitentiae initio, deque attritionibus con 
-      <lb ed="#W" n="23"/>finxit. Neque enim de commisso dolet natura 
-      <lb ed="#W" n="24"/>nisi amore sui, metuque poenae, qui amos 
-      <!--57.xml-->
-      <pb ed="#W" n="27-v"/>
-               <lb ed="#W" n="1"/>sui &amp; metus poenarum sunt plane peccata, &amp; 
-      <lb ed="#W" n="2"/>impossibile est quin adferant secum odium eius,  
-      <lb ed="#W" n="3"/>qui poenas infligit, nempe dei. Peculiare uero 
-      <lb ed="#W" n="4"/>dei opus est peccati in nobis cognitio &amp; 
-      <lb ed="#W" n="5"/>odium. Deducit enim dins ad inferos ac reducit,  
-      <lb ed="#W" n="6"/>duns mortificat, &amp; uiuificat, dins humiliat 
-      <lb ed="#W" n="7"/>&amp; subleuat, ait Hanna in Cantico. i. Reg. ii. 
-      <lb ed="#W" n="8"/>Et Propheta Hiere. Postquam conuertisti me 
-      <lb ed="#W" n="9"/>egi poenitentiam &amp;c. Porro qd attinet hic im 
-      <lb ed="#W" n="10"/>norari, cum planissime dictum sit a Christo lo 
-      <lb ed="#W" n="11"/>han. vi. Nemo uenit ad me nisi pater meus 
-      <lb ed="#W" n="12"/>traxerit eum. Od uero obiciunt sententiam dni 
-      <lb ed="#W" n="13"/>apud Sachariam ignari troporum &amp; figurarum 
-      <lb ed="#W" n="14"/>sacri sermonis sophistae. Conuertimini ad me, 
-      <lb ed="#W" n="15"/>&amp; ego conuertar ad uos, non efficit, poeniten¬ 
-      <lb ed="#W" n="16"/>tiae inicium in nobis esse positum. Excussit autem 
-      <lb ed="#W" n="17"/>hanc sententiam Aug, non uno loco, neque uero 
-      <lb ed="#W" n="18"/>obscura est, nisi Sophistis qui pter parua logi 
-      <lb ed="#W" n="19"/>calia aliud didicerunt. Duplex est conuer 
-      <lb ed="#W" n="20"/>sio dei ad nos, altera praeit resipiscentiae niae. 
-      <lb ed="#W" n="21"/>laltera seqt. Quae praeit, ea fit, cum des nos re 
-      <lb ed="#W" n="22"/>sipiscere facit adssatu spuns sui, cum ostenso pec 
-      <lb ed="#W" n="23"/>cato nos terret, conturbatque. At qui seqtur conuer 
-      <lb ed="#W" n="24"/>sio, fit cum modum finemque poenarum faciens, conso 
-      <lb ed="#W" n="25"/>latur nos declaratque palam sese fauete nobis. De 
-      <!--58.xml-->
-      <pb ed="#W" n="28-r"/>
-               <lb ed="#W" n="1"/>postetiore loqtur acharias cum inqt, Conuerti 
-      <lb ed="#W" n="2"/>mini ad me, &amp; ego conuertat ad uos. ld est,  
-      <lb ed="#W" n="3"/>resipiscite, &amp; ego poenax finem faciam. Hortat 
-      <lb ed="#W" n="4"/>n. Propheta eos qui iam ab exilio Assyrio redie 
-      <lb ed="#W" n="5"/>rant in ludaeam, ut patrum exemplo moniti resi 
-      <lb ed="#W" n="6"/>piscant, ni rursus uelint iram diuinam, poenasque 
-      <lb ed="#W" n="7"/>prioribs similes experiti. Hinc colligi non po 
-      <lb ed="#W" n="8"/>test, in nia manu esse initium poenitentiae. Ipse 
-      <lb ed="#W" n="9"/>nos inuitat trahitque ad sese, &amp; ubi traxerit,  
-      <lb ed="#W" n="10"/>condonamns poenas declarat sese nobis placatum 
-      <lb ed="#W" n="11"/>esse reconciliatumque. Et quod praecipit conuertimis 
-      <lb ed="#W" n="12"/>ni ad me, non consequitur in nostris uiribus esse,  
-      <lb ed="#W" n="13"/>resipiscere, seu conuetti. Sicut, quia sese diligi  
-      <lb ed="#W" n="14"/>praecipit super omnia, non consequitur id in nostris 
-      <lb ed="#W" n="15"/>uiribus esse, quia praecipit. Immo ob hoc ipm 
-      <lb ed="#W" n="16"/>quod praecipit, non est in ninis uiribus. Praecipit eni 
-      <lb ed="#W" n="17"/>in hoc impossibilia, ut misericordiam suam no 
-      <lb ed="#W" n="18"/>bis commendet, sicut infra de lege dicems. Et 
-      <lb ed="#W" n="19"/>cur non Sophistae in Sachariae pphetia hanc 
-      <lb ed="#W" n="20"/>etiam sententiam obseruatunt qui in cap. x. continetur. 
-      <lb ed="#W" n="21"/>Et conuertam eos quia miserebor eorum, &amp; erunt si¬ 
-      <lb ed="#W" n="22"/>cut fuetunt, quando non proieceram eos. Ecce ipe 
-      <lb ed="#W" n="23"/>ait se conuersurum Iudam, neque uero ppter illoge 
-      <lb ed="#W" n="24"/>benefacta, sed ppter suam ipsis misericondiam. 
-      <!--59.xml-->
-      <pb ed="#W" n="28-v"/>
-               <lb ed="#W" n="1"/>Similes locos commendo tuae, Christianae le¬ 
-      <lb ed="#W" n="2"/>ctor, industriae. Futurum enim est ut ubi fa 
-      <lb ed="#W" n="3"/>miliarior tibi scripturae usus fuerit, nullo ne 
-      <lb ed="#W" n="4"/>gotio quascumque sophistatum argutias diluas.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1589">
-               <lb ed="#W" n="5"/>Habes lector de ui ingenitae pestis quan¬ 
-      <lb ed="#W" n="6"/>tum mihi uidebatur dici debere. Neque plura 
-      <lb ed="#W" n="7"/>requirent hi qui potius diuinatum literarum 
-      <lb ed="#W" n="8"/>lectione, meditationeque formari uolent, qui 
-      <lb ed="#W" n="9"/>humanis commentariis. Nam, satisfieri nulla  
-      <lb ed="#W" n="10"/>commentatione potest, iis quorum animi in¬ 
-      <lb ed="#W" n="11"/>certis disputationibus, uariis hominum sen¬ 
-      <lb ed="#W" n="12"/>tenciis atque opinionibus confusi nihil nisi 
-      <lb ed="#W" n="13"/>carnalia sapiunt. Vnus est idemque ut simpli 
-      <lb ed="#W" n="14"/>cissimus, ita certissimus doctor, diuinus spi 
-      <lb ed="#W" n="15"/>ritus, qui sese &amp; proxime &amp; simplicissime in 
-      <lb ed="#W" n="16"/>sacris literis expressit, in quas ubi animus 
-      <lb ed="#W" n="17"/>tuus ueluti transformatus fuerit, tum demum 
-      <lb ed="#W" n="18"/>Sabsolute, simpliciter, exacte, ut aliarum rerum 
-      <lb ed="#W" n="19"/>theologicarum, ita huius loci rationem con 
-      <lb ed="#W" n="20"/>prehendes. Qui pendent non a spiritus sed 
-      <lb ed="#W" n="21"/>hominum iudicio aestimationeque non res ip 
-      <lb ed="#W" n="22"/>sas, sed uix tenues quasdam rerum umbras 
-      <lb ed="#W" n="23"/>cernunt, non aliter atque illi in Platonico spe 
-      <lb ed="#W" n="24"/>cu. Quis enim tum philosophorum, tum 
-      <!--60.xml-->
-      <pb ed="#W" n="29-r"/>
-               <lb ed="#W" n="1"/>scholasticorum theologistarum proptianm 
-      <lb ed="#W" n="2"/>uirtutis aut uicii formam uidit? Metiebantur 
-      <lb ed="#W" n="3"/>theologastri peccatum originale, non nisi 
-      <lb ed="#W" n="4"/>extenmis operibus, interim animi maliciam, 
-      <lb ed="#W" n="5"/>&amp; uelut intercutem morbum non uidebant. 
-      <lb ed="#W" n="6"/>Et ut maxime deprehenderint quorundam 
-      <lb ed="#W" n="7"/>adfectuum improbitatem, tamen nec om¬ 
-      <lb ed="#W" n="8"/>nes, nec eos animaduertit ratio, quibus cum 
-      <lb ed="#W" n="9"/>in primis spiritui diuino bellum est, nempe 
-      <lb ed="#W" n="10"/>blasphemiam, odium dei, amorem sui, diffi¬ 
-      <lb ed="#W" n="11"/>dere deo &amp; hoc genus innumerabiles, qui  
-      <lb ed="#W" n="12"/>homini sic insiti sunt, ut non in una aliqua 
-      <lb ed="#W" n="13"/>parte tantum, nempe in adpetitu sensitiuo 
-      <lb ed="#W" n="14"/>haereant, ut isti docent, sed uniuersam na¬ 
-      <lb ed="#W" n="15"/>turam occuparint, captiuamque habeant. Ad¬ 
-      <lb ed="#W" n="16"/>fectus isti infirmitatem uocant, sed talem  
-      <lb ed="#W" n="17"/>quae humanis uisibus uinci possit, Scriptu¬ 
-      <lb ed="#W" n="18"/>ra contra negat nisi spiritu dei posse uinci 
-      <lb ed="#W" n="19"/>camis adfectus. Quia quos filis liberauerit,  
-      <lb ed="#W" n="20"/>ii demum uere liberi sunt lohan. viii. Pro¬ 
-      <lb ed="#W" n="21"/>inde nihil te moueant istorum figmenta de 
-      <lb ed="#W" n="22"/>extenis operibus, de actibus elicitis uolun¬ 
-      <lb ed="#W" n="23"/>tatis &amp; similia. De corde iudicat deus, non 
-      <lb ed="#W" n="24"/>de externo opere. Non enim quomodo uidet 
-      <!--61.xml-->
-      <pb ed="#W" n="29-v"/>
-               <lb ed="#W" n="1"/>homo, uidet deus ut in historia regum legitur. 
-      <lb ed="#W" n="2"/>Et uel hinc licebit aestimare, quantum dam¬ 
-      <lb ed="#W" n="3"/>ni dederit rebs Christianis philosophia, cum 
-      <lb ed="#W" n="4"/>Theologastri nostri philosophiam secuti 
-      <lb ed="#W" n="5"/>finxerint bona opera, illam externorum operum 
-      <lb ed="#W" n="6"/>ersonam? quae qua nihil mereantur uel 
-      <lb ed="#W" n="7"/>iola illa in Euangelio de fatuis uirginibus 
-      <lb ed="#W" n="8"/>parabola docet. Nihil enim uirgines praeter 
-      <lb ed="#W" n="9"/>pharisaicam iustitiam, hoc est, externorum 
-      <lb ed="#W" n="10"/>operum umbras designant. At quid aliud do 
-      <lb ed="#W" n="11"/>cent philosophi nisi opera externa? cum de 
-      <lb ed="#W" n="12"/>uirtutibus disputant, an non omnia refe¬ 
-      <lb ed="#W" n="13"/>tunt ad externa opera &amp; illos fictitios actus 
-      <lb ed="#W" n="14"/>elicitos? Sed caeci sunt &amp; duces caecorum. 
-      <lb ed="#W" n="15"/>proinde optandum est, ut animos nostros 
-      <lb ed="#W" n="16"/>deus a rationis humanae iuditio philoso¬ 
-      <lb ed="#W" n="17"/>phiaque ad spirituale iudicium transferat. 
-      <lb ed="#W" n="18"/>Nam quae est caecitas humanae rationis, fie¬ 
-      <lb ed="#W" n="19"/>ri nequit, ut citra lucem spiritus, absolutam 
-      <lb ed="#W" n="20"/>peccati iusticiaeue formam cognoscams, om 
-      <lb ed="#W" n="21"/>nis humanae rationis captus tenebrae sunt,  
-      <lb ed="#W" n="22"/>Rux est Christi spiritus, is solus docet om¬ 
-      <lb ed="#W" n="23"/>nem ueritatem. Non potest in relucentem 
-      <lb ed="#W" n="24"/>dosi faciem defigere oculos caro seu hu¬ 
-      <!--62.xml-->
-      <pb ed="#W" n="30-r"/>
-               <lb ed="#W" n="1"/>mana ratio, quare uelum legi obducit, &amp; 
-      <lb ed="#W" n="2"/>de extenis tantum operibus seu ficticis pro¬ 
-      <lb ed="#W" n="3"/>positis, uel intentionibus, quas uocant, uel 
-      <lb ed="#W" n="4"/>de litera, ut Pauli uerbo utar, iudicat. Spiri¬ 
-      <lb ed="#W" n="5"/>tus uero profunda scrutatur &amp; penetrat. Et 
-      <lb ed="#W" n="6"/>ut eorum quae de peccato originali scrip¬ 
-      <lb ed="#W" n="7"/>simus, summam paucis uerbis indicem su¬ 
-      <lb ed="#W" n="8"/>biciamtheses aliquot, uelut ὑecxον supe¬ 
-      <lb ed="#W" n="9"/>riorum.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1771">
-               <lb ed="#W" n="10"/>⁋ Peccatum est adfectus conta legem dei.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1776">
-               <lb ed="#W" n="11"/>⁋ Quia filii irae nascimur, fit ut sine spiritu¬ 
-      <lb ed="#W" n="12"/>dei nascamur.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1783">
-               <lb ed="#W" n="13"/>⁋ Quando quidem in homine non est spi 
-      <lb ed="#W" n="14"/>ritus dei, nihil nisi carnalia sapit, amat &amp; 
-      <lb ed="#W" n="15"/>quaerit.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1793">
-               <lb ed="#W" n="16"/>⁋ Hinc est in homine contemptus &amp; igno  
-      <lb ed="#W" n="17"/>rantia dei, &amp; quidquid uiciorum psalmus 
-      <lb ed="#W" n="18"/>xiii: describit. Dixit insipiens in corde suo 
-      <lb ed="#W" n="19"/>non est deus.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1804">
-               <lb ed="#W" n="20"/>⁋ Ita fit ut homo per uires naturales nihil 
-      <lb ed="#W" n="21"/>possit, nisi peccare.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1811">
-               <lb ed="#W" n="22"/>⁋ Non enim tantum pars hominis quam uocant  
-      <!--63.xml-->
-      <pb ed="#W" n="30-v"/>
-               <lb ed="#W" n="1"/>adpetitum sensitiuum est obnoxia adfecti¬ 
-      <lb ed="#W" n="2"/> 
-               <!-- extra line -->
-               <lb ed="#W" n="3"/>bus peccati.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1829">
-               <lb ed="#W" n="4"/>⁋ Quando quidem cor immundum esse 
-      <lb ed="#W" n="5"/>scriptura testatur, consequitur omnes uires 
-      <lb ed="#W" n="6"/>humanas esse impuras. 
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1838">
-               <lb ed="#W" n="7"/>⁋ Significat enim cor non modo sensitiuum 
-      <lb ed="#W" n="8"/>adpetitum, quem sic isti uocant, sed sedem  
-      <lb ed="#W" n="9"/>omnium adfectuum, amorum, odiorum, 
-      <lb ed="#W" n="10"/>blasphemiae, incredulitatis.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1849">
-               <lb ed="#W" n="11"/>⁋ Sicut cor significat omnium humanorum 
-      <lb ed="#W" n="12"/>adfectuum sedem, ita &amp; caro omnes natu¬ 
-      <lb ed="#W" n="13"/>rales hominis uires.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1859">
-               <lb ed="#W" n="14"/>⁋ Carnale, quidquid per naturae uires fit,  
-      <lb ed="#W" n="15"/>Socratis constantia, enonis moderatio, 
-      <lb ed="#W" n="16"/>nihil nisi carnales adfectus sunt.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1868">
-               <lb ed="#W" n="17"/>⁋ Semel in Epistola priore ad Corinthios 
-      <lb ed="#W" n="18"/>uocauit Paulus <foreign>Iuxntoν</foreign> animale rationis 
-      <lb ed="#W" n="19"/>opus, ut philosophicas uirtutes.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1880">
-               <lb ed="#W" n="20"/>⁋ Atque ibidem palam est damnari peccati 
-      <lb ed="#W" n="21"/>
-               <foreign>To Auxntou</foreign>. 
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1890">
-               <lb ed="#W" n="22"/>⁋ Alias nunquam non uocat canem quidod 
-      <lb ed="#W" n="23"/>in nobis, quantumuis in speciem bonum ui¬ 
-      <lb ed="#W" n="24"/>deatur, citra spiritus sancti operam fit, ut 
-      <lb ed="#W" n="25"/>adparet in cap. octauo ad Romanos, cum 
-      <!--64.xml-->
-      <pb ed="#W" n="31-r"/>
-               <lb ed="#W" n="1"/>inquit non potuisse iustificationem legis im¬ 
-      <lb ed="#W" n="2"/>pleri per canem. Quis non uidet hic sig¬ 
-      <lb ed="#W" n="3"/>nari camis uocabulo, potissimas hominis 
-      <lb ed="#W" n="4"/>uires, quae uidentur hominum iuditio posse 
-      <lb ed="#W" n="5"/>legi obtemperare. Idem docet &amp; caput ter¬ 
-      <lb ed="#W" n="6"/>tium posterioris Epistolae ad Corinth.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1919">
-               <lb ed="#W" n="7"/>⁋ Id quod monere uolui ne cui impone¬ 
-      <lb ed="#W" n="8"/>rent scholastici, cum distinguunt adpetitum 
-      <lb ed="#W" n="9"/>intellectiuum &amp; sensitiuum, tribuuntque sensui 
-      <lb ed="#W" n="10"/>prauos adfectus, intellectiuum adpetitum 
-      <lb ed="#W" n="11"/>liberant uitio.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1932">
-               <lb ed="#W" n="12"/>⁋ Quam sententiam scholasticorum illi scrip¬ 
-      <lb ed="#W" n="13"/>turae loci quos supra citauimus satis redar¬ 
-      <lb ed="#W" n="14"/>guunt. Neque iuuari possunt Origene, ut ui¬ 
-      <lb ed="#W" n="15"/>deri uolunt, ubi ille de Anima carne &amp; spi¬ 
-      <lb ed="#W" n="16"/>ritu dissetuit. Quanquam quid ad nos quid 
-      <lb ed="#W" n="17"/>Origenes sentiat, cum nos de scripturae, non 
-      <lb ed="#W" n="18"/>de Origenis sententia disputemuss
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1951">
-               <lb ed="#W" n="19"/>⁋ Quod scholastici negant omnia homi¬ 
-      <lb ed="#W" n="20"/>num opera peccata esse, caussa fuitque ocu¬ 
-      <lb ed="#W" n="21"/>los tantum defixerant in externa opera, adeoque 
-      <lb ed="#W" n="22"/>in uelatam Mosi faciem, de adfectibus non iu¬ 
-      <lb ed="#W" n="23"/>dicabant. At deus corda &amp; adfectus iudicat.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1964">
-               <lb ed="#W" n="24"/>⁋ Eadem caussa fuit cur finxerint liberum 
-      <!--65.xml-->
-      <pb ed="#W" n="31-v"/>
-               <lb ed="#W" n="1"/>arbitrium, uidebant enim alicubi in ope¬ 
-      <lb ed="#W" n="2"/>ribus externis quandam esse libertatem. Sic  
-      <lb ed="#W" n="3"/>enim iudicat caro de externis operibus. 
-      <lb ed="#W" n="4"/>Contra spiritus omnia necessario euenire 
-      <lb ed="#W" n="5"/>docet iuxta praedestinationem.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1984">
-               <lb ed="#W" n="6"/>⁋ In adfectibus nullam esse libertatem ex¬ 
-      <lb ed="#W" n="7"/>perientia docet.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e1991">
-               <lb ed="#W" n="8"/>⁋ Posteaquam omnia in scripturis ad ex¬ 
-      <lb ed="#W" n="9"/>terna opera referri coeperunt, semel uniuer 
-      <lb ed="#W" n="10"/>sa scriptura obscurata est, nec intellectum,  
-      <lb ed="#W" n="11"/>quid peccatum, quid gratia, quid lex, quid 
-      <lb ed="#W" n="12"/>Euangelium, quid Moses, quid Christus. 
-      <lb ed="#W" n="13"/>Et has tenebras plusquam Aegyptias debe¬ 
-      <lb ed="#W" n="14"/>mus impiae isti &amp; execrabili scholasticorum 
-      <lb ed="#W" n="15"/>Theologastrorum philosophiae.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e2011">
-               <lb ed="#W" n="16"/>⁋ Quae sit illa cognata cordi impuritas,  
-      <lb ed="#W" n="17"/>prauitas, nequicia, quam peccatim origi¬ 
-      <lb ed="#W" n="18"/>nale uocamus, deplorantque omns sancti 
-      <lb ed="#W" n="19"/>ut non sentiat ratio, palam fiet, cum lex 
-      <lb ed="#W" n="20"/>reuelabitur, hoc est, cum aperuerit oculos 
-      <lb ed="#W" n="21"/>conscientiae tuae deus, ut infra de lege di¬ 
-      <lb ed="#W" n="22"/>cemus.
-    </p>
-            <p xml:id="erf8hf-d1e602-d1e2029">
-               <lb ed="#W" n="23"/>⁋ Debebamus hoc loco etiam de peccati 
-      <lb ed="#W" n="24"/>fructibus, hoc est, de uiciorum generibus 
-      <!--66.xml-->
-      <pb ed="#W" n="32-r"/>
-               <lb ed="#W" n="1"/>disputare, Perinde atque in Epistola ad Ca¬ 
-      <lb ed="#W" n="2"/>latas recensuit fructus canis Apostolus, sed 
-      <lb ed="#W" n="3"/>illa per se quisque deprehendet. Christiano 
-      <lb ed="#W" n="4"/>satis est scire, omnia naturae opera, omnese 
-      <lb ed="#W" n="5"/>uirium humanarum adfectus &amp; connatus 
-      <lb ed="#W" n="6"/>esse peccata. Iam quis adfectus omnes queati. 
-      <lb ed="#W" n="7"/>recensere? si genera uiciorum ab adfecti¬ 
-      <lb ed="#W" n="8"/>bus, id quod fieri debet, aestimemus. Alio¬ 
-      <lb ed="#W" n="9"/>qui qui uirtutum &amp; uiciorum formas ab 
-      <lb ed="#W" n="10"/>externa specie operum aestimarunt, quo¬ 
-      <lb ed="#W" n="11"/>ties pro uirtutibus uitia, pro uiciis uirtutes 
-      <lb ed="#W" n="12"/>prodidere? Proinde relinquemus horum 
-      <lb ed="#W" n="13"/>iudicium suo cuiusque spiritui.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vis peccati et fructus</title>
+        <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Vis peccati et fructus</title>
+          <date when="2020-12-04">December 04, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="15-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="erf8hf-d1e602">
+        <head xml:id="erf8hf-d1e602-Hd1e105">Vis peccati et fructus</head>
+        <head xml:id="erf8hf-d1e602-Hd1e108" type="question-title">Vis peccati et fructus</head>
+        <p xml:id="erf8hf-d1e602-d1e111">
+          <lb ed="#W" n="15"/>VIS PECCATI &amp; fructus.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e116">
+          <lb ed="#W" n="16"/>⁋ Minore negotio Pelagianim ueteres reuelli 
+          <lb ed="#W" n="17"/>possunt, quam nostrorum temporum noui
+          Pe<lb ed="#W" n="18" break="no"/>lagiani, qui &amp; si non negent esse peccatum
+          ori<lb ed="#W" n="19" break="no"/>ginale, negant tamem, eam esse uim peccati 
+          <lb ed="#W" n="20"/>originalis, ut omnia hominum opera, omnes
+          ho<lb ed="#W" n="21" break="no"/>minum conatus sint peccata. Proinde de uim, 
+          <lb ed="#W" n="22"/>energiaque peccati originalis paulo copiosis 
+          <lb ed="#W" n="23"/>dicemus. Viuax quaedam energia est peccatum 
+          <lb ed="#W" n="24"/>originale, nulla non parte nostri, nullo non 
+          <!--34.xml-->
+          <pb ed="#W" n="16-r"/>
+          <lb ed="#W" n="1"/>tempore fructum ferens, uitia. Quando enim
+          ho<lb ed="#W" n="2" break="no"/>minis animus non aestuat malis
+          cupiditati<lb ed="#W" n="3" break="no"/>bus, in quibus quae teterrimae ac foedissimae 
+          <lb ed="#W" n="4"/>sunt, ne deprehenduntur quidem, auaritiam, am e 
+          <lb ed="#W" n="5"/>bitionem, odium, inuidentiam, aemulationem, libi  
+          <lb ed="#W" n="6"/>dinum fiammas, iram, quis est qui non aliquando 
+          <lb ed="#W" n="7"/>sentiat? arrogantiam, fastum, tumorem
+          phari<lb ed="#W" n="8" break="no"/>saicum, contemptum dei, diffidere deo,
+          blasphe<lb ed="#W" n="9" break="no"/>miam, principes adfectus rari sentiunt, Sunt 
+          <lb ed="#W" n="10"/>qui in speciem uiuunt honestissime, &amp; Pau 
+          <lb ed="#W" n="11"/>lus se ita uixisse ante cognitum Christum
+          testa<lb ed="#W" n="12" break="no"/>tur ut reprehendi non posset. Hi non habent 
+          <lb ed="#W" n="13"/>quod glorientur, siquidem animi sunt
+          ob<lb ed="#W" n="14" break="no"/>noxii turpissimis illis atque miserrimis
+          adfe<lb ed="#W" n="15" break="no"/>ctibus, quos non sentiscunt. Quid enim si 
+          <lb ed="#W" n="16"/>aliquando, ut in morte, aperiat illis oculos 
+          <lb ed="#W" n="17"/>deus, ut sua uicia, suos morbos sanctuli cog 
+          <lb ed="#W" n="18"/>noscant. Nonne intelligent id, quod est 
+          <lb ed="#W" n="19"/>apud Esaiam? Omnem gloriam camis, esse 
+          <lb ed="#W" n="20"/>ceu gloriam foeni. Vides quam profunda 
+          <lb ed="#W" n="21"/>sit, immo quam imperscrutabilis malicia 
+          <lb ed="#W" n="22"/>humani cordis. Et Sophistas nostros non 
+          <lb ed="#W" n="23"/>dum pudet docere operum iusticiam,
+          do<lb ed="#W" n="24" break="no"/>cere satisfactiones ac philosophicas uirtutes. 
+          <!--35.xml-->
+          <pb ed="#W" n="16-v"/>
+          <lb ed="#W" n="1"/>Esto fuerit quaedam in Socrate constantia, 
+          <lb ed="#W" n="2"/>in xenocrate castitas, in Senone
+          temperan<lb ed="#W" n="3" break="no"/>tia, tamen quia in animis impuris fuetunt,  
+          <lb ed="#W" n="4"/>immo que amore sui, ex philautia
+          orieban<lb ed="#W" n="5" break="no"/>tur istae uirtutum umbrae, non debent pro 
+          <lb ed="#W" n="6"/>ueris uirtutibus, sed pro uiciis habeti.
+          Tole<lb ed="#W" n="7" break="no"/>tans fuit Socrates, sed amans gloriae, aut 
+          <lb ed="#W" n="8"/>certe placens sibi de uirtute. Fortis fuit Cato 
+          <lb ed="#W" n="9"/>ed amore laudis. Effundit autem
+          huiusmo<lb ed="#W" n="10" break="no"/>uirtutum umbras deus in gentes, in impios,  
+          <lb ed="#W" n="11"/>in quosuis, non aliter atque formam, opes,  
+          <lb ed="#W" n="12"/>&amp; similia dona largitur. Et cum hanc exter 
+          <lb ed="#W" n="13"/>nam uirtutis personam ac laruam miretur 
+          <lb ed="#W" n="14"/>tota humana ratio, pseudotheologi nostri 
+          <lb ed="#W" n="15"/>falsi caeco naturae iudicio commendarunt. 
+          <lb ed="#W" n="16"/>nobis philosophica studia,
+          philosophi<lb ed="#W" n="17" break="no"/>casque uirtutes &amp; operum externorum merita. 
+          <lb ed="#W" n="18"/>At quid in uniuersum docent philosophi,  
+          <lb ed="#W" n="19"/>si qui optime docent, nisi fiduciam &amp; amorem 
+          <lb ed="#W" n="20"/>nostriM. Cicero in finibus bonorum &amp;
+          ma<lb ed="#W" n="21" break="no"/>lorum omnem rationem uirtutis, ab amore 
+          <lb ed="#W" n="22"/>nostri, &amp; philautia aestimat. Quantum in 
+          <lb ed="#W" n="23"/>Platone tumoris est &amp; fastus. Neque facile fie 
+          <lb ed="#W" n="24"/>ri mihi posse uidetur, quin ab illa Plato¬ 
+          <!--36.xml-->
+          <pb ed="#W" n="17-r"/>
+          <lb ed="#W" n="1"/>nica ambitione contrahat aliquid uicii, si 
+          <lb ed="#W" n="2"/>in illius lectionem inciderit, ingenium pet 
+          <lb ed="#W" n="3"/>sese altum, &amp; uehemens. Aristotelis
+          doctri<lb ed="#W" n="4" break="no"/>na est in uniuersum quaedam libido
+          rixan<lb ed="#W" n="5" break="no"/>di, ut eum in paraeneticae philosophiae
+          scrip<lb ed="#W" n="6" break="no"/>toribus ne postremo quidem loco
+          nume<lb ed="#W" n="7" break="no"/>tare conueniat. Sed de philosophia posthac 
+          <lb ed="#W" n="8"/>in legum ratione dicemus.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e272">
+          <lb ed="#W" n="9"/>⁋ Et ut rem omnem uelut in compendium 
+          <lb ed="#W" n="10"/>cogam. Omnes homines per uires naturae 
+          <lb ed="#W" n="11"/>uere, semperque peccatores sunt, &amp; peccant. 
+          <lb ed="#W" n="12"/>Genesis vi. Omne desiderium cogitationum 
+          <lb ed="#W" n="13"/>cordis humani uanum &amp; prauum omni tem 
+          <lb ed="#W" n="14"/>pore. Et repetita est eadem sententia in capite 
+          <lb ed="#W" n="15"/>octauo, Sensus &amp; cogitatio humani cordis 
+          <lb ed="#W" n="16"/>praua, a pueticia. Vbi nos legimus prona 
+          <lb ed="#W" n="17"/>est ad malum, quod quanquam non multum 
+          <lb ed="#W" n="18"/>a sententia absit, tamen uti malebam
+          ger<lb ed="#W" n="19" break="no"/>mana lectione, que clarior sit, simpliciter
+          ad<lb ed="#W" n="20" break="no"/>firmans hominem prauum esse. Ne quis mihi 
+          <lb ed="#W" n="21"/>Thomista eludat Mosen, que cum pronitas, 
+          <lb ed="#W" n="22"/>seu inclinatio non sit actus, non possit esse 
+          <lb ed="#W" n="23"/>peccatum, sic enim philosophantur stolidi so 
+          <lb ed="#W" n="24"/>phistae. <ref xml:id="erf8hf-d1e602-Rd1e308">Esaiae. ix.</ref> Omnes hypocritae sunt, &amp;  
+          <!--37.xml-->
+          <pb ed="#W" n="17-v"/>
+          <lb ed="#W" n="1"/>nequam, &amp; uniuersum os locutum est
+          stulti<lb ed="#W" n="2" break="no"/>ciam. Rursum Esaie xli. Ecce omnes uani,  
+          <lb ed="#W" n="3"/>&amp; uana opera eorum, uentus &amp; inane
+          consi<lb ed="#W" n="4" break="no"/>liam eorum. Iterum Esaie. liii. Omes nos quasi 
+          <lb ed="#W" n="5"/>oues errauimus, unusquisque in uiam suam decli 
+          <lb ed="#W" n="6"/>nauit, &amp; posuit dins in eo iniquitatem om 
+          <lb ed="#W" n="7"/>nium nostrum. Quo loco propheta luculento 
+          <lb ed="#W" n="8"/>uaticinio &amp; historiam passionis Christi, &amp; 
+          <lb ed="#W" n="9"/>fructum exposuit, cum praedixit, talia passu 
+          <lb ed="#W" n="10"/>rum Christum, ut omnium hominum uideri 
+          <lb ed="#W" n="11"/>possit abiectissimus, at ideo passurum, ut 
+          <lb ed="#W" n="12"/>iustificet multos, Siquidem omnes plane 
+          <lb ed="#W" n="13"/>peccatores simus, nec aliunde iustificemur 
+          <lb ed="#W" n="14"/>nisi per fidem in Christum. Et de iis qui suis 
+          <lb ed="#W" n="15"/>uiribus ac operibus iustificari uolunt, non 
+          <lb ed="#W" n="16"/>per fidem in Christum, inquit, dabit
+          im<lb ed="#W" n="17" break="no"/>pios pro sepultura, &amp; diuites pro morte sua 
+          <lb ed="#W" n="18"/>Item fortium diuidet spolia. Nam impii,
+          di<lb ed="#W" n="19" break="no"/>uites, fortes plane sunt isti humanae
+          iusti<lb ed="#W" n="20" break="no"/>ciae, liberi arbitrii, philosophicarum uirtutum, 
+          <lb ed="#W" n="21"/>breuiter humanarum uirium adsertores, ig 
+          <lb ed="#W" n="22"/>nari Christi. Vides quam breui concione totam 
+          <lb ed="#W" n="23"/>Euangelii uim descripserit Esaias. Tu uero, 
+          <lb ed="#W" n="24"/>Christe spiritum imperti tuum qui haec nobis 
+          <lb ed="#W" n="25"/>aperiat &amp; explicet mystetia. Iam &amp; Dauidem 
+          <!--38.xml-->
+          <pb ed="#W" n="18-r"/>
+          <lb ed="#W" n="1"/>audiamus, qui cum idem plerisque locis sentiat,  
+          <lb ed="#W" n="2"/>ut cum ait, omnem hominem mendacem esse,
+          ta<lb ed="#W" n="3" break="no"/>men toto psalmo. xiii: hoc intonat, cum
+          in<lb ed="#W" n="4" break="no"/>quit. Dixit insipiens in corde suo, non est des,  
+          <lb ed="#W" n="5"/>Corrupti sunt, &amp; abominabiles facti sunt in 
+          <lb ed="#W" n="6"/>studiis suis, Non est qui faciat bonum.
+          Domi<lb ed="#W" n="7" break="no"/>nus de coelo prospexit super filios Adam, ut 
+          <lb ed="#W" n="8"/>uideat, num sit intelliges aut requirens deum. 
+          <lb ed="#W" n="9"/>Omnes defecerunt, simul inutiles facti sunt,  
+          <lb ed="#W" n="10"/>non est qui faciat bonum, non est ne unus quidem 
+          <lb ed="#W" n="11"/>&amp;c. Ecce non accusat hominem simplicium
+          ui<lb ed="#W" n="12" break="no"/>ciorum, sed atrocissimorum sceleg, impietatis,  
+          <lb ed="#W" n="13"/>incredulitatis, insipientiae, odii &amp; contemptus 
+          <lb ed="#W" n="14"/>dei, quae uicia, deprehendere nemo potest 
+          <lb ed="#W" n="15"/>praeter spititum. Quid hic hypocritae theolo 
+          <lb ed="#W" n="16"/>gistae? quae nobis opera liberi arbitrii, quas 
+          <lb ed="#W" n="17"/>humanas uires praedicabitis? peccatum origi 
+          <lb ed="#W" n="18"/>nale fingitis non negari a uobis, &amp; tumen docetis 
+          <lb ed="#W" n="19"/>posse hominem suis uiribs aliqd boni
+          facere<lb ed="#W" n="20" break="no"/>Num arbos mala bonum fructum ferre potest: 
+          <lb ed="#W" n="21"/>An non uidetis ut hic ppheta arborem cum
+          fru<lb ed="#W" n="22" break="no"/>ctibus descripserit, cum non modo de corde in 
+          <lb ed="#W" n="23"/>sipientis, sed &amp; de omib. hominis studiis,
+          con<lb ed="#W" n="24" break="no"/>siliis, desideriis, operibs, conatibus loquitum.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e428">
+          <!--39.xml-->
+          <pb ed="#W" n="18-v"/>
+          <lb ed="#W" n="1"/>
+          <pc type="indent"/>Vides autem quanto discrimine de
+          homi<lb ed="#W" n="2" break="no"/>ne iudicent philosophia, seu humana
+          ra<lb ed="#W" n="3" break="no"/>tio, &amp; sacrae literae. Philosophia non
+          respi<lb ed="#W" n="4" break="no"/>cit nisi externas hominum laruas. Sacrae
+          li<lb ed="#W" n="5" break="no"/>terae penitissimos &amp; incomprehensibiles
+          ad<lb ed="#W" n="6" break="no"/>fectus obseruant, quibus cum regatur
+          ho<lb ed="#W" n="7" break="no"/>mo, de operibus pro adfectuum ratione
+          iu<lb ed="#W" n="8" break="no"/>dicant. Et cum in omnibus operibus nostra 
+          <lb ed="#W" n="9"/>queramus, necesse est ea, reuera peccata esse,  
+          <lb ed="#W" n="10"/>&amp; ut non dicam interim de crassissimis cu 
+          <lb ed="#W" n="11"/>piditatibus, nonne eorum qui in speciem
+          be<lb ed="#W" n="12" break="no"/>ne uiuunt, alius ad huiusmodi mores
+          tra<lb ed="#W" n="13" break="no"/>hitur fastidio rerum humanarum, alius
+          me<lb ed="#W" n="14" break="no"/>tu fortunae, alius ambitione, alius amore 
+          <lb ed="#W" n="15"/>tranquillitatis, nam hae caussae melioris in 
+          <lb ed="#W" n="16"/>speciem uitae &amp; quondam fuere philosophis,  
+          <lb ed="#W" n="17"/>&amp; nunc sunt plerisque hominibus, alius simu 
+          <lb ed="#W" n="18"/>lato quodam poenarum diuinarum metu, 
+          <lb ed="#W" n="19"/>alii aliis caussis, quis enim labyrinthum
+          hu<lb ed="#W" n="20" break="no"/>mani cordis possit explicaretmaxime cum 
+          <lb ed="#W" n="21"/>tanta sit adfectuum, quanta ingeniorum
+          di<lb ed="#W" n="22" break="no"/>uersitas. Quis est autem omnium hominum 
+          <lb ed="#W" n="23"/>secundum naturam, qui non malit licere,  
+          <lb ed="#W" n="24"/>indulgere genio, qui non aegre ferat coher¬ 
+          <!--40.xml-->
+          <pb ed="#W" n="19-r"/>
+          <lb ed="#W" n="1"/>ceri lege. Quod si nunc non sentis, nihil re 
+          <lb ed="#W" n="2"/>fert, erit enim quom certiss. senties, quam 
+          <lb ed="#W" n="3"/>indignetur animus cupiditates suas lege co 
+          <lb ed="#W" n="4"/>herceri,. Praeterea lohannis. i. Quotquot
+          re<lb ed="#W" n="5" break="no"/>ceperunt eum, dedit eis potestatem filios dei 
+          <lb ed="#W" n="6"/>fieri, iis qui credunt in nomine eius, qui non 
+          <lb ed="#W" n="7"/>ex sanguinibus, neque ex uoluntate canis, i 
+          <lb ed="#W" n="8"/>neque ex uoluntate uiri, sed ex deo nati sunt,  
+          <lb ed="#W" n="9"/>Vides damnari sanguinem, uoluntatem 
+          <lb ed="#W" n="10"/>uiri, uoluntatem camis, hoc est, omnino 
+          <lb ed="#W" n="11"/>quidquid est uirium naturae, ex deo uero 
+          <lb ed="#W" n="12"/>filios renasci. Et ut multos locos praeteream. 
+          <lb ed="#W" n="13"/>quos studiosus lector per sese obseruabit,  
+          <lb ed="#W" n="14"/>lohan. xv. Sicut palmes non potest ferre
+          fru<lb ed="#W" n="15" break="no"/>ctum a semetipso, nisi manserit in uite, sic 
+          <lb ed="#W" n="16"/>nec uos, nisi in me manseritis.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e528">
+          <lb ed="#W" n="17"/>Obiter incidit confutandum quod
+          im<lb ed="#W" n="18" break="no"/>pii isti Sophistae hic ogganniunt, cum diluunt 
+          <lb ed="#W" n="19"/>has tam claras sententias, uerum esse
+          ho<lb ed="#W" n="20" break="no"/>minem secundum naturam non posse
+          be<lb ed="#W" n="21" break="no"/>ne agere, meritorie, Sic enim loquuntur. 
+          <lb ed="#W" n="22"/>ltaque duplex bonum fingunt, meritorium 
+          <lb ed="#W" n="23"/>&amp; non meritorium, &amp; in hoc tantum, ne 
+          <lb ed="#W" n="24"/>philosophicas libeti arbitrii uirtutes, exter¬ 
+          <!--41.xml-->
+          <pb ed="#W" n="19-v"/>
+          <lb ed="#W" n="1"/>nas istas uirtutum umbras, oporteat eos uici 
+          <lb ed="#W" n="2"/>arguere. O impietatem. An non est haec illa  
+          <lb ed="#W" n="3"/>ltuoti&amp; uerborum fingere bonum, alias
+          merito<lb ed="#W" n="4" break="no"/>rium uitae aethernae, alias non meritorium. Tu ue 
+          <lb ed="#W" n="5"/>ro certo sic sentias, nihil neque boni neque
+          me<lb ed="#W" n="6" break="no"/>ritorii fieri posse ab homine per uires
+          natu<lb ed="#W" n="7" break="no"/>rae. Quando quidem dicit scriptura. Omne de 
+          <lb ed="#W" n="8"/>siderium cogitationum cordis humani uanum 
+          <lb ed="#W" n="9"/>esse &amp; prauum. Certe quod uanum est &amp; prauum, 
+          <lb ed="#W" n="10"/>id non modo non est meritorium uitae aeter 
+          <lb ed="#W" n="11"/>nae, oportet enim uti me illorum uerbis, sed 
+          <lb ed="#W" n="12"/>nec bonum. Sic Dauid, Omnis homo
+          men<lb ed="#W" n="13" break="no"/>dax. Esaias. Omnes sunt hypocritae, &amp;
+          pra<lb ed="#W" n="14" break="no"/>ui, &amp; uniuersum os locutum est stultitiam. Ecce 
+          <lb ed="#W" n="15"/>non modo non meritorium dicit, sed plane 
+          <lb ed="#W" n="16"/>malum. Porro ex his quae &amp; hactenus
+          tra<lb ed="#W" n="17" break="no"/>ctauimus, &amp; paulo post adnotabimus hoc 
+          <lb ed="#W" n="18"/>genus illorum nugas facile quisque per sese con 
+          <lb ed="#W" n="19"/>futabit. Impii Sophistae non aestimabant. 
+          <lb ed="#W" n="20"/>ab adfectibus cordis opera, sed
+          philosophi<lb ed="#W" n="21" break="no"/>co more de eis iudicabant, quod in caussa 
+          <lb ed="#W" n="22"/>fuit, cur hallucinarentur.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e600">
+          <lb ed="#W" n="23"/>⁋ Iam Paulus in omnibus fere Epistolis,  
+          <lb ed="#W" n="24"/>maxime uero in iis, quae ad Romanos &amp; 
+          <!--42.xml-->
+          <pb ed="#W" n="20-r"/>
+          <lb ed="#W" n="1"/>Calathas scriptae sunt, quid in uniuersum 
+          <lb ed="#W" n="2"/>aliud agit, quam ut doceat peccata, seu
+          ui<lb ed="#W" n="3" break="no"/>cia esse, omnia opera &amp; omnes conatus ui 
+          <lb ed="#W" n="4"/>rium humanarum. Habes caput ad Roma 
+          <lb ed="#W" n="5"/>nos tertium, ubi ait, omnes homines sub 
+          <lb ed="#W" n="6"/>peccato esse, idque magnifice &amp; splendide e 
+          <lb ed="#W" n="7"/>prophetarum testimoniis docet. In capite 
+          <lb ed="#W" n="8"/>octauo, postquam disputauerat non posse 
+          <lb ed="#W" n="9"/>legem a nobis fieri, confert canem &amp;
+          spiri<lb ed="#W" n="10" break="no"/>tum. Docens canem esse prorsus obnoxiam 
+          <lb ed="#W" n="11"/>peccato, spiritum autem esse uitam &amp; pa 
+          <lb ed="#W" n="12"/>cem. Hic Sophistae uocant canmem,
+          adpeti<lb ed="#W" n="13" break="no"/>tum sensitiuum obliti phraseos ac tropi scrip 
+          <lb ed="#W" n="14"/>turae. Non enim corpus, partem hominis, 
+          <lb ed="#W" n="15"/>sed totum hominem, tam animam quam 
+          <lb ed="#W" n="16"/>corpus scriptura uoce canis signat, &amp;
+          quo<lb ed="#W" n="17" break="no"/>ties cum spiritu confertur, significat
+          opti<lb ed="#W" n="18" break="no"/>mas naturae humanae ac prestantissimas ui 
+          <lb ed="#W" n="19"/>res citra spiritum sanctum. Rursus spiritus 
+          <lb ed="#W" n="20"/>significat, ipsum spiritum sanctum, &amp; eius 
+          <lb ed="#W" n="21"/>motiones atque opera in nobis. Sic loham. iii. 
+          <lb ed="#W" n="22"/>Quod natum est ex cane caro est, quod 
+          <lb ed="#W" n="23"/>natum est ex spiritu spiritus est. Et
+          Iohan<lb ed="#W" n="24" break="no"/>octauo. Vos secundum camem iudicatis. Et 
+          <!--43.xml-->
+          <pb ed="#W" n="20-v"/>
+          <lb ed="#W" n="1"/>Genesis. vi. Non permanebit spiritus meus 
+          <lb ed="#W" n="2"/>in homine, quia caro est. Oportet ergo
+          in<lb ed="#W" n="3" break="no"/>telligamus camis uocabulum de omnibus 
+          <lb ed="#W" n="4"/>humanae naturae uiribus. Alioqui non
+          con<lb ed="#W" n="5" break="no"/>sistent Pauli argumenta in tota Epistola 
+          <lb ed="#W" n="6"/>ad Romanos. Sic enim solet argumentari, 
+          <lb ed="#W" n="7"/>Caro non potuit legem implere, ergo
+          spi<lb ed="#W" n="8" break="no"/>ritu est opus qui impleat. Ibi si camem pro 
+          <lb ed="#W" n="9"/>parte hominis tantum usurpemus, quomo 
+          <lb ed="#W" n="10"/>do consistet Pauli Enthymema? Posset 
+          <lb ed="#W" n="11"/>enim eludi ad hunc modum, &amp; si caro lege 
+          <lb ed="#W" n="12"/>facere non potuerit, potuisse tamen melio 
+          <lb ed="#W" n="13"/>rem aliquam hominis partem, atque ita
+          spi<lb ed="#W" n="14" break="no"/>ritu non fuisse opus ad implendam legem.  
+          <lb ed="#W" n="15"/>Verum dedidicimus non modo scripturae 
+          <lb ed="#W" n="16"/>sententiam, sed &amp; sermonem, doctoribus 
+          <lb ed="#W" n="17"/>philosophastris, &amp; ut in Esdra legitur, alie 
+          <lb ed="#W" n="18"/>nigenas uxores duximus, &amp; earum linguam 
+          <lb ed="#W" n="19"/>pro nostra usurpauimus. Itaque camis
+          uoca<lb ed="#W" n="20" break="no"/>bulo utere &amp; pro optimis humanae naturae 
+          <lb ed="#W" n="21"/>uiribus, &amp; pro pulcherrimis illius
+          conati<lb ed="#W" n="22" break="no"/>bus. Camis fructus est, tam speciosa illa So 
+          <lb ed="#W" n="23"/>cratis aut Catonis uittus, quam Caesaris
+          par<lb ed="#W" n="24" break="no"/>ricidia. Tam camis fructus sunt speciosiss.  
+          <!--44.xml-->
+          <pb ed="#W" n="21-r"/>
+          <lb ed="#W" n="1"/>Pauli uirtutes, quibus praeditus etat,
+          pri<lb ed="#W" n="2" break="no"/>usquam Christum agnosset, quam Clodia 
+          <lb ed="#W" n="3"/>na adulteria. Iam quod hic uocamus
+          car<lb ed="#W" n="4" break="no"/>nem, solemus alias nuncupare ueterem ho 
+          <lb ed="#W" n="5"/>minem, qui itidem significat quidquid est 
+          <lb ed="#W" n="6"/>uirium humanae naturae. ld quod ipsum
+          uo<lb ed="#W" n="7" break="no"/>cabulum palam arguit. Nam communi
+          sen<lb ed="#W" n="8" break="no"/>su carete uideatur, qui hominis partem
+          mo<lb ed="#W" n="9" break="no"/>do, adpellatione ueteris hominis notari ue 
+          <lb ed="#W" n="10"/>lit. Quis enim audito hominis uocabulo 
+          <lb ed="#W" n="11"/>corpus tantum intellexerit? Vsurpat autem 
+          <lb ed="#W" n="12"/>promiscue Paulus ueteris hominis, camis 
+          <lb ed="#W" n="13"/>&amp; corporis peccati uoces. Iam &amp; exterior 
+          <lb ed="#W" n="14"/>homo significat prorsus id quod uetus
+          ho<lb ed="#W" n="15" break="no"/>mo, seu caro, hoc est, non modo partes
+          ho<lb ed="#W" n="16" break="no"/>minis exteriores, sed omnes hominis natu 
+          <lb ed="#W" n="17"/>rales uires. Et de particionibus quidem
+          ho<lb ed="#W" n="18" break="no"/>minis infra, ubi de gratia egero, plura
+          di<lb ed="#W" n="19" break="no"/>cam. Nunc satis sit admonuisse, quid caro 
+          <lb ed="#W" n="20"/>significet. Falluntur enim qui in homine quem 
+          <lb ed="#W" n="21"/>non instaurauit purgauitque spiritus sanctus 
+          <lb ed="#W" n="22"/>esse censent quidpiam, quod non possit
+          ca<lb ed="#W" n="23" break="no"/>ro, adeoque uiciosum dici. Proinde ut
+          Pau<lb ed="#W" n="24" break="no"/>linam sententiam de naturalibus hominis 
+          <!--45.xml-->
+          <pb ed="#W" n="21-v"/>
+          <lb ed="#W" n="1"/>uiribus excutiamus, uerba illius sublitics. 
+          <lb ed="#W" n="2"/>Impossibilitatem legis cquia infiima erat 
+          <lb ed="#W" n="3"/>per canem deus filium suum mittens in 
+          <lb ed="#W" n="4"/>similitudinem camis peccati, &amp; de peccato 
+          <lb ed="#W" n="5"/>damnauit peccatum in carne, ut iustificatio 
+          <lb ed="#W" n="6"/>legis impleretur in nobis, qui non secundum 
+          <lb ed="#W" n="7"/>camem ambulamus, sed secundum spiritum. 
+          <lb ed="#W" n="8"/>Hactenus proposuit Paulus summam caussae 
+          <lb ed="#W" n="9"/>nempe que cum impossibile sit legem fieri a 
+          <lb ed="#W" n="10"/>nobis quia carnales sumus, miserit deus
+          fi<lb ed="#W" n="11" break="no"/>lium, ut legi satisfaceret per nos, dum came 
+          <lb ed="#W" n="12"/>mortui, spiritu uiuimus. Quaeso hic quid 
+          <lb ed="#W" n="13"/>uocat camem. Nam cum palam sit spiritum 
+          <lb ed="#W" n="14"/>uocari spiritum sanctum &amp; eius motiones ac 
+          <lb ed="#W" n="15"/>impulsus, consequitur necessario ut canem 
+          <lb ed="#W" n="16"/>uoces quidquid in nobis est a spiritu sancto 
+          <lb ed="#W" n="17"/>alienum. Porro propositae sententiae rationem 
+          <lb ed="#W" n="18"/>reddit Apostolus, Qui secundum camem sunt,  
+          <lb ed="#W" n="19"/>quae camis sunt adfectant, qui uero
+          secun<lb ed="#W" n="20" break="no"/>dum spiritum sunt, quae sunt spiritus adfectant. 
+          <lb ed="#W" n="21"/>Nam adfectus camis mors est. Adfectus au 
+          <lb ed="#W" n="22"/>tem spiritus uita &amp; pax. Ecce quare legi non 
+          <lb ed="#W" n="23"/>possit per canem satisfieri, Quia qui secun 
+          <!--46.xml-->
+          <pb ed="#W" n="22-r"/>
+          <lb ed="#W" n="1"/>dum camem sunt, quae camis sunt adfectant,  
+          <lb ed="#W" n="2"/>quasi diceret, uos pharisaei &amp; hypocritae
+          le<lb ed="#W" n="3" break="no"/>gem uiribus uestris fieri posse censetis.
+          De<lb ed="#W" n="4" break="no"/>ne in speciem operari uidemini, uidemini 
+          <lb ed="#W" n="5"/>praediti pulcherrimis uirtutibus. Sed ea om 
+          <lb ed="#W" n="6"/>nia fucus sunt, Nam cum caro sitis, uestra 
+          <lb ed="#W" n="7"/>queritis, uel metu poenarum uel amore
+          con<lb ed="#W" n="8" break="no"/>modi, uel alio quopiam carnali adfectu be 
+          <lb ed="#W" n="9"/>ne facitis in speciem. Neque fieri potest, ut sit 
+          <lb ed="#W" n="10"/>in uobis dei sensus aliquis, cum caro sitis. 
+          <lb ed="#W" n="11"/>Adeo nec quae dei sunt cupere &amp; adfectare 
+          <lb ed="#W" n="12"/>potestis, quis est enim, quantumuis bonus 
+          <lb ed="#W" n="13"/>uideatur in speciem, qui sic amet deum, ut 
+          <lb ed="#W" n="14"/>si ille uelit libenter mortem &amp; inferos
+          perfe<lb ed="#W" n="15" break="no"/>tat. Dici non potest, quam multa, quam 
+          <lb ed="#W" n="16"/>grandia, Apostolus tam breui uersiculo 
+          <lb ed="#W" n="17"/>comprehenderit, Qui secundum camem 
+          <lb ed="#W" n="18"/>sunt, quae canis sunt adfectant. Contra 
+          <lb ed="#W" n="19"/>qui secundum spiritum sunt, quae spiritus 
+          <lb ed="#W" n="20"/>sunt adfectant, idest, in quos spiritus
+          san<lb ed="#W" n="21" break="no"/>ctus effusus est, in iis est sensus dei, fiducia 
+          <lb ed="#W" n="22"/>in deum, amor dei, Sicut econtra in
+          car<lb ed="#W" n="23" break="no"/>ne, non nisi contemptus &amp; odium dei¬ 
+          <!--47.xml-->
+          <pb ed="#W" n="22-v"/>
+          <lb ed="#W" n="1"/>ld quod uult Apostolus eum ait, Adfectus 
+          <lb ed="#W" n="2"/>camis mors est, adfectus autem spiritus
+          ui<lb ed="#W" n="3" break="no"/>ta &amp; pax. Et sequitur, Adfectus camis
+          ini<lb ed="#W" n="4" break="no"/>micitia est aduersus deum, legi enim dei non 
+          <lb ed="#W" n="5"/>est subditus, neque uero potest subdi. Vide 
+          <lb ed="#W" n="6"/>quaeso Paulinum Epilogum, cum ita finit.  
+          <lb ed="#W" n="7"/>Vim omnem camis nostrae esse inimicam 
+          <lb ed="#W" n="8"/>deo, nec posse legi dei subici, Quod si non 
+          <lb ed="#W" n="9"/>potest legi dei subici, qd dubitamus, quos 
+          <lb ed="#W" n="10"/>fructus ferat? Iam non modo, inquit, non 
+          <lb ed="#W" n="11"/>subicitur legi dei, sed &amp; ne posse quidem legi 
+          <lb ed="#W" n="12"/>subici, Consequitur itaque omnia hominum 
+          <lb ed="#W" n="13"/>quantumuis laudabilia in speciem opera 
+          <lb ed="#W" n="14"/>plane uiciosa esse, &amp; morte digna peccata. 
+          <lb ed="#W" n="15"/>Huc adferant si libet Sophistae friuolas suas 
+          <lb ed="#W" n="16"/>distinctiunculas de came, &amp; spiritu, de
+          bo<lb ed="#W" n="17" break="no"/>no &amp; meritorio, &amp; quidquid est similium 
+          <lb ed="#W" n="18"/>nugarum, ut hanc nobis Pauli sententiam  
+          <lb ed="#W" n="19"/>extorqueant. Quid enim clarius est quam quod 
+          <lb ed="#W" n="20"/>ait Paulus non impleri iustificationem
+          le<lb ed="#W" n="21" break="no"/>gis, nisi in iis qui secundum spiritum sunt,  
+          <lb ed="#W" n="22"/>Ergo qui non sunt perfusi spiritu sancto, non 
+          <lb ed="#W" n="23"/>satis faciunt legi. At legem non facere, quid 
+          <lb ed="#W" n="24"/>aliud est quam peccare? Siquidem peccatum 
+          <!--48.xml-->
+          <pb ed="#W" n="23-r"/>
+          <lb ed="#W" n="1"/>est omnis motus &amp; impulsus animi aduet 
+          <lb ed="#W" n="2"/>sus legem.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e949">
+          <lb ed="#W" n="3"/>Proinde cum Sophistae docent, peccatum 
+          <lb ed="#W" n="4"/>originale esse, excidisse fauore dei &amp; carere 
+          <lb ed="#W" n="5"/>originali iustitia, debebant addere, que cum 
+          <lb ed="#W" n="6"/>absita nobis dei spiritus &amp; benedictio,
+          ma<lb ed="#W" n="7" break="no"/>sedicti sims, cum lux absit, esse in nobis nihil 
+          <lb ed="#W" n="8"/>nisi tenebras, coecitatem &amp; ertorem. Cum
+          ab<lb ed="#W" n="9" break="no"/> sit ueritas, nihil in nobis esse nisi mendacium. 
+          <lb ed="#W" n="10"/>Cum absit uita, nihil esse in nobis nisi
+          pec<lb ed="#W" n="11" break="no"/>catum &amp; mortem. Sic Paulus exponit, qd 
+          <lb ed="#W" n="12"/>uocet filios irae, in secundo capite ad Ephe 
+          <lb ed="#W" n="13"/>sios. Et nos omnes aliquando conuersati su 
+          <lb ed="#W" n="14"/>mus in desideriis canis nostrae, facientes uo 
+          <lb ed="#W" n="15"/>luntatem camis, &amp; cogitationum, &amp;
+          era<lb ed="#W" n="16" break="no"/>mus natura filii irae. Infra ubi de legis
+          uiri<lb ed="#W" n="17" break="no"/>bus disseremus, pleraque ad hunc quoque
+          lo<lb ed="#W" n="18" break="no"/>cum accomodari poterunt, ideo non libet 
+          <lb ed="#W" n="19"/>diutius hic immorari. Quae enim uis pecca 
+          <lb ed="#W" n="20"/>ti sit, tum demum cernitur quom lex
+          reue<lb ed="#W" n="21" break="no"/>latur, quae omnes homines peccati arguit. 
+          <lb ed="#W" n="22"/>Conclusit enim omnia scriptura sub pecca 
+          <lb ed="#W" n="23"/>to, ut ad Calatas scribit Apostolus, ut
+          pro<lb ed="#W" n="24" break="no"/>missio ex fide lesu Christi daretur credentibus. 
+          <!--49.xml-->
+          <pb ed="#W" n="23-v"/>
+          <lb ed="#W" n="1"/>Et ex his quae hoc loco disputauimus
+          col<lb ed="#W" n="2" break="no"/>ligere potes quid sit de humarus
+          sentien<lb ed="#W" n="3" break="no"/>dum. Num qua sit libertas, quam iactant. 
+          <lb ed="#W" n="4"/>Theologi uere libeti arbitrii, quia pro suo 
+          <lb ed="#W" n="5"/>arbitrio, sine scriptura, quiduis decernunt. 
+          <lb ed="#W" n="6"/>Quae enim potest esse sine spiritu libertas, cum 
+          <lb ed="#W" n="7"/>ille tyrannus noster, peccatum in carne
+          no<lb ed="#W" n="8" break="no"/>stra, etiam negotium faciat uiris
+          exundan<lb ed="#W" n="9" break="no"/>tibus spititu. Quis enim sanctorum fuit unquam, 
+          <lb ed="#W" n="10"/>qui non deplorauerit hanc seruitutem,
+          im<lb ed="#W" n="11" break="no"/>mo captiuitatem. Et Paulus cap. vii. ad
+          Ro<lb ed="#W" n="12" break="no"/>manos, Videre se ait lege in membris suis,  
+          <lb ed="#W" n="13"/>repugnantem sibi, &amp; captiuantem se, ea lex 
+          <lb ed="#W" n="14"/>membrorum, seu tyrannis peccati ardor &amp; 
+          <lb ed="#W" n="15"/>impetus est peccati, quod nobis congenitum 
+          <lb ed="#W" n="16"/>est. Et de his quidem infra, qui partim
+          spiritu<lb ed="#W" n="17" break="no"/>iusti, partim came peccatores sunt. 
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1040">
+          <lb ed="#W" n="18"/>⁋ Hinc item consequitur impossibilia, ut 
+          <lb ed="#W" n="19"/>infra disputabimus copiosius, praecepta 
+          <lb ed="#W" n="20"/>esse. ld quod ex eo loco quem supra produxi 
+          <lb ed="#W" n="21"/>mus ex octauo capite ad Romanos. Non 
+          <lb ed="#W" n="22"/>posse canem legi dei subici satis adparet. 
+          <lb ed="#W" n="23"/>Item, ex eo quod ibidem dicitur,
+          Impossi<lb ed="#W" n="24" break="no"/>bile erat legi iustificare. id est, Non satis erat 
+          <!--50.xml-->
+          <pb ed="#W" n="24-r"/>
+          <lb ed="#W" n="1"/>lex quae ostenderet qd faceremus, Sed
+          opor<lb ed="#W" n="2" break="no"/>tuit etiam spiritum conferri per Christum, 
+          <lb ed="#W" n="3"/>qui nos ad legem amandam infsammaret. 
+          <lb ed="#W" n="4"/>Et hic ruit illa philosophiae moralis, &amp; libe 
+          <lb ed="#W" n="5"/>ri arbitrii Theologorum sententia, impia, 
+          <lb ed="#W" n="6"/>&amp; stulta, quam plenis buccis nunquam non
+          in<lb ed="#W" n="7" break="no"/>tonant Scotistae. Voluntatem posse se con 
+          <lb ed="#W" n="8"/>formare omni dictamini rectae rationis, id 
+          <lb ed="#W" n="9"/>est, uoluntatem posse uelle, quidquid recta 
+          <lb ed="#W" n="10"/>ratio, rectum consilium intellectus praescri 
+          <lb ed="#W" n="11"/>bit. Contra Paulus inquit, legi impossibile 
+          <lb ed="#W" n="12"/>fuisse iustificare, id est. Non fuit satis,
+          prae<lb ed="#W" n="13" break="no"/>scribere legem, quid ageremus que caro
+          in<lb ed="#W" n="14" break="no"/>firma esset, &amp; auetseretur legem. Sed hic im 
+          <lb ed="#W" n="15"/>pegerunt, que nouam quandam uoluntatem 
+          <lb ed="#W" n="16"/>finxerunt, quae haberet actus elicitos,
+          quor<lb ed="#W" n="17" break="no"/>suncunque traheret adfectus. Quod si scriptu 
+          <lb ed="#W" n="18"/>rae sermonem ac phrasin obseruassent, facile 
+          <lb ed="#W" n="19"/>uidissent mendacia, &amp; uanas cogitationes 
+          <lb ed="#W" n="20"/>intellectus esse, quae confinxerunt de actibus 
+          <lb ed="#W" n="21"/>elicitis. Possunt enim impelli exteriora mebra, 
+          <lb ed="#W" n="22"/>alio nonnumquam, qui quo trahebat adfectus, sed 
+          <lb ed="#W" n="23"/>hoc cum fit, per simulationem ac mendacium fit.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1112">
+          <lb ed="#W" n="24"/>Non possum hic mihi temperare, quamquam de ui legis 
+          <!--51.xml-->
+          <pb ed="#W" n="24-v"/>
+          <lb ed="#W" n="1"/>postea sim dicturus abunde, quin obiter in 
+          <lb ed="#W" n="2"/>dicem Christiano lectori fatuas, insulsas, &amp;  
+          <lb ed="#W" n="3"/>impias Sophistarum argutias, quibus pro 
+          <lb ed="#W" n="4"/>bant posse nos per uires naturae diligere deum. 
+          <lb ed="#W" n="5"/>Sic enim argutantur. Diligi potest minus 
+          <lb ed="#W" n="6"/>bonum, nempe creatura quaepiam, posse 
+          <lb ed="#W" n="7"/>igitur &amp; maius bonum diligi. Scilicet hic est 
+          <lb ed="#W" n="8"/>sermo Christianorum quem Paulus uult esse 
+          <lb ed="#W" n="9"/>sale conditum. Adeo hoc est &amp; festiuum &amp; 
+          <lb ed="#W" n="10"/>mete Aristotelicum, &amp; Aristotelicis dignum 
+          <lb ed="#W" n="11"/>Theologis commentum. Primum ea est
+          amo<lb ed="#W" n="12" break="no"/>ris natura, ut non amemus, nisi quae nobis 
+          <lb ed="#W" n="13"/>bona, tum iucunda, tum commoda uidentur,  
+          <lb ed="#W" n="14"/>adeoque quidquid amamus, nostri commodi 
+          <lb ed="#W" n="15"/>respectu amamus. Amas opes, amas
+          pecu<lb ed="#W" n="16" break="no"/>niam, nonque ipsa per sese bona res sit, sed 
+          <lb ed="#W" n="17"/>quod usibus uitae tuae seruitura uidetur. Sic deum 
+          <lb ed="#W" n="18"/>non amas quantumuis bonum, nisi tuis ra 
+          <lb ed="#W" n="19"/>tionibus tibique utilem esse sentias. Iam etiam 
+          <lb ed="#W" n="20"/>si hac ratione respectu tui commodi amares,  
+          <lb ed="#W" n="21"/>seruiliter amares, &amp; prauo peruersoque
+          adfe<lb ed="#W" n="22" break="no"/>ctu naturae, planeque peccares. At ne sic
+          qui<lb ed="#W" n="23" break="no"/>dem unquam amas, neque enim ex deo ulla con 
+          <lb ed="#W" n="24"/>moda sentiuntur, nisi per spiritum sanctum 
+          <!--52.xml-->
+          <pb ed="#W" n="25-r"/>
+          <lb ed="#W" n="1"/>iam cor sit putificatum, &amp; insculpta sit
+          pu<lb ed="#W" n="2" break="no"/>ro pioque cordi dei beneficentia. Quid autem 
+          <lb ed="#W" n="3"/>cum conscientia tibi deum ostendit itatum, 
+          <lb ed="#W" n="4"/>interminantem perpetuam mortem, &amp;
+          il<lb ed="#W" n="5" break="no"/>lud horrendum tempus uultus sui, sic Da 
+          <lb ed="#W" n="6"/>uid ait, Hic cum, non bonorum sed
+          malo<lb ed="#W" n="7" break="no"/>rum tantum sensu, nempe poenarum quae 
+          <lb ed="#W" n="8"/>a deo infliguntur, tangatur, quaeso eo
+          po<lb ed="#W" n="9" break="no"/>test aduertere animum natura humana, ut 
+          <lb ed="#W" n="10"/>amet, ut benigne ferat etiam inferorum poe 
+          <lb ed="#W" n="11"/>nam? Atqui ubi conscientia perculit
+          ani<lb ed="#W" n="12" break="no"/>mum, iam ita auersatur, &amp; exhorret deum,  
+          <lb ed="#W" n="13"/>ut carnificem crudelem, &amp; uindicem, &amp; quod 
+          <lb ed="#W" n="14"/>est atrociss, iniquum. Hic Sophistae quid illi 
+          <lb ed="#W" n="15"/>uestri actus eliciti, quid illa egregia uestra 
+          <lb ed="#W" n="16"/>uoluntas, quam finxistis efficiet? An non ille 
+          <lb ed="#W" n="17"/>irae dies, ille ignis declarabit nihil nisi
+          men<lb ed="#W" n="18" break="no"/>dacium &amp; cerussam esse humanas illas liberi 
+          <lb ed="#W" n="19"/>arbitrii iusticias? &amp; omnem gloriam camis,  
+          <lb ed="#W" n="20"/>esse ueluti foeni gloriam. Nonne ignem ac 
+          <lb ed="#W" n="21"/>caliginem, immo ipsam etiam Mosi facig 
+          <lb ed="#W" n="22"/>reformidabat lsrael, cum lex promulgaretur g 
+          <lb ed="#W" n="23"/>Nonne commota est, &amp; contremuit terra, &amp; 
+          <lb ed="#W" n="24"/>fundamenta montium conturbata sunt,  
+          <!--53.xml-->
+          <pb ed="#W" n="25-v"/>
+          <lb ed="#W" n="1"/>&amp; commota sunt, quoniam iratus est eis deus  
+          <lb ed="#W" n="2"/>Sed hac de re infra ut spero multa satis
+          di<lb ed="#W" n="3" break="no"/>cemus, ubi de legis ui disseretur. Habes lector 
+          <lb ed="#W" n="4"/>hic primum non amari, nisi quae nobis com 
+          <lb ed="#W" n="5"/>moda sunt. At deus nullius commodi
+          respe<lb ed="#W" n="6" break="no"/>ctu amari uult, sed liberaliter, Neque enim 
+          <lb ed="#W" n="7"/>adeum amat, sed sese qui commodum amat, &amp;  
+          <lb ed="#W" n="8"/>contra prauum hunc amorem quam multa 
+          <lb ed="#W" n="9"/>passim seripturae monent. Subicienda est 
+          <lb ed="#W" n="10"/>&amp; alia quaedam argutia non admodum huic  
+          <lb ed="#W" n="11"/>absimilis, non absurdum uideri debere, que 
+          <lb ed="#W" n="12"/>docent citra spiritus sancti operam, posse 
+          <lb ed="#W" n="13"/>nos ardentius amare deum quam nos ipsos 
+          <lb ed="#W" n="14"/>quando quidem saepe etiam pro caducis re 
+          <lb ed="#W" n="15"/>bus, pro hominibus, pro amoribus, pro li 
+          <lb ed="#W" n="16"/>beris, pro coniugibus mortem obimus. Hic  
+          <lb ed="#W" n="17"/>quid responderi debeat ex ratione adfectuum 
+          <lb ed="#W" n="18"/>colligendum est. Primum enim nemo
+          gau<lb ed="#W" n="19" break="no"/>det mori per naturam, &amp; quorum uita pro 
+          <lb ed="#W" n="20"/>Repub. pro re familiari periclitatur, illi ipsi 
+          <lb ed="#W" n="21"/>plane mallent uiuere. Mallet enim uiuere 
+          <lb ed="#W" n="22"/>Curtius, mallet uiuere Eucretia. Sed quia 
+          <lb ed="#W" n="23"/>adeo refugit aduersa, natura humana,
+          ma<lb ed="#W" n="24" break="no"/>lumus non esse, quam male esse, quam algere,  
+          <!--54.xml-->
+          <pb ed="#W" n="26-r"/>
+          <lb ed="#W" n="1"/>Mallet uiuere Pyramus, sed quia infoelicem 
+          <lb ed="#W" n="2"/>sibi uitam arbitratur futuram, sine Thisbe 
+          <lb ed="#W" n="3"/>uult abrumpere id mali, &amp; uelut una cum 
+          <lb ed="#W" n="4"/>anima ponere. Mallet uiuere Saul, sed
+          me<lb ed="#W" n="5" break="no"/>tu dedecoris &amp; ira &amp; desperatione, uelut
+          se<lb ed="#W" n="6" break="no"/>mel finiturus cum uita omnia aduersa,
+          ab<lb ed="#W" n="7" break="no"/>rumpit uitam. Sed quid ego exactam adeo
+          ad<lb ed="#W" n="8" break="no"/>fectuum rationem reddere contendo, cum rarae istae 
+          <lb ed="#W" n="9"/>neces, qualis est Eucretiae, Saulis, &amp; similium, 
+          <lb ed="#W" n="10"/>sint mirabilia diuinae maiestatis exempla.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1313">
+          <lb ed="#W" n="11"/>⁋ Iam quae prodidere Sophistae, de
+          meri<lb ed="#W" n="12" break="no"/>to congrui, scilicet, que ex operibus
+          morali<lb ed="#W" n="13" break="no"/>bus, id est, quae uiribus naturae nostrae
+          faci<lb ed="#W" n="14" break="no"/>mus de congruo, sic loquuntur, mereamur 
+          <lb ed="#W" n="15"/>gratiam, Ipse lector, intelligis blasphemias 
+          <lb ed="#W" n="16"/>esse in iniuriam gratiae dei ementitas, etiam cum 
+          <lb ed="#W" n="17"/>naturae humanae uires citra spirits sancti ad 
+          <lb ed="#W" n="18"/>ssatum, non possint, nisi peccare, quid
+          merebi<lb ed="#W" n="19" break="no"/>mur nostris conatibus nisi irams simulatioes,  
+          <lb ed="#W" n="20"/>&amp; mendacia sunt illi actus eliciti, illa fictitia 
+          <lb ed="#W" n="21"/>proposita, illae quas falso uocant bonas,
+          in<lb ed="#W" n="22" break="no"/>tentiones, quas praescribunt sophistae. Quare 
+          <lb ed="#W" n="23"/>tantum abest ut gratiam per eas impetremus, ut 
+          <lb ed="#W" n="24"/>nihil sit quod perinde gratiae aduersetur. 
+          <!--55.xml-->
+          <pb ed="#W" n="26-v"/>
+          <lb ed="#W" n="1"/>atque illae pharisaicae praeparationes. Porro 
+          <lb ed="#W" n="2"/>hanc impietatem pertinacissime insectatur 
+          <lb ed="#W" n="3"/>Paulus cum alias, tum in tota ad Romanos 
+          <lb ed="#W" n="4"/>Epistola non aliud agens, nisi gratiam non 
+          <lb ed="#W" n="5"/>esse gratiam, si pro operibus detur. Quis est 
+          <lb ed="#W" n="6"/>enim misericondiae locus, si respectus est no 
+          <lb ed="#W" n="7"/>strorum operum? quae est gratiae gloria, ut 
+          <lb ed="#W" n="8"/>Paulinis uerbis utat, si debetur nostris ope 
+          <lb ed="#W" n="9"/>ribus? Palam capite tertio Paulus ad
+          Ro<lb ed="#W" n="10" break="no"/>manos docet, &amp; omnes homines sub
+          pec<lb ed="#W" n="11" break="no"/>ato esse, &amp; gratis iustificari eos qui credunt. 
+          <lb ed="#W" n="12"/>Quid quod in capite nono ait? Israel sectam 
+          <lb ed="#W" n="13"/>do legem, ad legem iusticiae non peruenisse,  
+          <lb ed="#W" n="14"/>id est, eos qui sui liberi arbitrii uiribus
+          ag<lb ed="#W" n="15" break="no"/>igrederentur legem facere, nunquam facere le 
+          <lb ed="#W" n="16"/>gem, sed simulare tantum in speciem, Esaias 
+          <lb ed="#W" n="17"/>propheta cap. Iv. ad Christum inuitat
+          gra<lb ed="#W" n="18" break="no"/>tis empturos quosuis. Venite, emite absque ar 
+          <lb ed="#W" n="19"/>gento &amp; absque ulla commutatione uinum &amp; 
+          <lb ed="#W" n="20"/>lac. Quare adpenditis argentum non in pa 
+          <lb ed="#W" n="21"/>nibus, &amp; laborem uestrum in saturitater id 
+          <lb ed="#W" n="22"/>est, quare fiditis uestris operibus? quae
+          fru<lb ed="#W" n="23" break="no"/>strabuntur uos. Audite audientes me, &amp; co 
+          <lb ed="#W" n="24"/>medite bonum, &amp; delectabitur in crassitu¬ 
+          <!--56.xml-->
+          <pb ed="#W" n="27-r"/>
+          <lb ed="#W" n="1"/>dine anima uestra. Inclinate aurem uestram, 
+          <lb ed="#W" n="2"/>id est, OREDITE, &amp; uiuet anima
+          ue<lb ed="#W" n="3" break="no"/>stra, &amp; feriam uobiscum pactum
+          sempiter<lb ed="#W" n="4" break="no"/>num M IS ER ICO RDIAs
+          DA<lb ed="#W" n="5" break="no"/>VID EIDE E ES, id est, promittam
+          mi<lb ed="#W" n="6" break="no"/>sericordiam Dauidi fidelem, id est, ratam.  
+          <lb ed="#W" n="7"/>Hierem. xvii. Maledictus homo qui confidit 
+          <lb ed="#W" n="8"/>in homine, &amp; ponit canem brachium suum, 
+          <lb ed="#W" n="9"/>&amp; a domino recedit cor eius. Erit enim quasi 
+          <lb ed="#W" n="10"/>imyricae in deserto &amp; non uidebit cum
+          uene<lb ed="#W" n="11" break="no"/>rit bonum, sed habitabit in siccitate in
+          de<lb ed="#W" n="12" break="no"/>serto, in terra salsuginis &amp; inhabitabili.
+          De<lb ed="#W" n="13" break="no"/>nedictus uit qui confidit in domino, &amp; erit, 
+          <lb ed="#W" n="14"/>dominus fiducia eius, &amp; erit quasi lignum, 
+          <lb ed="#W" n="15"/>quod transplantatur super aquas, quod ad 
+          <lb ed="#W" n="16"/>humorem mittit radices suas, &amp; cum
+          uene<lb ed="#W" n="17" break="no"/>rit estus non timebit &amp;c. Vide reliqua. Nam 
+          <lb ed="#W" n="18"/>uel unum illud eius prophetae caput satis
+          cla<lb ed="#W" n="19" break="no"/>re coarguerit, nihil esse opera moralia, nisi 
+          <lb ed="#W" n="20"/>simulationes &amp; mendacia camis nostrae.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1450">
+          <lb ed="#W" n="21"/>Huc pertinet quod scholastica theologia 
+          <lb ed="#W" n="22"/>de poenitentiae initio, deque attritionibus con 
+          <lb ed="#W" n="23"/>finxit. Neque enim de commisso dolet natura 
+          <lb ed="#W" n="24"/>nisi amore sui, metuque poenae, qui amos 
+          <!--57.xml-->
+          <pb ed="#W" n="27-v"/>
+          <lb ed="#W" n="1"/>sui &amp; metus poenarum sunt plane peccata, &amp; 
+          <lb ed="#W" n="2"/>impossibile est quin adferant secum odium eius,  
+          <lb ed="#W" n="3"/>qui poenas infligit, nempe dei. Peculiare uero 
+          <lb ed="#W" n="4"/>dei opus est peccati in nobis cognitio &amp; 
+          <lb ed="#W" n="5"/>odium. Deducit enim dins ad inferos ac reducit,  
+          <lb ed="#W" n="6"/>duns mortificat, &amp; uiuificat, dins humiliat 
+          <lb ed="#W" n="7"/>&amp; subleuat, ait Hanna in Cantico. i. Reg. ii. 
+          <lb ed="#W" n="8"/>Et Propheta Hiere. Postquam conuertisti me 
+          <lb ed="#W" n="9"/>egi poenitentiam &amp;c. Porro qd attinet hic im 
+          <lb ed="#W" n="10"/>norari, cum planissime dictum sit a Christo lo 
+          <lb ed="#W" n="11"/>han. vi. Nemo uenit ad me nisi pater meus 
+          <lb ed="#W" n="12"/>traxerit eum. Od uero obiciunt sententiam dni 
+          <lb ed="#W" n="13"/>apud Sachariam ignari troporum &amp; figurarum 
+          <lb ed="#W" n="14"/>sacri sermonis sophistae. Conuertimini ad me, 
+          <lb ed="#W" n="15"/>&amp; ego conuertar ad uos, non efficit,
+          poeniten<lb ed="#W" n="16" break="no"/>tiae inicium in nobis esse positum. Excussit autem 
+          <lb ed="#W" n="17"/>hanc sententiam Aug, non uno loco, neque uero 
+          <lb ed="#W" n="18"/>obscura est, nisi Sophistis qui pter parua logi 
+          <lb ed="#W" n="19"/>calia aliud didicerunt. Duplex est conuer 
+          <lb ed="#W" n="20"/>sio dei ad nos, altera praeit resipiscentiae niae. 
+          <lb ed="#W" n="21"/>laltera seqt. Quae praeit, ea fit, cum des nos re 
+          <lb ed="#W" n="22"/>sipiscere facit adssatu spuns sui, cum ostenso pec 
+          <lb ed="#W" n="23"/>cato nos terret, conturbatque. At qui seqtur conuer 
+          <lb ed="#W" n="24"/>sio, fit cum modum finemque poenarum faciens, conso 
+          <lb ed="#W" n="25"/>latur nos declaratque palam sese fauete nobis. De 
+          <!--58.xml-->
+          <pb ed="#W" n="28-r"/>
+          <lb ed="#W" n="1"/>postetiore loqtur acharias cum inqt, Conuerti 
+          <lb ed="#W" n="2"/>mini ad me, &amp; ego conuertat ad uos. ld est,  
+          <lb ed="#W" n="3"/>resipiscite, &amp; ego poenax finem faciam. Hortat 
+          <lb ed="#W" n="4"/>n. Propheta eos qui iam ab exilio Assyrio redie 
+          <lb ed="#W" n="5"/>rant in ludaeam, ut patrum exemplo moniti resi 
+          <lb ed="#W" n="6"/>piscant, ni rursus uelint iram diuinam, poenasque 
+          <lb ed="#W" n="7"/>prioribs similes experiti. Hinc colligi non po 
+          <lb ed="#W" n="8"/>test, in nia manu esse initium poenitentiae. Ipse 
+          <lb ed="#W" n="9"/>nos inuitat trahitque ad sese, &amp; ubi traxerit,  
+          <lb ed="#W" n="10"/>condonamns poenas declarat sese nobis placatum 
+          <lb ed="#W" n="11"/>esse reconciliatumque. Et quod praecipit conuertimis 
+          <lb ed="#W" n="12"/>ni ad me, non consequitur in nostris uiribus esse,  
+          <lb ed="#W" n="13"/>resipiscere, seu conuetti. Sicut, quia sese diligi  
+          <lb ed="#W" n="14"/>praecipit super omnia, non consequitur id in nostris 
+          <lb ed="#W" n="15"/>uiribus esse, quia praecipit. Immo ob hoc ipm 
+          <lb ed="#W" n="16"/>quod praecipit, non est in ninis uiribus. Praecipit eni 
+          <lb ed="#W" n="17"/>in hoc impossibilia, ut misericordiam suam no 
+          <lb ed="#W" n="18"/>bis commendet, sicut infra de lege dicems. Et 
+          <lb ed="#W" n="19"/>cur non Sophistae in Sachariae pphetia hanc 
+          <lb ed="#W" n="20"/>etiam sententiam obseruatunt qui in cap. x. continetur. 
+          <lb ed="#W" n="21"/>Et conuertam eos quia miserebor eorum, &amp; erunt
+          si<lb ed="#W" n="22" break="no"/>cut fuetunt, quando non proieceram eos. Ecce ipe 
+          <lb ed="#W" n="23"/>ait se conuersurum Iudam, neque uero ppter illoge 
+          <lb ed="#W" n="24"/>benefacta, sed ppter suam ipsis misericondiam. 
+          <!--59.xml-->
+          <pb ed="#W" n="28-v"/>
+          <lb ed="#W" n="1"/>Similes locos commendo tuae, Christianae
+          le<lb ed="#W" n="2" break="no"/>ctor, industriae. Futurum enim est ut ubi fa 
+          <lb ed="#W" n="3"/>miliarior tibi scripturae usus fuerit, nullo ne 
+          <lb ed="#W" n="4"/>gotio quascumque sophistatum argutias diluas.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1589">
+          <lb ed="#W" n="5"/>Habes lector de ui ingenitae pestis
+          quan<lb ed="#W" n="6" break="no"/>tum mihi uidebatur dici debere. Neque plura 
+          <lb ed="#W" n="7"/>requirent hi qui potius diuinatum literarum 
+          <lb ed="#W" n="8"/>lectione, meditationeque formari uolent, qui 
+          <lb ed="#W" n="9"/>humanis commentariis. Nam, satisfieri nulla  
+          <lb ed="#W" n="10"/>commentatione potest, iis quorum animi
+          in<lb ed="#W" n="11" break="no"/>certis disputationibus, uariis hominum
+          sen<lb ed="#W" n="12" break="no"/>tenciis atque opinionibus confusi nihil nisi 
+          <lb ed="#W" n="13"/>carnalia sapiunt. Vnus est idemque ut simpli 
+          <lb ed="#W" n="14"/>cissimus, ita certissimus doctor, diuinus spi 
+          <lb ed="#W" n="15"/>ritus, qui sese &amp; proxime &amp; simplicissime in 
+          <lb ed="#W" n="16"/>sacris literis expressit, in quas ubi animus 
+          <lb ed="#W" n="17"/>tuus ueluti transformatus fuerit, tum demum 
+          <lb ed="#W" n="18"/>Sabsolute, simpliciter, exacte, ut aliarum rerum 
+          <lb ed="#W" n="19"/>theologicarum, ita huius loci rationem con 
+          <lb ed="#W" n="20"/>prehendes. Qui pendent non a spiritus sed 
+          <lb ed="#W" n="21"/>hominum iudicio aestimationeque non res ip 
+          <lb ed="#W" n="22"/>sas, sed uix tenues quasdam rerum umbras 
+          <lb ed="#W" n="23"/>cernunt, non aliter atque illi in Platonico spe 
+          <lb ed="#W" n="24"/>cu. Quis enim tum philosophorum, tum 
+          <!--60.xml-->
+          <pb ed="#W" n="29-r"/>
+          <lb ed="#W" n="1"/>scholasticorum theologistarum proptianm 
+          <lb ed="#W" n="2"/>uirtutis aut uicii formam uidit? Metiebantur 
+          <lb ed="#W" n="3"/>theologastri peccatum originale, non nisi 
+          <lb ed="#W" n="4"/>extenmis operibus, interim animi maliciam, 
+          <lb ed="#W" n="5"/>&amp; uelut intercutem morbum non uidebant. 
+          <lb ed="#W" n="6"/>Et ut maxime deprehenderint quorundam 
+          <lb ed="#W" n="7"/>adfectuum improbitatem, tamen nec
+          om<lb ed="#W" n="8" break="no"/>nes, nec eos animaduertit ratio, quibus cum 
+          <lb ed="#W" n="9"/>in primis spiritui diuino bellum est, nempe 
+          <lb ed="#W" n="10"/>blasphemiam, odium dei, amorem sui,
+          diffi<lb ed="#W" n="11" break="no"/>dere deo &amp; hoc genus innumerabiles, qui  
+          <lb ed="#W" n="12"/>homini sic insiti sunt, ut non in una aliqua 
+          <lb ed="#W" n="13"/>parte tantum, nempe in adpetitu sensitiuo 
+          <lb ed="#W" n="14"/>haereant, ut isti docent, sed uniuersam
+          na<lb ed="#W" n="15" break="no"/>turam occuparint, captiuamque habeant.
+          Ad<lb ed="#W" n="16" break="no"/>fectus isti infirmitatem uocant, sed talem  
+          <lb ed="#W" n="17"/>quae humanis uisibus uinci possit,
+          Scriptu<lb ed="#W" n="18" break="no"/>ra contra negat nisi spiritu dei posse uinci 
+          <lb ed="#W" n="19"/>camis adfectus. Quia quos filis liberauerit,  
+          <lb ed="#W" n="20"/>ii demum uere liberi sunt lohan. viii.
+          Pro<lb ed="#W" n="21" break="no"/>inde nihil te moueant istorum figmenta de 
+          <lb ed="#W" n="22"/>extenis operibus, de actibus elicitis
+          uolun<lb ed="#W" n="23" break="no"/>tatis &amp; similia. De corde iudicat deus, non 
+          <lb ed="#W" n="24"/>de externo opere. Non enim quomodo uidet 
+          <!--61.xml-->
+          <pb ed="#W" n="29-v"/>
+          <lb ed="#W" n="1"/>homo, uidet deus ut in historia regum legitur. 
+          <lb ed="#W" n="2"/>Et uel hinc licebit aestimare, quantum
+          dam<lb ed="#W" n="3" break="no"/>ni dederit rebs Christianis philosophia, cum 
+          <lb ed="#W" n="4"/>Theologastri nostri philosophiam secuti 
+          <lb ed="#W" n="5"/>finxerint bona opera, illam externorum operum 
+          <lb ed="#W" n="6"/>ersonam? quae qua nihil mereantur uel 
+          <lb ed="#W" n="7"/>iola illa in Euangelio de fatuis uirginibus 
+          <lb ed="#W" n="8"/>parabola docet. Nihil enim uirgines praeter 
+          <lb ed="#W" n="9"/>pharisaicam iustitiam, hoc est, externorum 
+          <lb ed="#W" n="10"/>operum umbras designant. At quid aliud do 
+          <lb ed="#W" n="11"/>cent philosophi nisi opera externa? cum de 
+          <lb ed="#W" n="12"/>uirtutibus disputant, an non omnia
+          refe<lb ed="#W" n="13" break="no"/>tunt ad externa opera &amp; illos fictitios actus 
+          <lb ed="#W" n="14"/>elicitos? Sed caeci sunt &amp; duces caecorum. 
+          <lb ed="#W" n="15"/>proinde optandum est, ut animos nostros 
+          <lb ed="#W" n="16"/>deus a rationis humanae iuditio
+          philoso<lb ed="#W" n="17" break="no"/>phiaque ad spirituale iudicium transferat. 
+          <lb ed="#W" n="18"/>Nam quae est caecitas humanae rationis,
+          fie<lb ed="#W" n="19" break="no"/>ri nequit, ut citra lucem spiritus, absolutam 
+          <lb ed="#W" n="20"/>peccati iusticiaeue formam cognoscams, om 
+          <lb ed="#W" n="21"/>nis humanae rationis captus tenebrae sunt,  
+          <lb ed="#W" n="22"/>Rux est Christi spiritus, is solus docet
+          om<lb ed="#W" n="23" break="no"/>nem ueritatem. Non potest in relucentem 
+          <lb ed="#W" n="24"/>dosi faciem defigere oculos caro seu hu¬ 
+          <!--62.xml-->
+          <pb ed="#W" n="30-r"/>
+          <lb ed="#W" n="1"/>mana ratio, quare uelum legi obducit, &amp; 
+          <lb ed="#W" n="2"/>de extenis tantum operibus seu ficticis
+          pro<lb ed="#W" n="3" break="no"/>positis, uel intentionibus, quas uocant, uel 
+          <lb ed="#W" n="4"/>de litera, ut Pauli uerbo utar, iudicat.
+          Spiri<lb ed="#W" n="5" break="no"/>tus uero profunda scrutatur &amp; penetrat. Et 
+          <lb ed="#W" n="6"/>ut eorum quae de peccato originali
+          scrip<lb ed="#W" n="7" break="no"/>simus, summam paucis uerbis indicem
+          su<lb ed="#W" n="8" break="no"/>biciamtheses aliquot, uelut ὑecxον
+          supe<lb ed="#W" n="9" break="no"/>riorum.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1771">
+          <lb ed="#W" n="10"/>⁋ Peccatum est adfectus conta legem dei.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1776">
+          <lb ed="#W" n="11"/>⁋ Quia filii irae nascimur, fit ut sine
+          spiritu<lb ed="#W" n="12" break="no"/>dei nascamur.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1783">
+          <lb ed="#W" n="13"/>⁋ Quando quidem in homine non est spi 
+          <lb ed="#W" n="14"/>ritus dei, nihil nisi carnalia sapit, amat &amp; 
+          <lb ed="#W" n="15"/>quaerit.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1793">
+          <lb ed="#W" n="16"/>⁋ Hinc est in homine contemptus &amp; igno  
+          <lb ed="#W" n="17"/>rantia dei, &amp; quidquid uiciorum psalmus 
+          <lb ed="#W" n="18"/>xiii: describit. Dixit insipiens in corde suo 
+          <lb ed="#W" n="19"/>non est deus.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1804">
+          <lb ed="#W" n="20"/>⁋ Ita fit ut homo per uires naturales nihil 
+          <lb ed="#W" n="21"/>possit, nisi peccare.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1811">
+          <lb ed="#W" n="22"/>⁋ Non enim tantum pars hominis quam uocant  
+          <!--63.xml-->
+          <pb ed="#W" n="30-v"/>
+          <lb ed="#W" n="1"/>adpetitum sensitiuum est obnoxia
+          adfecti<lb ed="#W" n="2" break="no"/> 
+          <!-- extra line -->
+          <lb ed="#W" n="3"/>bus peccati.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1829">
+          <lb ed="#W" n="4"/>⁋ Quando quidem cor immundum esse 
+          <lb ed="#W" n="5"/>scriptura testatur, consequitur omnes uires 
+          <lb ed="#W" n="6"/>humanas esse impuras. 
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1838">
+          <lb ed="#W" n="7"/>⁋ Significat enim cor non modo sensitiuum 
+          <lb ed="#W" n="8"/>adpetitum, quem sic isti uocant, sed sedem  
+          <lb ed="#W" n="9"/>omnium adfectuum, amorum, odiorum, 
+          <lb ed="#W" n="10"/>blasphemiae, incredulitatis.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1849">
+          <lb ed="#W" n="11"/>⁋ Sicut cor significat omnium humanorum 
+          <lb ed="#W" n="12"/>adfectuum sedem, ita &amp; caro omnes
+          natu<lb ed="#W" n="13" break="no"/>rales hominis uires.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1859">
+          <lb ed="#W" n="14"/>⁋ Carnale, quidquid per naturae uires fit,  
+          <lb ed="#W" n="15"/>Socratis constantia, enonis moderatio, 
+          <lb ed="#W" n="16"/>nihil nisi carnales adfectus sunt.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1868">
+          <lb ed="#W" n="17"/>⁋ Semel in Epistola priore ad Corinthios 
+          <lb ed="#W" n="18"/>uocauit Paulus <foreign>Iuxntoν</foreign> animale rationis 
+          <lb ed="#W" n="19"/>opus, ut philosophicas uirtutes.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1880">
+          <lb ed="#W" n="20"/>⁋ Atque ibidem palam est damnari peccati 
+          <lb ed="#W" n="21"/>
+          <foreign>To Auxntou</foreign>. 
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1890">
+          <lb ed="#W" n="22"/>⁋ Alias nunquam non uocat canem quidod 
+          <lb ed="#W" n="23"/>in nobis, quantumuis in speciem bonum
+          ui<lb ed="#W" n="24" break="no"/>deatur, citra spiritus sancti operam fit, ut 
+          <lb ed="#W" n="25"/>adparet in cap. octauo ad Romanos, cum 
+          <!--64.xml-->
+          <pb ed="#W" n="31-r"/>
+          <lb ed="#W" n="1"/>inquit non potuisse iustificationem legis
+          im<lb ed="#W" n="2" break="no"/>pleri per canem. Quis non uidet hic
+          sig<lb ed="#W" n="3" break="no"/>nari camis uocabulo, potissimas hominis 
+          <lb ed="#W" n="4"/>uires, quae uidentur hominum iuditio posse 
+          <lb ed="#W" n="5"/>legi obtemperare. Idem docet &amp; caput
+          ter<lb ed="#W" n="6" break="no"/>tium posterioris Epistolae ad Corinth.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1919">
+          <lb ed="#W" n="7"/>⁋ Id quod monere uolui ne cui
+          impone<lb ed="#W" n="8" break="no"/>rent scholastici, cum distinguunt adpetitum 
+          <lb ed="#W" n="9"/>intellectiuum &amp; sensitiuum, tribuuntque sensui 
+          <lb ed="#W" n="10"/>prauos adfectus, intellectiuum adpetitum 
+          <lb ed="#W" n="11"/>liberant uitio.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1932">
+          <lb ed="#W" n="12"/>⁋ Quam sententiam scholasticorum illi
+          scrip<lb ed="#W" n="13" break="no"/>turae loci quos supra citauimus satis
+          redar<lb ed="#W" n="14" break="no"/>guunt. Neque iuuari possunt Origene, ut
+          ui<lb ed="#W" n="15" break="no"/>deri uolunt, ubi ille de Anima carne &amp;
+          spi<lb ed="#W" n="16" break="no"/>ritu dissetuit. Quanquam quid ad nos quid 
+          <lb ed="#W" n="17"/>Origenes sentiat, cum nos de scripturae, non 
+          <lb ed="#W" n="18"/>de Origenis sententia disputemuss
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1951">
+          <lb ed="#W" n="19"/>⁋ Quod scholastici negant omnia
+          homi<lb ed="#W" n="20" break="no"/>num opera peccata esse, caussa fuitque
+          ocu<lb ed="#W" n="21" break="no"/>los tantum defixerant in externa opera, adeoque 
+          <lb ed="#W" n="22"/>in uelatam Mosi faciem, de adfectibus non
+          iu<lb ed="#W" n="23" break="no"/>dicabant. At deus corda &amp; adfectus iudicat.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1964">
+          <lb ed="#W" n="24"/>⁋ Eadem caussa fuit cur finxerint liberum 
+          <!--65.xml-->
+          <pb ed="#W" n="31-v"/>
+          <lb ed="#W" n="1"/>arbitrium, uidebant enim alicubi in
+          ope<lb ed="#W" n="2" break="no"/>ribus externis quandam esse libertatem. Sic  
+          <lb ed="#W" n="3"/>enim iudicat caro de externis operibus. 
+          <lb ed="#W" n="4"/>Contra spiritus omnia necessario euenire 
+          <lb ed="#W" n="5"/>docet iuxta praedestinationem.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1984">
+          <lb ed="#W" n="6"/>⁋ In adfectibus nullam esse libertatem
+          ex<lb ed="#W" n="7" break="no"/>perientia docet.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e1991">
+          <lb ed="#W" n="8"/>⁋ Posteaquam omnia in scripturis ad
+          ex<lb ed="#W" n="9" break="no"/>terna opera referri coeperunt, semel uniuer 
+          <lb ed="#W" n="10"/>sa scriptura obscurata est, nec intellectum,  
+          <lb ed="#W" n="11"/>quid peccatum, quid gratia, quid lex, quid 
+          <lb ed="#W" n="12"/>Euangelium, quid Moses, quid Christus. 
+          <lb ed="#W" n="13"/>Et has tenebras plusquam Aegyptias
+          debe<lb ed="#W" n="14" break="no"/>mus impiae isti &amp; execrabili scholasticorum 
+          <lb ed="#W" n="15"/>Theologastrorum philosophiae.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e2011">
+          <lb ed="#W" n="16"/>⁋ Quae sit illa cognata cordi impuritas,  
+          <lb ed="#W" n="17"/>prauitas, nequicia, quam peccatim
+          origi<lb ed="#W" n="18" break="no"/>nale uocamus, deplorantque omns sancti 
+          <lb ed="#W" n="19"/>ut non sentiat ratio, palam fiet, cum lex 
+          <lb ed="#W" n="20"/>reuelabitur, hoc est, cum aperuerit oculos 
+          <lb ed="#W" n="21"/>conscientiae tuae deus, ut infra de lege
+          di<lb ed="#W" n="22" break="no"/>cemus.
+        </p>
+        <p xml:id="erf8hf-d1e602-d1e2029">
+          <lb ed="#W" n="23"/>⁋ Debebamus hoc loco etiam de peccati 
+          <lb ed="#W" n="24"/>fructibus, hoc est, de uiciorum generibus 
+          <!--66.xml-->
+          <pb ed="#W" n="32-r"/>
+          <lb ed="#W" n="1"/>disputare, Perinde atque in Epistola ad
+          Ca<lb ed="#W" n="2" break="no"/>latas recensuit fructus canis Apostolus, sed 
+          <lb ed="#W" n="3"/>illa per se quisque deprehendet. Christiano 
+          <lb ed="#W" n="4"/>satis est scire, omnia naturae opera, omnese 
+          <lb ed="#W" n="5"/>uirium humanarum adfectus &amp; connatus 
+          <lb ed="#W" n="6"/>esse peccata. Iam quis adfectus omnes queati. 
+          <lb ed="#W" n="7"/>recensere? si genera uiciorum ab
+          adfecti<lb ed="#W" n="8" break="no"/>bus, id quod fieri debet, aestimemus.
+          Alio<lb ed="#W" n="9" break="no"/>qui qui uirtutum &amp; uiciorum formas ab 
+          <lb ed="#W" n="10"/>externa specie operum aestimarunt,
+          quo<lb ed="#W" n="11" break="no"/>ties pro uirtutibus uitia, pro uiciis uirtutes 
+          <lb ed="#W" n="12"/>prodidere? Proinde relinquemus horum 
+          <lb ed="#W" n="13"/>iudicium suo cuiusque spiritui.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

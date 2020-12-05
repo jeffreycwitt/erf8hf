@@ -1,1245 +1,1245 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2020-12-04">December 04, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-12-04" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#W" n="73-r"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="erf8hf-d1e342">
-            <head xml:id="erf8hf-d1e342-Hd1e105">Praeambulum</head>
-            <p xml:id="erf8hf-d1e342-d1e108">
-               <lb ed="#W" n="3"/>DE IVSTIFICATIONE ET FIDE.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e113">
-               <lb ed="#W" n="4"/>⁋ Iustificamur igitur eum mortificati per le  
-      <lb ed="#W" n="5"/>gem, resuscitamur uerbo gratiae, quae in 
-      <lb ed="#W" n="6"/>Christo promissa est, seu Euangelio condo¬ 
-      <lb ed="#W" n="7"/>nante peccata, &amp; illi fide adhaeremus, nihil 
-      <lb ed="#W" n="8"/>dubitantes quin Christi iustitia sit nostra 
-      <lb ed="#W" n="9"/>iustitia, quin Christi satisfactio, sit expiatio  
-      <lb ed="#W" n="10"/>nostri, quin Christi resurrectio nostra sit.  
-      <lb ed="#W" n="11"/>Preuiter nihil dubitantes quin peccata no¬ 
-      <lb ed="#W" n="12"/>bis condonata sint, &amp; iam faueat ac benet 
-      <lb ed="#W" n="13"/>uelit deus. Nihil igitur operum nostrorum, quam 
-      <lb ed="#W" n="14"/>tumuis bona aut uideantur, aut sint, iusti¬ 
-      <lb ed="#W" n="15"/>cia sunt. Sed sola EIDES de misericordia 
-      <lb ed="#W" n="16"/>&amp; gratia dei in lesu ChristoIVSTITIA 
-      <lb ed="#W" n="17"/>est. Atque hoc est, quod ait propheta, &amp; to¬ 
-      <lb ed="#W" n="18"/>ties iactat Paulus. Iustus ex fide uiuit Ro, uii 
-      <lb ed="#W" n="19"/>Iusticia dei per fidem Iesu Christi, id est, Iam  
-      <lb ed="#W" n="20"/>manifestata est non operum hypocrisis, quam 
-      <lb ed="#W" n="21"/>pro iusticia homines reputent, sed eiusmo 
-      <lb ed="#W" n="22"/>di iusticia est reuelata, quam deus pro iusticia 
-      <lb ed="#W" n="23"/>reputat. Nempe ea quae est per fidem lesu 
-      <lb ed="#W" n="24"/>Christi. Et ad Ro. iiii. CRE DENTI re¬ 
-      <!--149.xml-->
-      <pb ed="#W" n="73-v"/>
-               <lb ed="#W" n="1"/>putatur fides ad iustitiam. Et Genesis. xv. 
-      <lb ed="#W" n="2"/>Credidit Abraham deo &amp; reputatum est ei 
-      <lb ed="#W" n="3"/>ad iustitiam, atque has duas quidem senten¬ 
-      <lb ed="#W" n="4"/>tias, ob hoc uolo tibi commendatiores esse,  
-      <lb ed="#W" n="5"/>ut intelligas apposite dici fidem, iusticiam. 
-      <lb ed="#W" n="6"/>Offenduntur enim hac loquendi forma so 
-      <lb ed="#W" n="7"/>phistae, cun dicimus fidem esse iusticiam. Sed ut 
-      <lb ed="#W" n="8"/>ndei naturam ac uim propius contemplemur, 
-      <lb ed="#W" n="9"/>paulo altius eius ὑπγραφή repetenda est.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e185">
-               <lb ed="#W" n="10"/>⁋ Satis constat uulgus Sophistarum fidem  
-      <lb ed="#W" n="11"/>uocare adsensum eorum quae scripturis prodi 
-      <lb ed="#W" n="12"/>ta sunt, deinde eam esse fidem etiam impio¬  
-      <lb ed="#W" n="13"/>rum. Credere etiam inustos, esseque ociosam in 
-      <lb ed="#W" n="14"/>anima qualitatem, communem impiis cum 
-      <lb ed="#W" n="15"/>piis. Et ne non elabantur cum uident scriptu 
-      <lb ed="#W" n="16"/>ram dicere, Iustum ex fide uiuerte. Item ex 
-      <lb ed="#W" n="17"/>fide iusticiam esse fingunt aliam fidem forma 
-      <lb ed="#W" n="18"/>tam, id est, cum caritate coniunctam. Aliam in 
-      <lb ed="#W" n="19"/>formem, id est, eam quae fit etiam in impiis. 
-      <lb ed="#W" n="20"/>carentibus caritate. Adeoque caussantur ho¬ 
-      <lb ed="#W" n="21"/>mines acuti, Apostolum falso tribuisse fi¬ 
-      <lb ed="#W" n="22"/>dei, id quod caritatis erat, ut hac uelut ille¬ 
-      <lb ed="#W" n="23"/>cebra ad fidem quamplurimos inuitatet. Iam 
-      <lb ed="#W" n="24"/>&amp; fidem infusam, &amp; acquisitam, ac gene¬ 
-      <!--150.xml-->
-      <pb ed="#W" n="74-r"/>
-               <lb ed="#W" n="1"/>talem &amp; specialem, &amp; nescio quae portenta 
-      <lb ed="#W" n="2"/>uerborum finxerunt.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e229">
-               <lb ed="#W" n="3"/>⁋ Sed mittamus ista nugamenta, nam pau¬ 
-      <lb ed="#W" n="4"/>lo post coarguemus sophistas ipsius rei con¬ 
-      <lb ed="#W" n="5"/>ditione, ut permittant nobis fidem non esse,  
-      <lb ed="#W" n="6"/>id quod sic ipsi nominatunt.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e241">
-               <lb ed="#W" n="7"/>⁋ Non obscura uox prophetae est. Dixit insi 
-      <lb ed="#W" n="8"/>piens in corde suo non est deus. Et uulgatissi 
-      <lb ed="#W" n="9"/>mum est illud Pauli. i. Corint. ii. Animalis 
-      <lb ed="#W" n="10"/>homo non percipit ea quae sunt spiritus. Et 
-      <lb ed="#W" n="11"/>Exechiel. xxix. Meus est fiuuius, &amp; ego feci 
-      <lb ed="#W" n="12"/>meipsum. Huiusmodi sententiae testantur, car 
-      <lb ed="#W" n="13"/>nem nihil nisi carnalia sapere aut cognoscere. 
-      <lb ed="#W" n="14"/>Esse deum, dei ira, dei misericordia, spiritua¬ 
-      <lb ed="#W" n="15"/>lia sunt, non possunt igitur a carne cognosci. 
-      <lb ed="#W" n="16"/>Proinde quidqd de deo cognoscit natura, 
-      <lb ed="#W" n="17"/>sine spiritu dei instaurante &amp; illustrante cor¬ 
-      <lb ed="#W" n="18"/>da nostra, qualecumque sit, frigida opinio est,  
-      <lb ed="#W" n="19"/>non fides, adeoque nihil nisi simulatio &amp; hy¬ 
-      <lb ed="#W" n="20"/>pocrisis, ignoratio dei &amp; contemptus. Quan 
-      <lb ed="#W" n="21"/>quam hanc ipsam hypocrisin non cernant carna¬ 
-      <lb ed="#W" n="22"/>les oculi. Spirits at omnia diiudicat. Et ut exem 
-      <lb ed="#W" n="23"/>plis res agatur. Fidelis uidetur fuisse Saul in 
-      <lb ed="#W" n="24"/>speciem, sed hypocrisin declarat euentus. 
-      <!--151.xml-->
-      <pb ed="#W" n="74-v"/>
-               <lb ed="#W" n="1"/>Quia non credebat? ex corde dico res tan¬ 
-      <lb ed="#W" n="2"/>tas, quas gerebat, diuinitus administrari, 
-      <lb ed="#W" n="3"/>dona &amp; opera misericordiae dei esse, sed ex 
-      <lb ed="#W" n="4"/>suis consilis pendere aestimabat. Nam de 
-      <lb ed="#W" n="5"/>condis adfectu loquor, nec timebat iram dei, 
-      <lb ed="#W" n="6"/>nec fidebat benignitate. Eum dei contemp 
-      <lb ed="#W" n="7"/>tum declarat, cum non expectato Samuele 
-      <lb ed="#W" n="8"/>ipse sacrificat, ne a palestinis anteuortatur. 
-      <lb ed="#W" n="9"/>i. Reg. xiii: &amp; rursus, cum gentium more sibi tro 
-      <lb ed="#W" n="10"/>phaeum erigit. i. Reg. xv. Erat in Saule opi¬ 
-      <lb ed="#W" n="11"/>nio, esse deum, esse uindicem peccati, esse 
-      <lb ed="#W" n="12"/>misericordem. Alioqui cur sacrificasset? sed 
-      <lb ed="#W" n="13"/>fides non erat, hoc est, ut egregio scripturae 
-      <lb ed="#W" n="14"/>uerbo utar, non requirebat, Et acht segn 
-      <lb ed="#W" n="15"/>nicht, cor ignorabat tum seueritatem tum 
-      <lb ed="#W" n="16"/>bonitatem dei. O horrendum &amp; miserabile 
-      <lb ed="#W" n="17"/>spectaculum, si hanc cordis impietatem con 
-      <lb ed="#W" n="18"/>tingat oculis spiritualibus cernere. Quaeso 
-      <lb ed="#W" n="19"/>te dispice uitam tuam, &amp; ex fructibus quo ad 
-      <lb ed="#W" n="20"/>potes aestima hanc cordis tui immundiciem. 
-      <lb ed="#W" n="21"/>Nonne ideo declinas, ut cum scriptura lo¬ 
-      <lb ed="#W" n="22"/>quar, &amp; ad tuas cupiditates deflectis animum 
-      <lb ed="#W" n="23"/>sollicitus es ideo de uictu, fama, uita, libe¬ 
-      <lb ed="#W" n="24"/>ris, coniuge, quia deo parum fidis, quia am¬ 
-      <!--152.xml-->
-      <pb ed="#W" n="75-r"/>
-               <lb ed="#W" n="1"/>plitudinem misericordiae diuinae non expen¬ 
-      <lb ed="#W" n="2"/>dis. Nonne ideo tuis in alia subinde scelera 
-      <lb ed="#W" n="3"/>quia de gratia, de misericondia dei, erga te 
-      <lb ed="#W" n="4"/>desperas? haud dubie facturus &amp; passurus 
-      <lb ed="#W" n="5"/>omnia gratissimo pectore, si salutis tuae cer 
-      <lb ed="#W" n="6"/>tam spem concipere posses, nonne rem fa¬ 
-      <lb ed="#W" n="7"/>cis, ad opes adspiras quacunque tandem ratio¬ 
-      <lb ed="#W" n="8"/>ne, quia iudieium dei non times. At timeres 
-      <lb ed="#W" n="9"/>certe, si ex corde crederes, si uim irae dei po 
-      <lb ed="#W" n="10"/>sses animo concipere. Atque hanc insipientiam, 
-      <lb ed="#W" n="11"/>hanc ignorationem, hanc caecitatem cordis 
-      <lb ed="#W" n="12"/>noto, cum nego fidem esse in natura. Maius 
-      <lb ed="#W" n="13"/>omnino &amp; certius aliquid fides est, quam, 
-      <lb ed="#W" n="14"/>quod possit comprehendere caro.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e374">
-               <lb ed="#W" n="15"/>⁋ Proinde illa Sophistica fides, quam uocant 
-      <lb ed="#W" n="16"/>tum informem, tum acquisitam, qua sic 
-      <lb ed="#W" n="17"/>adsentiuntur historiae Euangelicae impii, ut 
-      <lb ed="#W" n="18"/>solemus uulgo Riuianae, aut Salustianae. 
-      <lb ed="#W" n="19"/>non fides, sed opinio est, hoc est incerta, in 
-      <lb ed="#W" n="20"/>constans &amp; fiuxa animi cogitatio, de uerbo 
-      <lb ed="#W" n="21"/>dei. Habes quid de scholastica fide sentien¬ 
-      <lb ed="#W" n="22"/>dum sit, habes nihil docere Sophistas nisi 
-      <lb ed="#W" n="23"/>mendacium, uanitatem, &amp; hypocrisin. Quod 
-      <lb ed="#W" n="24"/>si uideor hic de eorum dogmate aliquid du¬ 
-      <!--153.xml-->
-      <pb ed="#W" n="75-v"/>
-               <lb ed="#W" n="1"/>rius dixisse, non mihi, sed paulo irascantur,  
-      <lb ed="#W" n="2"/>EIOTAM fidem adpellanti hypocrisin, i¬ 
-      <lb ed="#W" n="3"/>Timot. i. Finis praecepti caritas est de corde 
-      <lb ed="#W" n="4"/>puro, &amp; conscientia bona, &amp; EIDENON 
-      <lb ed="#W" n="5"/>EIOTA. Simulari igitur fidem alicubi indi 
-      <lb ed="#W" n="6"/>cat. Et de hypocritis ait ad Titum. i. Omnia 
-      <lb ed="#W" n="7"/>munda mundis, coinquinatis autem &amp; infi¬ 
-      <lb ed="#W" n="8"/>delibus, nihil est mundum, sed inquinatae 
-      <lb ed="#W" n="9"/>sunt eorum mens &amp; conscientia. Profitentur se 
-      <lb ed="#W" n="10"/>nosse deum, factis autem negant, cum sint abo¬ 
-      <lb ed="#W" n="11"/>minabiles, inobedientes, &amp; ad omne opus 
-      <lb ed="#W" n="12"/>bonum reprobi. Quo loco si fides impiorum 
-      <lb ed="#W" n="13"/>erat uere fides, loquitur enim certe de piis in spe¬ 
-      <lb ed="#W" n="14"/>ciem, non debuit infideles dicere sed carita 
-      <lb ed="#W" n="15"/>tis expertes, sicut Parisienses loquuntur. Fictam 
-      <lb ed="#W" n="16"/>fidem ad Timotheum tribuit hypocritis, hic 
-      <lb ed="#W" n="17"/>infideles uocat. Quare non est cur de fide for 
-      <lb ed="#W" n="18"/>mata &amp; informi distinguamus. Plane erum 
-      <lb ed="#W" n="19"/>non est fides illa de credendis seu de diuina 
-      <lb ed="#W" n="20"/>historia opinio, quam sine spiritu sancto con 
-      <lb ed="#W" n="21"/>ceptam habent hypocritae. Non adsentitur 
-      <lb ed="#W" n="22"/>uerbo dei natura, adeoque nec mouetur. So¬ 
-      <lb ed="#W" n="23"/>lebam quondam historicam fidem docendi 
-      <lb ed="#W" n="24"/>gratia uocare, illam acquisitam informem 
-      <!--154.xml-->
-      <pb ed="#W" n="76-r"/>
-               <lb ed="#W" n="1"/>nunc prorsum non fidem, sed opinionem ad¬ 
-      <lb ed="#W" n="2"/>pello. Quae diximus eo pertinent, ut scias 
-      <lb ed="#W" n="3"/>simplicissime uti uerbo fidei scripturam, nec 
-      <lb ed="#W" n="4"/>uocari posse fidem, illam Parisiensem qualita 
-      <lb ed="#W" n="5"/>tem, quae etiam in impiis est, &amp; contemnen¬ 
-      <lb ed="#W" n="6"/>tibus dei. Ibamnati uero non ut dent gloriam 
-      <lb ed="#W" n="7"/>uerbo dei, credunt. Sed experientia coacti, 
-      <lb ed="#W" n="8"/>quae certe fides uocari non potest. Idem de 
-      <lb ed="#W" n="9"/>desperabundis dici potest, sicut de Cain,  
-      <lb ed="#W" n="10"/>Saule. Quid enim inter hos &amp; damnatos 
-      <lb ed="#W" n="11"/>interest? Quid igitur fides? constanter ad 
-      <lb ed="#W" n="12"/>sentiri omni uerbo dei. id quod non fit, nisi 
-      <lb ed="#W" n="13"/>renouante &amp; illuminante corda nostra spi¬ 
-      <lb ed="#W" n="14"/>ritu dei. Porro uerbum dei cum lex est, tum 
-      <lb ed="#W" n="15"/>Euangelium. Tegi minae sunt adiectae. Ti¬ 
-      <lb ed="#W" n="16"/>morem scriptura uocat, quo minis illis cre 
-      <lb ed="#W" n="17"/>ditur, Fidem qua Euangelio, seu promi¬ 
-      <lb ed="#W" n="18"/>ssionibus diuinis fiditur. Non iustificat sin 
-      <lb ed="#W" n="19"/>nde timor. Nam alioqui etiam desperabun 
-      <lb ed="#W" n="20"/>di, damnati iustificarentur. Non enim qui  
-      <lb ed="#W" n="21"/>ad eum modum timent, glorificant deum 
-      <lb ed="#W" n="22"/>aut omni uerbo dei credunt. Nam promi¬ 
-      <lb ed="#W" n="23"/>ssionibus non credunt. Iustificat igitur sola  
-      <lb ed="#W" n="24"/>fides. 
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e511">
-      <!--155.xml-->
-               <pb ed="#W" n="76-v"/>
-               <lb ed="#W" n="1"/>⁋ Est itaque fides, non aliud nisi fiducia mi¬ 
-      <lb ed="#W" n="2"/>sericondiae diuinae, promissae in Christo, 
-      <lb ed="#W" n="3"/>adeoque quocunque signo, Ea fiducia beneuo 
-      <lb ed="#W" n="4"/>dentiae, seu misericondiae dei cor primum pa¬ 
-      <lb ed="#W" n="5"/>cificat, deinde &amp; accendit uelut gratiam actu¬ 
-      <lb ed="#W" n="6"/>ros deo pro misericordia, ut legem sponte 
-      <lb ed="#W" n="7"/>&amp; hilariter faciamus. Alioqui quo ad non cre 
-      <lb ed="#W" n="8"/>dimus, non est in corde sensus misericor¬ 
-      <lb ed="#W" n="9"/>diae dei. Vbi non est sensus misericondiae dei,  
-      <lb ed="#W" n="10"/>est aut contemptus dei, aut odium. Quare 
-      <lb ed="#W" n="11"/>quantacunque legis opera fiant sine fide, pec¬ 
-      <lb ed="#W" n="12"/>catur. Atque hoc est quod Paulus ait ad Ro¬ 
-      <lb ed="#W" n="13"/>xv. Quidquid non est ex fide, peccatum est. 
-      <lb ed="#W" n="14"/>Quae sententia fidei uim atque natura clarissi 
-      <lb ed="#W" n="15"/>me exponit. Nam quidquid fit a natura fit 
-      <lb ed="#W" n="16"/>aut odio dei, cuiusmodi opera sunt eorum, 
-      <lb ed="#W" n="17"/>qui inuiti, metu legis &amp; poenarum bene ope¬ 
-      <lb ed="#W" n="18"/>rantur. Nam cum sine fide bona opera simu¬ 
-      <lb ed="#W" n="19"/>lamus, nonne sic cogitat cor nostrum. Ego 
-      <lb ed="#W" n="20"/>quidem, quod potui feci, sed nescio utrum pro 
-      <lb ed="#W" n="21"/>bet mea opera deus, aut improbet. Seuerus 
-      <lb ed="#W" n="22"/>iudex est, nescio utrum sit mei misertus, an 
-      <lb ed="#W" n="23"/>constra. Ea cogitatione qui fieri potest, ut non 
-      <lb ed="#W" n="24"/>irascamur iudicio dei. Et in hac hypocrisi 
-      <!--156.xml-->
-        <!-- 77r-v seems to be skipped in foliation count; but there doesn't seem to be any missing content -->
-      <pb ed="#W" n="78-r"/>
-               <lb ed="#W" n="1"/>cum magna molestia cordis maxima pars 
-      <lb ed="#W" n="2"/>homines uiuunt, qui quam praue iudicent, uel 
-      <lb ed="#W" n="3"/>hinc adparet. Debebant enim non opera sua, sed 
-      <lb ed="#W" n="4"/>promissionem misericondiae dei contemplari. 
-      <lb ed="#W" n="5"/>Quid est enim iniquius quam AES TIM A¬ 
-      <lb ed="#W" n="6"/>RE VORVNTATEM dei ex nostris
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e589">
-               <lb ed="#W" n="7"/>operibus, quam ille ipe suo uerbo nobis decla 
-      <lb ed="#W" n="8"/>ratit. Iam magna hominum pars cum contemp 
-      <lb ed="#W" n="9"/>tu dei uiuit, ita operatura, ita uictura, etiam si 
-      <lb ed="#W" n="10"/>displiceat deo. Eiusmodi sunt opera quae si 
-      <lb ed="#W" n="11"/>ne fide fiunt, hoc est, quae cum odio dei, aut 
-      <lb ed="#W" n="12"/>cum contemptu dei fiant. Est ergo pulcherri¬ 
-      <lb ed="#W" n="13"/>me dictum Ecclesiastici. xxxii. In omni opere 
-      <lb ed="#W" n="14"/>tuo crede ex fide animae tuae, haec est enim con 
-      <lb ed="#W" n="15"/>seruatio mandatorum. Qualiacunque sint ope 
-      <lb ed="#W" n="16"/>ra, comedere, bibere, laborare manu, doce 
-      <lb ed="#W" n="17"/>re addo etiam, ut sint palam peccata, non 
-      <lb ed="#W" n="18"/>est, quod opera spectes, promissionem mise¬ 
-      <lb ed="#W" n="19"/>ricondiae dei specta, eius fiducia nihil dubi¬ 
-      <lb ed="#W" n="20"/>ta quin iam non iudicem in coelis, sed patrem 
-      <lb ed="#W" n="21"/>habeas, cui tu sis curae, non aliter atque sunt 
-      <lb ed="#W" n="22"/>parentibus filii inter homines. Quod si uo 
-      <lb ed="#W" n="23"/>luntatis erga nos diuinae nulla esset signifi¬ 
-      <lb ed="#W" n="24"/>catio praeter hanc, que uoluit adpellari se pa¬ 
-      <!--157.xml-->
-      <pb ed="#W" n="78-v"/>
-               <lb ed="#W" n="1"/>trem, in ea prece, quam quotidie dicimus, so 
-      <lb ed="#W" n="2"/>Ia haec satis magno argumento esset, nihil 
-      <lb ed="#W" n="3"/>exigi a nobis prius fide. Nunc cum hanc 
-      <lb ed="#W" n="4"/>toties exigat deus, cum hanc toties unam 
-      <lb ed="#W" n="5"/>probet, cum hanc nobis locupletissimis pro¬ 
-      <lb ed="#W" n="6"/>missionibus, adeoque per mortem filii sui com 
-      <lb ed="#W" n="7"/>Imendarit, quid est, cur non illi nos tantae 
-      <lb ed="#W" n="8"/>misericordiae committamus &amp; credamus  
-      <lb ed="#W" n="9"/>Scolastica theologia pro fide, pro ancho¬ 
-      <lb ed="#W" n="10"/>ra conscientiarum, opera, satisfactioes ho¬ 
-      <lb ed="#W" n="11"/>misue docuit. Male peidat deus scandalum 
-      <lb ed="#W" n="12"/>illud Ecclesiae suae.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e661">
-               <lb ed="#W" n="13"/>⁋ Habes, in quam partem fidei nomen usur 
-      <lb ed="#W" n="14"/>pet scriptura, nempe pro eo quod est, fidere 
-      <lb ed="#W" n="15"/>gratuita dei misericordia, sine ullo operum 
-      <lb ed="#W" n="16"/>nostrorum siue bonorum siue malorum respe¬ 
-      <lb ed="#W" n="17"/>ctu. Quia de Christi plenitudine omes acci 
-      <lb ed="#W" n="18"/>pimus. Iam omni uerbo dei minis &amp; pro¬ 
-      <lb ed="#W" n="19"/>missionibus, historiae diuinae uere adsen¬ 
-      <lb ed="#W" n="20"/>tiuntur qui sic fidunt. Scholastica fides nihil 
-      <lb ed="#W" n="21"/>nisi mortua opinio est. Nam quomodo cre¬ 
-      <lb ed="#W" n="22"/>dunt omni uerbo dei? qui promissam re¬ 
-      <lb ed="#W" n="23"/>missionem peccatorum non credunt? Non enim ua¬ 
-      <lb ed="#W" n="24"/>letque dicunt Sophistae impios credere, non 
-      <!--158.xml-->
-      <pb ed="#W" n="79-r"/>
-               <lb ed="#W" n="1"/>sibi quidem, sed aliis remissionem pecca¬ 
-      <lb ed="#W" n="2"/>torum contingere. Quaeso enim an non iis quoq 
-      <lb ed="#W" n="3"/>impiis promissa est condonatio peccatorum : 
-      <lb ed="#W" n="4"/>sed non instituimus disputare, contenti pau 
-      <lb ed="#W" n="5"/>cis indicasse quid nomine fidei significare¬ 
-      <lb ed="#W" n="6"/>tur. Extat Eutheri libellus de Christiana li¬ 
-      <lb ed="#W" n="7"/>bertate, e quo qui uolet fidei commendatio¬ 
-      <lb ed="#W" n="8"/>nes alias requitat. Porro fidei uim, opinor e 
-      <lb ed="#W" n="9"/>scripturae exemplis clarius cognoscemus.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e713">
-               <lb ed="#W" n="10"/>⁋ Genesis. xv. promittit misericordiam suam 
-      <lb ed="#W" n="11"/>Abrahae deus uerbis magnificis. Noli time¬ 
-      <lb ed="#W" n="12"/>te Abraham, ego protector tuus sum, &amp; mer¬ 
-      <lb ed="#W" n="13"/>ees tua magna ualde. Paulo post pollicetur 
-      <lb ed="#W" n="14"/>etiam posteritatem, Sequitur autem, Credidit Abra 
-      <lb ed="#W" n="15"/>ham deo, &amp; reputatum est ei ad iustitiam. Quid 
-      <lb ed="#W" n="16"/>igitur credebat Abrahae non aliud nisi esse deum 
-      <lb ed="#W" n="17"/>immo &amp; promissioni dei credidit, eamque fidem 
-      <lb ed="#W" n="18"/>deinde declarauit egregio exemplo, cum filiu 
-      <lb ed="#W" n="19"/>esset immolaturus, nihil dubitans, quin da¬ 
-      <lb ed="#W" n="20"/>turus esset deus posteritatem, etiam hoc filio ne 
-      <lb ed="#W" n="21"/>cato am cum fides sit adsentiri uerbo dei, quid 
-      <lb ed="#W" n="22"/>crediderit Abraham ex promissione quoque sa 
-      <lb ed="#W" n="23"/>tis apparet, cum se protectorem illi addicit des.  
-      <lb ed="#W" n="24"/>Ergo credunt qui pro protectore, pro patre, 
-      <!--159.xml-->
-      <pb ed="#W" n="79-v"/>
-               <lb ed="#W" n="1"/>deum habent, non pro iudice tantum. Exodi 
-      <lb ed="#W" n="2"/>xiiii, fremunt lsraelitae per diffidentiam, cum 
-      <lb ed="#W" n="3"/>fugam suam intercluderent maria, montes,  
-      <lb ed="#W" n="4"/>&amp; nostis a tergo instaret. Hos iubet consiste 
-      <lb ed="#W" n="5"/>re Moses, uisuros magnalia dei, &amp; addit p 
-      <lb ed="#W" n="6"/>missionem, Dominus pugnabit pro uobis &amp; 
-      <lb ed="#W" n="7"/>uos tacebitis. Quid si hic de fide disputa¬ 
-      <lb ed="#W" n="8"/>ssent pro more scholarum nostratum Israelitae. 
-      <lb ed="#W" n="9"/>Satis esse si historiae credant, que sit deus, que 
-      <lb ed="#W" n="10"/>malis poenas, bonis premia dispenset, se 
-      <lb ed="#W" n="11"/>quoque malos esse &amp; fieri posse, ut punire ue 
-      <lb ed="#W" n="12"/>lit utrosque tum Aegyptios, tum lsraelem.  
-      <lb ed="#W" n="13"/>Sed credebant diuinae uoci, diuinis miracu 
-      <lb ed="#W" n="14"/>lis, fidebant misericondia dei, ut maxime 
-      <lb ed="#W" n="15"/>ipsi quoque mortis essent rei, atque ita commit¬ 
-      <lb ed="#W" n="16"/>tebant se alueo per fidem. Et iam hoc exem¬ 
-      <lb ed="#W" n="17"/>plo experti uoluntatem dei erga se, eum uiderent 
-      <lb ed="#W" n="18"/>se seruatos, Aegyptium perisse undis, timue¬ 
-      <lb ed="#W" n="19"/>tunt, inquit, dominum, &amp; crediderunt do¬ 
-      <lb ed="#W" n="20"/>mino, &amp; Mosi seruo eius. Et ea quidem no¬ 
-      <lb ed="#W" n="21"/>bis exempla sunt exhibita ut discamus cre¬ 
-      <lb ed="#W" n="22"/>dere, non illa quidem Sophistica fide, sed 
-      <lb ed="#W" n="23"/>hac fiducia uerbi dei, qualem fuisse in Mo¬ 
-      <lb ed="#W" n="24"/>se uides hoc loco &amp;c.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e805">
-      <!--160.xml-->
-               <pb ed="#W" n="80-r"/>
-               <lb ed="#W" n="1"/>
-               <pc type="indent"/>Qualem autem fidem exigit in Numeris. 
-      <lb ed="#W" n="2"/>xiiii: cum desperaret de Palaestina occupanda 
-      <lb ed="#W" n="3"/>populus? Ait enim dominus. Vsqequo detra¬ 
-      <lb ed="#W" n="4"/>het mihi populus iste? quousque non credent. 
-      <lb ed="#W" n="5"/>mihi in omnibus signis quae feci coram eis 
-      <lb ed="#W" n="6"/>Et capite. xx. Irascitur Mosi &amp; Ahaton, ique 
-      <lb ed="#W" n="7"/>non credidissent aquam e petra promanatu¬ 
-      <lb ed="#W" n="8"/>ram. Credebat certe Aharon, credebat Mo 
-      <lb ed="#W" n="9"/>ses esse deum, sed de diuina uoce dubitabat,  
-      <lb ed="#W" n="10"/>qua promissa erat aqua e petra. Eam incre¬ 
-      <lb ed="#W" n="11"/>dulitatem taxat dominus.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e838">
-               <lb ed="#W" n="12"/>
-               <pc type="indent"/>Aut de qua fide loquitur Moses Deutero.i 
-      <lb ed="#W" n="13"/>Portauit te deus tuus, ut solet homo gest i¬ 
-      <lb ed="#W" n="14"/>re paruulum filium suum in omni uia per quam 
-      <lb ed="#W" n="15"/>ambulastis donec ueniretis ad locum istum. 
-      <lb ed="#W" n="16"/>Et ne sic quidem credidistis domino deo ue¬ 
-      <lb ed="#W" n="17"/>stro, qui praecessit uos in uia &amp;c. Habebant.  
-      <lb ed="#W" n="18"/>illi certe fidem informem, habebant fidem ac¬ 
-      <lb ed="#W" n="19"/>quisitam, sed promissionibus misericordiae 
-      <lb ed="#W" n="20"/>dei non fidebant, non erant erecta corda 
-      <lb ed="#W" n="21"/>eorum fiducia misericordiae dei, uiuebant in 
-      <lb ed="#W" n="22"/>incredulitate, contemnentes ue. bi dei, opus 
-      <lb ed="#W" n="23"/>dei, reductionem ex Aegypto indigne fere¬ 
-      <lb ed="#W" n="24"/>bant, ideo eius incredulitatis poenas dedere,  
-      <!--161.xml-->
-      <pb ed="#W" n="80-v"/>
-               <lb ed="#W" n="1"/>hiaud dubie alias boni uiri in speciem. Haec 
-      <lb ed="#W" n="2"/>est hypocrisis hominum, qui ad eum modum fu¬ 
-      <lb ed="#W" n="3"/>cati sunt bonis operibus cor autem non est 
-      <lb ed="#W" n="4"/>erectum, fiducia &amp; gaudio in deo, cum hanc 
-      <lb ed="#W" n="5"/>unam fiduciam requirat deus, cum illius unius 
-      <lb ed="#W" n="6"/>confirmandae gratia, filium dederit, ne de 
-      <lb ed="#W" n="7"/>bona uoluntate erga nos sua dubitemus, ut 
-      <lb ed="#W" n="8"/>ponamus in deo spem nostram, &amp; non obli¬ 
-      <lb ed="#W" n="9"/>uiscamur operum dei, &amp; mandata eius requi¬ 
-      <lb ed="#W" n="10"/>ramus. Psal. Ixxvii. Ite. i. TαρααγαRήov. v. 
-      <lb ed="#W" n="11"/>Deum inuocauetunt, cum preliarentur, &amp; exau 
-      <lb ed="#W" n="12"/>diuit eos, eo que credidissent in eum. Et. ii. 
-      <lb ed="#W" n="13"/>σαραγαπααααv. xvi. Oculi domini contem 
-      <lb ed="#W" n="14"/>plantur uniuersam terram, &amp; prebent for¬ 
-      <lb ed="#W" n="15"/>titudinem his qui CoRnE pEgtECTo 
-      <lb ed="#W" n="16"/>credunt in eum. Vbi Asam regem luda pro 
-      <lb ed="#W" n="17"/>pheta Anani taxat, Syrorum auxiliis fiden¬ 
-      <lb ed="#W" n="18"/>tem. Verum haud scio, an usquam fidei 
-      <lb ed="#W" n="19"/>uim exemplo potiore exhibeat scriptura, 
-      <lb ed="#W" n="20"/>quam id est quod de losaphat. ii. σαραe¬ 
-      <lb ed="#W" n="21"/>πααήγή. xx. legitur, cum ille Ammonitas,  
-      <lb ed="#W" n="22"/>&amp; Moabitas solo cantu funderet, nec aliud 
-      <lb ed="#W" n="23"/>praecepisset exercitui suo, quam ut consiste 
-      <lb ed="#W" n="24"/>rent confidenter. Eiusmodi est &amp; Ezechiae 
-      <lb ed="#W" n="25"/>exemplum.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e929">
-      <!--162.xml-->
-               <pb ed="#W" n="81-r"/>
-               <lb ed="#W" n="1"/>⁋ Quam fidem autem requirebat ab Acha¬ 
-      <lb ed="#W" n="2"/>Esaias, cap. vii,. cum uetat auxilia Assyrio¬ 
-      <lb ed="#W" n="3"/>rum implorare, polliceturque opem diuinam, 
-      <lb ed="#W" n="4"/>addens, Si non credideritis, non perma¬ 
-      <lb ed="#W" n="5"/>nebitis.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e947">
-               <lb ed="#W" n="6"/>⁋ Plenae sunt huius generis exemplorum sa¬ 
-      <lb ed="#W" n="7"/>crae historiae omnes, erit igitur pii ac studiosi 
-      <lb ed="#W" n="8"/>lectoris, &amp; pro discenda fidei ratione, &amp; pro 
-      <lb ed="#W" n="9"/>confirmanda conscientia decerpere exem¬ 
-      <lb ed="#W" n="10"/>pla. Repetemus autem aliquot locos etiam 
-      <lb ed="#W" n="11"/>ex literis noui testamenti, uel in hoc ut intel 
-      <lb ed="#W" n="12"/>ligatur idem spiritus esse historiarum utri¬ 
-      <lb ed="#W" n="13"/>usque testamenti.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e967">
-               <lb ed="#W" n="14"/>⁋ Et ut hinc ordiat Actuum. xv. negat Pe¬ 
-      <lb ed="#W" n="15"/>trus operibus legis iustificatos patres, quan¬ 
-      <lb ed="#W" n="16"/>quam in lege uiuerent, sed fide. additque fide pu 
-      <lb ed="#W" n="17"/>rificari corda, quae nisi tu intelligas, sicut ipe 
-      <lb ed="#W" n="18"/>exponit, de fiducia gratiae &amp; misericordiae 
-      <lb ed="#W" n="19"/>dei, iam toto erras coelo, qui enim fieri poterit,  
-      <lb ed="#W" n="20"/>ut fides scholastica corda purificet? Vult er¬ 
-      <lb ed="#W" n="21"/>go Petrus omnia opera patrum Dauidis, Esaiae,  
-      <lb ed="#W" n="22"/>Hieremiae peccata fuisse, iustificatos at esse 
-      <lb ed="#W" n="23"/>sola fiducia misericordiae dei in Christo p¬ 
-      <lb ed="#W" n="24"/>missae. Sicut saepe prophetae de se testantur. 
-      <!--163.xml-->
-      <pb ed="#W" n="81-v"/>
-               <lb ed="#W" n="1"/>Haec fiducia bonae uoluntatis dei spargitur 
-      <lb ed="#W" n="2"/>in omnem uitam, in omnia opera, in omnes 
-      <lb ed="#W" n="3"/>tentationes corporales &amp; spirituales.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e1004">
-               <lb ed="#W" n="4"/>⁋ Vnam eademque fides est, qua creditur deo,  
-      <lb ed="#W" n="5"/>qua fiditur bonitate dei, qualicunque tenta¬ 
-      <lb ed="#W" n="6"/>tione, Spiritualis tentatio illa mulieris pec¬ 
-      <lb ed="#W" n="7"/>catricis erat Rucae. vii, quam erexit Christus 
-      <lb ed="#W" n="8"/>inquiens, remittuntur tibi peccata tua. Item 
-      <lb ed="#W" n="9"/>Fides tua te saluam fecit, uade in pace. Cor 
-      <lb ed="#W" n="10"/>poralia erant pleraque cum morbos curaret, &amp; 
-      <lb ed="#W" n="11"/>incredulitatem discipulorum in re corporali ar¬ 
-      <lb ed="#W" n="12"/>guit. Matth. xvi. cum illi de panibus essent sol 
-      <lb ed="#W" n="13"/>liciti. Sic enim increpat, Quid cogitatis inter 
-      <lb ed="#W" n="14"/>uos modicae fideit? &amp;c. Et patris curam de suis 
-      <lb ed="#W" n="15"/>in re corporali quoties inculcat? Matt. vi. 
-      <lb ed="#W" n="16"/>Scit pater uester que his omnibus opus habe 
-      <lb ed="#W" n="17"/>tis. Et. x. Multis passeribus meliores estis 
-      <lb ed="#W" n="18"/>uos. Et huiusmodi corporalia non contem¬ 
-      <lb ed="#W" n="19"/>nenda rudimenta sunt exercendae fidei.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e1042">
-               <lb ed="#W" n="20"/>⁋ Haec moneo ne quid laboremus distin¬ 
-      <lb ed="#W" n="21"/>guendis promissionibus diuinis. Sunt em 
-      <lb ed="#W" n="22"/>aliae rerum corporalium, ut ueteris testamenti 
-      <lb ed="#W" n="23"/>ens. Aliae spirituales, quae proprie ad nouum 
-      <lb ed="#W" n="24"/>testamentum pertinent. Sic enim sentio nec pro 
-      <!--164.xml-->
-      <pb ed="#W" n="82-r"/>
-               <lb ed="#W" n="1"/>missionibus corporalibus credere ex corde 
-      <lb ed="#W" n="2"/>nisi iustos. Et corporalium rerum promissio¬ 
-      <lb ed="#W" n="3"/>ne misericordiam suam declarasse deum, que 
-      <lb ed="#W" n="4"/>argumentari facile poterant sancti, multo 
-      <lb ed="#W" n="5"/>magis animas suas curae esse deo, si curae fu 
-      <lb ed="#W" n="6"/>issent corpora. Nec desinere patrem esse ani¬ 
-      <lb ed="#W" n="7"/>marum, qui corporibus patrem egisset. Hoc est 
-      <lb ed="#W" n="8"/>quod ante dixi, etiam corporalium rerum pro 
-      <lb ed="#W" n="9"/>missiones per se fuisse promissionem gratiae, 
-      <lb ed="#W" n="10"/>obscuram quidem sed tamen habentibus spi 
-      <lb ed="#W" n="11"/>ritum dei satis cognitam. Iam &amp; Mosi precanti 
-      <lb ed="#W" n="12"/>pro populi peccato, in Numeris cap. xiii. 
-      <lb ed="#W" n="13"/>condonatur peccatum populi. Et lex cum pro¬ 
-      <lb ed="#W" n="14"/>missione gratiae lata est. Exod. xx. Ego sum 
-      <lb ed="#W" n="15"/>dominus deus tuus faciens misericordiam 
-      <lb ed="#W" n="16"/>in millia his qui diligunt me &amp; custodiunt 
-      <lb ed="#W" n="17"/>praecepta mea. Et sacrificia pro peccato tra¬ 
-      <lb ed="#W" n="18"/>dita sunt, quae necesse est fateamur fuisse sig 
-      <lb ed="#W" n="19"/>na remissionis peccatorum fidelibus. Non 
-      <lb ed="#W" n="20"/>quaero allegorias, sed historiam uolo promit 
-      <lb ed="#W" n="21"/>tere misericordiam in eo ipsoque corporalia 
-      <lb ed="#W" n="22"/>beneficia promissa sunt. Atque huc pulcherri 
-      <lb ed="#W" n="23"/>me quadrant pleraeque historiae, ut Genesis. 
-      <lb ed="#W" n="24"/>xxviii. ait laeob, Si fuetit dominus mecum. 
-      <!--165.xml-->
-      <pb ed="#W" n="82-v"/>
-               <lb ed="#W" n="1"/>&amp; custodierit me in uia per quam ego ambu¬ 
-      <lb ed="#W" n="2"/>lo &amp; dederit mihi panem ad uescendum, &amp;  
-      <lb ed="#W" n="3"/>uestimentum ad induendum &amp;c, erit mihi 
-      <lb ed="#W" n="4"/>dominus in deum. Fidem misericordiae &amp; 
-      <lb ed="#W" n="5"/>bonitatis dei eff cacissime nobis commenda¬ 
-      <lb ed="#W" n="6"/>uit Moses exemplis operum &amp; promissio¬ 
-      <lb ed="#W" n="7"/>num corporalium. Deutero. viii. Adssixit te 
-      <lb ed="#W" n="8"/>penuria &amp; dedit tibi cibum manna, quod 
-      <lb ed="#W" n="9"/>gnorabas tu &amp; patres tui, ut O STίEN¬ 
-      <lb ed="#W" n="10"/>D E RET tibi, quod non in solo pane ui 
-      <lb ed="#W" n="11"/>uat homo, sed in omni uerbo, quod egre¬ 
-      <lb ed="#W" n="12"/>editur de ore dei. Adeo uerbum uitae est, quo¬ 
-      <lb ed="#W" n="13"/>cunque misericordiam dei cognoscit cor hu¬ 
-      <lb ed="#W" n="14"/>manum. Huius formae exempla fidei recensentu 
-      <lb ed="#W" n="15"/>ad Hebr. xi, quorum pleraque ad res corporales 
-      <lb ed="#W" n="16"/>pertinent. Et cur non ad hunc locum acco 
-      <lb ed="#W" n="17"/>modamus totum illud caput.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e1153">
-               <lb ed="#W" n="18"/>⁋ Principio fidem sic definit. Fides est speram 
-      <lb ed="#W" n="19"/>larum rerum hypostasis, id est, expectatio, cer 
-      <lb ed="#W" n="20"/>titudo non apparentium. Hanc ὑ πγραφαα fi¬ 
-      <lb ed="#W" n="21"/>dei eiusmodi gilossematis detorserunt ad 
-      <lb ed="#W" n="22"/>sua somnia sophistae, &amp; ad carnalem illam  
-      <lb ed="#W" n="23"/>opinatiunculam, quam fidem uocarunt ut plane 
-      <lb ed="#W" n="24"/>nihil Apostolicae sententiae intelligeretur. Pro 
-      <!--166.xml-->
-      <pb ed="#W" n="83-r"/>
-               <lb ed="#W" n="1"/>inde nos simplicissima uerba simplicissima 
-      <lb ed="#W" n="2"/>sententia referemus. Fidem esse certitudinem eoge 
-      <lb ed="#W" n="3"/>quae non adparent. Obsecro, quid est certitu, 
-      <lb ed="#W" n="4"/>do? at diuinarum ac spiritualium rerum nihil  
-      <lb ed="#W" n="5"/>certo tenet natura, nisi per spiritum sanctum il¬ 
-      <lb ed="#W" n="6"/>lustrata. Iam &amp; sperandarum rerum expectationem 
-      <lb ed="#W" n="7"/>adpellat. Non est igitur fides credere minis tan 
-      <lb ed="#W" n="8"/>tum, immo hoc potius timorem uocat scriptu 
-      <lb ed="#W" n="9"/>ra, sed &amp; promissionibus credere, hoc est fi¬ 
-      <lb ed="#W" n="10"/>dere misericondia &amp; bonitate dei, aduersus 
-      <lb ed="#W" n="11"/>iniuriam mundi, peccati, mortis, adeoque poren 
-      <lb ed="#W" n="12"/>tatum inferi. Viden expectationem rerum quae 
-      <lb ed="#W" n="13"/>sperantur adpellari fidem. Non crenduugigitur, qui  
-      <lb ed="#W" n="14"/>non expectant promissam salutema At dices,  
-      <lb ed="#W" n="15"/>credo promissam salutem, sed aliis obuentu¬ 
-      <lb ed="#W" n="16"/>ram. Sic enim sentit caro. Sed audi, An non haec 
-      <lb ed="#W" n="17"/>tibi quoque promissa sunt? An non in omnes gen¬ 
-      <lb ed="#W" n="18"/>tes praedicatum est Euangeliums non credis igiem 
-      <lb ed="#W" n="19"/>ni tibi quoque salurem promissam credas. Cer¬ 
-      <lb ed="#W" n="20"/>ta impietas &amp; infidelitas est, non omni uer¬ 
-      <lb ed="#W" n="21"/>bo dei credere, aut credere non posse, que &amp; 
-      <lb ed="#W" n="22"/>tibi sit promissa remissio peccatorum. 
-      <lb ed="#W" n="23"/>⁋ Subicit autem definitionis exempla Episto 
-      <lb ed="#W" n="24"/>Ia ad Hebraeos. Fide intelligims conditum esse 
-      <!--167.xml-->
-      <pb ed="#W" n="83-v"/>
-               <lb ed="#W" n="1"/>mundum uerbo dei, ut inuisiblium scilicet di¬ 
-      <lb ed="#W" n="2"/>uinitatis, &amp; uirtutis eius uisibilia scilicet ope 
-      <lb ed="#W" n="3"/>ra diuinae potentiae fierent. Sic enim hic locus 
-      <lb ed="#W" n="4"/>cum eo qui est in Romanis conuenit. Hic ue¬ 
-      <lb ed="#W" n="5"/>ro Sophistae obstrepent, inepte a nobis aliam 
-      <lb ed="#W" n="6"/>requiri fidem praeter historicam, cum Episto 
-      <lb ed="#W" n="7"/>lIa ad Hebraeos hic de historia tantum, nempe 
-      <lb ed="#W" n="8"/>conditi mundi, loquatur. Sed audi, quo¬ 
-      <lb ed="#W" n="9"/>modo quadrabit ad definitionem fidei prae¬ 
-      <lb ed="#W" n="10"/>scriptam hoc exemplum, si ad solam histo¬ 
-      <lb ed="#W" n="11"/>ricam fidem pertinet? Proinde fidem histo¬ 
-      <lb ed="#W" n="12"/>tiae de mundo condito, non opinionem tan 
-      <lb ed="#W" n="13"/>tum illam uulgarem, quae gentibus etiam, quae 
-      <lb ed="#W" n="14"/>Saracenis persuasa erat, sed cognitionem po 
-      <lb ed="#W" n="15"/>tentiae &amp; bonitatis ab opere creationis col¬ 
-      <lb ed="#W" n="16"/>lectam uocat. Ea fides non alia erat, quam uel 
-      <lb ed="#W" n="17"/>Petri, uel Pauli. Nam ut potentiam dei intel¬ 
-      <lb ed="#W" n="18"/>ligit Petrus in resurrectione Christi, ut bo¬ 
-      <lb ed="#W" n="19"/>nitatem, ut misericordiam intelligit, cum cre 
-      <lb ed="#W" n="20"/>dit pro se Christum uictimam ac satis factio¬ 
-      <lb ed="#W" n="21"/>nem fuisse. Adeoque nullo opere suo, sed sim 
-      <lb ed="#W" n="22"/>pliciter misericondia dei fidit, quam in Chri¬ 
-      <lb ed="#W" n="23"/>sto pollicitus est. Ita qui spiritu rerum condi¬ 
-      <lb ed="#W" n="24"/>tionem aestimat, is &amp; potentiam dei uidet au¬ 
-      <!--168.xml-->
-      <pb ed="#W" n="84-r"/>
-               <lb ed="#W" n="1"/>ctoris tantarum rerum, &amp; bonitatem cum se omnia 
-      <lb ed="#W" n="2"/>uelut e manibus creatoris sentit accipere, ui 
-      <lb ed="#W" n="3"/>tam, uictum, sobolem, &amp; illa permittit cre 
-      <lb ed="#W" n="4"/>atori, ut temperet, regat, administret, sup¬ 
-      <lb ed="#W" n="5"/>peditet, pro sua bonitate, quae libet. Haec fi 
-      <lb ed="#W" n="6"/>des est de rerum conditione, non frigida opi 
-      <lb ed="#W" n="7"/>nio, sed uiuacissima cognitio tum potentiae. 
-      <lb ed="#W" n="8"/>tum bonitatis dei, effundentis se in omnes 
-      <lb ed="#W" n="9"/>creaturas, regentis &amp; administrantis omnes 
-      <lb ed="#W" n="10"/>creaturas, quam si possem explicare, ut rei dig 
-      <lb ed="#W" n="11"/>nitas postulat, quantum chartarum insume¬ 
-      <lb ed="#W" n="12"/>rem in hunc unum locum. Quanquam qui ue¬ 
-      <lb ed="#W" n="13"/>re credit, quae sit fides de rerum cratione, spi¬ 
-      <lb ed="#W" n="14"/>ritu facile aestimabit. Fortasse ridebunt haec 
-      <lb ed="#W" n="15"/>Sophistae, sed tideant sane, dum refutare 
-      <lb ed="#W" n="16"/>non possint, quae ego tam firma esse scio, 
-      <lb ed="#W" n="17"/>ut ne ab inferorum quidem portis possint con 
-      <lb ed="#W" n="18"/>uelli. Vocat Paulus creationis fidem, augu¬ 
-      <lb ed="#W" n="19"/>stius &amp; uiuacius quiddam, quam opinionem 
-      <lb ed="#W" n="20"/>sophisticam, cum ad Romanos. i. ait, Inuisi 
-      <lb ed="#W" n="21"/>bilia dei nempe sempiternam uirtutem, &amp; di 
-      <lb ed="#W" n="22"/>uinitatem conspici, per uisibilia. Porro uirtus 
-      <lb ed="#W" n="23"/>dei seu diuinitas, quid nisi potentia &amp; bo¬ 
-      <lb ed="#W" n="24"/>nitas est? Et Actuum. xiiii. Non sine testimo¬ 
-      <!--169.xml-->
-      <pb ed="#W" n="84-v"/>
-               <lb ed="#W" n="1"/>nio se reliquit benefaciens, de coelo dans plu 
-      <lb ed="#W" n="2"/>uiam &amp; tempora fructifera. Et quam suauiter 
-      <lb ed="#W" n="3"/>oblectat se Dauid meditatione creationis,  
-      <lb ed="#W" n="4"/>Psal. c.iii. Omnia in sapientia fecisti, imple¬ 
-      <lb ed="#W" n="5"/>ta est terra possessione tui. Item, Omniam a te 
-      <lb ed="#W" n="6"/>expectant, ut des illis escam in tempore. Dan 
-      <lb ed="#W" n="7"/>te te illis colligent, aperiente te manum tuam 
-      <lb ed="#W" n="8"/>omnia implebuntur bonitate. Quaeso te ad 
-      <lb ed="#W" n="9"/>eum modum mysterium creationis tractare po¬ 
-      <lb ed="#W" n="10"/>test caro? aut illud camalium somniorum 
-      <lb ed="#W" n="11"/>chaos philosophia, quae cum contingenter 
-      <lb ed="#W" n="12"/>euenite res arbitretur, plane negat opus crea 
-      <lb ed="#W" n="13"/>tionis. Itaque sicut legis populus potentiam ac 
-      <lb ed="#W" n="14"/>bonitatem dei cognouit, in eo que uindicatus 
-      <lb ed="#W" n="15"/>est a seruitute Aegyptiaca. Sic enim ait Exodi 
-      <lb ed="#W" n="16"/>xx. Ego sum dominus deus tuus, qui eduxi 
-      <lb ed="#W" n="17"/>te de terra Aegypto, de domo seruitutis &amp;c. 
-      <lb ed="#W" n="18"/>&amp; ante lege promulgatam cognoscebant pa¬ 
-      <lb ed="#W" n="19"/>tres, in iis, quae cum Abraham, Isaac, Iacob, 
-      <lb ed="#W" n="20"/>gessetat. Quare deum Abraham &amp;c, uocant. Ita 
-      <lb ed="#W" n="21"/>ante hos creatio rerum erat signum certum &amp; for 
-      <lb ed="#W" n="22"/>ma, e qua cognoscebatur deus. Sic Abel, sic 
-      <lb ed="#W" n="23"/>alii sancti credidere, quanquam horum fidem  
-      <lb ed="#W" n="24"/>quoque excitauit promissio de capite serpen 
-      <lb ed="#W" n="25"/>tis conterendo per semen Heuae. ldeo subicitur,  
-      <!--170.xml-->
-      <pb ed="#W" n="85-r"/>
-               <lb ed="#W" n="1"/>Fide potiorem hostiam Abel, quam Cain obtu¬ 
-      <lb ed="#W" n="2"/>lit. Erat in utroque dubio procul historiae sci 
-      <lb ed="#W" n="3"/>entia, alioqui cur offerret Cain? Ergo cum fi 
-      <lb ed="#W" n="4"/>dem Abelo tribuit, non Cain, non aliquam 
-      <lb ed="#W" n="5"/>historicam opinionem designat, sed fidem gio 
-      <lb ed="#W" n="6"/>rificantem deum, bene sencientem de deo, fidentem 
-      <lb ed="#W" n="7"/>diuina misericondia &amp;c. Hac fide uincebat 
-      <lb ed="#W" n="8"/>Abel, per hanc fidem consecutus est testimo¬ 
-      <lb ed="#W" n="9"/>nium, que esset iustus. ld quod diligenter adno 
-      <lb ed="#W" n="10"/>tauit auctor Epistolae, ut admoneret fidem  
-      <lb ed="#W" n="11"/>esse, quae pro iusticia reputaretur, non hostiam, 
-      <lb ed="#W" n="12"/>non ullum opus. Fide Enoch translatus est 
-      <lb ed="#W" n="13"/>ne uideret mortem, hoc est, quia credidit 
-      <lb ed="#W" n="14"/>Enoch, deo placuit, atque ita, ut in ipso pa¬ 
-      <lb ed="#W" n="15"/>tribus ostenderet &amp; argumentum &amp; spem ui¬ 
-      <lb ed="#W" n="16"/>tae melioris, cum eum transfertet. Quid enim atti¬ 
-      <lb ed="#W" n="17"/>net querere quorsum sit translatus, modo in 
-      <lb ed="#W" n="18"/>tellegams eum uelut specimen uitae &amp; certissi 
-      <lb ed="#W" n="19"/>mum argumentum immortalitatis exhibitum pa 
-      <lb ed="#W" n="20"/>tribus ad confirmandam eorum fidem. Iam quod se¬ 
-      <lb ed="#W" n="21"/>quitur, sine fide impossibile est placere deo,  
-      <lb ed="#W" n="22"/>credere enim oportet accedentem ad deum, &amp; qui 
-      <lb ed="#W" n="23"/>sit, &amp; que inquirentibus se, remunerator sit, ui¬ 
-      <lb ed="#W" n="24"/>des quam non possit de sophistica fide intelligi 
-      <!--171.xml-->
-      <pb ed="#W" n="85-v"/>
-               <lb ed="#W" n="1"/>qua satis constat non confidere deo hypo¬ 
-      <lb ed="#W" n="2"/>critas que misertus sit, que beneuelit, que sit sal¬ 
-      <lb ed="#W" n="3"/>uaturus. Nam si interroges eorum corda, nonne 
-      <lb ed="#W" n="4"/>ita respondebunt, Nescio utrum deo sint accep 
-      <lb ed="#W" n="5"/>ta opera mea, nescio utrum possim saluari,  
-      <lb ed="#W" n="6"/>Scio quidem promissam salutem, scio deum 
-      <lb ed="#W" n="7"/>esse misericordem, sed fortasse mecum non 
-      <lb ed="#W" n="8"/>aget pro misericordia. Ista mei rationem ma¬ 
-      <lb ed="#W" n="9"/>iestas non habet, &amp; hoc genus impia mul¬ 
-      <lb ed="#W" n="10"/>ta. Quanquam ne haec quidem, quae de dei iu¬ 
-      <lb ed="#W" n="11"/>dicio loquuntur impii, ex uero corde profi¬ 
-      <lb ed="#W" n="12"/>ciscuntur. Contemnunt em dei iudicium, non 
-      <lb ed="#W" n="13"/>timent, donec a deo confunduntur. Esset 
-      <lb ed="#W" n="14"/>autem debellatum nobis, si cor magnitudinem 
-      <lb ed="#W" n="15"/>obonitatis, &amp; amplitudinem gratiae concipere 
-      <lb ed="#W" n="16"/>posset, atque ita confidere. Non est oblitus tui 
-      <lb ed="#W" n="17"/>deus, tanta eius misericordia est, ut si te ei 
-      <lb ed="#W" n="18"/>credas, seruet, tueatur, saluet, confide igitur. 
-      <lb ed="#W" n="19"/>Quorum corda ad eum modum erecta sunt sen¬ 
-      <lb ed="#W" n="20"/>su bonitatis dei, quae credunt SlRIeuen¬ 
-      <lb ed="#W" n="21"/>tura, quae promisit deus, ea demum uere cre¬ 
-      <lb ed="#W" n="22"/>dunt, deum esse remuneratorem. Immo ea 
-      <lb ed="#W" n="23"/>quoque tandem uere credunt deum. Non cre¬ 
-      <lb ed="#W" n="24"/>dunt enim impii, sed frigida opinione tenentur,  
-      <!--172.xml-->
-      <pb ed="#W" n="86-r"/>
-               <lb ed="#W" n="1"/>eui non adhaeret profunditas cordis. Fide 
-      <lb ed="#W" n="2"/>Noe resposo accepto, metuens ea quae non 
-      <lb ed="#W" n="3"/>dum uidebantur, parauit arcam ad salutem  
-      <lb ed="#W" n="4"/>domus suae. Ecce duo complectitur Nohae fi 
-      <lb ed="#W" n="5"/>des, minas &amp; promissionem. Atque id est, qd 
-      <lb ed="#W" n="6"/>ante dixi, nulli uerbo dei impios credere,  
-      <lb ed="#W" n="7"/>nec minis, nec promissionibus. Nohe deo 
-      <lb ed="#W" n="8"/>gioriam ueritatis tribuit, ideo &amp; minas formi 
-      <lb ed="#W" n="9"/>dat, &amp; promissione salutis, adeoque miseri¬ 
-      <lb ed="#W" n="10"/>cordia fidit. Multi, ne dubita, illis quoque ten¬ 
-      <lb ed="#W" n="11"/>poribus fuere hypocritae qui fidem simula  
-      <lb ed="#W" n="12"/>runt, esse deum, esse malorum uindicem, esse 
-      <lb ed="#W" n="13"/>bonorum seruatorem. Sed hos illae dei minae 
-      <lb ed="#W" n="14"/>nihil mouerant. Quare? que non crederent. 
-      <lb ed="#W" n="15"/>uero corde, nec mouit promissio salutis,  
-      <lb ed="#W" n="16"/>per Arcam, que non fiderent misericondiae 
-      <lb ed="#W" n="17"/>dei SVPERS E. Adeo nihil est sophi¬ 
-      <lb ed="#W" n="18"/>stica fides, nisi mera impostura, merum lu 
-      <lb ed="#W" n="19"/>dibrium animarum, &amp; tamen impii &amp; &amp;bor 
-      <lb ed="#W" n="20"/>Sophistae docent satis esse illam suam fictam.  
-      <lb ed="#W" n="21"/>fidem ad bonum opus. Cum bonum opus non 
-      <lb ed="#W" n="22"/>sit quod aut odio aut contemptu dei fit. Fite 
-      <lb ed="#W" n="23"/>autem odio &amp; contemptu dei, quidquid non 
-      <lb ed="#W" n="24"/>sit fiducia misericondiae &amp; bonitatis dei. Si¬ 
-      <!--173.xml-->
-      <pb ed="#W" n="86-v"/>
-               <lb ed="#W" n="1"/>cut Paulus ait, Peccatum est, quidquid non fit 
-      <lb ed="#W" n="2"/>ex fide. Et per Arcam, ait. Dannauit mundum. 
-      <lb ed="#W" n="3"/>Nempeque unum fides seruarit, reliquos perdide¬ 
-      <lb ed="#W" n="4"/>rit incredulitas. Et quam sollicite monet, sum 
-      <lb ed="#W" n="5"/>mam esse iusticiae, fidem misericordiae &amp; gratiae 
-      <lb ed="#W" n="6"/>dei cum addit, &amp; iusticiae quae per fidem est, hae 
-      <lb ed="#W" n="7"/>res institutus est. Nihil de figuris loquor, non 
-      <lb ed="#W" n="8"/>quaero allegorias, sed ad simplicissimam hi¬ 
-      <lb ed="#W" n="9"/>storiam me refero. Iustificatur Noe non ullo suo 
-      <lb ed="#W" n="10"/>bono opere, sed sola fide misericondiae dei,  
-      <lb ed="#W" n="11"/>quam cum ex hac promissione de se seruando ex 
-      <lb ed="#W" n="12"/>aquis, tum ex ea, quae de capite serpentis,  
-      <lb ed="#W" n="13"/>hoc est, de aculeo mortis, conterendo, maio 
-      <lb ed="#W" n="14"/>ribus tradita erat conceperat. Fide adpellatus 
-      <lb ed="#W" n="15"/>Abraham obediit, ut in locum exiret quem accep 
-      <lb ed="#W" n="16"/>turus erat in haereditatem, &amp; exiit nesciens quo 
-      <lb ed="#W" n="17"/>iret. Fidebat Abraham misericordia, bonita¬ 
-      <lb ed="#W" n="18"/>teque dei nihil dubitans, quin ubicunque gen¬ 
-      <lb ed="#W" n="19"/>tium esset, deum esset habiturus protectorem, &amp; 
-      <lb ed="#W" n="20"/>seruatorem. ldeo se eius uoci commisit, deserens 
-      <lb ed="#W" n="21"/>patriam, non aliter atque se uoci Mosi committe¬ 
-      <lb ed="#W" n="22"/>bant lsraelitae, cum alueum rubri maris ingre¬ 
-      <lb ed="#W" n="23"/>deretur. Porro quanta haec Abrahae fides fuit e 
-      <lb ed="#W" n="24"/>quae, quamquam tota ille uita uagaretur incertis 
-      <!--174.xml-->
-      <pb ed="#W" n="87-r"/>
-               <lb ed="#W" n="1"/>sedibus, tamen non est labefactata. Satis potens, sa 
-      <lb ed="#W" n="2"/>tis opulentus, satis tuto loco colere sibi ui¬ 
-      <lb ed="#W" n="3"/>debatur, quia sub umbra alarum dei degeret. 
-      <lb ed="#W" n="4"/>Iam in eo ipso etiam, quod certam in Cananaea se¬ 
-      <lb ed="#W" n="5"/>dem nec sibi, nec gnato contingere uidebat,  
-      <lb ed="#W" n="6"/>hospitem se huius terrae agnoscebat esse, ciuem 
-      <lb ed="#W" n="7"/>fore aeternae ciuitatis sperabat. Fide &amp; Sara 
-      <lb ed="#W" n="8"/>uim accepit ad concipiendum, retinendumque se¬ 
-      <lb ed="#W" n="9"/>me. Viuificat enim &amp; creat omnia uerbum dei, quo 
-      <lb ed="#W" n="10"/>cum fideret Sara, nempe promissione sobolis, qui 
-      <lb ed="#W" n="11"/>fieri potuit, ut non ex sterili, ex effoeta, foecum 
-      <lb ed="#W" n="12"/>da fietet. OMNIA enim possibilia sunt creden 
-      <lb ed="#W" n="13"/>ti. Sed Abrahae fides ut oppugnata est, quam 
-      <lb ed="#W" n="14"/>ualido ariete concussa est cum Isaac, in quo scie 
-      <lb ed="#W" n="15"/>bat promissam esse posteritatem, iuberetur im¬ 
-      <lb ed="#W" n="16"/>molare. Quam fuit autem constans in adulescente  
-      <lb ed="#W" n="17"/>Isaac fides, cum patris imperio, cum uoluntati 
-      <lb ed="#W" n="18"/>diunae adeo nihil constaretur obsequi. Putas 
-      <lb ed="#W" n="19"/>potuisse tam seuum imperium exercere patrem in fi 
-      <lb ed="#W" n="20"/>lium, &amp; eum quidem eui promissa erat posteritas. 
-      <lb ed="#W" n="21"/>Putas filium obtempetaturum fuisse patri, ni 
-      <lb ed="#W" n="22"/>uterque confisus misericondia diuina, illi se con 
-      <lb ed="#W" n="23"/>misisset. Nec fefellt fides, Seruatur filius, re 
-      <lb ed="#W" n="24"/>stituitur patri, collaudatur patris obedi¬ 
-      <lb ed="#W" n="25"/>entia. Vides hic praelusum esse peccato 
-      <!--175.xml-->
-      <pb ed="#W" n="87-v"/>
-               <lb ed="#W" n="1"/>&amp; morti &amp; iustificationi &amp; resurrectioni. 
-      <lb ed="#W" n="2"/>adeoque toti nouo testamento. An non hic 
-      <lb ed="#W" n="3"/>didicerunt non Abraham modo &amp; Isaac,  
-      <lb ed="#W" n="4"/>sed omnes pii priusquam reuelaretur Euange 
-      <lb ed="#W" n="5"/>lium, quid in morte sperandum esset de uolun 
-      <lb ed="#W" n="6"/>tate dei. An non hoc exemplo fidem uictae 
-      <lb ed="#W" n="7"/>mortis, concepere patrest? uideruntque praelu 
-      <lb ed="#W" n="8"/>sum Christo, qui caput serpentis, aculeum  
-      <lb ed="#W" n="9"/>mortis contriturus esset. Fide Isaac benedixit 
-      <lb ed="#W" n="10"/>lacob &amp; Esau, futurum credens ut promissam 
-      <lb ed="#W" n="11"/>terram olim occuparent. Iam hoc mitabi¬ 
-      <lb ed="#W" n="12"/>lius est, que ratam esse uoluit benedictionem 
-      <lb ed="#W" n="13"/>Iacob, quam is praeripuisset natu maiori fra¬ 
-      <lb ed="#W" n="14"/>tri, cui iure gentium debebatur, nimitum fide 
-      <lb ed="#W" n="15"/>diuini uerbi, Maior seruiet minori. Fide be 
-      <lb ed="#W" n="16"/>nedixit lacob filios loseph, quanquam iam 
-      <lb ed="#W" n="17"/>exules, nihil dubitans tamen redituros in 
-      <lb ed="#W" n="18"/>Cananaeam, esseque maximarum gentium pri¬ 
-      <lb ed="#W" n="19"/>mordia. Nec dubitatunt Mosi parentes qui  
-      <lb ed="#W" n="20"/>redituri essent in palaestinam, quod in caussa 
-      <lb ed="#W" n="21"/>fuit, cur occuluerint infantem, spem gene¬ 
-      <lb ed="#W" n="22"/>ris. Deinde etiam, cur expositum commiserint po 
-      <lb ed="#W" n="23"/>tius diuinae misericordiae, quam necarint.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e1736">
-               <lb ed="#W" n="24"/>⁋ Adde si uoles &amp; reliqua exempla, nos for¬ 
-      <!--176.xml-->
-      <pb ed="#W" n="88-r"/>
-               <lb ed="#W" n="1"/>mam exemplorum tractandorum delineaui¬ 
-      <lb ed="#W" n="2"/>mus, docuimusque non de sophistica hyp o¬ 
-      <lb ed="#W" n="3"/>crisi, sed de fide loqui eius Epistolae aucto¬ 
-      <lb ed="#W" n="4"/>rem, hoc est, de fiducia misericordiae seu gra 
-      <lb ed="#W" n="5"/>tiae dei.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e1756">
-               <lb ed="#W" n="6"/>⁋ Hic non uides discrimen promissionum 
-      <lb ed="#W" n="7"/>diuinarum, sed simpliciter uerbum fidei esse,  
-      <lb ed="#W" n="8"/>promissionem misericordiae &amp; gratiae dei. 
-      <lb ed="#W" n="9"/>siue de rebus aetenis, siue de rebus tempo¬ 
-      <lb ed="#W" n="10"/>talibus agatur. Quanquam fere promissiones 
-      <lb ed="#W" n="11"/>rerum spiritualium ex corporalium promissioni¬ 
-      <lb ed="#W" n="12"/>bus colligi possint, non dico per allegoriam 
-      <lb ed="#W" n="13"/>tantum, sed claro &amp; manifesto argumento 
-      <lb ed="#W" n="14"/>spititus. Quid in morte sperandum esset Abra 
-      <lb ed="#W" n="15"/>hamum perspicuo docebat filii immola¬ 
-      <lb ed="#W" n="16"/>tio. Iam hoc quoque non adtinet discernere 
-      <lb ed="#W" n="17"/>promissiones, que in primam promissionem 
-      <lb ed="#W" n="18"/>de semine Heuae, id est, Christo, omnes re¬ 
-      <lb ed="#W" n="19"/>liquae directae sunt. ldeo e epectabatur posteri 
-      <lb ed="#W" n="20"/>tas, quia semen illud expectabatur, scilicet 
-      <lb ed="#W" n="21"/>Christus. Atque ita renouata est promissio 
-      <lb ed="#W" n="22"/>Heuae facta, in promissione Abrahae facta, 
-      <lb ed="#W" n="23"/>cum inquit Genesis. xxii. Denedicentur in se¬ 
-      <lb ed="#W" n="24"/>mine tuo omnes gentes terrae, quod nisi de 
-      <!--177.xml-->
-      <pb ed="#W" n="88-v"/>
-               <lb ed="#W" n="1"/>Christo exponi non potest. Atque ita interpre 
-      <lb ed="#W" n="2"/>tatur? Apostolus ad Qalat. iii. In semine tuo, 
-      <lb ed="#W" n="3"/>qui est Christus, &amp; expectatam esse posteritatem 
-      <lb ed="#W" n="4"/>expectatum esse regnum propter Christum pro¬ 
-      <lb ed="#W" n="5"/>missum satis declarat lacob Genesis. xlix. 
-      <lb ed="#W" n="6"/>Non auferetur sceptrum de luda, &amp; dux de 
-      <lb ed="#W" n="7"/>foemore eius, donec ueniat qui mittendus 
-      <lb ed="#W" n="8"/>est, &amp; ipse erit expectatio gentium, ubi quid 
-      <lb ed="#W" n="9"/>aliud uoluit, nisi regni, adeoque omnes corpo¬ 
-      <lb ed="#W" n="10"/>rasium rerum promissiones in Christeum referri,  
-      <lb ed="#W" n="11"/>&amp; in Christo consumati. Hoc in caussa est 
-      <lb ed="#W" n="12"/>cur nullo discrimine Paulus quasuis pro¬ 
-      <lb ed="#W" n="13"/>missiones Abrahae factas citat, Ad Calatas 
-      <lb ed="#W" n="14"/>iii, eam quae est Genesis xii. In te benedicen 
-      <lb ed="#W" n="15"/>tur omnes gentes. Et ad Romanos. iiii. dicit 
-      <lb ed="#W" n="16"/>Abrahae promissam haereditatem mundi, &amp;  
-      <lb ed="#W" n="17"/>quod filii Abrahae sint ex omibus gentibs qui cre¬ 
-      <lb ed="#W" n="18"/>didere, &amp; que omes fideles sint reges in Chri¬ 
-      <lb ed="#W" n="19"/>sto rege. Sicut psalmus ait. Omia subiecisti 
-      <lb ed="#W" n="20"/>sub pedes eius. Rursum, qui manifeste reue 
-      <lb ed="#W" n="21"/>lato Euangelio in Christum credunt, in eo 
-      <lb ed="#W" n="22"/>omnes corporales benedictiones habent, nam 
-      <lb ed="#W" n="23"/>si proprio filio deus non pepercit, sed pro 
-      <lb ed="#W" n="24"/>nobis omnibus tradidit eum, quomodo 
-      <!--178.xml-->
-      <pb ed="#W" n="89-r"/>
-               <lb ed="#W" n="1"/>non omnia cum eo donarit? Idem appa¬ 
-      <lb ed="#W" n="2"/>ret ex regni ratione, que omnes creaturae, ut 
-      <lb ed="#W" n="3"/>Christo, ua illius fratribus subiectae sunt,  
-      <lb ed="#W" n="4"/>mors, fames, gladius, potestates, summa, 
-      <lb ed="#W" n="5"/>infima, peccatum, denique quidquid est om¬ 
-      <lb ed="#W" n="6"/>nium rerum, quas metuere humana imbecilli¬ 
-      <lb ed="#W" n="7"/>tas solet, in nostra potestate est, sub pedes 
-      <lb ed="#W" n="8"/>nostros subiectum est, nisi regnare Christum 
-      <lb ed="#W" n="9"/>non credimus. Huc illud pertinet, quod su¬ 
-      <lb ed="#W" n="10"/>pra dixi, fidem spargi in omnes casus uitae,  
-      <lb ed="#W" n="11"/>mortisque nostrae, que nulla creatura recte uta 
-      <lb ed="#W" n="12"/>mur, nium per fidem, que omnibus creaturis 
-      <lb ed="#W" n="13"/>abutamur per diffidentiam, hoc est, non cre¬ 
-      <lb ed="#W" n="14"/>dentes in creaturae usu nos placere deo, diffi 
-      <lb ed="#W" n="15"/>dentes in usu creaturae de misericordia, de 
-      <lb ed="#W" n="16"/>beneuolentia dei erga nos. Abutitur inopia, 
-      <lb ed="#W" n="17"/>morte, aduersis rebus, qui non credit diui¬ 
-      <lb ed="#W" n="18"/>nae misericordiae opera esse, qui hic diffi¬ 
-      <lb ed="#W" n="19"/>dit, ad humana praesidia profugit, qui du 
-      <lb ed="#W" n="20"/>bitat se in Christo uincere posse. Sic abusus¬ 
-      <lb ed="#W" n="21"/>fuisset tristissimo imperio de mactando fi¬ 
-      <lb ed="#W" n="22"/>lio Abraham, nisi libenter obsecundans,  
-      <lb ed="#W" n="23"/>commisisset se misericordiae diuinae confi¬ 
-      <lb ed="#W" n="24"/>sus nihil non agi secum a deo paterno adfectu. 
-      <!--179.xml-->
-      <pb ed="#W" n="89-v"/>
-               <lb ed="#W" n="1"/>Non minus abutitur pecunia, uita, secun¬ 
-      <lb ed="#W" n="2"/>dis rebus, qui non agnoscit esse dona mise 
-      <lb ed="#W" n="3"/>ricordiae diuinae, qui non utitur fideliter, 
-      <lb ed="#W" n="4"/>ranquam alienis donis &amp;c.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e1925">
-               <lb ed="#W" n="5"/>Summa. Omnia habet, omnia potest, qui  
-      <lb ed="#W" n="6"/>Christum habet, hic iusticia, pax, uita, sa¬ 
-      <lb ed="#W" n="7"/>lus est. Et in hunc modum uides coherere pro¬ 
-      <lb ed="#W" n="8"/>missiones diuinas. Nam prorsum singulae 
-      <lb ed="#W" n="9"/>significationes &amp; testimonia bonae uolun¬ 
-      <lb ed="#W" n="10"/>tatis dei erga nos sunt, quam alias alio opere 
-      <lb ed="#W" n="11"/>alio dono nobis commendat &amp; insinuat. Ita 
-      <lb ed="#W" n="12"/>in hoc per uniuersae scripturae historiam to¬ 
-      <lb ed="#W" n="13"/>tus incumbit, ut doceat, ut adsuefaciat nos 
-      <lb ed="#W" n="14"/>confidere sua bonitate, quam si quis in tot,  
-      <lb ed="#W" n="15"/>tamque multiplicibus promissionibus con¬ 
-      <lb ed="#W" n="16"/>templetur, is quomodo cohibere se pote¬ 
-      <lb ed="#W" n="17"/>rit, quo minus in illius tantae misericordiae 
-      <lb ed="#W" n="18"/>sinum effundat animum, &amp; spiritum. Porro bo¬ 
-      <lb ed="#W" n="19"/>nam uoluntatem meruit Christus, quem pro no 
-      <lb ed="#W" n="20"/>bis intercessorem, quem pro nobis uictimam 
-      <lb ed="#W" n="21"/>&amp; satisfactionem dedit. Sic enim deus dilexit 
-      <lb ed="#W" n="22"/>mundum, ut filium suum unigenitum daret pro 
-      <lb ed="#W" n="23"/>mundo. Huic quia fauet, nobis fauet, huic 
-      <lb ed="#W" n="24"/>quia omnia subiecit, nobis subiecit. Ita omnes 
-      <!--180.xml-->
-      <pb ed="#W" n="90-r"/>
-               <lb ed="#W" n="1"/>promissiones in eum, nempe qui nobis eme¬ 
-      <lb ed="#W" n="2"/>ruit misericondiam patris, qui nobis concilia¬ 
-      <lb ed="#W" n="3"/>uit patrem, referendae sunt. Sicut Iohannis. i¬ 
-      <lb ed="#W" n="4"/>sDe plenitudine eius omes nos accepimus,  
-      <lb ed="#W" n="5"/>&amp; gratiam pro gratia, fauorem erga nos, a 
-      <lb ed="#W" n="6"/>pro fauore erga Christum. Exercebis spiri¬ 
-      <lb ed="#W" n="7"/>tum meditatione promissionum accurate, que¬ 
-      <lb ed="#W" n="8"/>nisi e promissionibus cognosci neutiquam. 
-      <lb ed="#W" n="9"/>poterit Christus, at nisi Christum noris, nec 
-      <lb ed="#W" n="10"/>patrem cognosces. Huc igitur omnes, spiri¬ 
-      <lb ed="#W" n="11"/>tus tui cogitationes adfer, huc incumbe, ut 
-      <lb ed="#W" n="12"/>ex promissionibus cognoscas, quae tibi in 
-      <lb ed="#W" n="13"/>Christo sint donata. Quaeso autemubi pro¬ 
-      <lb ed="#W" n="14"/>missionum scholastica Theologia uel uerbo 
-      <lb ed="#W" n="15"/>meminit? Atque ita factum est, ut gratiam Chri 
-      <lb ed="#W" n="16"/>sti obscuraret, ut ex Christo non pignus mi¬ 
-      <lb ed="#W" n="17"/>sericondiae, sed legislatorem, &amp; exactorem mul¬ 
-      <lb ed="#W" n="18"/>to tristiorem faceret, quam Moses etiam uisus est.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e2014">
-               <lb ed="#W" n="19"/>⁋ Et de promissionibus quidem hactenus,  
-      <lb ed="#W" n="20"/>quae omnes in primam illam, quae Heuae facta est,  
-      <lb ed="#W" n="21"/>referri debent, qua significatum fuit Adae ac 
-      <lb ed="#W" n="22"/>Heuae futurum, ut &amp; peccatum &amp; mors, illius 
-      <lb ed="#W" n="23"/>peccati poena, olim abolerentur, cum scili¬ 
-      <lb ed="#W" n="24"/>cet serpentis illius caput Heuae progenies con¬ 
-      <!--181.xml-->
-      <pb ed="#W" n="90-v"/>
-               <lb ed="#W" n="1"/>teretet. Quid enim caput serpentis, insidiae ser 
-      <lb ed="#W" n="2"/>pentis, praeter peccati mortisque regnum sig¬ 
-      <lb ed="#W" n="3"/>nificant? Ad hanc si reuoces reliquas pro¬ 
-      <lb ed="#W" n="4"/>missiones, uidebis in uniuersam scripturam 
-      <lb ed="#W" n="5"/>mirifice sparsum esse Euangelium, quod est 
-      <lb ed="#W" n="6"/>simpliciter condonatio peccati per Christum, 
-      <lb ed="#W" n="7"/>seu praedicatio gratiae. Quanquam ut paulo 
-      <lb ed="#W" n="8"/>ante dixi, promissiones omnes etiam corpo¬ 
-      <lb ed="#W" n="9"/>ralium rerum, sunt testimonia beneuolentiae,  
-      <lb ed="#W" n="10"/>seu misericondiae dei quibus qui credit, quia 
-      <lb ed="#W" n="11"/>de deo bene sentit, eique laudem clementiae 
-      <lb ed="#W" n="12"/>&amp; bonitatis tribuit, is iustus est. Nondum cre 
-      <lb ed="#W" n="13"/>dit omni uerbo dei qui minas audit, qui  
-      <lb ed="#W" n="14"/>historiam profitetur, sed qui praeter minas, 
-      <lb ed="#W" n="15"/>praeter historiam, etiam promissionibus cre¬ 
-      <lb ed="#W" n="16"/>dit. Neque uero historiae de Christo credere,  
-      <lb ed="#W" n="17"/>id est, quod putant impii, sed credere cur 
-      <lb ed="#W" n="18"/>camem induerit, cur crucifixus sit, cur post 
-      <lb ed="#W" n="19"/>mortem in uitam redierit. nempe, ut iusti¬ 
-      <lb ed="#W" n="20"/>ficaret, quotquot credituri sibi essent. Haec 
-      <lb ed="#W" n="21"/>tu si eredis, tuo bono, tui seruandi gratia 
-      <lb ed="#W" n="22"/>gesta esse, foeliciter credis, Praeter eiusmodi 
-      <lb ed="#W" n="23"/>fidem, fucus, mendacium, falsae insaniae 
-      <lb ed="#W" n="24"/>sunt quidquid uocant fidem.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e2087">
-      <!--182.xml-->
-               <pb ed="#W" n="91-r"/>
-               <lb ed="#W" n="1"/>⁋ Ecquid in caussa est cur soli fidei tribua¬ 
-      <lb ed="#W" n="2"/>tur iustificatio? Respondeo, cum sola mi¬ 
-      <lb ed="#W" n="3"/>sericondia dei iustificemur, fidesque plane sit 
-      <lb ed="#W" n="4"/>misericondiae cognitio, qualicunque promi¬ 
-      <lb ed="#W" n="5"/>ssione eam prehenderis, soli fidei tribuitur 
-      <lb ed="#W" n="6"/>iustificatio. Qui mirantur cur soli fidei iusti 
-      <lb ed="#W" n="7"/>ficatio tr buatur, ii mirentur etiam cur mi¬ 
-      <lb ed="#W" n="8"/>sericondiae dei tantum, ac non potius hu¬ 
-      <lb ed="#W" n="9"/>manis meritis iustificatio tribuatur. Est em 
-      <lb ed="#W" n="10"/>credere, nullo ullorum operum nostrorum 
-      <lb ed="#W" n="11"/>respectu, fidere diuina misericordia. Miseri 
-      <lb ed="#W" n="12"/>condiae dei iniurius est, qui fide iustificari 
-      <lb ed="#W" n="13"/>sanctos negat. Nam cum iustificatio nostri 
-      <lb ed="#W" n="14"/>solius diuinae misericordiae opus sit, non 
-      <lb ed="#W" n="15"/>operum nostrorum meritum. Sicut aperte 
-      <lb ed="#W" n="16"/>docet ad Romanos. xi. Paulus, necesse est 
-      <lb ed="#W" n="17"/>ut iustificatio soli fidei tribuatur, nempe, 
-      <lb ed="#W" n="18"/>qua sola prom ssam misericordiam accipi¬ 
-      <lb ed="#W" n="19"/>mus.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e2135">
-               <lb ed="#W" n="20"/>⁋ Quid igitur opera? quae praecedunt iu¬ 
-      <lb ed="#W" n="21"/>stificationem, liberi arbitrii opera, ea omnia 
-      <lb ed="#W" n="22"/>maledictae arboris, maledicti fructus sunt,  
-      <lb ed="#W" n="23"/>&amp; ut puscherrimarum uirtutum exempla sint,  
-      <!--183.xml-->
-      <pb ed="#W" n="91-v"/>
-               <lb ed="#W" n="1"/>quales erant ante conuersionem Pauli iusti 
-      <lb ed="#W" n="2"/>ciae, tamen, nihil nisi fucus &amp; mendacium 
-      <lb ed="#W" n="3"/>sunt, que ex impuro corde proficiscantur. qor¬ 
-      <lb ed="#W" n="4"/>dis impuritas, ignorantia dei est, non time 
-      <lb ed="#W" n="5"/>re deum, non fidere deo, non requirere deum, 
-      <lb ed="#W" n="6"/>ut supra monuimus. Nihil enim caro nisi 
-      <lb ed="#W" n="7"/>carnalia sapit, ad Romanos. viii. Caro ad¬ 
-      <lb ed="#W" n="8"/>fectat ea quae sunt camis. Et prima ad Co¬ 
-      <lb ed="#W" n="9"/>rinth. ii. Animalis homo non percipit ea 
-      <lb ed="#W" n="10"/>quae sunt spiritus dei. Quis cognouit sensum 
-      <lb ed="#W" n="11"/>domini &amp;c. Intelligit, sapit, adfectat, glo¬ 
-      <lb ed="#W" n="12"/>riam, opes, uitae tranquillitatem, ac dignita¬ 
-      <lb ed="#W" n="13"/>tem, natura. Qualia multa philosophi in¬ 
-      <lb ed="#W" n="14"/>ter fines bonorum numerant, alius euSuaciox, 
-      <lb ed="#W" n="15"/>alius ὑαγγραρήα. Diuini nihil adfectat natu 
-      <lb ed="#W" n="16"/>ra, id quod adparet. Nec enim terretur uerbo 
-      <lb ed="#W" n="17"/>dei, nec ad confidendum animatur. Et talis qui¬ 
-      <lb ed="#W" n="18"/>dem arboris fructus, quid nisi peccata sunt? 
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e2190">
-               <lb ed="#W" n="19"/>⁋ Quae uero opera iustificationem consequun 
-      <lb ed="#W" n="20"/>tur, ea tametsi a spiritu dei qui occupauit 
-      <lb ed="#W" n="21"/>corda iustificatorum proficiscuntur, tamen 
-      <lb ed="#W" n="22"/>quia fiunt in carne adhuc impura, sunt &amp; 
-      <lb ed="#W" n="23"/>psa immunda. Coepta enim iustificatio est 
-      <lb ed="#W" n="24"/>non consummata, Primitias spiritus accepi¬ 
-      <!--184.xml-->
-      <pb ed="#W" n="92-r"/>
-               <lb ed="#W" n="1"/>mus, nondum decimas. Adhuc expectamus, 
-      <lb ed="#W" n="2"/>ut ad Ro. viii, dicitur, cum gemitu redemp 
-      <lb ed="#W" n="3"/>tionem corporis nostri. Proinde quod in his etiam 
-      <lb ed="#W" n="4"/>operibus immundum quiddam est, iusticiae 
-      <lb ed="#W" n="5"/>adpellationem non merentur, &amp; quaqua te 
-      <lb ed="#W" n="6"/>uerteris, siue ad opera praecedentia iustifica 
-      <lb ed="#W" n="7"/>tionem, siue ad ea quae sequuntur iustifica¬ 
-      <lb ed="#W" n="8"/>tionem, nullus nostro merito locus est. Adeo 
-      <lb ed="#W" n="9"/>que solius misericordiae opus esse iustificatio¬  
-      <lb ed="#W" n="10"/>nem necesse est. Hoc est quod ait Paulus ad 
-      <lb ed="#W" n="11"/>Galat. ii. Quod autem nunc uiuo in carne, in¬ 
-      <lb ed="#W" n="12"/>fide filii dei uiuo, qui dilexit me, &amp; tradidit 
-      <lb ed="#W" n="13"/>semetipsum pro me. Non autem ait in meis 
-      <lb ed="#W" n="14"/>bonis operibus nunc uiuo, sed in fide mise 
-      <lb ed="#W" n="15"/>ricordiae dei uiuo. Porro que ea opera quae 
-      <lb ed="#W" n="16"/>iustificationem sequutur, pro peccatis non 
-      <lb ed="#W" n="17"/>imputantur, fides facit. Qua de re paulo 
-      <lb ed="#W" n="18"/>post agetur.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e2249">
-               <lb ed="#W" n="19"/>⁋ Ergo cum fidei iustificatio tribuitur, mise¬ 
-      <lb ed="#W" n="20"/>ricordiae dei tribuitur, humanis conatibus, 
-      <lb ed="#W" n="21"/>operibus, meritis adimitur. Initium ac pro¬ 
-      <lb ed="#W" n="22"/>fectus misericordiae debent, ut uniuersae ui¬ 
-      <lb ed="#W" n="23"/>tae iusticia non alia sit, nisi fides. Hoc est, cur 
-      <lb ed="#W" n="24"/>Christi regnum, misericordiae regnum uocet 
-      <!--185.xml-->
-      <pb ed="#W" n="92-v"/>
-               <lb ed="#W" n="1"/>propheta Esaias. xvi. Et praeparabitur in mi¬ 
-      <lb ed="#W" n="2"/>sericondia solium &amp;c. Nam si nostris operi¬ 
-      <lb ed="#W" n="3"/>bus iustificaremur, non iam Christi, non 
-      <lb ed="#W" n="4"/>misericordiae, sed nostrum, sed operum no 
-      <lb ed="#W" n="5"/>strorum regnum esset. Et Oseae. ii. Sponsa¬ 
-      <lb ed="#W" n="6"/>bo te mihi in sempiternum, &amp; sponsabo te 
-      <lb ed="#W" n="7"/>mihi in iusticia &amp; iudicio, &amp; in misericor¬ 
-      <lb ed="#W" n="8"/>dia, &amp; in miserationibus, &amp; sponsabo te 
-      <lb ed="#W" n="9"/>mihi in fide, &amp; scies, quia ego dominus. Et 
-      <lb ed="#W" n="10"/>psalmo. lxxxviii. Misericondia &amp; ueritas pre 
-      <lb ed="#W" n="11"/>cedent faciem tuam. Misericordia liberalis 
-      <lb ed="#W" n="12"/>sauor est, qui meriti nostri nullam habet ra 
-      <lb ed="#W" n="13"/>tionem. Veritas est opus dei, uere non ὑπ¬ 
-      <lb ed="#W" n="14"/>xρ i Qs iustificantis nos. Et quid adtinet 
-      <lb ed="#W" n="15"/>multa congerere, cum propheta Esaias cap. 
-      <lb ed="#W" n="16"/>liii, primum palam damnet iusticias om¬ 
-      <lb ed="#W" n="17"/>nes nostras, cum inquit. Omnes nos uelut 
-      <lb ed="#W" n="18"/>oues ertauimus, unusquisque in uiam suam  
-      <lb ed="#W" n="19"/>declinauit, &amp; posuit dominus in eo iniqui¬ 
-      <lb ed="#W" n="20"/>tatem omnium nostrum. Et paulo post,  
-      <lb ed="#W" n="21"/>non ait operibus nostris, non egregiis uo¬ 
-      <lb ed="#W" n="22"/>luntatis nostrae conatibus, non consilis 
-      <lb ed="#W" n="23"/>nostris, sed ipse Christus, cognitione sui iu 
-      <!--186.xml-->
-      <pb ed="#W" n="93-r"/>
-               <lb ed="#W" n="1"/>stilicabit multos. Ecce cognitio Christi iu¬ 
-      <lb ed="#W" n="2"/>stificatio est, cognitio autem sola fides est. 
-      <lb ed="#W" n="3"/>Hoc genus alia per se obseruabit diligens le 
-      <lb ed="#W" n="4"/>ctor. Nam fidei naturam ac uim non uideor 
-      <lb ed="#W" n="5"/>mihi posse uerbis, ut optabam, explicare. 
-      <lb ed="#W" n="6"/>Qui norunt peccati uim, quorum consci¬ 
-      <lb ed="#W" n="7"/>entias peccati cognitio perculit, iis demum 
-      <lb ed="#W" n="8"/>uoluptati est hanc de fide doctrinam audi¬ 
-      <lb ed="#W" n="9"/>re. Caeterum uelatum est Euangelium no¬ 
-      <lb ed="#W" n="10"/>strum in hypocritis, in quibus deus huius 
-      <lb ed="#W" n="11"/>seculi excaecauit mentes infideles, ut ne illu 
-      <lb ed="#W" n="12"/>cesceret eis lumen Euangelii gloriae Christi, 
-      <lb ed="#W" n="13"/>qui est imago dei.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e2351">
-               <lb ed="#W" n="14"/>⁋ Dices, Nihil igitur meremur? Ecquid 
-      <lb ed="#W" n="15"/>scriptura tocies mercedis uocabulo utitur. 
-      <lb ed="#W" n="16"/>Respondeo, merces est, debeturque non me 
-      <lb ed="#W" n="17"/>rito ullo nostro, sed quia pater promisit,  
-      <lb ed="#W" n="18"/>iam uelut obstrinxit se nobis ac debitorem 
-      <lb ed="#W" n="19"/>fecit, iis qui tale nihil metuetant. Quid 
-      <lb ed="#W" n="20"/>enim clarius aduersus merita nostra dici 
-      <lb ed="#W" n="21"/>potuit, quam quod est apud Rucam capi¬ 
-      <lb ed="#W" n="22"/>tulo. xvii. Nunquid gratiam habet seruo il¬ 
-      <lb ed="#W" n="23"/>li, quia fecit, quod imperauetat? Non puto, 
-      <!--187.xml-->
-      <pb ed="#W" n="93-v"/>
-               <lb ed="#W" n="1"/>Sic &amp; uos cum feceritis omnia, quae praecep 
-      <lb ed="#W" n="2"/>ta sunt uobis dicite serui inutiles sumus. Qo 
-      <lb ed="#W" n="3"/>debuimus facere, fecimus. Et Paulus ad Ro 
-      <lb ed="#W" n="4"/>ma. vi. Stipendium peccati mors, donum autem 
-      <lb ed="#W" n="5"/>dei uita aeterna. Vitam aeternam donum uocat 
-      <lb ed="#W" n="6"/>non debitum, quanquam &amp; debitum est, quia 
-      <lb ed="#W" n="7"/>pater eam promisit, qui nobis fidem suam  
-      <lb ed="#W" n="8"/>obstrinxit.
-    </p>
-            <p xml:id="erf8hf-d1e342-d1e2397">
-               <lb ed="#W" n="9"/>Nec est quod offendant ii loci scripturae,  
-      <lb ed="#W" n="10"/>qui operum merita praedicate uidentur, qua¬ 
-      <lb ed="#W" n="11"/>lis hic est ad Ro. ii. Oloria &amp; honor omni 
-      <lb ed="#W" n="12"/>operanti bonum. Et Matth. xxv. Esuriui &amp;  
-      <lb ed="#W" n="13"/>dedistis mihi manducare &amp;c. Nam huius¬ 
-      <lb ed="#W" n="14"/>modi multa sunt in scripturis. Respondeo 
-      <lb ed="#W" n="15"/>paucis, scripturam non de specie tantum ex¬ 
-      <lb ed="#W" n="16"/>terna operis, seu de fuco loqui, sed de toto 
-      <lb ed="#W" n="17"/>opere, hoc est, cum de externa specie, tum 
-      <lb ed="#W" n="18"/>maxime de uoluntate, auctore operis, seu 
-      <lb ed="#W" n="19"/>de adfectu. Donum opus uocat scriptura, non 
-      <lb ed="#W" n="20"/>simulationem tantum externam operis, sed 
-      <lb ed="#W" n="21"/>totum opus, hoc est, bonum adfectum, &amp;  
-      <lb ed="#W" n="22"/>eius adfectus fructum, non aliter atque commu¬ 
-      <lb ed="#W" n="23"/>nis hominum sensus loqui solet. Quis enim 
-      <lb ed="#W" n="24"/>bonum opus uocat, quod a maligno animo 
-      <!--188.xml-->
-      <pb ed="#W" n="94-r"/>
-               <lb ed="#W" n="1"/>proficisci nouit? Itaque cum Paulus ait. Gloria 
-      <lb ed="#W" n="2"/>&amp; honor operanti bonum, non uideo quibus 
-      <lb ed="#W" n="3"/>hic giossematis opus habeamus, quo mi¬ 
-      <lb ed="#W" n="4"/>nus, quam simplicissime, ut loquitur, intelli¬ 
-      <lb ed="#W" n="5"/>gatur. Non em ait Paulus, Simulanti bonum, 
-      <lb ed="#W" n="6"/>sed operanti, corde, adfectu, manibus, ope 
-      <lb ed="#W" n="7"/>re &amp;c. Deprauant ergo id quod ab Aposto 
-      <lb ed="#W" n="8"/>lo simplicissime, rectissimeque dictum est, qui  
-      <lb ed="#W" n="9"/>uerba eius non de toto opere, non de uita, 
-      <lb ed="#W" n="10"/>ac anima operis, sed de specie externa ope¬ 
-      <lb ed="#W" n="11"/>ris exponunt. Recepta etiam uulgo in scholis 
-      <lb ed="#W" n="12"/>sententia est, &amp; communis naturae sensus do¬ 
-      <lb ed="#W" n="13"/>cet, nullam esse bonitatem operis, praeter ad 
-      <lb ed="#W" n="14"/>fectum. Comunem sensum consulant qui  
-      <lb ed="#W" n="15"/>de parte operis, non de toto opere scripturam 
-      <lb ed="#W" n="16"/>interpretantur. Quid quod eodem loco pul¬ 
-      <lb ed="#W" n="17"/>chertime Paulus ad fidem refert bene actam 
-      <lb ed="#W" n="18"/>uitam, docetque ex fide, ceu fonte, exorta 
-      <lb ed="#W" n="19"/>esse bona opera? cum inquit. Quaerentibs 
-      <lb ed="#W" n="20"/>gioriam &amp; honorem, per perseuerantiam boni 
-      <lb ed="#W" n="21"/>operis. Quaerere enim quid aliud est, quam 
-      <lb ed="#W" n="22"/>quod ad Hebraeos. xi. scriptum est. Credere 
-      <lb ed="#W" n="23"/>oportet, accedentem ad deum, quod sit, &amp; que 
-      <lb ed="#W" n="24"/>aremunerator sit inquirentibus se. Quaerunt 
-      <!--189.xml-->
-      <pb ed="#W" n="94-v"/>
-               <lb ed="#W" n="1"/>qui credunt, qui fiducia uerbi dei trahuntur 
-      <lb ed="#W" n="2"/>ad gloriam. Item, qui potest fidei uis ac na 
-      <lb ed="#W" n="3"/>tura exprimi certius, quam uerbo perseueran 
-      <lb ed="#W" n="4"/>di? cum inter tot illecebras camis &amp; mun¬ 
-      <lb ed="#W" n="5"/>di, inter tot adffictiones consistere ac per¬ 
-      <lb ed="#W" n="6"/>durare in bonis operibus nemo sine mag¬ 
-      <lb ed="#W" n="7"/>na fide possit. Rursum &amp; uitam male actam 
-      <lb ed="#W" n="8"/>eodem loco ad incredulitatem refert, cum 
-      <lb ed="#W" n="9"/>ait. Contentiosis, &amp; qui non acquiescunt 
-      <lb ed="#W" n="10"/>ueritati. Non acquiescere ueritati, quid aliud 
-      <lb ed="#W" n="11"/>est quam diffidere? Contentiosi, qui ueritati 
-      <lb ed="#W" n="12"/>aduersantur, qui camis opinionem sequum¬ 
-      <lb ed="#W" n="13"/>ur. Nam quisquis palam peccat, is aut con 
-      <lb ed="#W" n="14"/>temptu dei, aut desperatione misericondiae 
-      <lb ed="#W" n="15"/>dei peccat, Sennacherib. iiii. Reg. xiiii. Quia 
-      <lb ed="#W" n="16"/>nihil esse deum censebat, in Israelem arma 
-      <lb ed="#W" n="17"/>impia mouit. Cain, quia desperabat mise¬ 
-      <lb ed="#W" n="18"/>ricordiam, ideo nihil non ausus est postea. 
-      <lb ed="#W" n="19"/>Nemo est enim qui, si confideret futurum, ut 
-      <lb ed="#W" n="20"/>sui miseresceret deus, non cupidissime le¬ 
-      <lb ed="#W" n="21"/>gi dei se accomodaret. Sed quia contentio¬ 
-      <lb ed="#W" n="22"/>si sumus, ipsi disceptamus nobiscum, de 
-      <lb ed="#W" n="23"/>diuinae irae, ac misericordiae amplitudine, 
-      <lb ed="#W" n="24"/>angustius quiddam sentimus, quam tes est. 
-      <!--190.xml-->
-      <pb ed="#W" n="95-r"/>
-               <lb ed="#W" n="1"/>ldeo contemptu tum irae rum misericor. 
-      <lb ed="#W" n="2"/>diae dei, defectimus ad cupiditates nostras,  
-      <lb ed="#W" n="3"/>nihil non audemus impii, caeci, furentes,  
-      <lb ed="#W" n="4"/>uel gloriae, uel rerum, uel uoluptatum amo¬ 
-      <lb ed="#W" n="5"/>re. Miserum spectaculum, si illam cordis 
-      <lb ed="#W" n="6"/>tui impiam insaniam, &amp; insanam impieta 
-      <lb ed="#W" n="7"/>tem cernere contingat. Viden, quam adpo 
-      <lb ed="#W" n="8"/>site ad fidem retulerit Paulus bene actam 
-      <lb ed="#W" n="9"/>uitam, ad incredulitatem, male actam. Sic  
-      <lb ed="#W" n="10"/>alios locos circumstantiae exponunt, ut pe¬ 
-      <lb ed="#W" n="11"/>regrinis glossematis nihil opus sit. Quorum 
-      <lb ed="#W" n="12"/>tractationem industriae spiritualium lecto¬ 
-      <lb ed="#W" n="13"/>rum relinquo. Nam illos male feriatos So¬ 
-      <lb ed="#W" n="14"/>phistas, nolo, quibus nihil tam bene, tam 
-      <lb ed="#W" n="15"/>umpliciter dictum est, quod non peruer¬ 
-      <lb ed="#W" n="16"/>tant, distinguant, discerpant in mille for¬ 
-      <lb ed="#W" n="17"/>mas. Certe in illo Matthaei loco quem cita 
-      <lb ed="#W" n="18"/>uimus obscuritas nulla est, si recte rem aesti 
-      <lb ed="#W" n="19"/>mes. Nam ut haec non urgeam, quod cum 
-      <lb ed="#W" n="20"/>benedictos patris sui uocat, significat sa¬ 
-      <lb ed="#W" n="21"/>lutem benedictione diuina, non nostris 
-      <lb ed="#W" n="22"/>meritis contigisse, negari non potest quin 
-      <lb ed="#W" n="23"/>de fidei operibus loquatur CHRISTVs, 
-      <!--191.xml-->
-      <pb ed="#W" n="95-v"/>
-               <lb ed="#W" n="1"/>eum inquit, Esurii, &amp; dedistis mihi mandu 
-      <lb ed="#W" n="2"/>care, &amp; paulo post, Quod uni de his fratri¬ 
-      <lb ed="#W" n="3"/>bus meis minimis fecistis, mihi fecistis. Nam 
-      <lb ed="#W" n="4"/>quia credunt iusti se Christo facere, quod il 
-      <lb ed="#W" n="5"/>lis faciunt, recte agunt. Ea fides distinguit 
-      <lb ed="#W" n="6"/>opera. Hypocritae non alunt, non potant 
-      <lb ed="#W" n="7"/>Christum, sed se. Suae em gloriae seruiunt,  
-      <lb ed="#W" n="8"/>quantumuis pulcherrimarum uirtutum spe¬ 
-      <lb ed="#W" n="9"/>cimen prae se ferant. Haec satis sit monuisse,  
-      <lb ed="#W" n="10"/>ut formam huiusmodi locorum tractandorum 
-      <lb ed="#W" n="11"/>habeant studiosi, nam mihi commentarii 
-      <lb ed="#W" n="12"/>modus temperandus est.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2020-12-04">December 04, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="73-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="erf8hf-d1e342">
+        <head xml:id="erf8hf-d1e342-Hd1e105">Praeambulum</head>
+        <p xml:id="erf8hf-d1e342-d1e108">
+          <lb ed="#W" n="3"/>DE IVSTIFICATIONE ET FIDE.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e113">
+          <lb ed="#W" n="4"/>⁋ Iustificamur igitur eum mortificati per le  
+          <lb ed="#W" n="5"/>gem, resuscitamur uerbo gratiae, quae in 
+          <lb ed="#W" n="6"/>Christo promissa est, seu Euangelio
+          condo<lb ed="#W" n="7" break="no"/>nante peccata, &amp; illi fide adhaeremus, nihil 
+          <lb ed="#W" n="8"/>dubitantes quin Christi iustitia sit nostra 
+          <lb ed="#W" n="9"/>iustitia, quin Christi satisfactio, sit expiatio  
+          <lb ed="#W" n="10"/>nostri, quin Christi resurrectio nostra sit.  
+          <lb ed="#W" n="11"/>Preuiter nihil dubitantes quin peccata
+          no<lb ed="#W" n="12" break="no"/>bis condonata sint, &amp; iam faueat ac benet 
+          <lb ed="#W" n="13"/>uelit deus. Nihil igitur operum nostrorum, quam 
+          <lb ed="#W" n="14"/>tumuis bona aut uideantur, aut sint,
+          iusti<lb ed="#W" n="15" break="no"/>cia sunt. Sed sola EIDES de misericordia 
+          <lb ed="#W" n="16"/>&amp; gratia dei in lesu ChristoIVSTITIA 
+          <lb ed="#W" n="17"/>est. Atque hoc est, quod ait propheta, &amp;
+          to<lb ed="#W" n="18" break="no"/>ties iactat Paulus. Iustus ex fide uiuit Ro, uii 
+          <lb ed="#W" n="19"/>Iusticia dei per fidem Iesu Christi, id est, Iam  
+          <lb ed="#W" n="20"/>manifestata est non operum hypocrisis, quam 
+          <lb ed="#W" n="21"/>pro iusticia homines reputent, sed eiusmo 
+          <lb ed="#W" n="22"/>di iusticia est reuelata, quam deus pro iusticia 
+          <lb ed="#W" n="23"/>reputat. Nempe ea quae est per fidem lesu 
+          <lb ed="#W" n="24"/>Christi. Et ad Ro. iiii. CRE DENTI re¬ 
+          <!--149.xml-->
+          <pb ed="#W" n="73-v"/>
+          <lb ed="#W" n="1"/>putatur fides ad iustitiam. Et Genesis. xv. 
+          <lb ed="#W" n="2"/>Credidit Abraham deo &amp; reputatum est ei 
+          <lb ed="#W" n="3"/>ad iustitiam, atque has duas quidem
+          senten<lb ed="#W" n="4" break="no"/>tias, ob hoc uolo tibi commendatiores esse,  
+          <lb ed="#W" n="5"/>ut intelligas apposite dici fidem, iusticiam. 
+          <lb ed="#W" n="6"/>Offenduntur enim hac loquendi forma so 
+          <lb ed="#W" n="7"/>phistae, cun dicimus fidem esse iusticiam. Sed ut 
+          <lb ed="#W" n="8"/>ndei naturam ac uim propius contemplemur, 
+          <lb ed="#W" n="9"/>paulo altius eius ὑπγραφή repetenda est.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e185">
+          <lb ed="#W" n="10"/>⁋ Satis constat uulgus Sophistarum fidem  
+          <lb ed="#W" n="11"/>uocare adsensum eorum quae scripturis prodi 
+          <lb ed="#W" n="12"/>ta sunt, deinde eam esse fidem etiam
+          impio<lb ed="#W" n="13" break="no"/>rum. Credere etiam inustos, esseque ociosam in 
+          <lb ed="#W" n="14"/>anima qualitatem, communem impiis cum 
+          <lb ed="#W" n="15"/>piis. Et ne non elabantur cum uident scriptu 
+          <lb ed="#W" n="16"/>ram dicere, Iustum ex fide uiuerte. Item ex 
+          <lb ed="#W" n="17"/>fide iusticiam esse fingunt aliam fidem forma 
+          <lb ed="#W" n="18"/>tam, id est, cum caritate coniunctam. Aliam in 
+          <lb ed="#W" n="19"/>formem, id est, eam quae fit etiam in impiis. 
+          <lb ed="#W" n="20"/>carentibus caritate. Adeoque caussantur
+          ho<lb ed="#W" n="21" break="no"/>mines acuti, Apostolum falso tribuisse
+          fi<lb ed="#W" n="22" break="no"/>dei, id quod caritatis erat, ut hac uelut
+          ille<lb ed="#W" n="23" break="no"/>cebra ad fidem quamplurimos inuitatet. Iam 
+          <lb ed="#W" n="24"/>&amp; fidem infusam, &amp; acquisitam, ac gene¬ 
+          <!--150.xml-->
+          <pb ed="#W" n="74-r"/>
+          <lb ed="#W" n="1"/>talem &amp; specialem, &amp; nescio quae portenta 
+          <lb ed="#W" n="2"/>uerborum finxerunt.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e229">
+          <lb ed="#W" n="3"/>⁋ Sed mittamus ista nugamenta, nam
+          pau<lb ed="#W" n="4" break="no"/>lo post coarguemus sophistas ipsius rei
+          con<lb ed="#W" n="5" break="no"/>ditione, ut permittant nobis fidem non esse,  
+          <lb ed="#W" n="6"/>id quod sic ipsi nominatunt.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e241">
+          <lb ed="#W" n="7"/>⁋ Non obscura uox prophetae est. Dixit insi 
+          <lb ed="#W" n="8"/>piens in corde suo non est deus. Et uulgatissi 
+          <lb ed="#W" n="9"/>mum est illud Pauli. i. Corint. ii. Animalis 
+          <lb ed="#W" n="10"/>homo non percipit ea quae sunt spiritus. Et 
+          <lb ed="#W" n="11"/>Exechiel. xxix. Meus est fiuuius, &amp; ego feci 
+          <lb ed="#W" n="12"/>meipsum. Huiusmodi sententiae testantur, car 
+          <lb ed="#W" n="13"/>nem nihil nisi carnalia sapere aut cognoscere. 
+          <lb ed="#W" n="14"/>Esse deum, dei ira, dei misericordia,
+          spiritua<lb ed="#W" n="15" break="no"/>lia sunt, non possunt igitur a carne cognosci. 
+          <lb ed="#W" n="16"/>Proinde quidqd de deo cognoscit natura, 
+          <lb ed="#W" n="17"/>sine spiritu dei instaurante &amp; illustrante
+          cor<lb ed="#W" n="18" break="no"/>da nostra, qualecumque sit, frigida opinio est,  
+          <lb ed="#W" n="19"/>non fides, adeoque nihil nisi simulatio &amp;
+          hy<lb ed="#W" n="20" break="no"/>pocrisis, ignoratio dei &amp; contemptus. Quan 
+          <lb ed="#W" n="21"/>quam hanc ipsam hypocrisin non cernant
+          carna<lb ed="#W" n="22" break="no"/>les oculi. Spirits at omnia diiudicat. Et ut exem 
+          <lb ed="#W" n="23"/>plis res agatur. Fidelis uidetur fuisse Saul in 
+          <lb ed="#W" n="24"/>speciem, sed hypocrisin declarat euentus. 
+          <!--151.xml-->
+          <pb ed="#W" n="74-v"/>
+          <lb ed="#W" n="1"/>Quia non credebat? ex corde dico res
+          tan<lb ed="#W" n="2" break="no"/>tas, quas gerebat, diuinitus administrari, 
+          <lb ed="#W" n="3"/>dona &amp; opera misericordiae dei esse, sed ex 
+          <lb ed="#W" n="4"/>suis consilis pendere aestimabat. Nam de 
+          <lb ed="#W" n="5"/>condis adfectu loquor, nec timebat iram dei, 
+          <lb ed="#W" n="6"/>nec fidebat benignitate. Eum dei contemp 
+          <lb ed="#W" n="7"/>tum declarat, cum non expectato Samuele 
+          <lb ed="#W" n="8"/>ipse sacrificat, ne a palestinis anteuortatur. 
+          <lb ed="#W" n="9"/>i. Reg. xiii: &amp; rursus, cum gentium more sibi tro 
+          <lb ed="#W" n="10"/>phaeum erigit. i. Reg. xv. Erat in Saule
+          opi<lb ed="#W" n="11" break="no"/>nio, esse deum, esse uindicem peccati, esse 
+          <lb ed="#W" n="12"/>misericordem. Alioqui cur sacrificasset? sed 
+          <lb ed="#W" n="13"/>fides non erat, hoc est, ut egregio scripturae 
+          <lb ed="#W" n="14"/>uerbo utar, non requirebat, Et acht segn 
+          <lb ed="#W" n="15"/>nicht, cor ignorabat tum seueritatem tum 
+          <lb ed="#W" n="16"/>bonitatem dei. O horrendum &amp; miserabile 
+          <lb ed="#W" n="17"/>spectaculum, si hanc cordis impietatem con 
+          <lb ed="#W" n="18"/>tingat oculis spiritualibus cernere. Quaeso 
+          <lb ed="#W" n="19"/>te dispice uitam tuam, &amp; ex fructibus quo ad 
+          <lb ed="#W" n="20"/>potes aestima hanc cordis tui immundiciem. 
+          <lb ed="#W" n="21"/>Nonne ideo declinas, ut cum scriptura
+          lo<lb ed="#W" n="22" break="no"/>quar, &amp; ad tuas cupiditates deflectis animum 
+          <lb ed="#W" n="23"/>sollicitus es ideo de uictu, fama, uita,
+          libe<lb ed="#W" n="24" break="no"/>ris, coniuge, quia deo parum fidis, quia am¬ 
+          <!--152.xml-->
+          <pb ed="#W" n="75-r"/>
+          <lb ed="#W" n="1"/>plitudinem misericordiae diuinae non
+          expen<lb ed="#W" n="2" break="no"/>dis. Nonne ideo tuis in alia subinde scelera 
+          <lb ed="#W" n="3"/>quia de gratia, de misericondia dei, erga te 
+          <lb ed="#W" n="4"/>desperas? haud dubie facturus &amp; passurus 
+          <lb ed="#W" n="5"/>omnia gratissimo pectore, si salutis tuae cer 
+          <lb ed="#W" n="6"/>tam spem concipere posses, nonne rem
+          fa<lb ed="#W" n="7" break="no"/>cis, ad opes adspiras quacunque tandem
+          ratio<lb ed="#W" n="8" break="no"/>ne, quia iudieium dei non times. At timeres 
+          <lb ed="#W" n="9"/>certe, si ex corde crederes, si uim irae dei po 
+          <lb ed="#W" n="10"/>sses animo concipere. Atque hanc insipientiam, 
+          <lb ed="#W" n="11"/>hanc ignorationem, hanc caecitatem cordis 
+          <lb ed="#W" n="12"/>noto, cum nego fidem esse in natura. Maius 
+          <lb ed="#W" n="13"/>omnino &amp; certius aliquid fides est, quam, 
+          <lb ed="#W" n="14"/>quod possit comprehendere caro.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e374">
+          <lb ed="#W" n="15"/>⁋ Proinde illa Sophistica fides, quam uocant 
+          <lb ed="#W" n="16"/>tum informem, tum acquisitam, qua sic 
+          <lb ed="#W" n="17"/>adsentiuntur historiae Euangelicae impii, ut 
+          <lb ed="#W" n="18"/>solemus uulgo Riuianae, aut Salustianae. 
+          <lb ed="#W" n="19"/>non fides, sed opinio est, hoc est incerta, in 
+          <lb ed="#W" n="20"/>constans &amp; fiuxa animi cogitatio, de uerbo 
+          <lb ed="#W" n="21"/>dei. Habes quid de scholastica fide
+          sentien<lb ed="#W" n="22" break="no"/>dum sit, habes nihil docere Sophistas nisi 
+          <lb ed="#W" n="23"/>mendacium, uanitatem, &amp; hypocrisin. Quod 
+          <lb ed="#W" n="24"/>si uideor hic de eorum dogmate aliquid du¬ 
+          <!--153.xml-->
+          <pb ed="#W" n="75-v"/>
+          <lb ed="#W" n="1"/>rius dixisse, non mihi, sed paulo irascantur,  
+          <lb ed="#W" n="2"/>EIOTAM fidem adpellanti hypocrisin,
+          i<lb ed="#W" n="3" break="no"/>Timot. i. Finis praecepti caritas est de corde 
+          <lb ed="#W" n="4"/>puro, &amp; conscientia bona, &amp; EIDENON 
+          <lb ed="#W" n="5"/>EIOTA. Simulari igitur fidem alicubi indi 
+          <lb ed="#W" n="6"/>cat. Et de hypocritis ait ad Titum. i. Omnia 
+          <lb ed="#W" n="7"/>munda mundis, coinquinatis autem &amp;
+          infi<lb ed="#W" n="8" break="no"/>delibus, nihil est mundum, sed inquinatae 
+          <lb ed="#W" n="9"/>sunt eorum mens &amp; conscientia. Profitentur se 
+          <lb ed="#W" n="10"/>nosse deum, factis autem negant, cum sint
+          abo<lb ed="#W" n="11" break="no"/>minabiles, inobedientes, &amp; ad omne opus 
+          <lb ed="#W" n="12"/>bonum reprobi. Quo loco si fides impiorum 
+          <lb ed="#W" n="13"/>erat uere fides, loquitur enim certe de piis in
+          spe<lb ed="#W" n="14" break="no"/>ciem, non debuit infideles dicere sed carita 
+          <lb ed="#W" n="15"/>tis expertes, sicut Parisienses loquuntur. Fictam 
+          <lb ed="#W" n="16"/>fidem ad Timotheum tribuit hypocritis, hic 
+          <lb ed="#W" n="17"/>infideles uocat. Quare non est cur de fide for 
+          <lb ed="#W" n="18"/>mata &amp; informi distinguamus. Plane erum 
+          <lb ed="#W" n="19"/>non est fides illa de credendis seu de diuina 
+          <lb ed="#W" n="20"/>historia opinio, quam sine spiritu sancto con 
+          <lb ed="#W" n="21"/>ceptam habent hypocritae. Non adsentitur 
+          <lb ed="#W" n="22"/>uerbo dei natura, adeoque nec mouetur.
+          So<lb ed="#W" n="23" break="no"/>lebam quondam historicam fidem docendi 
+          <lb ed="#W" n="24"/>gratia uocare, illam acquisitam informem 
+          <!--154.xml-->
+          <pb ed="#W" n="76-r"/>
+          <lb ed="#W" n="1"/>nunc prorsum non fidem, sed opinionem
+          ad<lb ed="#W" n="2" break="no"/>pello. Quae diximus eo pertinent, ut scias 
+          <lb ed="#W" n="3"/>simplicissime uti uerbo fidei scripturam, nec 
+          <lb ed="#W" n="4"/>uocari posse fidem, illam Parisiensem qualita 
+          <lb ed="#W" n="5"/>tem, quae etiam in impiis est, &amp;
+          contemnen<lb ed="#W" n="6" break="no"/>tibus dei. Ibamnati uero non ut dent gloriam 
+          <lb ed="#W" n="7"/>uerbo dei, credunt. Sed experientia coacti, 
+          <lb ed="#W" n="8"/>quae certe fides uocari non potest. Idem de 
+          <lb ed="#W" n="9"/>desperabundis dici potest, sicut de Cain,  
+          <lb ed="#W" n="10"/>Saule. Quid enim inter hos &amp; damnatos 
+          <lb ed="#W" n="11"/>interest? Quid igitur fides? constanter ad 
+          <lb ed="#W" n="12"/>sentiri omni uerbo dei. id quod non fit, nisi 
+          <lb ed="#W" n="13"/>renouante &amp; illuminante corda nostra
+          spi<lb ed="#W" n="14" break="no"/>ritu dei. Porro uerbum dei cum lex est, tum 
+          <lb ed="#W" n="15"/>Euangelium. Tegi minae sunt adiectae.
+          Ti<lb ed="#W" n="16" break="no"/>morem scriptura uocat, quo minis illis cre 
+          <lb ed="#W" n="17"/>ditur, Fidem qua Euangelio, seu
+          promi<lb ed="#W" n="18" break="no"/>ssionibus diuinis fiditur. Non iustificat sin 
+          <lb ed="#W" n="19"/>nde timor. Nam alioqui etiam desperabun 
+          <lb ed="#W" n="20"/>di, damnati iustificarentur. Non enim qui  
+          <lb ed="#W" n="21"/>ad eum modum timent, glorificant deum 
+          <lb ed="#W" n="22"/>aut omni uerbo dei credunt. Nam
+          promi<lb ed="#W" n="23" break="no"/>ssionibus non credunt. Iustificat igitur sola  
+          <lb ed="#W" n="24"/>fides. 
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e511">
+          <!--155.xml-->
+          <pb ed="#W" n="76-v"/>
+          <lb ed="#W" n="1"/>⁋ Est itaque fides, non aliud nisi fiducia
+          mi<lb ed="#W" n="2" break="no"/>sericondiae diuinae, promissae in Christo, 
+          <lb ed="#W" n="3"/>adeoque quocunque signo, Ea fiducia beneuo 
+          <lb ed="#W" n="4"/>dentiae, seu misericondiae dei cor primum
+          pa<lb ed="#W" n="5" break="no"/>cificat, deinde &amp; accendit uelut gratiam
+          actu<lb ed="#W" n="6" break="no"/>ros deo pro misericordia, ut legem sponte 
+          <lb ed="#W" n="7"/>&amp; hilariter faciamus. Alioqui quo ad non cre 
+          <lb ed="#W" n="8"/>dimus, non est in corde sensus
+          misericor<lb ed="#W" n="9" break="no"/>diae dei. Vbi non est sensus misericondiae dei,  
+          <lb ed="#W" n="10"/>est aut contemptus dei, aut odium. Quare 
+          <lb ed="#W" n="11"/>quantacunque legis opera fiant sine fide,
+          pec<lb ed="#W" n="12" break="no"/>catur. Atque hoc est quod Paulus ait ad
+          Ro<lb ed="#W" n="13" break="no"/>xv. Quidquid non est ex fide, peccatum est. 
+          <lb ed="#W" n="14"/>Quae sententia fidei uim atque natura clarissi 
+          <lb ed="#W" n="15"/>me exponit. Nam quidquid fit a natura fit 
+          <lb ed="#W" n="16"/>aut odio dei, cuiusmodi opera sunt eorum, 
+          <lb ed="#W" n="17"/>qui inuiti, metu legis &amp; poenarum bene
+          ope<lb ed="#W" n="18" break="no"/>rantur. Nam cum sine fide bona opera
+          simu<lb ed="#W" n="19" break="no"/>lamus, nonne sic cogitat cor nostrum. Ego 
+          <lb ed="#W" n="20"/>quidem, quod potui feci, sed nescio utrum pro 
+          <lb ed="#W" n="21"/>bet mea opera deus, aut improbet. Seuerus 
+          <lb ed="#W" n="22"/>iudex est, nescio utrum sit mei misertus, an 
+          <lb ed="#W" n="23"/>constra. Ea cogitatione qui fieri potest, ut non 
+          <lb ed="#W" n="24"/>irascamur iudicio dei. Et in hac hypocrisi 
+          <!--156.xml-->
+          <!-- 77r-v seems to be skipped in foliation count; but there doesn't seem to be any missing content -->
+          <pb ed="#W" n="78-r"/>
+          <lb ed="#W" n="1"/>cum magna molestia cordis maxima pars 
+          <lb ed="#W" n="2"/>homines uiuunt, qui quam praue iudicent, uel 
+          <lb ed="#W" n="3"/>hinc adparet. Debebant enim non opera sua, sed 
+          <lb ed="#W" n="4"/>promissionem misericondiae dei contemplari. 
+          <lb ed="#W" n="5"/>Quid est enim iniquius quam AES TIM
+          A<lb ed="#W" n="6" break="no"/>RE VORVNTATEM dei ex nostris
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e589">
+          <lb ed="#W" n="7"/>operibus, quam ille ipe suo uerbo nobis decla 
+          <lb ed="#W" n="8"/>ratit. Iam magna hominum pars cum contemp 
+          <lb ed="#W" n="9"/>tu dei uiuit, ita operatura, ita uictura, etiam si 
+          <lb ed="#W" n="10"/>displiceat deo. Eiusmodi sunt opera quae si 
+          <lb ed="#W" n="11"/>ne fide fiunt, hoc est, quae cum odio dei, aut 
+          <lb ed="#W" n="12"/>cum contemptu dei fiant. Est ergo
+          pulcherri<lb ed="#W" n="13" break="no"/>me dictum Ecclesiastici. xxxii. In omni opere 
+          <lb ed="#W" n="14"/>tuo crede ex fide animae tuae, haec est enim con 
+          <lb ed="#W" n="15"/>seruatio mandatorum. Qualiacunque sint ope 
+          <lb ed="#W" n="16"/>ra, comedere, bibere, laborare manu, doce 
+          <lb ed="#W" n="17"/>re addo etiam, ut sint palam peccata, non 
+          <lb ed="#W" n="18"/>est, quod opera spectes, promissionem
+          mise<lb ed="#W" n="19" break="no"/>ricondiae dei specta, eius fiducia nihil
+          dubi<lb ed="#W" n="20" break="no"/>ta quin iam non iudicem in coelis, sed patrem 
+          <lb ed="#W" n="21"/>habeas, cui tu sis curae, non aliter atque sunt 
+          <lb ed="#W" n="22"/>parentibus filii inter homines. Quod si uo 
+          <lb ed="#W" n="23"/>luntatis erga nos diuinae nulla esset
+          signifi<lb ed="#W" n="24" break="no"/>catio praeter hanc, que uoluit adpellari se pa¬ 
+          <!--157.xml-->
+          <pb ed="#W" n="78-v"/>
+          <lb ed="#W" n="1"/>trem, in ea prece, quam quotidie dicimus, so 
+          <lb ed="#W" n="2"/>Ia haec satis magno argumento esset, nihil 
+          <lb ed="#W" n="3"/>exigi a nobis prius fide. Nunc cum hanc 
+          <lb ed="#W" n="4"/>toties exigat deus, cum hanc toties unam 
+          <lb ed="#W" n="5"/>probet, cum hanc nobis locupletissimis
+          pro<lb ed="#W" n="6" break="no"/>missionibus, adeoque per mortem filii sui com 
+          <lb ed="#W" n="7"/>Imendarit, quid est, cur non illi nos tantae 
+          <lb ed="#W" n="8"/>misericordiae committamus &amp; credamus  
+          <lb ed="#W" n="9"/>Scolastica theologia pro fide, pro
+          ancho<lb ed="#W" n="10" break="no"/>ra conscientiarum, opera, satisfactioes
+          ho<lb ed="#W" n="11" break="no"/>misue docuit. Male peidat deus scandalum 
+          <lb ed="#W" n="12"/>illud Ecclesiae suae.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e661">
+          <lb ed="#W" n="13"/>⁋ Habes, in quam partem fidei nomen usur 
+          <lb ed="#W" n="14"/>pet scriptura, nempe pro eo quod est, fidere 
+          <lb ed="#W" n="15"/>gratuita dei misericordia, sine ullo operum 
+          <lb ed="#W" n="16"/>nostrorum siue bonorum siue malorum
+          respe<lb ed="#W" n="17" break="no"/>ctu. Quia de Christi plenitudine omes acci 
+          <lb ed="#W" n="18"/>pimus. Iam omni uerbo dei minis &amp;
+          pro<lb ed="#W" n="19" break="no"/>missionibus, historiae diuinae uere
+          adsen<lb ed="#W" n="20" break="no"/>tiuntur qui sic fidunt. Scholastica fides nihil 
+          <lb ed="#W" n="21"/>nisi mortua opinio est. Nam quomodo
+          cre<lb ed="#W" n="22" break="no"/>dunt omni uerbo dei? qui promissam
+          re<lb ed="#W" n="23" break="no"/>missionem peccatorum non credunt? Non enim
+          ua<lb ed="#W" n="24" break="no"/>letque dicunt Sophistae impios credere, non 
+          <!--158.xml-->
+          <pb ed="#W" n="79-r"/>
+          <lb ed="#W" n="1"/>sibi quidem, sed aliis remissionem
+          pecca<lb ed="#W" n="2" break="no"/>torum contingere. Quaeso enim an non iis quoq 
+          <lb ed="#W" n="3"/>impiis promissa est condonatio peccatorum : 
+          <lb ed="#W" n="4"/>sed non instituimus disputare, contenti pau 
+          <lb ed="#W" n="5"/>cis indicasse quid nomine fidei
+          significare<lb ed="#W" n="6" break="no"/>tur. Extat Eutheri libellus de Christiana
+          li<lb ed="#W" n="7" break="no"/>bertate, e quo qui uolet fidei
+          commendatio<lb ed="#W" n="8" break="no"/>nes alias requitat. Porro fidei uim, opinor e 
+          <lb ed="#W" n="9"/>scripturae exemplis clarius cognoscemus.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e713">
+          <lb ed="#W" n="10"/>⁋ Genesis. xv. promittit misericordiam suam 
+          <lb ed="#W" n="11"/>Abrahae deus uerbis magnificis. Noli
+          time<lb ed="#W" n="12" break="no"/>te Abraham, ego protector tuus sum, &amp;
+          mer<lb ed="#W" n="13" break="no"/>ees tua magna ualde. Paulo post pollicetur 
+          <lb ed="#W" n="14"/>etiam posteritatem, Sequitur autem, Credidit Abra 
+          <lb ed="#W" n="15"/>ham deo, &amp; reputatum est ei ad iustitiam. Quid 
+          <lb ed="#W" n="16"/>igitur credebat Abrahae non aliud nisi esse deum 
+          <lb ed="#W" n="17"/>immo &amp; promissioni dei credidit, eamque fidem 
+          <lb ed="#W" n="18"/>deinde declarauit egregio exemplo, cum filiu 
+          <lb ed="#W" n="19"/>esset immolaturus, nihil dubitans, quin
+          da<lb ed="#W" n="20" break="no"/>turus esset deus posteritatem, etiam hoc filio ne 
+          <lb ed="#W" n="21"/>cato am cum fides sit adsentiri uerbo dei, quid 
+          <lb ed="#W" n="22"/>crediderit Abraham ex promissione quoque sa 
+          <lb ed="#W" n="23"/>tis apparet, cum se protectorem illi addicit des.  
+          <lb ed="#W" n="24"/>Ergo credunt qui pro protectore, pro patre, 
+          <!--159.xml-->
+          <pb ed="#W" n="79-v"/>
+          <lb ed="#W" n="1"/>deum habent, non pro iudice tantum. Exodi 
+          <lb ed="#W" n="2"/>xiiii, fremunt lsraelitae per diffidentiam, cum 
+          <lb ed="#W" n="3"/>fugam suam intercluderent maria, montes,  
+          <lb ed="#W" n="4"/>&amp; nostis a tergo instaret. Hos iubet consiste 
+          <lb ed="#W" n="5"/>re Moses, uisuros magnalia dei, &amp; addit p 
+          <lb ed="#W" n="6"/>missionem, Dominus pugnabit pro uobis &amp; 
+          <lb ed="#W" n="7"/>uos tacebitis. Quid si hic de fide
+          disputa<lb ed="#W" n="8" break="no"/>ssent pro more scholarum nostratum Israelitae. 
+          <lb ed="#W" n="9"/>Satis esse si historiae credant, que sit deus, que 
+          <lb ed="#W" n="10"/>malis poenas, bonis premia dispenset, se 
+          <lb ed="#W" n="11"/>quoque malos esse &amp; fieri posse, ut punire ue 
+          <lb ed="#W" n="12"/>lit utrosque tum Aegyptios, tum lsraelem.  
+          <lb ed="#W" n="13"/>Sed credebant diuinae uoci, diuinis miracu 
+          <lb ed="#W" n="14"/>lis, fidebant misericondia dei, ut maxime 
+          <lb ed="#W" n="15"/>ipsi quoque mortis essent rei, atque ita
+          commit<lb ed="#W" n="16" break="no"/>tebant se alueo per fidem. Et iam hoc
+          exem<lb ed="#W" n="17" break="no"/>plo experti uoluntatem dei erga se, eum uiderent 
+          <lb ed="#W" n="18"/>se seruatos, Aegyptium perisse undis,
+          timue<lb ed="#W" n="19" break="no"/>tunt, inquit, dominum, &amp; crediderunt
+          do<lb ed="#W" n="20" break="no"/>mino, &amp; Mosi seruo eius. Et ea quidem
+          no<lb ed="#W" n="21" break="no"/>bis exempla sunt exhibita ut discamus
+          cre<lb ed="#W" n="22" break="no"/>dere, non illa quidem Sophistica fide, sed 
+          <lb ed="#W" n="23"/>hac fiducia uerbi dei, qualem fuisse in
+          Mo<lb ed="#W" n="24" break="no"/>se uides hoc loco &amp;c.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e805">
+          <!--160.xml-->
+          <pb ed="#W" n="80-r"/>
+          <lb ed="#W" n="1"/>
+          <pc type="indent"/>Qualem autem fidem exigit in Numeris. 
+          <lb ed="#W" n="2"/>xiiii: cum desperaret de Palaestina occupanda 
+          <lb ed="#W" n="3"/>populus? Ait enim dominus. Vsqequo
+          detra<lb ed="#W" n="4" break="no"/>het mihi populus iste? quousque non credent. 
+          <lb ed="#W" n="5"/>mihi in omnibus signis quae feci coram eis 
+          <lb ed="#W" n="6"/>Et capite. xx. Irascitur Mosi &amp; Ahaton, ique 
+          <lb ed="#W" n="7"/>non credidissent aquam e petra
+          promanatu<lb ed="#W" n="8" break="no"/>ram. Credebat certe Aharon, credebat Mo 
+          <lb ed="#W" n="9"/>ses esse deum, sed de diuina uoce dubitabat,  
+          <lb ed="#W" n="10"/>qua promissa erat aqua e petra. Eam
+          incre<lb ed="#W" n="11" break="no"/>dulitatem taxat dominus.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e838">
+          <lb ed="#W" n="12"/>
+          <pc type="indent"/>Aut de qua fide loquitur Moses Deutero.i 
+          <lb ed="#W" n="13"/>Portauit te deus tuus, ut solet homo gest
+          i<lb ed="#W" n="14" break="no"/>re paruulum filium suum in omni uia per quam 
+          <lb ed="#W" n="15"/>ambulastis donec ueniretis ad locum istum. 
+          <lb ed="#W" n="16"/>Et ne sic quidem credidistis domino deo
+          ue<lb ed="#W" n="17" break="no"/>stro, qui praecessit uos in uia &amp;c. Habebant.  
+          <lb ed="#W" n="18"/>illi certe fidem informem, habebant fidem
+          ac<lb ed="#W" n="19" break="no"/>quisitam, sed promissionibus misericordiae 
+          <lb ed="#W" n="20"/>dei non fidebant, non erant erecta corda 
+          <lb ed="#W" n="21"/>eorum fiducia misericordiae dei, uiuebant in 
+          <lb ed="#W" n="22"/>incredulitate, contemnentes ue. bi dei, opus 
+          <lb ed="#W" n="23"/>dei, reductionem ex Aegypto indigne
+          fere<lb ed="#W" n="24" break="no"/>bant, ideo eius incredulitatis poenas dedere,  
+          <!--161.xml-->
+          <pb ed="#W" n="80-v"/>
+          <lb ed="#W" n="1"/>hiaud dubie alias boni uiri in speciem. Haec 
+          <lb ed="#W" n="2"/>est hypocrisis hominum, qui ad eum modum
+          fu<lb ed="#W" n="3" break="no"/>cati sunt bonis operibus cor autem non est 
+          <lb ed="#W" n="4"/>erectum, fiducia &amp; gaudio in deo, cum hanc 
+          <lb ed="#W" n="5"/>unam fiduciam requirat deus, cum illius unius 
+          <lb ed="#W" n="6"/>confirmandae gratia, filium dederit, ne de 
+          <lb ed="#W" n="7"/>bona uoluntate erga nos sua dubitemus, ut 
+          <lb ed="#W" n="8"/>ponamus in deo spem nostram, &amp; non
+          obli<lb ed="#W" n="9" break="no"/>uiscamur operum dei, &amp; mandata eius
+          requi<lb ed="#W" n="10" break="no"/>ramus. Psal. Ixxvii. Ite. i. TαρααγαRήov. v. 
+          <lb ed="#W" n="11"/>Deum inuocauetunt, cum preliarentur, &amp; exau 
+          <lb ed="#W" n="12"/>diuit eos, eo que credidissent in eum. Et. ii. 
+          <lb ed="#W" n="13"/>σαραγαπααααv. xvi. Oculi domini contem 
+          <lb ed="#W" n="14"/>plantur uniuersam terram, &amp; prebent
+          for<lb ed="#W" n="15" break="no"/>titudinem his qui CoRnE pEgtECTo 
+          <lb ed="#W" n="16"/>credunt in eum. Vbi Asam regem luda pro 
+          <lb ed="#W" n="17"/>pheta Anani taxat, Syrorum auxiliis
+          fiden<lb ed="#W" n="18" break="no"/>tem. Verum haud scio, an usquam fidei 
+          <lb ed="#W" n="19"/>uim exemplo potiore exhibeat scriptura, 
+          <lb ed="#W" n="20"/>quam id est quod de losaphat. ii. σαραe¬ 
+          <lb ed="#W" n="21"/>πααήγή. xx. legitur, cum ille Ammonitas,  
+          <lb ed="#W" n="22"/>&amp; Moabitas solo cantu funderet, nec aliud 
+          <lb ed="#W" n="23"/>praecepisset exercitui suo, quam ut consiste 
+          <lb ed="#W" n="24"/>rent confidenter. Eiusmodi est &amp; Ezechiae 
+          <lb ed="#W" n="25"/>exemplum.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e929">
+          <!--162.xml-->
+          <pb ed="#W" n="81-r"/>
+          <lb ed="#W" n="1"/>⁋ Quam fidem autem requirebat ab
+          Acha<lb ed="#W" n="2" break="no"/>Esaias, cap. vii,. cum uetat auxilia
+          Assyrio<lb ed="#W" n="3" break="no"/>rum implorare, polliceturque opem diuinam, 
+          <lb ed="#W" n="4"/>addens, Si non credideritis, non
+          perma<lb ed="#W" n="5" break="no"/>nebitis.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e947">
+          <lb ed="#W" n="6"/>⁋ Plenae sunt huius generis exemplorum
+          sa<lb ed="#W" n="7" break="no"/>crae historiae omnes, erit igitur pii ac studiosi 
+          <lb ed="#W" n="8"/>lectoris, &amp; pro discenda fidei ratione, &amp; pro 
+          <lb ed="#W" n="9"/>confirmanda conscientia decerpere
+          exem<lb ed="#W" n="10" break="no"/>pla. Repetemus autem aliquot locos etiam 
+          <lb ed="#W" n="11"/>ex literis noui testamenti, uel in hoc ut intel 
+          <lb ed="#W" n="12"/>ligatur idem spiritus esse historiarum
+          utri<lb ed="#W" n="13" break="no"/>usque testamenti.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e967">
+          <lb ed="#W" n="14"/>⁋ Et ut hinc ordiat Actuum. xv. negat
+          Pe<lb ed="#W" n="15" break="no"/>trus operibus legis iustificatos patres,
+          quan<lb ed="#W" n="16" break="no"/>quam in lege uiuerent, sed fide. additque fide pu 
+          <lb ed="#W" n="17"/>rificari corda, quae nisi tu intelligas, sicut ipe 
+          <lb ed="#W" n="18"/>exponit, de fiducia gratiae &amp; misericordiae 
+          <lb ed="#W" n="19"/>dei, iam toto erras coelo, qui enim fieri poterit,  
+          <lb ed="#W" n="20"/>ut fides scholastica corda purificet? Vult
+          er<lb ed="#W" n="21" break="no"/>go Petrus omnia opera patrum Dauidis, Esaiae,  
+          <lb ed="#W" n="22"/>Hieremiae peccata fuisse, iustificatos at esse 
+          <lb ed="#W" n="23"/>sola fiducia misericordiae dei in Christo
+          p<lb ed="#W" n="24" break="no"/>missae. Sicut saepe prophetae de se testantur. 
+          <!--163.xml-->
+          <pb ed="#W" n="81-v"/>
+          <lb ed="#W" n="1"/>Haec fiducia bonae uoluntatis dei spargitur 
+          <lb ed="#W" n="2"/>in omnem uitam, in omnia opera, in omnes 
+          <lb ed="#W" n="3"/>tentationes corporales &amp; spirituales.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e1004">
+          <lb ed="#W" n="4"/>⁋ Vnam eademque fides est, qua creditur deo,  
+          <lb ed="#W" n="5"/>qua fiditur bonitate dei, qualicunque
+          tenta<lb ed="#W" n="6" break="no"/>tione, Spiritualis tentatio illa mulieris
+          pec<lb ed="#W" n="7" break="no"/>catricis erat Rucae. vii, quam erexit Christus 
+          <lb ed="#W" n="8"/>inquiens, remittuntur tibi peccata tua. Item 
+          <lb ed="#W" n="9"/>Fides tua te saluam fecit, uade in pace. Cor 
+          <lb ed="#W" n="10"/>poralia erant pleraque cum morbos curaret, &amp; 
+          <lb ed="#W" n="11"/>incredulitatem discipulorum in re corporali
+          ar<lb ed="#W" n="12" break="no"/>guit. Matth. xvi. cum illi de panibus essent sol 
+          <lb ed="#W" n="13"/>liciti. Sic enim increpat, Quid cogitatis inter 
+          <lb ed="#W" n="14"/>uos modicae fideit? &amp;c. Et patris curam de suis 
+          <lb ed="#W" n="15"/>in re corporali quoties inculcat? Matt. vi. 
+          <lb ed="#W" n="16"/>Scit pater uester que his omnibus opus habe 
+          <lb ed="#W" n="17"/>tis. Et. x. Multis passeribus meliores estis 
+          <lb ed="#W" n="18"/>uos. Et huiusmodi corporalia non
+          contem<lb ed="#W" n="19" break="no"/>nenda rudimenta sunt exercendae fidei.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e1042">
+          <lb ed="#W" n="20"/>⁋ Haec moneo ne quid laboremus
+          distin<lb ed="#W" n="21" break="no"/>guendis promissionibus diuinis. Sunt em 
+          <lb ed="#W" n="22"/>aliae rerum corporalium, ut ueteris testamenti 
+          <lb ed="#W" n="23"/>ens. Aliae spirituales, quae proprie ad nouum 
+          <lb ed="#W" n="24"/>testamentum pertinent. Sic enim sentio nec pro 
+          <!--164.xml-->
+          <pb ed="#W" n="82-r"/>
+          <lb ed="#W" n="1"/>missionibus corporalibus credere ex corde 
+          <lb ed="#W" n="2"/>nisi iustos. Et corporalium rerum
+          promissio<lb ed="#W" n="3" break="no"/>ne misericordiam suam declarasse deum, que 
+          <lb ed="#W" n="4"/>argumentari facile poterant sancti, multo 
+          <lb ed="#W" n="5"/>magis animas suas curae esse deo, si curae fu 
+          <lb ed="#W" n="6"/>issent corpora. Nec desinere patrem esse
+          ani<lb ed="#W" n="7" break="no"/>marum, qui corporibus patrem egisset. Hoc est 
+          <lb ed="#W" n="8"/>quod ante dixi, etiam corporalium rerum pro 
+          <lb ed="#W" n="9"/>missiones per se fuisse promissionem gratiae, 
+          <lb ed="#W" n="10"/>obscuram quidem sed tamen habentibus spi 
+          <lb ed="#W" n="11"/>ritum dei satis cognitam. Iam &amp; Mosi precanti 
+          <lb ed="#W" n="12"/>pro populi peccato, in Numeris cap. xiii. 
+          <lb ed="#W" n="13"/>condonatur peccatum populi. Et lex cum
+          pro<lb ed="#W" n="14" break="no"/>missione gratiae lata est. Exod. xx. Ego sum 
+          <lb ed="#W" n="15"/>dominus deus tuus faciens misericordiam 
+          <lb ed="#W" n="16"/>in millia his qui diligunt me &amp; custodiunt 
+          <lb ed="#W" n="17"/>praecepta mea. Et sacrificia pro peccato
+          tra<lb ed="#W" n="18" break="no"/>dita sunt, quae necesse est fateamur fuisse sig 
+          <lb ed="#W" n="19"/>na remissionis peccatorum fidelibus. Non 
+          <lb ed="#W" n="20"/>quaero allegorias, sed historiam uolo promit 
+          <lb ed="#W" n="21"/>tere misericordiam in eo ipsoque corporalia 
+          <lb ed="#W" n="22"/>beneficia promissa sunt. Atque huc pulcherri 
+          <lb ed="#W" n="23"/>me quadrant pleraeque historiae, ut Genesis. 
+          <lb ed="#W" n="24"/>xxviii. ait laeob, Si fuetit dominus mecum. 
+          <!--165.xml-->
+          <pb ed="#W" n="82-v"/>
+          <lb ed="#W" n="1"/>&amp; custodierit me in uia per quam ego
+          ambu<lb ed="#W" n="2" break="no"/>lo &amp; dederit mihi panem ad uescendum, &amp;  
+          <lb ed="#W" n="3"/>uestimentum ad induendum &amp;c, erit mihi 
+          <lb ed="#W" n="4"/>dominus in deum. Fidem misericordiae &amp; 
+          <lb ed="#W" n="5"/>bonitatis dei eff cacissime nobis
+          commenda<lb ed="#W" n="6" break="no"/>uit Moses exemplis operum &amp;
+          promissio<lb ed="#W" n="7" break="no"/>num corporalium. Deutero. viii. Adssixit te 
+          <lb ed="#W" n="8"/>penuria &amp; dedit tibi cibum manna, quod 
+          <lb ed="#W" n="9"/>gnorabas tu &amp; patres tui, ut O STίEN¬ 
+          <lb ed="#W" n="10"/>D E RET tibi, quod non in solo pane ui 
+          <lb ed="#W" n="11"/>uat homo, sed in omni uerbo, quod
+          egre<lb ed="#W" n="12" break="no"/>editur de ore dei. Adeo uerbum uitae est,
+          quo<lb ed="#W" n="13" break="no"/>cunque misericordiam dei cognoscit cor
+          hu<lb ed="#W" n="14" break="no"/>manum. Huius formae exempla fidei recensentu 
+          <lb ed="#W" n="15"/>ad Hebr. xi, quorum pleraque ad res corporales 
+          <lb ed="#W" n="16"/>pertinent. Et cur non ad hunc locum acco 
+          <lb ed="#W" n="17"/>modamus totum illud caput.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e1153">
+          <lb ed="#W" n="18"/>⁋ Principio fidem sic definit. Fides est speram 
+          <lb ed="#W" n="19"/>larum rerum hypostasis, id est, expectatio, cer 
+          <lb ed="#W" n="20"/>titudo non apparentium. Hanc ὑ πγραφαα
+          fi<lb ed="#W" n="21" break="no"/>dei eiusmodi gilossematis detorserunt ad 
+          <lb ed="#W" n="22"/>sua somnia sophistae, &amp; ad carnalem illam  
+          <lb ed="#W" n="23"/>opinatiunculam, quam fidem uocarunt ut plane 
+          <lb ed="#W" n="24"/>nihil Apostolicae sententiae intelligeretur. Pro 
+          <!--166.xml-->
+          <pb ed="#W" n="83-r"/>
+          <lb ed="#W" n="1"/>inde nos simplicissima uerba simplicissima 
+          <lb ed="#W" n="2"/>sententia referemus. Fidem esse certitudinem eoge 
+          <lb ed="#W" n="3"/>quae non adparent. Obsecro, quid est certitu, 
+          <lb ed="#W" n="4"/>do? at diuinarum ac spiritualium rerum nihil  
+          <lb ed="#W" n="5"/>certo tenet natura, nisi per spiritum sanctum
+          il<lb ed="#W" n="6" break="no"/>lustrata. Iam &amp; sperandarum rerum expectationem 
+          <lb ed="#W" n="7"/>adpellat. Non est igitur fides credere minis tan 
+          <lb ed="#W" n="8"/>tum, immo hoc potius timorem uocat scriptu 
+          <lb ed="#W" n="9"/>ra, sed &amp; promissionibus credere, hoc est
+          fi<lb ed="#W" n="10" break="no"/>dere misericondia &amp; bonitate dei, aduersus 
+          <lb ed="#W" n="11"/>iniuriam mundi, peccati, mortis, adeoque poren 
+          <lb ed="#W" n="12"/>tatum inferi. Viden expectationem rerum quae 
+          <lb ed="#W" n="13"/>sperantur adpellari fidem. Non crenduugigitur, qui  
+          <lb ed="#W" n="14"/>non expectant promissam salutema At dices,  
+          <lb ed="#W" n="15"/>credo promissam salutem, sed aliis
+          obuentu<lb ed="#W" n="16" break="no"/>ram. Sic enim sentit caro. Sed audi, An non haec 
+          <lb ed="#W" n="17"/>tibi quoque promissa sunt? An non in omnes
+          gen<lb ed="#W" n="18" break="no"/>tes praedicatum est Euangeliums non credis igiem 
+          <lb ed="#W" n="19"/>ni tibi quoque salurem promissam credas.
+          Cer<lb ed="#W" n="20" break="no"/>ta impietas &amp; infidelitas est, non omni
+          uer<lb ed="#W" n="21" break="no"/>bo dei credere, aut credere non posse, que &amp; 
+          <lb ed="#W" n="22"/>tibi sit promissa remissio peccatorum. 
+          <lb ed="#W" n="23"/>⁋ Subicit autem definitionis exempla Episto 
+          <lb ed="#W" n="24"/>Ia ad Hebraeos. Fide intelligims conditum esse 
+          <!--167.xml-->
+          <pb ed="#W" n="83-v"/>
+          <lb ed="#W" n="1"/>mundum uerbo dei, ut inuisiblium scilicet
+          di<lb ed="#W" n="2" break="no"/>uinitatis, &amp; uirtutis eius uisibilia scilicet ope 
+          <lb ed="#W" n="3"/>ra diuinae potentiae fierent. Sic enim hic locus 
+          <lb ed="#W" n="4"/>cum eo qui est in Romanis conuenit. Hic
+          ue<lb ed="#W" n="5" break="no"/>ro Sophistae obstrepent, inepte a nobis aliam 
+          <lb ed="#W" n="6"/>requiri fidem praeter historicam, cum Episto 
+          <lb ed="#W" n="7"/>lIa ad Hebraeos hic de historia tantum, nempe 
+          <lb ed="#W" n="8"/>conditi mundi, loquatur. Sed audi,
+          quo<lb ed="#W" n="9" break="no"/>modo quadrabit ad definitionem fidei
+          prae<lb ed="#W" n="10" break="no"/>scriptam hoc exemplum, si ad solam
+          histo<lb ed="#W" n="11" break="no"/>ricam fidem pertinet? Proinde fidem
+          histo<lb ed="#W" n="12" break="no"/>tiae de mundo condito, non opinionem tan 
+          <lb ed="#W" n="13"/>tum illam uulgarem, quae gentibus etiam, quae 
+          <lb ed="#W" n="14"/>Saracenis persuasa erat, sed cognitionem po 
+          <lb ed="#W" n="15"/>tentiae &amp; bonitatis ab opere creationis
+          col<lb ed="#W" n="16" break="no"/>lectam uocat. Ea fides non alia erat, quam uel 
+          <lb ed="#W" n="17"/>Petri, uel Pauli. Nam ut potentiam dei
+          intel<lb ed="#W" n="18" break="no"/>ligit Petrus in resurrectione Christi, ut
+          bo<lb ed="#W" n="19" break="no"/>nitatem, ut misericordiam intelligit, cum cre 
+          <lb ed="#W" n="20"/>dit pro se Christum uictimam ac satis
+          factio<lb ed="#W" n="21" break="no"/>nem fuisse. Adeoque nullo opere suo, sed sim 
+          <lb ed="#W" n="22"/>pliciter misericondia dei fidit, quam in
+          Chri<lb ed="#W" n="23" break="no"/>sto pollicitus est. Ita qui spiritu rerum
+          condi<lb ed="#W" n="24" break="no"/>tionem aestimat, is &amp; potentiam dei uidet au¬ 
+          <!--168.xml-->
+          <pb ed="#W" n="84-r"/>
+          <lb ed="#W" n="1"/>ctoris tantarum rerum, &amp; bonitatem cum se omnia 
+          <lb ed="#W" n="2"/>uelut e manibus creatoris sentit accipere, ui 
+          <lb ed="#W" n="3"/>tam, uictum, sobolem, &amp; illa permittit cre 
+          <lb ed="#W" n="4"/>atori, ut temperet, regat, administret,
+          sup<lb ed="#W" n="5" break="no"/>peditet, pro sua bonitate, quae libet. Haec fi 
+          <lb ed="#W" n="6"/>des est de rerum conditione, non frigida opi 
+          <lb ed="#W" n="7"/>nio, sed uiuacissima cognitio tum potentiae. 
+          <lb ed="#W" n="8"/>tum bonitatis dei, effundentis se in omnes 
+          <lb ed="#W" n="9"/>creaturas, regentis &amp; administrantis omnes 
+          <lb ed="#W" n="10"/>creaturas, quam si possem explicare, ut rei dig 
+          <lb ed="#W" n="11"/>nitas postulat, quantum chartarum
+          insume<lb ed="#W" n="12" break="no"/>rem in hunc unum locum. Quanquam qui
+          ue<lb ed="#W" n="13" break="no"/>re credit, quae sit fides de rerum cratione,
+          spi<lb ed="#W" n="14" break="no"/>ritu facile aestimabit. Fortasse ridebunt haec 
+          <lb ed="#W" n="15"/>Sophistae, sed tideant sane, dum refutare 
+          <lb ed="#W" n="16"/>non possint, quae ego tam firma esse scio, 
+          <lb ed="#W" n="17"/>ut ne ab inferorum quidem portis possint con 
+          <lb ed="#W" n="18"/>uelli. Vocat Paulus creationis fidem,
+          augu<lb ed="#W" n="19" break="no"/>stius &amp; uiuacius quiddam, quam opinionem 
+          <lb ed="#W" n="20"/>sophisticam, cum ad Romanos. i. ait, Inuisi 
+          <lb ed="#W" n="21"/>bilia dei nempe sempiternam uirtutem, &amp; di 
+          <lb ed="#W" n="22"/>uinitatem conspici, per uisibilia. Porro uirtus 
+          <lb ed="#W" n="23"/>dei seu diuinitas, quid nisi potentia &amp;
+          bo<lb ed="#W" n="24" break="no"/>nitas est? Et Actuum. xiiii. Non sine testimo¬ 
+          <!--169.xml-->
+          <pb ed="#W" n="84-v"/>
+          <lb ed="#W" n="1"/>nio se reliquit benefaciens, de coelo dans plu 
+          <lb ed="#W" n="2"/>uiam &amp; tempora fructifera. Et quam suauiter 
+          <lb ed="#W" n="3"/>oblectat se Dauid meditatione creationis,  
+          <lb ed="#W" n="4"/>Psal. c.iii. Omnia in sapientia fecisti,
+          imple<lb ed="#W" n="5" break="no"/>ta est terra possessione tui. Item, Omniam a te 
+          <lb ed="#W" n="6"/>expectant, ut des illis escam in tempore. Dan 
+          <lb ed="#W" n="7"/>te te illis colligent, aperiente te manum tuam 
+          <lb ed="#W" n="8"/>omnia implebuntur bonitate. Quaeso te ad 
+          <lb ed="#W" n="9"/>eum modum mysterium creationis tractare
+          po<lb ed="#W" n="10" break="no"/>test caro? aut illud camalium somniorum 
+          <lb ed="#W" n="11"/>chaos philosophia, quae cum contingenter 
+          <lb ed="#W" n="12"/>euenite res arbitretur, plane negat opus crea 
+          <lb ed="#W" n="13"/>tionis. Itaque sicut legis populus potentiam ac 
+          <lb ed="#W" n="14"/>bonitatem dei cognouit, in eo que uindicatus 
+          <lb ed="#W" n="15"/>est a seruitute Aegyptiaca. Sic enim ait Exodi 
+          <lb ed="#W" n="16"/>xx. Ego sum dominus deus tuus, qui eduxi 
+          <lb ed="#W" n="17"/>te de terra Aegypto, de domo seruitutis &amp;c. 
+          <lb ed="#W" n="18"/>&amp; ante lege promulgatam cognoscebant
+          pa<lb ed="#W" n="19" break="no"/>tres, in iis, quae cum Abraham, Isaac, Iacob, 
+          <lb ed="#W" n="20"/>gessetat. Quare deum Abraham &amp;c, uocant. Ita 
+          <lb ed="#W" n="21"/>ante hos creatio rerum erat signum certum &amp; for 
+          <lb ed="#W" n="22"/>ma, e qua cognoscebatur deus. Sic Abel, sic 
+          <lb ed="#W" n="23"/>alii sancti credidere, quanquam horum fidem  
+          <lb ed="#W" n="24"/>quoque excitauit promissio de capite serpen 
+          <lb ed="#W" n="25"/>tis conterendo per semen Heuae. ldeo subicitur,  
+          <!--170.xml-->
+          <pb ed="#W" n="85-r"/>
+          <lb ed="#W" n="1"/>Fide potiorem hostiam Abel, quam Cain
+          obtu<lb ed="#W" n="2" break="no"/>lit. Erat in utroque dubio procul historiae sci 
+          <lb ed="#W" n="3"/>entia, alioqui cur offerret Cain? Ergo cum fi 
+          <lb ed="#W" n="4"/>dem Abelo tribuit, non Cain, non aliquam 
+          <lb ed="#W" n="5"/>historicam opinionem designat, sed fidem gio 
+          <lb ed="#W" n="6"/>rificantem deum, bene sencientem de deo, fidentem 
+          <lb ed="#W" n="7"/>diuina misericondia &amp;c. Hac fide uincebat 
+          <lb ed="#W" n="8"/>Abel, per hanc fidem consecutus est
+          testimo<lb ed="#W" n="9" break="no"/>nium, que esset iustus. ld quod diligenter adno 
+          <lb ed="#W" n="10"/>tauit auctor Epistolae, ut admoneret fidem  
+          <lb ed="#W" n="11"/>esse, quae pro iusticia reputaretur, non hostiam, 
+          <lb ed="#W" n="12"/>non ullum opus. Fide Enoch translatus est 
+          <lb ed="#W" n="13"/>ne uideret mortem, hoc est, quia credidit 
+          <lb ed="#W" n="14"/>Enoch, deo placuit, atque ita, ut in ipso
+          pa<lb ed="#W" n="15" break="no"/>tribus ostenderet &amp; argumentum &amp; spem
+          ui<lb ed="#W" n="16" break="no"/>tae melioris, cum eum transfertet. Quid enim
+          atti<lb ed="#W" n="17" break="no"/>net querere quorsum sit translatus, modo in 
+          <lb ed="#W" n="18"/>tellegams eum uelut specimen uitae &amp; certissi 
+          <lb ed="#W" n="19"/>mum argumentum immortalitatis exhibitum pa 
+          <lb ed="#W" n="20"/>tribus ad confirmandam eorum fidem. Iam quod
+          se<lb ed="#W" n="21" break="no"/>quitur, sine fide impossibile est placere deo,  
+          <lb ed="#W" n="22"/>credere enim oportet accedentem ad deum, &amp; qui 
+          <lb ed="#W" n="23"/>sit, &amp; que inquirentibus se, remunerator sit,
+          ui<lb ed="#W" n="24" break="no"/>des quam non possit de sophistica fide intelligi 
+          <!--171.xml-->
+          <pb ed="#W" n="85-v"/>
+          <lb ed="#W" n="1"/>qua satis constat non confidere deo
+          hypo<lb ed="#W" n="2" break="no"/>critas que misertus sit, que beneuelit, que sit
+          sal<lb ed="#W" n="3" break="no"/>uaturus. Nam si interroges eorum corda, nonne 
+          <lb ed="#W" n="4"/>ita respondebunt, Nescio utrum deo sint accep 
+          <lb ed="#W" n="5"/>ta opera mea, nescio utrum possim saluari,  
+          <lb ed="#W" n="6"/>Scio quidem promissam salutem, scio deum 
+          <lb ed="#W" n="7"/>esse misericordem, sed fortasse mecum non 
+          <lb ed="#W" n="8"/>aget pro misericordia. Ista mei rationem
+          ma<lb ed="#W" n="9" break="no"/>iestas non habet, &amp; hoc genus impia
+          mul<lb ed="#W" n="10" break="no"/>ta. Quanquam ne haec quidem, quae de dei
+          iu<lb ed="#W" n="11" break="no"/>dicio loquuntur impii, ex uero corde
+          profi<lb ed="#W" n="12" break="no"/>ciscuntur. Contemnunt em dei iudicium, non 
+          <lb ed="#W" n="13"/>timent, donec a deo confunduntur. Esset 
+          <lb ed="#W" n="14"/>autem debellatum nobis, si cor magnitudinem 
+          <lb ed="#W" n="15"/>obonitatis, &amp; amplitudinem gratiae concipere 
+          <lb ed="#W" n="16"/>posset, atque ita confidere. Non est oblitus tui 
+          <lb ed="#W" n="17"/>deus, tanta eius misericordia est, ut si te ei 
+          <lb ed="#W" n="18"/>credas, seruet, tueatur, saluet, confide igitur. 
+          <lb ed="#W" n="19"/>Quorum corda ad eum modum erecta sunt
+          sen<lb ed="#W" n="20" break="no"/>su bonitatis dei, quae credunt
+          SlRIeuen<lb ed="#W" n="21" break="no"/>tura, quae promisit deus, ea demum uere
+          cre<lb ed="#W" n="22" break="no"/>dunt, deum esse remuneratorem. Immo ea 
+          <lb ed="#W" n="23"/>quoque tandem uere credunt deum. Non
+          cre<lb ed="#W" n="24" break="no"/>dunt enim impii, sed frigida opinione tenentur,  
+          <!--172.xml-->
+          <pb ed="#W" n="86-r"/>
+          <lb ed="#W" n="1"/>eui non adhaeret profunditas cordis. Fide 
+          <lb ed="#W" n="2"/>Noe resposo accepto, metuens ea quae non 
+          <lb ed="#W" n="3"/>dum uidebantur, parauit arcam ad salutem  
+          <lb ed="#W" n="4"/>domus suae. Ecce duo complectitur Nohae fi 
+          <lb ed="#W" n="5"/>des, minas &amp; promissionem. Atque id est, qd 
+          <lb ed="#W" n="6"/>ante dixi, nulli uerbo dei impios credere,  
+          <lb ed="#W" n="7"/>nec minis, nec promissionibus. Nohe deo 
+          <lb ed="#W" n="8"/>gioriam ueritatis tribuit, ideo &amp; minas formi 
+          <lb ed="#W" n="9"/>dat, &amp; promissione salutis, adeoque
+          miseri<lb ed="#W" n="10" break="no"/>cordia fidit. Multi, ne dubita, illis quoque
+          ten<lb ed="#W" n="11" break="no"/>poribus fuere hypocritae qui fidem simula  
+          <lb ed="#W" n="12"/>runt, esse deum, esse malorum uindicem, esse 
+          <lb ed="#W" n="13"/>bonorum seruatorem. Sed hos illae dei minae 
+          <lb ed="#W" n="14"/>nihil mouerant. Quare? que non crederent. 
+          <lb ed="#W" n="15"/>uero corde, nec mouit promissio salutis,  
+          <lb ed="#W" n="16"/>per Arcam, que non fiderent misericondiae 
+          <lb ed="#W" n="17"/>dei SVPERS E. Adeo nihil est
+          sophi<lb ed="#W" n="18" break="no"/>stica fides, nisi mera impostura, merum lu 
+          <lb ed="#W" n="19"/>dibrium animarum, &amp; tamen impii &amp; &amp;bor 
+          <lb ed="#W" n="20"/>Sophistae docent satis esse illam suam fictam.  
+          <lb ed="#W" n="21"/>fidem ad bonum opus. Cum bonum opus non 
+          <lb ed="#W" n="22"/>sit quod aut odio aut contemptu dei fit. Fite 
+          <lb ed="#W" n="23"/>autem odio &amp; contemptu dei, quidquid non 
+          <lb ed="#W" n="24"/>sit fiducia misericondiae &amp; bonitatis dei. Si¬ 
+          <!--173.xml-->
+          <pb ed="#W" n="86-v"/>
+          <lb ed="#W" n="1"/>cut Paulus ait, Peccatum est, quidquid non fit 
+          <lb ed="#W" n="2"/>ex fide. Et per Arcam, ait. Dannauit mundum. 
+          <lb ed="#W" n="3"/>Nempeque unum fides seruarit, reliquos
+          perdide<lb ed="#W" n="4" break="no"/>rit incredulitas. Et quam sollicite monet, sum 
+          <lb ed="#W" n="5"/>mam esse iusticiae, fidem misericordiae &amp; gratiae 
+          <lb ed="#W" n="6"/>dei cum addit, &amp; iusticiae quae per fidem est, hae 
+          <lb ed="#W" n="7"/>res institutus est. Nihil de figuris loquor, non 
+          <lb ed="#W" n="8"/>quaero allegorias, sed ad simplicissimam
+          hi<lb ed="#W" n="9" break="no"/>storiam me refero. Iustificatur Noe non ullo suo 
+          <lb ed="#W" n="10"/>bono opere, sed sola fide misericondiae dei,  
+          <lb ed="#W" n="11"/>quam cum ex hac promissione de se seruando ex 
+          <lb ed="#W" n="12"/>aquis, tum ex ea, quae de capite serpentis,  
+          <lb ed="#W" n="13"/>hoc est, de aculeo mortis, conterendo, maio 
+          <lb ed="#W" n="14"/>ribus tradita erat conceperat. Fide adpellatus 
+          <lb ed="#W" n="15"/>Abraham obediit, ut in locum exiret quem accep 
+          <lb ed="#W" n="16"/>turus erat in haereditatem, &amp; exiit nesciens quo 
+          <lb ed="#W" n="17"/>iret. Fidebat Abraham misericordia,
+          bonita<lb ed="#W" n="18" break="no"/>teque dei nihil dubitans, quin ubicunque
+          gen<lb ed="#W" n="19" break="no"/>tium esset, deum esset habiturus protectorem, &amp; 
+          <lb ed="#W" n="20"/>seruatorem. ldeo se eius uoci commisit, deserens 
+          <lb ed="#W" n="21"/>patriam, non aliter atque se uoci Mosi
+          committe<lb ed="#W" n="22" break="no"/>bant lsraelitae, cum alueum rubri maris
+          ingre<lb ed="#W" n="23" break="no"/>deretur. Porro quanta haec Abrahae fides fuit e 
+          <lb ed="#W" n="24"/>quae, quamquam tota ille uita uagaretur incertis 
+          <!--174.xml-->
+          <pb ed="#W" n="87-r"/>
+          <lb ed="#W" n="1"/>sedibus, tamen non est labefactata. Satis potens, sa 
+          <lb ed="#W" n="2"/>tis opulentus, satis tuto loco colere sibi
+          ui<lb ed="#W" n="3" break="no"/>debatur, quia sub umbra alarum dei degeret. 
+          <lb ed="#W" n="4"/>Iam in eo ipso etiam, quod certam in Cananaea
+          se<lb ed="#W" n="5" break="no"/>dem nec sibi, nec gnato contingere uidebat,  
+          <lb ed="#W" n="6"/>hospitem se huius terrae agnoscebat esse, ciuem 
+          <lb ed="#W" n="7"/>fore aeternae ciuitatis sperabat. Fide &amp; Sara 
+          <lb ed="#W" n="8"/>uim accepit ad concipiendum, retinendumque
+          se<lb ed="#W" n="9" break="no"/>me. Viuificat enim &amp; creat omnia uerbum dei, quo 
+          <lb ed="#W" n="10"/>cum fideret Sara, nempe promissione sobolis, qui 
+          <lb ed="#W" n="11"/>fieri potuit, ut non ex sterili, ex effoeta, foecum 
+          <lb ed="#W" n="12"/>da fietet. OMNIA enim possibilia sunt creden 
+          <lb ed="#W" n="13"/>ti. Sed Abrahae fides ut oppugnata est, quam 
+          <lb ed="#W" n="14"/>ualido ariete concussa est cum Isaac, in quo scie 
+          <lb ed="#W" n="15"/>bat promissam esse posteritatem, iuberetur
+          im<lb ed="#W" n="16" break="no"/>molare. Quam fuit autem constans in adulescente  
+          <lb ed="#W" n="17"/>Isaac fides, cum patris imperio, cum uoluntati 
+          <lb ed="#W" n="18"/>diunae adeo nihil constaretur obsequi. Putas 
+          <lb ed="#W" n="19"/>potuisse tam seuum imperium exercere patrem in fi 
+          <lb ed="#W" n="20"/>lium, &amp; eum quidem eui promissa erat posteritas. 
+          <lb ed="#W" n="21"/>Putas filium obtempetaturum fuisse patri, ni 
+          <lb ed="#W" n="22"/>uterque confisus misericondia diuina, illi se con 
+          <lb ed="#W" n="23"/>misisset. Nec fefellt fides, Seruatur filius, re 
+          <lb ed="#W" n="24"/>stituitur patri, collaudatur patris
+          obedi<lb ed="#W" n="25" break="no"/>entia. Vides hic praelusum esse peccato 
+          <!--175.xml-->
+          <pb ed="#W" n="87-v"/>
+          <lb ed="#W" n="1"/>&amp; morti &amp; iustificationi &amp; resurrectioni. 
+          <lb ed="#W" n="2"/>adeoque toti nouo testamento. An non hic 
+          <lb ed="#W" n="3"/>didicerunt non Abraham modo &amp; Isaac,  
+          <lb ed="#W" n="4"/>sed omnes pii priusquam reuelaretur Euange 
+          <lb ed="#W" n="5"/>lium, quid in morte sperandum esset de uolun 
+          <lb ed="#W" n="6"/>tate dei. An non hoc exemplo fidem uictae 
+          <lb ed="#W" n="7"/>mortis, concepere patrest? uideruntque praelu 
+          <lb ed="#W" n="8"/>sum Christo, qui caput serpentis, aculeum  
+          <lb ed="#W" n="9"/>mortis contriturus esset. Fide Isaac benedixit 
+          <lb ed="#W" n="10"/>lacob &amp; Esau, futurum credens ut promissam 
+          <lb ed="#W" n="11"/>terram olim occuparent. Iam hoc
+          mitabi<lb ed="#W" n="12" break="no"/>lius est, que ratam esse uoluit benedictionem 
+          <lb ed="#W" n="13"/>Iacob, quam is praeripuisset natu maiori
+          fra<lb ed="#W" n="14" break="no"/>tri, cui iure gentium debebatur, nimitum fide 
+          <lb ed="#W" n="15"/>diuini uerbi, Maior seruiet minori. Fide be 
+          <lb ed="#W" n="16"/>nedixit lacob filios loseph, quanquam iam 
+          <lb ed="#W" n="17"/>exules, nihil dubitans tamen redituros in 
+          <lb ed="#W" n="18"/>Cananaeam, esseque maximarum gentium
+          pri<lb ed="#W" n="19" break="no"/>mordia. Nec dubitatunt Mosi parentes qui  
+          <lb ed="#W" n="20"/>redituri essent in palaestinam, quod in caussa 
+          <lb ed="#W" n="21"/>fuit, cur occuluerint infantem, spem
+          gene<lb ed="#W" n="22" break="no"/>ris. Deinde etiam, cur expositum commiserint po 
+          <lb ed="#W" n="23"/>tius diuinae misericordiae, quam necarint.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e1736">
+          <lb ed="#W" n="24"/>⁋ Adde si uoles &amp; reliqua exempla, nos for¬ 
+          <!--176.xml-->
+          <pb ed="#W" n="88-r"/>
+          <lb ed="#W" n="1"/>mam exemplorum tractandorum
+          delineaui<lb ed="#W" n="2" break="no"/>mus, docuimusque non de sophistica hyp
+          o<lb ed="#W" n="3" break="no"/>crisi, sed de fide loqui eius Epistolae
+          aucto<lb ed="#W" n="4" break="no"/>rem, hoc est, de fiducia misericordiae seu gra 
+          <lb ed="#W" n="5"/>tiae dei.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e1756">
+          <lb ed="#W" n="6"/>⁋ Hic non uides discrimen promissionum 
+          <lb ed="#W" n="7"/>diuinarum, sed simpliciter uerbum fidei esse,  
+          <lb ed="#W" n="8"/>promissionem misericordiae &amp; gratiae dei. 
+          <lb ed="#W" n="9"/>siue de rebus aetenis, siue de rebus
+          tempo<lb ed="#W" n="10" break="no"/>talibus agatur. Quanquam fere promissiones 
+          <lb ed="#W" n="11"/>rerum spiritualium ex corporalium
+          promissioni<lb ed="#W" n="12" break="no"/>bus colligi possint, non dico per allegoriam 
+          <lb ed="#W" n="13"/>tantum, sed claro &amp; manifesto argumento 
+          <lb ed="#W" n="14"/>spititus. Quid in morte sperandum esset Abra 
+          <lb ed="#W" n="15"/>hamum perspicuo docebat filii
+          immola<lb ed="#W" n="16" break="no"/>tio. Iam hoc quoque non adtinet discernere 
+          <lb ed="#W" n="17"/>promissiones, que in primam promissionem 
+          <lb ed="#W" n="18"/>de semine Heuae, id est, Christo, omnes
+          re<lb ed="#W" n="19" break="no"/>liquae directae sunt. ldeo e epectabatur posteri 
+          <lb ed="#W" n="20"/>tas, quia semen illud expectabatur, scilicet 
+          <lb ed="#W" n="21"/>Christus. Atque ita renouata est promissio 
+          <lb ed="#W" n="22"/>Heuae facta, in promissione Abrahae facta, 
+          <lb ed="#W" n="23"/>cum inquit Genesis. xxii. Denedicentur in
+          se<lb ed="#W" n="24" break="no"/>mine tuo omnes gentes terrae, quod nisi de 
+          <!--177.xml-->
+          <pb ed="#W" n="88-v"/>
+          <lb ed="#W" n="1"/>Christo exponi non potest. Atque ita interpre 
+          <lb ed="#W" n="2"/>tatur? Apostolus ad Qalat. iii. In semine tuo, 
+          <lb ed="#W" n="3"/>qui est Christus, &amp; expectatam esse posteritatem 
+          <lb ed="#W" n="4"/>expectatum esse regnum propter Christum
+          pro<lb ed="#W" n="5" break="no"/>missum satis declarat lacob Genesis. xlix. 
+          <lb ed="#W" n="6"/>Non auferetur sceptrum de luda, &amp; dux de 
+          <lb ed="#W" n="7"/>foemore eius, donec ueniat qui mittendus 
+          <lb ed="#W" n="8"/>est, &amp; ipse erit expectatio gentium, ubi quid 
+          <lb ed="#W" n="9"/>aliud uoluit, nisi regni, adeoque omnes
+          corpo<lb ed="#W" n="10" break="no"/>rasium rerum promissiones in Christeum referri,  
+          <lb ed="#W" n="11"/>&amp; in Christo consumati. Hoc in caussa est 
+          <lb ed="#W" n="12"/>cur nullo discrimine Paulus quasuis
+          pro<lb ed="#W" n="13" break="no"/>missiones Abrahae factas citat, Ad Calatas 
+          <lb ed="#W" n="14"/>iii, eam quae est Genesis xii. In te benedicen 
+          <lb ed="#W" n="15"/>tur omnes gentes. Et ad Romanos. iiii. dicit 
+          <lb ed="#W" n="16"/>Abrahae promissam haereditatem mundi, &amp;  
+          <lb ed="#W" n="17"/>quod filii Abrahae sint ex omibus gentibs qui
+          cre<lb ed="#W" n="18" break="no"/>didere, &amp; que omes fideles sint reges in
+          Chri<lb ed="#W" n="19" break="no"/>sto rege. Sicut psalmus ait. Omia subiecisti 
+          <lb ed="#W" n="20"/>sub pedes eius. Rursum, qui manifeste reue 
+          <lb ed="#W" n="21"/>lato Euangelio in Christum credunt, in eo 
+          <lb ed="#W" n="22"/>omnes corporales benedictiones habent, nam 
+          <lb ed="#W" n="23"/>si proprio filio deus non pepercit, sed pro 
+          <lb ed="#W" n="24"/>nobis omnibus tradidit eum, quomodo 
+          <!--178.xml-->
+          <pb ed="#W" n="89-r"/>
+          <lb ed="#W" n="1"/>non omnia cum eo donarit? Idem
+          appa<lb ed="#W" n="2" break="no"/>ret ex regni ratione, que omnes creaturae, ut 
+          <lb ed="#W" n="3"/>Christo, ua illius fratribus subiectae sunt,  
+          <lb ed="#W" n="4"/>mors, fames, gladius, potestates, summa, 
+          <lb ed="#W" n="5"/>infima, peccatum, denique quidquid est
+          om<lb ed="#W" n="6" break="no"/>nium rerum, quas metuere humana
+          imbecilli<lb ed="#W" n="7" break="no"/>tas solet, in nostra potestate est, sub pedes 
+          <lb ed="#W" n="8"/>nostros subiectum est, nisi regnare Christum 
+          <lb ed="#W" n="9"/>non credimus. Huc illud pertinet, quod
+          su<lb ed="#W" n="10" break="no"/>pra dixi, fidem spargi in omnes casus uitae,  
+          <lb ed="#W" n="11"/>mortisque nostrae, que nulla creatura recte uta 
+          <lb ed="#W" n="12"/>mur, nium per fidem, que omnibus creaturis 
+          <lb ed="#W" n="13"/>abutamur per diffidentiam, hoc est, non
+          cre<lb ed="#W" n="14" break="no"/>dentes in creaturae usu nos placere deo, diffi 
+          <lb ed="#W" n="15"/>dentes in usu creaturae de misericordia, de 
+          <lb ed="#W" n="16"/>beneuolentia dei erga nos. Abutitur inopia, 
+          <lb ed="#W" n="17"/>morte, aduersis rebus, qui non credit
+          diui<lb ed="#W" n="18" break="no"/>nae misericordiae opera esse, qui hic
+          diffi<lb ed="#W" n="19" break="no"/>dit, ad humana praesidia profugit, qui du 
+          <lb ed="#W" n="20"/>bitat se in Christo uincere posse. Sic
+          abusus<lb ed="#W" n="21" break="no"/>fuisset tristissimo imperio de mactando
+          fi<lb ed="#W" n="22" break="no"/>lio Abraham, nisi libenter obsecundans,  
+          <lb ed="#W" n="23"/>commisisset se misericordiae diuinae
+          confi<lb ed="#W" n="24" break="no"/>sus nihil non agi secum a deo paterno adfectu. 
+          <!--179.xml-->
+          <pb ed="#W" n="89-v"/>
+          <lb ed="#W" n="1"/>Non minus abutitur pecunia, uita,
+          secun<lb ed="#W" n="2" break="no"/>dis rebus, qui non agnoscit esse dona mise 
+          <lb ed="#W" n="3"/>ricordiae diuinae, qui non utitur fideliter, 
+          <lb ed="#W" n="4"/>ranquam alienis donis &amp;c.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e1925">
+          <lb ed="#W" n="5"/>Summa. Omnia habet, omnia potest, qui  
+          <lb ed="#W" n="6"/>Christum habet, hic iusticia, pax, uita,
+          sa<lb ed="#W" n="7" break="no"/>lus est. Et in hunc modum uides coherere
+          pro<lb ed="#W" n="8" break="no"/>missiones diuinas. Nam prorsum singulae 
+          <lb ed="#W" n="9"/>significationes &amp; testimonia bonae
+          uolun<lb ed="#W" n="10" break="no"/>tatis dei erga nos sunt, quam alias alio opere 
+          <lb ed="#W" n="11"/>alio dono nobis commendat &amp; insinuat. Ita 
+          <lb ed="#W" n="12"/>in hoc per uniuersae scripturae historiam
+          to<lb ed="#W" n="13" break="no"/>tus incumbit, ut doceat, ut adsuefaciat nos 
+          <lb ed="#W" n="14"/>confidere sua bonitate, quam si quis in tot,  
+          <lb ed="#W" n="15"/>tamque multiplicibus promissionibus
+          con<lb ed="#W" n="16" break="no"/>templetur, is quomodo cohibere se
+          pote<lb ed="#W" n="17" break="no"/>rit, quo minus in illius tantae misericordiae 
+          <lb ed="#W" n="18"/>sinum effundat animum, &amp; spiritum. Porro
+          bo<lb ed="#W" n="19" break="no"/>nam uoluntatem meruit Christus, quem pro no 
+          <lb ed="#W" n="20"/>bis intercessorem, quem pro nobis uictimam 
+          <lb ed="#W" n="21"/>&amp; satisfactionem dedit. Sic enim deus dilexit 
+          <lb ed="#W" n="22"/>mundum, ut filium suum unigenitum daret pro 
+          <lb ed="#W" n="23"/>mundo. Huic quia fauet, nobis fauet, huic 
+          <lb ed="#W" n="24"/>quia omnia subiecit, nobis subiecit. Ita omnes 
+          <!--180.xml-->
+          <pb ed="#W" n="90-r"/>
+          <lb ed="#W" n="1"/>promissiones in eum, nempe qui nobis
+          eme<lb ed="#W" n="2" break="no"/>ruit misericondiam patris, qui nobis
+          concilia<lb ed="#W" n="3" break="no"/>uit patrem, referendae sunt. Sicut Iohannis.
+          i<lb ed="#W" n="4" break="no"/>sDe plenitudine eius omes nos accepimus,  
+          <lb ed="#W" n="5"/>&amp; gratiam pro gratia, fauorem erga nos, a 
+          <lb ed="#W" n="6"/>pro fauore erga Christum. Exercebis
+          spiri<lb ed="#W" n="7" break="no"/>tum meditatione promissionum accurate,
+          que<lb ed="#W" n="8" break="no"/>nisi e promissionibus cognosci neutiquam. 
+          <lb ed="#W" n="9"/>poterit Christus, at nisi Christum noris, nec 
+          <lb ed="#W" n="10"/>patrem cognosces. Huc igitur omnes,
+          spiri<lb ed="#W" n="11" break="no"/>tus tui cogitationes adfer, huc incumbe, ut 
+          <lb ed="#W" n="12"/>ex promissionibus cognoscas, quae tibi in 
+          <lb ed="#W" n="13"/>Christo sint donata. Quaeso autemubi
+          pro<lb ed="#W" n="14" break="no"/>missionum scholastica Theologia uel uerbo 
+          <lb ed="#W" n="15"/>meminit? Atque ita factum est, ut gratiam Chri 
+          <lb ed="#W" n="16"/>sti obscuraret, ut ex Christo non pignus
+          mi<lb ed="#W" n="17" break="no"/>sericondiae, sed legislatorem, &amp; exactorem
+          mul<lb ed="#W" n="18" break="no"/>to tristiorem faceret, quam Moses etiam uisus est.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e2014">
+          <lb ed="#W" n="19"/>⁋ Et de promissionibus quidem hactenus,  
+          <lb ed="#W" n="20"/>quae omnes in primam illam, quae Heuae facta est,  
+          <lb ed="#W" n="21"/>referri debent, qua significatum fuit Adae ac 
+          <lb ed="#W" n="22"/>Heuae futurum, ut &amp; peccatum &amp; mors, illius 
+          <lb ed="#W" n="23"/>peccati poena, olim abolerentur, cum
+          scili<lb ed="#W" n="24" break="no"/>cet serpentis illius caput Heuae progenies con¬ 
+          <!--181.xml-->
+          <pb ed="#W" n="90-v"/>
+          <lb ed="#W" n="1"/>teretet. Quid enim caput serpentis, insidiae ser 
+          <lb ed="#W" n="2"/>pentis, praeter peccati mortisque regnum
+          sig<lb ed="#W" n="3" break="no"/>nificant? Ad hanc si reuoces reliquas
+          pro<lb ed="#W" n="4" break="no"/>missiones, uidebis in uniuersam scripturam 
+          <lb ed="#W" n="5"/>mirifice sparsum esse Euangelium, quod est 
+          <lb ed="#W" n="6"/>simpliciter condonatio peccati per Christum, 
+          <lb ed="#W" n="7"/>seu praedicatio gratiae. Quanquam ut paulo 
+          <lb ed="#W" n="8"/>ante dixi, promissiones omnes etiam
+          corpo<lb ed="#W" n="9" break="no"/>ralium rerum, sunt testimonia beneuolentiae,  
+          <lb ed="#W" n="10"/>seu misericondiae dei quibus qui credit, quia 
+          <lb ed="#W" n="11"/>de deo bene sentit, eique laudem clementiae 
+          <lb ed="#W" n="12"/>&amp; bonitatis tribuit, is iustus est. Nondum cre 
+          <lb ed="#W" n="13"/>dit omni uerbo dei qui minas audit, qui  
+          <lb ed="#W" n="14"/>historiam profitetur, sed qui praeter minas, 
+          <lb ed="#W" n="15"/>praeter historiam, etiam promissionibus
+          cre<lb ed="#W" n="16" break="no"/>dit. Neque uero historiae de Christo credere,  
+          <lb ed="#W" n="17"/>id est, quod putant impii, sed credere cur 
+          <lb ed="#W" n="18"/>camem induerit, cur crucifixus sit, cur post 
+          <lb ed="#W" n="19"/>mortem in uitam redierit. nempe, ut
+          iusti<lb ed="#W" n="20" break="no"/>ficaret, quotquot credituri sibi essent. Haec 
+          <lb ed="#W" n="21"/>tu si eredis, tuo bono, tui seruandi gratia 
+          <lb ed="#W" n="22"/>gesta esse, foeliciter credis, Praeter eiusmodi 
+          <lb ed="#W" n="23"/>fidem, fucus, mendacium, falsae insaniae 
+          <lb ed="#W" n="24"/>sunt quidquid uocant fidem.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e2087">
+          <!--182.xml-->
+          <pb ed="#W" n="91-r"/>
+          <lb ed="#W" n="1"/>⁋ Ecquid in caussa est cur soli fidei
+          tribua<lb ed="#W" n="2" break="no"/>tur iustificatio? Respondeo, cum sola
+          mi<lb ed="#W" n="3" break="no"/>sericondia dei iustificemur, fidesque plane sit 
+          <lb ed="#W" n="4"/>misericondiae cognitio, qualicunque
+          promi<lb ed="#W" n="5" break="no"/>ssione eam prehenderis, soli fidei tribuitur 
+          <lb ed="#W" n="6"/>iustificatio. Qui mirantur cur soli fidei iusti 
+          <lb ed="#W" n="7"/>ficatio tr buatur, ii mirentur etiam cur
+          mi<lb ed="#W" n="8" break="no"/>sericondiae dei tantum, ac non potius
+          hu<lb ed="#W" n="9" break="no"/>manis meritis iustificatio tribuatur. Est em 
+          <lb ed="#W" n="10"/>credere, nullo ullorum operum nostrorum 
+          <lb ed="#W" n="11"/>respectu, fidere diuina misericordia. Miseri 
+          <lb ed="#W" n="12"/>condiae dei iniurius est, qui fide iustificari 
+          <lb ed="#W" n="13"/>sanctos negat. Nam cum iustificatio nostri 
+          <lb ed="#W" n="14"/>solius diuinae misericordiae opus sit, non 
+          <lb ed="#W" n="15"/>operum nostrorum meritum. Sicut aperte 
+          <lb ed="#W" n="16"/>docet ad Romanos. xi. Paulus, necesse est 
+          <lb ed="#W" n="17"/>ut iustificatio soli fidei tribuatur, nempe, 
+          <lb ed="#W" n="18"/>qua sola prom ssam misericordiam
+          accipi<lb ed="#W" n="19" break="no"/>mus.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e2135">
+          <lb ed="#W" n="20"/>⁋ Quid igitur opera? quae praecedunt
+          iu<lb ed="#W" n="21" break="no"/>stificationem, liberi arbitrii opera, ea omnia 
+          <lb ed="#W" n="22"/>maledictae arboris, maledicti fructus sunt,  
+          <lb ed="#W" n="23"/>&amp; ut puscherrimarum uirtutum exempla sint,  
+          <!--183.xml-->
+          <pb ed="#W" n="91-v"/>
+          <lb ed="#W" n="1"/>quales erant ante conuersionem Pauli iusti 
+          <lb ed="#W" n="2"/>ciae, tamen, nihil nisi fucus &amp; mendacium 
+          <lb ed="#W" n="3"/>sunt, que ex impuro corde proficiscantur.
+          qor<lb ed="#W" n="4" break="no"/>dis impuritas, ignorantia dei est, non time 
+          <lb ed="#W" n="5"/>re deum, non fidere deo, non requirere deum, 
+          <lb ed="#W" n="6"/>ut supra monuimus. Nihil enim caro nisi 
+          <lb ed="#W" n="7"/>carnalia sapit, ad Romanos. viii. Caro
+          ad<lb ed="#W" n="8" break="no"/>fectat ea quae sunt camis. Et prima ad
+          Co<lb ed="#W" n="9" break="no"/>rinth. ii. Animalis homo non percipit ea 
+          <lb ed="#W" n="10"/>quae sunt spiritus dei. Quis cognouit sensum 
+          <lb ed="#W" n="11"/>domini &amp;c. Intelligit, sapit, adfectat,
+          glo<lb ed="#W" n="12" break="no"/>riam, opes, uitae tranquillitatem, ac
+          dignita<lb ed="#W" n="13" break="no"/>tem, natura. Qualia multa philosophi
+          in<lb ed="#W" n="14" break="no"/>ter fines bonorum numerant, alius euSuaciox, 
+          <lb ed="#W" n="15"/>alius ὑαγγραρήα. Diuini nihil adfectat natu 
+          <lb ed="#W" n="16"/>ra, id quod adparet. Nec enim terretur uerbo 
+          <lb ed="#W" n="17"/>dei, nec ad confidendum animatur. Et talis
+          qui<lb ed="#W" n="18" break="no"/>dem arboris fructus, quid nisi peccata sunt? 
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e2190">
+          <lb ed="#W" n="19"/>⁋ Quae uero opera iustificationem consequun 
+          <lb ed="#W" n="20"/>tur, ea tametsi a spiritu dei qui occupauit 
+          <lb ed="#W" n="21"/>corda iustificatorum proficiscuntur, tamen 
+          <lb ed="#W" n="22"/>quia fiunt in carne adhuc impura, sunt &amp; 
+          <lb ed="#W" n="23"/>psa immunda. Coepta enim iustificatio est 
+          <lb ed="#W" n="24"/>non consummata, Primitias spiritus accepi¬ 
+          <!--184.xml-->
+          <pb ed="#W" n="92-r"/>
+          <lb ed="#W" n="1"/>mus, nondum decimas. Adhuc expectamus, 
+          <lb ed="#W" n="2"/>ut ad Ro. viii, dicitur, cum gemitu redemp 
+          <lb ed="#W" n="3"/>tionem corporis nostri. Proinde quod in his etiam 
+          <lb ed="#W" n="4"/>operibus immundum quiddam est, iusticiae 
+          <lb ed="#W" n="5"/>adpellationem non merentur, &amp; quaqua te 
+          <lb ed="#W" n="6"/>uerteris, siue ad opera praecedentia iustifica 
+          <lb ed="#W" n="7"/>tionem, siue ad ea quae sequuntur
+          iustifica<lb ed="#W" n="8" break="no"/>tionem, nullus nostro merito locus est. Adeo 
+          <lb ed="#W" n="9"/>que solius misericordiae opus esse
+          iustificatio<lb ed="#W" n="10" break="no"/>nem necesse est. Hoc est quod ait Paulus ad 
+          <lb ed="#W" n="11"/>Galat. ii. Quod autem nunc uiuo in carne,
+          in<lb ed="#W" n="12" break="no"/>fide filii dei uiuo, qui dilexit me, &amp; tradidit 
+          <lb ed="#W" n="13"/>semetipsum pro me. Non autem ait in meis 
+          <lb ed="#W" n="14"/>bonis operibus nunc uiuo, sed in fide mise 
+          <lb ed="#W" n="15"/>ricordiae dei uiuo. Porro que ea opera quae 
+          <lb ed="#W" n="16"/>iustificationem sequutur, pro peccatis non 
+          <lb ed="#W" n="17"/>imputantur, fides facit. Qua de re paulo 
+          <lb ed="#W" n="18"/>post agetur.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e2249">
+          <lb ed="#W" n="19"/>⁋ Ergo cum fidei iustificatio tribuitur,
+          mise<lb ed="#W" n="20" break="no"/>ricordiae dei tribuitur, humanis conatibus, 
+          <lb ed="#W" n="21"/>operibus, meritis adimitur. Initium ac
+          pro<lb ed="#W" n="22" break="no"/>fectus misericordiae debent, ut uniuersae
+          ui<lb ed="#W" n="23" break="no"/>tae iusticia non alia sit, nisi fides. Hoc est, cur 
+          <lb ed="#W" n="24"/>Christi regnum, misericordiae regnum uocet 
+          <!--185.xml-->
+          <pb ed="#W" n="92-v"/>
+          <lb ed="#W" n="1"/>propheta Esaias. xvi. Et praeparabitur in
+          mi<lb ed="#W" n="2" break="no"/>sericondia solium &amp;c. Nam si nostris
+          operi<lb ed="#W" n="3" break="no"/>bus iustificaremur, non iam Christi, non 
+          <lb ed="#W" n="4"/>misericordiae, sed nostrum, sed operum no 
+          <lb ed="#W" n="5"/>strorum regnum esset. Et Oseae. ii.
+          Sponsa<lb ed="#W" n="6" break="no"/>bo te mihi in sempiternum, &amp; sponsabo te 
+          <lb ed="#W" n="7"/>mihi in iusticia &amp; iudicio, &amp; in
+          misericor<lb ed="#W" n="8" break="no"/>dia, &amp; in miserationibus, &amp; sponsabo te 
+          <lb ed="#W" n="9"/>mihi in fide, &amp; scies, quia ego dominus. Et 
+          <lb ed="#W" n="10"/>psalmo. lxxxviii. Misericondia &amp; ueritas pre 
+          <lb ed="#W" n="11"/>cedent faciem tuam. Misericordia liberalis 
+          <lb ed="#W" n="12"/>sauor est, qui meriti nostri nullam habet ra 
+          <lb ed="#W" n="13"/>tionem. Veritas est opus dei, uere non ὑπ¬ 
+          <lb ed="#W" n="14"/>xρ i Qs iustificantis nos. Et quid adtinet 
+          <lb ed="#W" n="15"/>multa congerere, cum propheta Esaias cap. 
+          <lb ed="#W" n="16"/>liii, primum palam damnet iusticias
+          om<lb ed="#W" n="17" break="no"/>nes nostras, cum inquit. Omnes nos uelut 
+          <lb ed="#W" n="18"/>oues ertauimus, unusquisque in uiam suam  
+          <lb ed="#W" n="19"/>declinauit, &amp; posuit dominus in eo
+          iniqui<lb ed="#W" n="20" break="no"/>tatem omnium nostrum. Et paulo post,  
+          <lb ed="#W" n="21"/>non ait operibus nostris, non egregiis
+          uo<lb ed="#W" n="22" break="no"/>luntatis nostrae conatibus, non consilis 
+          <lb ed="#W" n="23"/>nostris, sed ipse Christus, cognitione sui iu 
+          <!--186.xml-->
+          <pb ed="#W" n="93-r"/>
+          <lb ed="#W" n="1"/>stilicabit multos. Ecce cognitio Christi
+          iu<lb ed="#W" n="2" break="no"/>stificatio est, cognitio autem sola fides est. 
+          <lb ed="#W" n="3"/>Hoc genus alia per se obseruabit diligens le 
+          <lb ed="#W" n="4"/>ctor. Nam fidei naturam ac uim non uideor 
+          <lb ed="#W" n="5"/>mihi posse uerbis, ut optabam, explicare. 
+          <lb ed="#W" n="6"/>Qui norunt peccati uim, quorum
+          consci<lb ed="#W" n="7" break="no"/>entias peccati cognitio perculit, iis demum 
+          <lb ed="#W" n="8"/>uoluptati est hanc de fide doctrinam
+          audi<lb ed="#W" n="9" break="no"/>re. Caeterum uelatum est Euangelium
+          no<lb ed="#W" n="10" break="no"/>strum in hypocritis, in quibus deus huius 
+          <lb ed="#W" n="11"/>seculi excaecauit mentes infideles, ut ne illu 
+          <lb ed="#W" n="12"/>cesceret eis lumen Euangelii gloriae Christi, 
+          <lb ed="#W" n="13"/>qui est imago dei.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e2351">
+          <lb ed="#W" n="14"/>⁋ Dices, Nihil igitur meremur? Ecquid 
+          <lb ed="#W" n="15"/>scriptura tocies mercedis uocabulo utitur. 
+          <lb ed="#W" n="16"/>Respondeo, merces est, debeturque non me 
+          <lb ed="#W" n="17"/>rito ullo nostro, sed quia pater promisit,  
+          <lb ed="#W" n="18"/>iam uelut obstrinxit se nobis ac debitorem 
+          <lb ed="#W" n="19"/>fecit, iis qui tale nihil metuetant. Quid 
+          <lb ed="#W" n="20"/>enim clarius aduersus merita nostra dici 
+          <lb ed="#W" n="21"/>potuit, quam quod est apud Rucam
+          capi<lb ed="#W" n="22" break="no"/>tulo. xvii. Nunquid gratiam habet seruo
+          il<lb ed="#W" n="23" break="no"/>li, quia fecit, quod imperauetat? Non puto, 
+          <!--187.xml-->
+          <pb ed="#W" n="93-v"/>
+          <lb ed="#W" n="1"/>Sic &amp; uos cum feceritis omnia, quae praecep 
+          <lb ed="#W" n="2"/>ta sunt uobis dicite serui inutiles sumus. Qo 
+          <lb ed="#W" n="3"/>debuimus facere, fecimus. Et Paulus ad Ro 
+          <lb ed="#W" n="4"/>ma. vi. Stipendium peccati mors, donum autem 
+          <lb ed="#W" n="5"/>dei uita aeterna. Vitam aeternam donum uocat 
+          <lb ed="#W" n="6"/>non debitum, quanquam &amp; debitum est, quia 
+          <lb ed="#W" n="7"/>pater eam promisit, qui nobis fidem suam  
+          <lb ed="#W" n="8"/>obstrinxit.
+        </p>
+        <p xml:id="erf8hf-d1e342-d1e2397">
+          <lb ed="#W" n="9"/>Nec est quod offendant ii loci scripturae,  
+          <lb ed="#W" n="10"/>qui operum merita praedicate uidentur,
+          qua<lb ed="#W" n="11" break="no"/>lis hic est ad Ro. ii. Oloria &amp; honor omni 
+          <lb ed="#W" n="12"/>operanti bonum. Et Matth. xxv. Esuriui &amp;  
+          <lb ed="#W" n="13"/>dedistis mihi manducare &amp;c. Nam
+          huius<lb ed="#W" n="14" break="no"/>modi multa sunt in scripturis. Respondeo 
+          <lb ed="#W" n="15"/>paucis, scripturam non de specie tantum
+          ex<lb ed="#W" n="16" break="no"/>terna operis, seu de fuco loqui, sed de toto 
+          <lb ed="#W" n="17"/>opere, hoc est, cum de externa specie, tum 
+          <lb ed="#W" n="18"/>maxime de uoluntate, auctore operis, seu 
+          <lb ed="#W" n="19"/>de adfectu. Donum opus uocat scriptura, non 
+          <lb ed="#W" n="20"/>simulationem tantum externam operis, sed 
+          <lb ed="#W" n="21"/>totum opus, hoc est, bonum adfectum, &amp;  
+          <lb ed="#W" n="22"/>eius adfectus fructum, non aliter atque
+          commu<lb ed="#W" n="23" break="no"/>nis hominum sensus loqui solet. Quis enim 
+          <lb ed="#W" n="24"/>bonum opus uocat, quod a maligno animo 
+          <!--188.xml-->
+          <pb ed="#W" n="94-r"/>
+          <lb ed="#W" n="1"/>proficisci nouit? Itaque cum Paulus ait. Gloria 
+          <lb ed="#W" n="2"/>&amp; honor operanti bonum, non uideo quibus 
+          <lb ed="#W" n="3"/>hic giossematis opus habeamus, quo
+          mi<lb ed="#W" n="4" break="no"/>nus, quam simplicissime, ut loquitur,
+          intelli<lb ed="#W" n="5" break="no"/>gatur. Non em ait Paulus, Simulanti bonum, 
+          <lb ed="#W" n="6"/>sed operanti, corde, adfectu, manibus, ope 
+          <lb ed="#W" n="7"/>re &amp;c. Deprauant ergo id quod ab Aposto 
+          <lb ed="#W" n="8"/>lo simplicissime, rectissimeque dictum est, qui  
+          <lb ed="#W" n="9"/>uerba eius non de toto opere, non de uita, 
+          <lb ed="#W" n="10"/>ac anima operis, sed de specie externa
+          ope<lb ed="#W" n="11" break="no"/>ris exponunt. Recepta etiam uulgo in scholis 
+          <lb ed="#W" n="12"/>sententia est, &amp; communis naturae sensus
+          do<lb ed="#W" n="13" break="no"/>cet, nullam esse bonitatem operis, praeter ad 
+          <lb ed="#W" n="14"/>fectum. Comunem sensum consulant qui  
+          <lb ed="#W" n="15"/>de parte operis, non de toto opere scripturam 
+          <lb ed="#W" n="16"/>interpretantur. Quid quod eodem loco
+          pul<lb ed="#W" n="17" break="no"/>chertime Paulus ad fidem refert bene actam 
+          <lb ed="#W" n="18"/>uitam, docetque ex fide, ceu fonte, exorta 
+          <lb ed="#W" n="19"/>esse bona opera? cum inquit. Quaerentibs 
+          <lb ed="#W" n="20"/>gioriam &amp; honorem, per perseuerantiam boni 
+          <lb ed="#W" n="21"/>operis. Quaerere enim quid aliud est, quam 
+          <lb ed="#W" n="22"/>quod ad Hebraeos. xi. scriptum est. Credere 
+          <lb ed="#W" n="23"/>oportet, accedentem ad deum, quod sit, &amp; que 
+          <lb ed="#W" n="24"/>aremunerator sit inquirentibus se. Quaerunt 
+          <!--189.xml-->
+          <pb ed="#W" n="94-v"/>
+          <lb ed="#W" n="1"/>qui credunt, qui fiducia uerbi dei trahuntur 
+          <lb ed="#W" n="2"/>ad gloriam. Item, qui potest fidei uis ac na 
+          <lb ed="#W" n="3"/>tura exprimi certius, quam uerbo perseueran 
+          <lb ed="#W" n="4"/>di? cum inter tot illecebras camis &amp;
+          mun<lb ed="#W" n="5" break="no"/>di, inter tot adffictiones consistere ac
+          per<lb ed="#W" n="6" break="no"/>durare in bonis operibus nemo sine
+          mag<lb ed="#W" n="7" break="no"/>na fide possit. Rursum &amp; uitam male actam 
+          <lb ed="#W" n="8"/>eodem loco ad incredulitatem refert, cum 
+          <lb ed="#W" n="9"/>ait. Contentiosis, &amp; qui non acquiescunt 
+          <lb ed="#W" n="10"/>ueritati. Non acquiescere ueritati, quid aliud 
+          <lb ed="#W" n="11"/>est quam diffidere? Contentiosi, qui ueritati 
+          <lb ed="#W" n="12"/>aduersantur, qui camis opinionem
+          sequum<lb ed="#W" n="13" break="no"/>ur. Nam quisquis palam peccat, is aut con 
+          <lb ed="#W" n="14"/>temptu dei, aut desperatione misericondiae 
+          <lb ed="#W" n="15"/>dei peccat, Sennacherib. iiii. Reg. xiiii. Quia 
+          <lb ed="#W" n="16"/>nihil esse deum censebat, in Israelem arma 
+          <lb ed="#W" n="17"/>impia mouit. Cain, quia desperabat
+          mise<lb ed="#W" n="18" break="no"/>ricordiam, ideo nihil non ausus est postea. 
+          <lb ed="#W" n="19"/>Nemo est enim qui, si confideret futurum, ut 
+          <lb ed="#W" n="20"/>sui miseresceret deus, non cupidissime
+          le<lb ed="#W" n="21" break="no"/>gi dei se accomodaret. Sed quia
+          contentio<lb ed="#W" n="22" break="no"/>si sumus, ipsi disceptamus nobiscum, de 
+          <lb ed="#W" n="23"/>diuinae irae, ac misericordiae amplitudine, 
+          <lb ed="#W" n="24"/>angustius quiddam sentimus, quam tes est. 
+          <!--190.xml-->
+          <pb ed="#W" n="95-r"/>
+          <lb ed="#W" n="1"/>ldeo contemptu tum irae rum misericor. 
+          <lb ed="#W" n="2"/>diae dei, defectimus ad cupiditates nostras,  
+          <lb ed="#W" n="3"/>nihil non audemus impii, caeci, furentes,  
+          <lb ed="#W" n="4"/>uel gloriae, uel rerum, uel uoluptatum
+          amo<lb ed="#W" n="5" break="no"/>re. Miserum spectaculum, si illam cordis 
+          <lb ed="#W" n="6"/>tui impiam insaniam, &amp; insanam impieta 
+          <lb ed="#W" n="7"/>tem cernere contingat. Viden, quam adpo 
+          <lb ed="#W" n="8"/>site ad fidem retulerit Paulus bene actam 
+          <lb ed="#W" n="9"/>uitam, ad incredulitatem, male actam. Sic  
+          <lb ed="#W" n="10"/>alios locos circumstantiae exponunt, ut
+          pe<lb ed="#W" n="11" break="no"/>regrinis glossematis nihil opus sit. Quorum 
+          <lb ed="#W" n="12"/>tractationem industriae spiritualium
+          lecto<lb ed="#W" n="13" break="no"/>rum relinquo. Nam illos male feriatos
+          So<lb ed="#W" n="14" break="no"/>phistas, nolo, quibus nihil tam bene, tam 
+          <lb ed="#W" n="15"/>umpliciter dictum est, quod non
+          peruer<lb ed="#W" n="16" break="no"/>tant, distinguant, discerpant in mille
+          for<lb ed="#W" n="17" break="no"/>mas. Certe in illo Matthaei loco quem cita 
+          <lb ed="#W" n="18"/>uimus obscuritas nulla est, si recte rem aesti 
+          <lb ed="#W" n="19"/>mes. Nam ut haec non urgeam, quod cum 
+          <lb ed="#W" n="20"/>benedictos patris sui uocat, significat
+          sa<lb ed="#W" n="21" break="no"/>lutem benedictione diuina, non nostris 
+          <lb ed="#W" n="22"/>meritis contigisse, negari non potest quin 
+          <lb ed="#W" n="23"/>de fidei operibus loquatur CHRISTVs, 
+          <!--191.xml-->
+          <pb ed="#W" n="95-v"/>
+          <lb ed="#W" n="1"/>eum inquit, Esurii, &amp; dedistis mihi mandu 
+          <lb ed="#W" n="2"/>care, &amp; paulo post, Quod uni de his
+          fratri<lb ed="#W" n="3" break="no"/>bus meis minimis fecistis, mihi fecistis. Nam 
+          <lb ed="#W" n="4"/>quia credunt iusti se Christo facere, quod il 
+          <lb ed="#W" n="5"/>lis faciunt, recte agunt. Ea fides distinguit 
+          <lb ed="#W" n="6"/>opera. Hypocritae non alunt, non potant 
+          <lb ed="#W" n="7"/>Christum, sed se. Suae em gloriae seruiunt,  
+          <lb ed="#W" n="8"/>quantumuis pulcherrimarum uirtutum
+          spe<lb ed="#W" n="9" break="no"/>cimen prae se ferant. Haec satis sit monuisse,  
+          <lb ed="#W" n="10"/>ut formam huiusmodi locorum tractandorum 
+          <lb ed="#W" n="11"/>habeant studiosi, nam mihi commentarii 
+          <lb ed="#W" n="12"/>modus temperandus est.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

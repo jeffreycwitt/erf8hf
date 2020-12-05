@@ -1,127 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2020-12-04">December 04, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-12-04" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#W" n="54-v"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="erf8hf-d1e917">
-            <head xml:id="erf8hf-d1e917-Hd1e105">Praeambulum</head>
-            <p xml:id="erf8hf-d1e917-d1e108">
-               <lb ed="#W" n="4"/>DE EVANGELIO
-    </p>
-            <p xml:id="erf8hf-d1e917-d1e113">
-               <lb ed="#W" n="5"/>⁋ Hactenus peccati formam, &amp; legum ra¬ 
-      <lb ed="#W" n="6"/>tionem, breuius fortasse, quam pro re, tractaui 
-      <lb ed="#W" n="7"/>mus, non enim commentarium scribimus, sed uul¬ 
-      <lb ed="#W" n="8"/>garem quandam locorum formam adumbra¬ 
-      <lb ed="#W" n="9"/>mus, quos in discendis sacris literis sequa¬ 
-      <lb ed="#W" n="10"/>ris. Nunc de Euangelio &amp; gratia disputabi¬ 
-      <lb ed="#W" n="11"/>mus, e quibus locis nonnihil accedet lucis 
-      <lb ed="#W" n="12"/>etiam superioribns. Nam de legis abrogatio¬ 
-      <lb ed="#W" n="13"/>ne, de ui legis dilata disputatio est in hunc 
-      <lb ed="#W" n="14"/>usque locum. Porro, ut peccati ratio nisi ex le 
-      <lb ed="#W" n="15"/>gum formulis, non intelligitur, ita nec gra¬ 
-      <lb ed="#W" n="16"/>tiae uis, nisi ex Euangelii descriptione, cog¬ 
-      <lb ed="#W" n="17"/>nosci potest, &amp; ut hactenus egimus de ho¬ 
-      <lb ed="#W" n="18"/>minis damnatione, seu maledictione, ita 
-      <lb ed="#W" n="19"/>nunc agemus de hominis instauratione 
-      <lb ed="#W" n="20"/>seu benedictione. Duae in uniuersum scrip¬ 
-      <lb ed="#W" n="21"/>eturae partes sunt Eex &amp; Euangelium. Eex pec¬ 
-      <lb ed="#W" n="22"/>catum ostendit, Euangelium gratiam. Rex mor¬ 
-      <lb ed="#W" n="23"/>bum indicat. Euangelium remedium. Eex 
-      <lb ed="#W" n="24"/>mortis ministra est, ut Pauli uerbis utamur 
-      <!--112.xml-->
-      <pb ed="#W" n="55-r"/>
-               <lb ed="#W" n="1"/>Euangelium uitae ac pacis. Eex uirtus peccati 
-      <lb ed="#W" n="2"/>est, Euangelium uirtus salutis omni credenti. 
-      <lb ed="#W" n="3"/>Neque uero ita legem &amp; Euangelium tradidit 
-      <lb ed="#W" n="4"/>scriptura, ut Euangelium id modo putes, qd 
-      <lb ed="#W" n="5"/>scripserunt Mattheus, Marcus, Rucas &amp; lo 
-      <lb ed="#W" n="6"/>hannes. Mosi libros, nihil nisi legem. Sedi 
-      <lb ed="#W" n="7"/>sparsa est Euangelii ratio, sparsae sunt pro¬ 
-      <lb ed="#W" n="8"/>missiones in omnes libros, ueteris ac noui 
-      <lb ed="#W" n="9"/>testamenti. Rursum leges etiam sparsae sunt 
-      <lb ed="#W" n="10"/>in omnia tum ueteris, tum noui testamenti 
-      <lb ed="#W" n="11"/>uolumina. Nec, ut uulgo putant, discrimi 
-      <lb ed="#W" n="12"/>nata sunt legis, &amp; Euangelii tempora. Quam 
-      <lb ed="#W" n="13"/>quam alias lex, alias Euangelium, subinde ali¬ 
-      <lb ed="#W" n="14"/>ter reuelata sunt. Omne tempus, quod ad 
-      <lb ed="#W" n="15"/>mentes nostras adtinet est legis, atque Euan¬ 
-      <lb ed="#W" n="16"/>gelii tempus, sicut omnibus temporibus 
-      <lb ed="#W" n="17"/>eodem modo homines iustificati sunt, pecca 
-      <lb ed="#W" n="18"/>tum per legem ostensum est, gratia per pro 
-      <lb ed="#W" n="19"/>missionem seu Euangelium. Reuelationis ten¬ 
-      <lb ed="#W" n="20"/>pora uariant, nam alias lex, alias Euangelium, 
-      <lb ed="#W" n="21"/>&amp; subinde aliter, reuelata sunt, id quod e 
-      <lb ed="#W" n="22"/>scripturis constat. Vides enim praeter naturalen 
-      <lb ed="#W" n="23"/>legem, quae impressa est mentibus Puma¬ 
-      <lb ed="#W" n="24"/>nis, ut opinor, etiam leges latas esse a deo 
-      <!--113.xml-->
-      <pb ed="#W" n="55-v"/>
-               <lb ed="#W" n="1"/>Adamo, ne delibaret poma arboris scien¬ 
-      <lb ed="#W" n="2"/>tiae boni ac mali. Caino, ne irasceretur fratri 
-      <lb ed="#W" n="3"/>suo, &amp; eidem, peccaturum, qui se occideret. 
-      <lb ed="#W" n="4"/>In hunc modum legis naturae cognitionem 
-      <lb ed="#W" n="5"/>instautabat praedicatione continua spiritus 
-      <lb ed="#W" n="6"/>dei, quae iam obscurabatur, excaecatis pecca¬ 
-      <lb ed="#W" n="7"/>to mentibus humanis, ita ut mihi pene li¬ 
-      <lb ed="#W" n="8"/>beat uocare legem naturae non aliquod con 
-      <lb ed="#W" n="9"/>genitum iudicium, seu insitum &amp; insculprum natu 
-      <lb ed="#W" n="10"/>ra mentibus hominum, sed leges acceptas a 
-      <lb ed="#W" n="11"/>patribus, &amp; quasi per manus traditas subin 
-      <lb ed="#W" n="12"/>de posteritati, ut de creatione rerum, de co¬ 
-      <lb ed="#W" n="13"/>lendo deo, docuit posteros Adam, sic Cai¬ 
-      <lb ed="#W" n="14"/>num monuit, ne fratrem occideret &amp;c. Sed 
-      <lb ed="#W" n="15"/>ad Euangelium redeamus.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2020-12-04">December 04, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="54-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="erf8hf-d1e917">
+        <head xml:id="erf8hf-d1e917-Hd1e105">Praeambulum</head>
+        <p xml:id="erf8hf-d1e917-d1e108">
+          <lb ed="#W" n="4"/>DE EVANGELIO
+        </p>
+        <p xml:id="erf8hf-d1e917-d1e113">
+          <lb ed="#W" n="5"/>⁋ Hactenus peccati formam, &amp; legum
+          ra<lb ed="#W" n="6" break="no"/>tionem, breuius fortasse, quam pro re, tractaui 
+          <lb ed="#W" n="7"/>mus, non enim commentarium scribimus, sed
+          uul<lb ed="#W" n="8" break="no"/>garem quandam locorum formam
+          adumbra<lb ed="#W" n="9" break="no"/>mus, quos in discendis sacris literis
+          sequa<lb ed="#W" n="10" break="no"/>ris. Nunc de Euangelio &amp; gratia
+          disputabi<lb ed="#W" n="11" break="no"/>mus, e quibus locis nonnihil accedet lucis 
+          <lb ed="#W" n="12"/>etiam superioribns. Nam de legis
+          abrogatio<lb ed="#W" n="13" break="no"/>ne, de ui legis dilata disputatio est in hunc 
+          <lb ed="#W" n="14"/>usque locum. Porro, ut peccati ratio nisi ex le 
+          <lb ed="#W" n="15"/>gum formulis, non intelligitur, ita nec
+          gra<lb ed="#W" n="16" break="no"/>tiae uis, nisi ex Euangelii descriptione,
+          cog<lb ed="#W" n="17" break="no"/>nosci potest, &amp; ut hactenus egimus de
+          ho<lb ed="#W" n="18" break="no"/>minis damnatione, seu maledictione, ita 
+          <lb ed="#W" n="19"/>nunc agemus de hominis instauratione 
+          <lb ed="#W" n="20"/>seu benedictione. Duae in uniuersum
+          scrip<lb ed="#W" n="21" break="no"/>eturae partes sunt Eex &amp; Euangelium. Eex
+          pec<lb ed="#W" n="22" break="no"/>catum ostendit, Euangelium gratiam. Rex
+          mor<lb ed="#W" n="23" break="no"/>bum indicat. Euangelium remedium. Eex 
+          <lb ed="#W" n="24"/>mortis ministra est, ut Pauli uerbis utamur 
+          <!--112.xml-->
+          <pb ed="#W" n="55-r"/>
+          <lb ed="#W" n="1"/>Euangelium uitae ac pacis. Eex uirtus peccati 
+          <lb ed="#W" n="2"/>est, Euangelium uirtus salutis omni credenti. 
+          <lb ed="#W" n="3"/>Neque uero ita legem &amp; Euangelium tradidit 
+          <lb ed="#W" n="4"/>scriptura, ut Euangelium id modo putes, qd 
+          <lb ed="#W" n="5"/>scripserunt Mattheus, Marcus, Rucas &amp; lo 
+          <lb ed="#W" n="6"/>hannes. Mosi libros, nihil nisi legem. Sedi 
+          <lb ed="#W" n="7"/>sparsa est Euangelii ratio, sparsae sunt
+          pro<lb ed="#W" n="8" break="no"/>missiones in omnes libros, ueteris ac noui 
+          <lb ed="#W" n="9"/>testamenti. Rursum leges etiam sparsae sunt 
+          <lb ed="#W" n="10"/>in omnia tum ueteris, tum noui testamenti 
+          <lb ed="#W" n="11"/>uolumina. Nec, ut uulgo putant, discrimi 
+          <lb ed="#W" n="12"/>nata sunt legis, &amp; Euangelii tempora. Quam 
+          <lb ed="#W" n="13"/>quam alias lex, alias Euangelium, subinde
+          ali<lb ed="#W" n="14" break="no"/>ter reuelata sunt. Omne tempus, quod ad 
+          <lb ed="#W" n="15"/>mentes nostras adtinet est legis, atque
+          Euan<lb ed="#W" n="16" break="no"/>gelii tempus, sicut omnibus temporibus 
+          <lb ed="#W" n="17"/>eodem modo homines iustificati sunt, pecca 
+          <lb ed="#W" n="18"/>tum per legem ostensum est, gratia per pro 
+          <lb ed="#W" n="19"/>missionem seu Euangelium. Reuelationis
+          ten<lb ed="#W" n="20" break="no"/>pora uariant, nam alias lex, alias Euangelium, 
+          <lb ed="#W" n="21"/>&amp; subinde aliter, reuelata sunt, id quod e 
+          <lb ed="#W" n="22"/>scripturis constat. Vides enim praeter naturalen 
+          <lb ed="#W" n="23"/>legem, quae impressa est mentibus
+          Puma<lb ed="#W" n="24" break="no"/>nis, ut opinor, etiam leges latas esse a deo 
+          <!--113.xml-->
+          <pb ed="#W" n="55-v"/>
+          <lb ed="#W" n="1"/>Adamo, ne delibaret poma arboris
+          scien<lb ed="#W" n="2" break="no"/>tiae boni ac mali. Caino, ne irasceretur fratri 
+          <lb ed="#W" n="3"/>suo, &amp; eidem, peccaturum, qui se occideret. 
+          <lb ed="#W" n="4"/>In hunc modum legis naturae cognitionem 
+          <lb ed="#W" n="5"/>instautabat praedicatione continua spiritus 
+          <lb ed="#W" n="6"/>dei, quae iam obscurabatur, excaecatis
+          pecca<lb ed="#W" n="7" break="no"/>to mentibus humanis, ita ut mihi pene
+          li<lb ed="#W" n="8" break="no"/>beat uocare legem naturae non aliquod con 
+          <lb ed="#W" n="9"/>genitum iudicium, seu insitum &amp; insculprum natu 
+          <lb ed="#W" n="10"/>ra mentibus hominum, sed leges acceptas a 
+          <lb ed="#W" n="11"/>patribus, &amp; quasi per manus traditas subin 
+          <lb ed="#W" n="12"/>de posteritati, ut de creatione rerum, de
+          co<lb ed="#W" n="13" break="no"/>lendo deo, docuit posteros Adam, sic
+          Cai<lb ed="#W" n="14" break="no"/>num monuit, ne fratrem occideret &amp;c. Sed 
+          <lb ed="#W" n="15"/>ad Euangelium redeamus.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

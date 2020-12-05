@@ -1,674 +1,674 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2020-12-04">December 04, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-12-04" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#W" n="106-v"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="erf8hf-d1e1311">
-            <head xml:id="erf8hf-d1e1311-Hd1e105">Praeambulum</head>
-            <p xml:id="erf8hf-d1e1311-d1e108">
-               <lb ed="#W" n="14"/>DE DISCRIMINE VETERIS 
-      <lb ed="#W" n="15"/>ac noui testamenti. Item de 
-      <lb ed="#W" n="16"/>abrogatione legis.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e117">
-               <lb ed="#W" n="17"/>
-               <pc type="indent"/>Ex iis quae de lege ac Euangelio, deque legis 
-      <lb ed="#W" n="18"/>&amp; Euangelii officio diximus, colligi facile 
-      <lb ed="#W" n="19"/>potest, qid intersit inter uetus testamentum ac 
-      <lb ed="#W" n="20"/>nouum. Qua in re non aliter, atque in discrimie 
-      <lb ed="#W" n="21"/>legis ac Euangelii misere laborant scholae, cum 
-      <lb ed="#W" n="22"/>uetus testamentum uocant, lege quandam, qui ex¬ 
-      <lb ed="#W" n="23"/>terna tantum opera exigat. Nouum, lege, quae 
-      <lb ed="#W" n="24"/>praeter externa opera etiam adfectus exigat. 
-      <!--214.xml-->
-      <pb ed="#W" n="107-r"/>
-               <lb ed="#W" n="1"/>Quo fit ut obscuretur gratiae maiestas &amp; am¬ 
-      <lb ed="#W" n="2"/>plitudo, quam oportuit uelut in illustri posi¬ 
-      <lb ed="#W" n="3"/>tam loco undique omnibus conspicuam ostendi,  
-      <lb ed="#W" n="4"/>&amp; uel solam praedicati. Nos rem paucis absol¬ 
-      <lb ed="#W" n="5"/>uemus. Quid lex sit, quid Euangelium ex su¬ 
-      <lb ed="#W" n="6"/>perioribus pete. In usu uocum hic laboratur.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e156">
-               <lb ed="#W" n="7"/>Qui uetus testamentum simpliciter id 
-      <lb ed="#W" n="8"/>quod legem uocant, consuetudinem lo¬ 
-      <lb ed="#W" n="9"/>quendi, ut mihi uidetur, magis quam ratio¬ 
-      <lb ed="#W" n="10"/>nem sequuntur, &amp; nomine testamenti commu 
-      <lb ed="#W" n="11"/>niter pro constitutione seu instituto utun¬ 
-      <lb ed="#W" n="12"/>tur. Ego uetus testamentum uoco promi¬ 
-      <lb ed="#W" n="13"/>ssionem rerum corporalium, coniunctam 
-      <lb ed="#W" n="14"/>cum exactione legis. Nam &amp; per legem exi¬ 
-      <lb ed="#W" n="15"/>git iusticiam deus, &amp; mercedem illius pollice¬ 
-      <lb ed="#W" n="16"/>tur, Chananeam terram, opes &amp;c, ut ex 
-      <lb ed="#W" n="17"/>Deuteronomio adparet cap. xxxix. uos sta 
-      <lb ed="#W" n="18"/>tis hodie cuncti coram domino deo uestro, 
-      <lb ed="#W" n="19"/>principes uestri, &amp; tribus, ac maiores na¬ 
-      <lb ed="#W" n="20"/>tu, atque doctores, omnis populus Israel,  
-      <lb ed="#W" n="21"/>liberi &amp; uxores uestrae, &amp; aduenae qui tecum 
-      <lb ed="#W" n="22"/>morantur in castris, exceptis lixis, ut tran¬ 
-      <lb ed="#W" n="23"/>seas in foedere domini dei tui, &amp; in iureiu¬ 
-      <lb ed="#W" n="24"/>rando quod hodie dominus percutit tecum, 
-      <!--215.xml-->
-      <pb ed="#W" n="107-v"/>
-               <lb ed="#W" n="1"/>ut suscitet te sibi in populum, &amp; ipse sit do¬ 
-      <lb ed="#W" n="2"/>minus tuus, sicut locutus est tibi &amp;c. Contra 
-      <lb ed="#W" n="3"/>nouum testamentum, non aliud est, nisi bono 
-      <lb ed="#W" n="4"/>rum omnium promissio citra legem, nullo 
-      <lb ed="#W" n="5"/>iusticiarum nostrarum respectu. Veteri testa¬ 
-      <lb ed="#W" n="6"/>mento promittebantur bona, sed simul exi¬ 
-      <lb ed="#W" n="7"/>gebatur a populo legis impletio. Nouo, pro¬ 
-      <lb ed="#W" n="8"/>mittuntur bona citra conditionem, cum nihil 
-      <lb ed="#W" n="9"/>a nobis uicissim exigatur. Atque hic uides quae 
-      <lb ed="#W" n="10"/>sit amplitudo gratiae, quae sit misericordiae 
-      <lb ed="#W" n="11"/>diuinae prodigalitas. Preuiter quae sit Euan 
-      <lb ed="#W" n="12"/>gelii gloria, cum gratis, nullo nostrae iusticiae,  
-      <lb ed="#W" n="13"/>nostrorum operum respectu salutem donat. 
-      <lb ed="#W" n="14"/>An non exclamet de tanta profusione gra¬ 
-      <lb ed="#W" n="15"/>tiae pectus humanum? Quis credat fuic au¬ 
-      <lb ed="#W" n="16"/>ditui. Atque hoc discrimen ueteris ac noui te¬ 
-      <lb ed="#W" n="17"/>stamenti Hieremias cap. xxxi. indicat. Qd 
-      <lb ed="#W" n="18"/>ut cognosci certius possit, de abrogatione 
-      <lb ed="#W" n="19"/>legis disserendum est.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e243">
-               <lb ed="#W" n="20"/>Et cum legis tres partes sint, exequamur 
-      <lb ed="#W" n="21"/>quatenus singulae sint abrogatae. praesertim 
-      <lb ed="#W" n="22"/>cum non uideantur eodem antiquatae modo., 
-      <lb ed="#W" n="23"/>Et consensus scriptorum obtinuit iudicia¬ 
-      <lb ed="#W" n="24"/>lia &amp; cerimonialia exoleuisse. Moralia no¬ 
-      <!--216.xml-->
-      <pb ed="#W" n="108-r"/>
-               <lb ed="#W" n="1"/>uata esse. Nos de moralibs primum dicemus.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e264">
-               <lb ed="#W" n="2"/>Esse antiquata nouo testamento partem 
-      <lb ed="#W" n="3"/>legis, quam decalogum, seu praecepta mora 
-      <lb ed="#W" n="4"/>lia uocant. Primum hoc probat, quod ex 
-      <lb ed="#W" n="5"/>Hieremia relatum est in Epistolam ad He¬ 
-      <lb ed="#W" n="6"/>braeos, ubi caussatur propheta, ideo abro¬ 
-      <lb ed="#W" n="7"/>gandam esse legem diuinitus, que irritam fece 
-      <lb ed="#W" n="8"/>rit populus. Non autem in cerimonias tantum 
-      <lb ed="#W" n="9"/>peccauit Israel, sed in decalogum summam 
-      <lb ed="#W" n="10"/>potius legis partem, ut uocat Christus in 
-      <lb ed="#W" n="11"/>Euangelio. Item cum propheta nouum pactum 
-      <lb ed="#W" n="12"/>appellat Euangelium, antiquari sentit uetus,  
-      <lb ed="#W" n="13"/>ut auctor Epistolae ad Hebreos argumenta¬ 
-      <lb ed="#W" n="14"/>tur, dicens, nouum ueterauit prius. Ad He¬ 
-      <lb ed="#W" n="15"/>bre. viii. &amp; ad Timoth. i. Iusto non est lex 
-      <lb ed="#W" n="16"/>posita. Hoc genus multa sunt, &amp; in Roma¬ 
-      <lb ed="#W" n="17"/>nis &amp; in Calatis, libertatis testimonia. Quis 
-      <lb ed="#W" n="18"/>erum ignorat uulgatam ex Calatis sententians 
-      <lb ed="#W" n="19"/>Eiberi estis, ueruntamen ne detis libertatem 
-      <lb ed="#W" n="20"/>occasionem cami. Immo &amp; uilissima fuerit 
-      <lb ed="#W" n="21"/>libertas Christiana, &amp; plus quam seruitus, si 
-      <lb ed="#W" n="22"/>solas cerimonias tollat, partem legis omnium 
-      <lb ed="#W" n="23"/>facilime ferendam. Quis enim non pecus 
-      <lb ed="#W" n="24"/>mactet, minore negotio, quam irae, amori, 
-      <!--217.xml-->
-      <pb ed="#W" n="108-v"/>
-               <lb ed="#W" n="1"/>aut similibus cupiditatibus impetet. Nece¬ 
-      <lb ed="#W" n="2"/>sse est itaque fateri decalogum etiam antiqua 
-      <lb ed="#W" n="3"/>tum esse.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e327">
-               <lb ed="#W" n="4"/>Licebit igitur quiduis, necare insontes,  
-      <lb ed="#W" n="5"/>peierare &amp;c? Eadem quaestio apud Paulum est 
-      <lb ed="#W" n="6"/>Roma. vi. cum inquit. Siquidem non sumus 
-      <lb ed="#W" n="7"/>sub lege, peccabimus ergo? Est autem liber¬ 
-      <lb ed="#W" n="8"/>tas in eo, quod ius omne legi ereptum est ad 
-      <lb ed="#W" n="9"/>cusandi, ac damnandi nos. Maledicit lex 
-      <lb ed="#W" n="10"/>eos qui non uniuersam lege semel absolue¬ 
-      <lb ed="#W" n="11"/>rint. At uniuersa lex nonne summum amorem 
-      <lb ed="#W" n="12"/>erga deum, uehementissimum metum dei exi¬ 
-      <lb ed="#W" n="13"/>git? a quibus cum tota natura sit alienissi¬ 
-      <lb ed="#W" n="14"/>ma, ut maxime pulcherrimum pharisaismum 
-      <lb ed="#W" n="15"/>praestemus, maledictionis tamem rei sumus. 
-      <lb ed="#W" n="16"/>Eam maledictionem legis, id ius legis sustulit 
-      <lb ed="#W" n="17"/>Christus, ut quanquam peccauens, quanquam 
-      <lb ed="#W" n="18"/>iam nunc peccatum habeas, est em utendum 
-      <lb ed="#W" n="19"/>sermone scripturae, tamen saluus es. Vim 
-      <lb ed="#W" n="20"/>mortis, uim prccati, portas inferi Sanso no 
-      <lb ed="#W" n="21"/>ster effregit. Hoc illud est quod ad Calatas 
-      <lb ed="#W" n="22"/>Paulus scribit. Christus nos redemit de ma 
-      <lb ed="#W" n="23"/>ledicto legis, factus pro nobis maledictum. 
-      <!--218.xml-->
-      <pb ed="#W" n="109-r"/>
-               <lb ed="#W" n="1"/>Item, Vbi uenit plenitudo temporis, misit 
-      <lb ed="#W" n="2"/>deus filium suum, factum ex muliere, factum 
-      <lb ed="#W" n="3"/>sub lege, ut eos, qui sub lege erant, redime¬ 
-      <lb ed="#W" n="4"/>ret. Et Roma. vi. Peccatum uobis non do¬ 
-      <lb ed="#W" n="5"/>minabitur. Non enim sub lege estis, sed sub 
-      <lb ed="#W" n="6"/>gratia. Atque haec securitas est, quam adeo ple¬ 
-      <lb ed="#W" n="7"/>no ore, nusquam non celebrant prophetae. 
-      <lb ed="#W" n="8"/>nulla non potentia legis superiores esse eos,  
-      <lb ed="#W" n="9"/>qui sunt in Christo, hoc est, tametsi pecca 
-      <lb ed="#W" n="10"/>ris, tametsi habeas peccatum, damnari non 
-      <lb ed="#W" n="11"/>posse. Iuxta illud, Absorpta est mors in ui¬ 
-      <lb ed="#W" n="12"/>ctoria, ubi est mors uictoria tuat? &amp;c. Haec 
-      <lb ed="#W" n="13"/>inculcari Christianis debebant cum semper 
-      <lb ed="#W" n="14"/>alias, tum maxime morituris, quibus haec 
-      <lb ed="#W" n="15"/>una anchora reliqua est, uere sacra, ut pro¬ 
-      <lb ed="#W" n="16"/>uerbio dici solet. Atque haec libertas est, quam 
-      <lb ed="#W" n="17"/>fere ubique Paulus praedicat. Cerimonias uix 
-      <lb ed="#W" n="18"/>uno atque altero loco attingit. Nec aliud est 
-      <lb ed="#W" n="19"/>nouum testamentum, nisi huius libertatis 
-      <lb ed="#W" n="20"/>promulgatio. ld quod adposite secundo 
-      <lb ed="#W" n="21"/>psalmo significauit propheta. Ego constitui 
-      <lb ed="#W" n="22"/>rege meum super Sion montem sanctum. Hic pa 
-      <lb ed="#W" n="23"/>rer inquit se rege designaturum monti Sion¬ 
-      <!--219.xml-->
-      <pb ed="#W" n="109-v"/>
-               <lb ed="#W" n="1"/>post quale regnum sit futurum aperit, nempe 
-      <lb ed="#W" n="2"/>ubi uerbo suo deus, non humanis uiribus 
-      <lb ed="#W" n="3"/>aut mundi potentia regnet. ldeo subicit. 
-      <lb ed="#W" n="4"/>Praedicabo mandatum. Dominus dixit ad 
-      <lb ed="#W" n="5"/>me, filius meus es tu. Quae haec noua praedi 
-      <lb ed="#W" n="6"/>catio erit? An non ante uerbum dei praedica 
-      <lb ed="#W" n="7"/>tum est in monte ion, nempe lex? Ea ue¬ 
-      <lb ed="#W" n="8"/>ro nunc noua praedicatione abrogatur, ubi 
-      <lb ed="#W" n="9"/>de filio Christ sermoo instituitur. Quod si 
-      <lb ed="#W" n="10"/>non aliud praedicatur, nisi filium esse Chri 
-      <lb ed="#W" n="11"/>stum, consequitur legis iusticiam, opera non 
-      <lb ed="#W" n="12"/>exigi, nec aliud praecipi, quam ut filium illum 
-      <lb ed="#W" n="13"/>exosculemur. ld quod paulo post apertius 
-      <lb ed="#W" n="14"/>dicit. Deati omnes qui fidunt eo, non serua¬ 
-      <lb ed="#W" n="15"/>bit uos iusticia uestra, non seruabit uos sa¬ 
-      <lb ed="#W" n="16"/>pientia uestra, sed hic filius seruabit, rex ue¬ 
-      <lb ed="#W" n="17"/>ster, propugnaculum uestrum &amp;c, Sunt hu 
-      <lb ed="#W" n="18"/>iusmodi multa in scripturis, quae hanc no¬ 
-      <lb ed="#W" n="19"/>bis libertatem commendent. Nam quid in 
-      <lb ed="#W" n="20"/>uniuersum aliud est Euangelium, nisi huius 
-      <lb ed="#W" n="21"/>libertatis praeconium. Postremo libertas est 
-      <lb ed="#W" n="22"/>Christianismus, quia, qui spiritum Christi 
-      <lb ed="#W" n="23"/>non habent, lege facere neutiquam possunt,  
-      <lb ed="#W" n="24"/>suntque maledictionum legis rei. Qui spiritu¬ 
-      <!--220.xml-->
-      <pb ed="#W" n="110-r"/>
-               <lb ed="#W" n="1"/>Christi innouati sunt, ii iam sua sponte,  
-      <lb ed="#W" n="2"/>etiam non praeeunte lege, feruntur ad ea quae 
-      <lb ed="#W" n="3"/>lex iubebat. Voluntas dei lex est. Nec aliud 
-      <lb ed="#W" n="4"/>spiritus sanctus est, nisi uiua dei uoluntas,  
-      <lb ed="#W" n="5"/>&amp; agitatio, quare ubi spiritu dei, qui uiua uo 
-      <lb ed="#W" n="6"/>luntas dei est, regenerati sumus, iam idipsum 
-      <lb ed="#W" n="7"/>uolumus sponte, quod exigebat lex. In hanc 
-      <lb ed="#W" n="8"/>sententiam dictum est a Paulo. Iusto non esse 
-      <lb ed="#W" n="9"/>legem positam. Et ad Roma. viii. Eex spiri 
-      <lb ed="#W" n="10"/>us uitae, id est, lex motio spiritus uiuifican 
-      <lb ed="#W" n="11"/>tis, liberauit me a lege peccati &amp; mortis. Et 
-      <lb ed="#W" n="12"/>libertatem Christianam Augustinus ad eum 
-      <lb ed="#W" n="13"/>modum copiose tractat, in libro de spiritu¬ 
-      <lb ed="#W" n="14"/>&amp; litera. Et Hiere. xxxi. Ecce dies uenient, di 
-      <lb ed="#W" n="15"/>cit dominus, &amp; feriam domui Israel, &amp; do 
-      <lb ed="#W" n="16"/>mui luda foedus nouum. Non secundum pa¬ 
-      <lb ed="#W" n="17"/>ctum, quod pepigi cum patribus uestris, in 
-      <lb ed="#W" n="18"/>die qua adprehendi manum eorum, ut edu¬ 
-      <lb ed="#W" n="19"/>cerem eos de terra Aegypti, pactum, quod 
-      <lb ed="#W" n="20"/>itritum fecerunt, &amp; succensui eis dicit domi 
-      <lb ed="#W" n="21"/>nus. Sed hoc erit pactum, quod feriam cum 
-      <lb ed="#W" n="22"/>domo lsrael. Post dies illos dicit dominus,  
-      <lb ed="#W" n="23"/>Dabo legem meam in uisceribus eorum, &amp;  
-      <lb ed="#W" n="24"/>in corde eorum scribam eam, &amp; ero eis  
-      <!--221.xml-->
-      <pb ed="#W" n="110-v"/>
-               <lb ed="#W" n="1"/>deum, &amp; ipsi erunt mihi in populum. Et 
-      <lb ed="#W" n="2"/>non docebit ultra uir proximum suum, &amp; uir 
-      <lb ed="#W" n="3"/>fratrem suum dicens, cognosce dominum. 
-      <lb ed="#W" n="4"/>Omnes em cognoscent me a minimo eor 
-      <lb ed="#W" n="5"/>usque ad maxiinum, ait dominus, Quia pro 
-      <lb ed="#W" n="6"/>piciabor iniquit ati eorum, &amp; peccati eorum 
-      <lb ed="#W" n="7"/>non recordabor amplius. Quo in loco du¬ 
-      <lb ed="#W" n="8"/>plex pactum commemorat propheta, uetus,  
-      <lb ed="#W" n="9"/>ac nouum, uetus, iustificationem per lege,  
-      <lb ed="#W" n="10"/>dicit irritum factum esse. Quis enim legem 
-      <lb ed="#W" n="11"/>exprimere potuit? propterea sublata exa¬ 
-      <lb ed="#W" n="12"/>ctione, iam legem cordibus inscribendam 
-      <lb ed="#W" n="13"/>esse, ut exprimi possit. Ergo libertas est, non 
-      <lb ed="#W" n="14"/>ne faciamus legem, sed sponte ab animo,  
-      <lb ed="#W" n="15"/>uelle ac cupere, quod lex poscit. ld quod an 
-      <lb ed="#W" n="16"/>tea nemo potuit. ldem Exech. xi. Auferam  
-      <lb ed="#W" n="17"/>cor lapideum de came eorum, &amp; dabo eis 
-      <lb ed="#W" n="18"/>cor cameum, ut in praeceptis meis ambu¬ 
-      <lb ed="#W" n="19"/>lent, &amp; iudicia mea custodiant, faciantque 
-      <lb ed="#W" n="20"/>ea &amp; sint mihi in populum.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e587">
-               <lb ed="#W" n="21"/>Habes quatenus a decalogo liberi simus 
-      <lb ed="#W" n="22"/>Primum, que tametsi peccatores, damnare non 
-      <lb ed="#W" n="23"/>possit, eos qui in Christo sunt. Deinde qua 
-      <lb ed="#W" n="24"/>qui sunt in Christo, spiritu trahuntur ad le 
-      <!--222.xml-->
-      <pb ed="#W" n="111-r"/>
-               <lb ed="#W" n="1"/>gem faciendam, &amp; spiritu faciunt, amant,  
-      <lb ed="#W" n="2"/>timent deum, proximi necessitatibus se ad 
-      <lb ed="#W" n="3"/>comodant, atque ea ipsa cupiunt, quae lex 
-      <lb ed="#W" n="4"/>praecipiebat, facturi, etiamsi nulla esset lex 
-      <lb ed="#W" n="5"/>lata. Nec aliud est eorum uoluntas, nempe 
-      <lb ed="#W" n="6"/>spiritus, quam uiua lex.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e616">
-               <lb ed="#W" n="7"/>Ad eum modum fuerunt liberi etiam pa¬ 
-      <lb ed="#W" n="8"/>tres ante Christi incamationem, quotquot 
-      <lb ed="#W" n="9"/>spiritum Christi habuere. ld quod uidit Pe 
-      <lb ed="#W" n="10"/>trus in Actis cap. xv. cum negat eos potuisse 
-      <lb ed="#W" n="11"/>legem facere. Neque nos, inquiens, neque pa¬ 
-      <lb ed="#W" n="12"/>tres nostri portare potuimus. Sed fide iusti¬ 
-      <lb ed="#W" n="13"/>ficati sunt. ld est, cum non possent prestare 
-      <lb ed="#W" n="14"/>legm patres, agnouerunt se quoque liberos 
-      <lb ed="#W" n="15"/>esse per Christum, suntque fide in Christum 
-      <lb ed="#W" n="16"/>iustificati, non operum, non iusticiatum suarum 
-      <lb ed="#W" n="17"/>meritis. Non enim eo loco i Actis de cerimoniis 
-      <lb ed="#W" n="18"/>tantum Petrs loqtur, sed de tota lege. Nam lex ce 
-      <lb ed="#W" n="19"/>remoniarum, ni paestes &amp; decalogum, prestari 
-      <lb ed="#W" n="20"/>neutiquam potest. Non enim fiunt ceremoniae coram 
-      <lb ed="#W" n="21"/>deo, nisi fideli spontaneo corde fiant. Et Petra 
-      <lb ed="#W" n="22"/>non hoc agebat, non posse externa opera cere 
-      <lb ed="#W" n="23"/>moniag fieri. Quid enim facilis e, quam paucu 
-      <lb ed="#W" n="24"/>lis adeo ceremoniis defungi. Nam si numeres 
-      <!--223.xml-->
-      <pb ed="#W" n="111-v"/>
-               <lb ed="#W" n="1"/>quanto plus rituum papisticorum hodie in 
-      <lb ed="#W" n="2"/>Ecclesia est, qua in Mose uideas. Et Mosai¬ 
-      <lb ed="#W" n="3"/>cas ceremonias in uniuersum pauculis uer¬ 
-      <lb ed="#W" n="4"/>sibus complecti queas, cum papisticis tam 
-      <lb ed="#W" n="5"/>magna decretorum &amp; decretalium uolumi 
-      <lb ed="#W" n="6"/>na non satis sint. . Quam dissimiles Romani 
-      <lb ed="#W" n="7"/>pontifices Petri sunt, quo praecessore glo¬ 
-      <lb ed="#W" n="8"/>riantur. Ille iure diuino traditas, easque pau¬ 
-      <lb ed="#W" n="9"/>culas ceremonias abrogauit. hi nullo non se¬ 
-      <lb ed="#W" n="10"/>culo nouas &amp; stultas commenti sunt. Non 
-      <lb ed="#W" n="11"/>igitur de ceremoniis tantum uideri potest 
-      <lb ed="#W" n="12"/>in Actis egisse Petrus, sed de tota lege.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e688">
-               <lb ed="#W" n="13"/>In Romanis de hac libertate latius dispu 
-      <lb ed="#W" n="14"/>tat Apostolus cap. vi. vii. &amp;. viii. docens no 
-      <lb ed="#W" n="15"/>uum tantum hominem liberum esse. Pro¬ 
-      <lb ed="#W" n="16"/>inde, quatenus spiritu nouati sumus, eate¬ 
-      <lb ed="#W" n="17"/>nus liberi sumus, quatenus caro &amp; uetustas 
-      <lb ed="#W" n="18"/>sumus, sub lege sumus. Quanquam credenti 
-      <lb ed="#W" n="19"/>bus, quod reliquum est uetustatis, propter fi¬ 
-      <lb ed="#W" n="20"/>dem condonetur. In summa, quatenus cre 
-      <lb ed="#W" n="21"/>dimus, liberi sumus, quatenus diffidimus 
-      <lb ed="#W" n="22"/>sub lege sumus. In Antilatomo copiose dis 
-      <lb ed="#W" n="23"/>putauit Eutherus de peccatis sanctorum, seu 
-      <lb ed="#W" n="24"/>de reliquiis uetustatis in regeneratis ut mihi 
-      <!--224.xml-->
-      <pb ed="#W" n="112-r"/>
-               <lb ed="#W" n="1"/>ea de te non sit necesse multis agere. Praeser 
-      <lb ed="#W" n="2"/>tim cum tam clare dicat Paulus se adhuc cap 
-      <lb ed="#W" n="3"/>tiuum esse peccati. Idem non uno loco Au¬ 
-      <lb ed="#W" n="4"/>gustinus, &amp; Cyprianus. Nam iustificari hic 
-      <lb ed="#W" n="5"/>cepimus, nondum absoluimus iustificatio  
-      <lb ed="#W" n="6"/>nem. Sic Paulus subinde iubet reformari 
-      <lb ed="#W" n="7"/>nos nouitate sensus nostri. Et ad Philippen 
-      <lb ed="#W" n="8"/>ses ait se nondum accepisse, nondum perfe¬ 
-      <lb ed="#W" n="9"/>ctum esse, sed sequi ut comprehendat. Ergo 
-      <lb ed="#W" n="10"/>cum de legis abrogatione disputatur, hoc 
-      <lb ed="#W" n="11"/>potius agendum erat, quatenus decalogum 
-      <lb ed="#W" n="12"/>antiquarit Euangelium, quam, ut ceremoniae, 
-      <lb ed="#W" n="13"/>ut iudicialia sublata sint. Nam ex decalogi 
-      <lb ed="#W" n="14"/>abrogatione, gratiae amplitudo uel proxi¬ 
-      <lb ed="#W" n="15"/>me cognosci potest, cum citra legis exactio 
-      <lb ed="#W" n="16"/>nem, nullo respectu operum nostrorum sal¬ 
-      <lb ed="#W" n="17"/>uari credentes arguit. Ergo abrogata lex est 
-      <lb ed="#W" n="18"/>non, ut ne fat, sed ut et non facta, non dam¬ 
-      <lb ed="#W" n="19"/>net, &amp; fieri possit. De iudicialibus ac cere¬ 
-      <lb ed="#W" n="20"/>moniis, utinam exactius disseruissent, qui  
-      <lb ed="#W" n="21"/>libertatem ad ea sola retulerunt. Et in his ac 
-      <lb ed="#W" n="22"/>curate obseruandum est, id quod Paulus ait,  
-      <lb ed="#W" n="23"/>Circumcisionem nihil esse. Et in Galatis, In 
-      <lb ed="#W" n="24"/>Christo Iesu neque circumcisionem, neque pre 
-      <!--225.xml-->
-      <pb ed="#W" n="112-v"/>
-               <lb ed="#W" n="1"/>preputium sed nouam creaturam ualerte. Item 
-      <lb ed="#W" n="2"/>illud, quod ad Corinthios scribit, Domi¬ 
-      <lb ed="#W" n="3"/>ni est terra, &amp; plenitudo eius. Quae liberta¬ 
-      <lb ed="#W" n="4"/>tem Christianam hanc esse probant, ut uel 
-      <lb ed="#W" n="5"/>uti huiusmodi rebus extenis, uel non uti 
-      <lb ed="#W" n="6"/>possis. Sic alium Paulus circumcidit, alium 
-      <lb ed="#W" n="7"/>non circumcidit. Alias attemperauit se iis,  
-      <lb ed="#W" n="8"/>qui ritus ludaicos obseruabant, alias refra¬ 
-      <lb ed="#W" n="9"/>gabatur. Eadem nobis libertas esto. Non pec 
-      <lb ed="#W" n="10"/>cant, neque qui ciicumciduntur, neque qui in¬ 
-      <lb ed="#W" n="11"/>termittunt circumcisionem. Durius igitur est 
-      <lb ed="#W" n="12"/>quod Hieronymus confinxit, de antiquatis 
-      <lb ed="#W" n="13"/>ceremoniis. Atqui hunc hodie fere sequuntur. 
-      <lb ed="#W" n="14"/>Sed hi peccant, qui necessariam putant esse 
-      <lb ed="#W" n="15"/>circumcisionem, qui in hoc circumcidun¬ 
-      <lb ed="#W" n="16"/>tur, ut iustificentur, ut bonum opus faciant.  
-      <lb ed="#W" n="17"/>Rursum peccant, &amp; qui intermitrunt cir¬ 
-      <lb ed="#W" n="18"/>cumcisionem in hoc ut iustificentur. Tam 
-      <lb ed="#W" n="19"/>errat Hierony, uetans circumcisionem, quam 
-      <lb ed="#W" n="20"/>ertabant ludaei, sicubi requirebant circumci 
-      <lb ed="#W" n="21"/>sionem. Tam errauerit, si quis praecipiat, suillam 
-      <lb ed="#W" n="22"/>camem edere, quam errauerit, si quis uetet. Atque 
-      <lb ed="#W" n="23"/>haec Paulo ratio fuit. Circuncidere Titum no¬ 
-      <lb ed="#W" n="24"/>luit, cum uideret exigi a ludaeis circuncisionem, 
-      <!--226.xml-->
-      <pb ed="#W" n="113-r"/>
-               <lb ed="#W" n="1"/>adeoque obscurati doctrinam fidei, cum cir¬ 
-      <lb ed="#W" n="2"/>cumcisioni, non fidei iustificatiouem tri¬ 
-      <lb ed="#W" n="3"/>buerent. Idem seruandum est in moralibus 
-      <lb ed="#W" n="4"/>operibus, ut sicut non in hoc edis, aut bi¬ 
-      <lb ed="#W" n="5"/>bis, ut iustificeris, ita nec in hoc largiare elee 
-      <lb ed="#W" n="6"/>mosynen, ut iustificeris. Sed ut in hoc edis 
-      <lb ed="#W" n="7"/>ac bibis, ut necessitati corporis seruias. Ita 
-      <lb ed="#W" n="8"/>in hoc largiare eleemosynen, diligas fratrem 
-      <lb ed="#W" n="9"/>&amp;c, ut communi necessitati seruias, in hoc 
-      <lb ed="#W" n="10"/>libidinem coherceas, ut corpus sit obnoxium 
-      <lb ed="#W" n="11"/>spiritui &amp;c. Quam non iustificant edere,  
-      <lb ed="#W" n="12"/>bibere, dormire, stare, sedere, tam non iusti 
-      <lb ed="#W" n="13"/>ficant non modo circumcisio, sed &amp; mora 
-      <lb ed="#W" n="14"/>lia illa. castitas, seruire fratrum necessitatibs 
-      <lb ed="#W" n="15"/>&amp; similia. Sola enim fides iustificat, iuxta illud 
-      <lb ed="#W" n="16"/>lustus ex fide uiuet. Porro haec in moralibs 
-      <lb ed="#W" n="17"/>libertas, quam est necessaria cognitu, tam obscu 
-      <lb ed="#W" n="18"/>ra est, nec nisi a spiritualibus intelligi potest.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e873">
-               <lb ed="#W" n="19"/>Valeat igitur quod diximus, non esse iu 
-      <lb ed="#W" n="20"/>dicialia aut ceremonias ita sublatas, ut pec¬ 
-      <lb ed="#W" n="21"/>cet, si quis ex illis quidpiam usurpet. Sed 
-      <lb ed="#W" n="22"/>quia Christianismus libertas quaedam est,  
-      <lb ed="#W" n="23"/>uti illis, uel non uti penes nos est, non ali¬ 
-      <lb ed="#W" n="24"/>ter atque edere aut bibere penes nos est.  
-      <!--227.xml-->
-      <pb ed="#W" n="113-v"/>
-               <lb ed="#W" n="1"/>Caeterum optarim etiam uti Christianos. 
-      <lb ed="#W" n="2"/>ea forma iudiciorum quam Moses prodidit. 
-      <lb ed="#W" n="3"/>Item plerisque ceremoniis. Praestaret enim quan 
-      <lb ed="#W" n="4"/>doquidem iudiciis carere necessitas huius ui¬ 
-      <lb ed="#W" n="5"/>tae non potest, nec, ut opinor, ceremoniis. 
-      <lb ed="#W" n="6"/>uti Mosaicis illis, quam tum gentilibus legi¬ 
-      <lb ed="#W" n="7"/>bus, tum papisticis ceremoniis.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e909">
-               <lb ed="#W" n="8"/>Et ut propius ad rem accedamus una ea 
-      <lb ed="#W" n="9"/>demque caussa est, cur uniuersa lex abrogata 
-      <lb ed="#W" n="10"/>sit, non ceremoniae tantum &amp; iudiciorum 
-      <lb ed="#W" n="11"/>formae, sed &amp; decalogus, que prestari non po 
-      <lb ed="#W" n="12"/>tuetit. Hanc abrogandae legis caussam pro 
-      <lb ed="#W" n="13"/>didit &amp; Petrus in Actis, &amp; Hietemias cum 
-      <lb ed="#W" n="14"/>ideo nouum pactum iniri docet, que uetus illud 
-      <lb ed="#W" n="15"/>irritum fecerimus. Atque eo loco nullam le¬ 
-      <lb ed="#W" n="16"/>gis partem excipit, ut satis appareat eum de 
-      <lb ed="#W" n="17"/>tota lege loqui. Est autem in iis antiquata 
-      <lb ed="#W" n="18"/>tantum, qui pacto posteriori, hoc est, Euam 
-      <lb ed="#W" n="19"/>gelio crediderunt, adeoque in quibus spiri¬ 
-      <lb ed="#W" n="20"/>tus Christi est. hi prorsus ab omni lege libe 
-      <lb ed="#W" n="21"/>ri sunt.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e942">
-               <lb ed="#W" n="22"/>Quod autem decalogum faciunt sancti, hoc 
-      <lb ed="#W" n="23"/>in caussa est, &amp; qued decalogus praeter cordis 
-      <lb ed="#W" n="24"/>iusticiam non exigit certa locorum, tem¬ 
-      <!--228.xml-->
-      <pb ed="#W" n="114-r"/>
-               <lb ed="#W" n="1"/>porum, rerum, personarum discrimina &amp; 
-      <lb ed="#W" n="2"/>piritus ipsa cordis iustificatio sit. Non po¬ 
-      <lb ed="#W" n="3"/>test non praestari decalogus abrogata lege¬ 
-      <lb ed="#W" n="4"/>ut sub exortum solis nequit fieri, quin illu¬ 
-      <lb ed="#W" n="5"/>cescat, ita non potest non praestari deca¬ 
-      <lb ed="#W" n="6"/>logus effuso in corda sanctorum spiritu. Cae¬ 
-      <lb ed="#W" n="7"/>terum spiritualis sic liber est, ut nisi adferret 
-      <lb ed="#W" n="8"/>ipse secum spiritus pro sua natura decalogi 
-      <lb ed="#W" n="9"/>impletionem, ne deberemus quidem. Nunc 
-      <lb ed="#W" n="10"/>cum adfert spiritus eiusmodi uoluntatem,  
-      <lb ed="#W" n="11"/>quae sit ipsa decalogi impletio, fit lex, non 
-      <lb ed="#W" n="12"/>quod exigatur, sed quia ne potest quidem a spi 
-      <lb ed="#W" n="13"/>rituali diuersum fieri.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e984">
-               <lb ed="#W" n="14"/>Iudicialia &amp; ceremoniae praeter cordis iu 
-      <lb ed="#W" n="15"/>sticiam extemae obseruationes sunt, rebus,  
-      <lb ed="#W" n="16"/>personis, locis, temporibus circumscriptae. 
-      <lb ed="#W" n="17"/>Quas obseruationes quia non necessario se 
-      <lb ed="#W" n="18"/>cum spiritus adfert, ideo non est cur a no¬ 
-      <lb ed="#W" n="19"/>bis fiant. Esse non potest in humano corde 
-      <lb ed="#W" n="20"/>spiritus dei, quin exprimat decalogum. Fit 
-      <lb ed="#W" n="21"/>igitur necessario decalogus. Esse potest spi¬ 
-      <lb ed="#W" n="22"/>ritus in humano corde, etiam sine externis il¬ 
-      <lb ed="#W" n="23"/>lis obseruationibus. Non igitur fiunt necessa 
-      <lb ed="#W" n="24"/>rio iudicialia &amp; ceremoniae. Hinc adparet, 
-      <!--229.xml-->
-      <pb ed="#W" n="114-v"/>
-               <lb ed="#W" n="1"/>cur decalogus fere negatiuas leges contineat,  
-      <lb ed="#W" n="2"/>ut significetur nullum certum opus, circum¬ 
-      <lb ed="#W" n="3"/>scriptum personis, locis, temporibus, sed po 
-      <lb ed="#W" n="4"/>tius codis iusticiam exigi. Reliquae leges res 
-      <lb ed="#W" n="5"/>externas distribuunt ac dispensant. Sed hanc 
-      <lb ed="#W" n="6"/>libertatis rationem relinquo meditandam  
-      <lb ed="#W" n="7"/>sublimioribus spiritibus. Ego contentus sum 
-      <lb ed="#W" n="8"/>monuisse decalogum antiquatum esse, non ut 
-      <lb ed="#W" n="9"/>ne fiat, sed ut ne damnet, si quid deliqui¬  
-      <lb ed="#W" n="10"/>mus, deinde ut &amp; exprimi possit. Adeoque li 
-      <lb ed="#W" n="11"/>bertas haec conscientiae est, fide sencientis con 
-      <lb ed="#W" n="12"/>donari peccatum.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e1041">
-               <lb ed="#W" n="13"/>Ceremonias esse abrogatas fere ideo iu¬ 
-      <lb ed="#W" n="14"/>dicant, que umbrae Euangelii fuerint, quibs 
-      <lb ed="#W" n="15"/>cum corpus, hoc est, ipsum Euangelium nunc 
-      <lb ed="#W" n="16"/>extet, nihil ops sit. Quam caussam haud scio 
-      <lb ed="#W" n="17"/>an usquam secutus sit Paulus. In Coloss, inqt,  
-      <lb ed="#W" n="18"/>Nemo uos iudicet in cibo aut potu, aut in 
-      <lb ed="#W" n="19"/>parte diei festi, aut Neomeniae, aut sabbato 
-      <lb ed="#W" n="20"/>rum, quae sunt umbrae futurorum. corpus autem 
-      <lb ed="#W" n="21"/>Christi. Quo in loco typi rationem caussatus 
-      <lb ed="#W" n="22"/>uideri fortasse potest. Certe in Calatis ideo 
-      <lb ed="#W" n="23"/>ceremonias reicit, que non iustificent. Idem  
-      <lb ed="#W" n="24"/>in Hebreis agitur per totam Epistolam, non ce 
-      <!--230.xml-->
-      <pb ed="#W" n="115-r"/>
-               <lb ed="#W" n="1"/>remonias modo, sed totam legem ideo anti¬ 
-      <lb ed="#W" n="2"/>quari, que iustificare non potuerit, seu ut su¬ 
-      <lb ed="#W" n="3"/>pra diximus, que exprimi non potuetit. Sic enim 
-      <lb ed="#W" n="4"/>cap. vii. scribitur. Reprobatio quidem praece¬ 
-      <lb ed="#W" n="5"/>dentis mandati propter infirmitatem eius &amp; 
-      <lb ed="#W" n="6"/>inutilitatem. Et ubi de sacerdote late disse¬ 
-      <lb ed="#W" n="7"/>tuit, hoc constituit. ldeo sacerdotium Reuiti¬ 
-      <lb ed="#W" n="8"/>cum antiquari, que remissionem peccati non im 
-      <lb ed="#W" n="9"/>pertatit. Impetret autem noster pontifex 
-      <lb ed="#W" n="10"/>Christus. Vides unam hanc abrogatae legis 
-      <lb ed="#W" n="11"/>caussam in scripturis premi, ac urgeri, lege 
-      <lb ed="#W" n="12"/>ideo antiquari, que non iustificarit, seuque expri 
-      <lb ed="#W" n="13"/>mi non potuetit. Scholae ceremonias tollunt 
-      <lb ed="#W" n="14"/>solas, que Euangelii typi fuernt. Decalogus 
-      <lb ed="#W" n="15"/>manetque αγίδαα non uideatur. Sed quid 
-      <lb ed="#W" n="16"/>hoc ad gratiae commendationem? Scriptura 
-      <lb ed="#W" n="17"/>sic de abrogatione legis disserit, ut ubique no 
-      <lb ed="#W" n="18"/>bis in ea gratiae amplitudinem commendet. Sic  
-      <lb ed="#W" n="19"/>ceremonias tollit ut uniuersam lege adpa¬ 
-      <lb ed="#W" n="20"/>reat sublatam. Sic ceremonias reicit, ut adpa 
-      <lb ed="#W" n="21"/>reat ppter decalogum abrogandum, abrogari 
-      <lb ed="#W" n="22"/>ceremonias. Quae commendatio gratiae &amp; so 
-      <lb ed="#W" n="23"/>Iam &amp; suma est. Sic ergo ceremoniae sublatae 
-      <lb ed="#W" n="24"/>sut, non ne fiant, sedque nullo conscientiae periclo 
-      <!--231.xml-->
-      <pb ed="#W" n="115-v"/>
-               <lb ed="#W" n="1"/>aut fieri aut omitti possint, que non damnent 
-      <lb ed="#W" n="2"/>intermissae, nec iustificent si feceris. Haec satis 
-      <lb ed="#W" n="3"/>sit indicasse, quorum rationem ex Calatarum 
-      <lb ed="#W" n="4"/>Epistola, &amp; ex Hebraeis petas. Augustinus 
-      <lb ed="#W" n="5"/>alicubi caussam abrogatae legis inquirens,  
-      <lb ed="#W" n="6"/>nihil praeter figuras caussatur, Scriptura ideo 
-      <lb ed="#W" n="7"/>legem abrogat, que non iustificet. Quid igitur 
-      <lb ed="#W" n="8"/>erat cur ferretur lexx ut ostenderet peccatum, 
-      <lb ed="#W" n="9"/>seu ut peccati coargueret, &amp; palam fieret opus 
-      <lb ed="#W" n="10"/>esse nobis misericordia dei.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e1152">
-               <lb ed="#W" n="11"/>De formis iudiciog sic sentio. Eas quoque 
-      <lb ed="#W" n="12"/>antiquatas esse, que externae obseruationes 
-      <lb ed="#W" n="13"/>sint, non aliter atque ceremoniae quibus liber 
-      <lb ed="#W" n="14"/>spiritus uel uti, uel non uti possit. Conten¬ 
-      <lb ed="#W" n="15"/>dere iudicio Christianis non licet, sed ea non 
-      <lb ed="#W" n="16"/>est abrogandae legis caussa. Nam ut peccent 
-      <lb ed="#W" n="17"/>qui litigant, necesse est tamen leges &amp; iudi¬ 
-      <lb ed="#W" n="18"/>cia esse, quibus coherceantur flagitiosi. Nec 
-      <lb ed="#W" n="19"/>peccant qui iudicia exercent, seu ius dicunt. 
-      <lb ed="#W" n="20"/>Nec in hoc lata Mosi lex est, ut litigandi 
-      <lb ed="#W" n="21"/>materia ciuibus esset, sed ut iudicandi for¬ 
-      <lb ed="#W" n="22"/>mula magistratui esset. Non in hoc igitur 
-      <lb ed="#W" n="23"/>disputandum est, Mosaica ne, an quauis 
-      <lb ed="#W" n="24"/>lege uti possit qui litigate uelit. Non enim 
-      <!--232.xml-->
-      <pb ed="#W" n="116-r"/>
-               <lb ed="#W" n="1"/>Christianus est, qui litigat. Sed Mosaica ne 
-      <lb ed="#W" n="2"/>lege sola uti debeat iudex Christianus? Hic 
-      <lb ed="#W" n="3"/>respondeo, penes iudicem esse, uti uel non 
-      <lb ed="#W" n="4"/>uti Mosi lege. Est enim rerum externarum 
-      <lb ed="#W" n="5"/>dispositio quaedam, quae ad Christianismum 
-      <lb ed="#W" n="6"/>nihil pertinet non aliter, atque edere ac bibe¬ 
-      <lb ed="#W" n="7"/>re. Paulus tantum sapientem uirum, &amp; in quo 
-      <lb ed="#W" n="8"/>sit Christi spiritus iudicem postulat. i. Co¬ 
-      <lb ed="#W" n="9"/>rinth. vi. An nescitis que sancti de hoc mun¬ 
-      <lb ed="#W" n="10"/>do iudicabunt. Item, Adeo non est inter uos 
-      <lb ed="#W" n="11"/>sapiens quisquam qui possit iudicare &amp;c. Qui  
-      <lb ed="#W" n="12"/>bus locis adparet, eum non legem aliquam 
-      <lb ed="#W" n="13"/>certam, sed spiritualis uiri iudicium requi¬ 
-      <lb ed="#W" n="14"/>rere. Alias etiam gladium gentium probat,  
-      <lb ed="#W" n="15"/>de quo postea dicemus, uocatque dei ordina 
-      <lb ed="#W" n="16"/>tionem. Porro gladii potissima pars leges 
-      <lb ed="#W" n="17"/>sunt. Atque ita usi sunt gentium gladio, &amp; gen 
-      <lb ed="#W" n="18"/>tium legibus Naaman Syrus. Nabugdono 
-      <lb ed="#W" n="19"/>sor, &amp; si qui alii ex gentibus pii principes fue 
-      <lb ed="#W" n="20"/>runt. Et haud scio an gesserint etiam Daniel,  
-      <lb ed="#W" n="21"/>&amp; alii lsraelitae inter Assyrios. Certe gentium 
-      <lb ed="#W" n="22"/>gladium gessit Romanum praesidium ludaeae 
-      <lb ed="#W" n="23"/>impositum. Et probauit lohannes Eucae. iii. 
-      <lb ed="#W" n="24"/>Neminem concutiatis, neque calumniam fa¬ 
-      <!--233.xml-->
-      <pb ed="#W" n="116-v"/>
-               <lb ed="#W" n="1"/>ciatis, &amp; contenti estote stipendiis uestris. Ta¬ 
-      <lb ed="#W" n="2"/>lis &amp; Cornelius fuit Actorum. x. talis fuit &amp; 
-      <lb ed="#W" n="3"/>Procos, Sergius Actorum. xiii. Haec ideo recen 
-      <lb ed="#W" n="4"/>sui, ut intelligatur, ad iusticiam spiritus, nihil 
-      <lb ed="#W" n="5"/>pertinere ciuilem illam &amp; externam rerum dispen 
-      <lb ed="#W" n="6"/>sationem, non aliter atque agrum fodere, aut 
-      <lb ed="#W" n="7"/>aedificare, aut suere calceos nihil referunt iu¬ 
-      <lb ed="#W" n="8"/>sticiae spiritus, esseque penes Christianos uti,  
-      <lb ed="#W" n="9"/>uel non uti formis iudicandi Mosaicis. Quam 
-      <lb ed="#W" n="10"/>quam optarim pro gentilibus &amp; saepe stultis 
-      <lb ed="#W" n="11"/>legibus Mosaicas recipi. Sumus enim oleae illi 
-      <lb ed="#W" n="12"/>inserti. Et uerbum dei decebat praeferre huma 
-      <lb ed="#W" n="13"/>nis constitutionibus. Nec hodie alius fere Ro¬ 
-      <lb ed="#W" n="14"/>mani illius iuris usus est, quam in litigando,  
-      <lb ed="#W" n="15"/>ut habeant unde se alant rabulae forenses.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e1278">
-               <lb ed="#W" n="16"/>Quatenus sit antiquata lex opinor, ex 
-      <lb ed="#W" n="17"/>his cognosci posse, aliqu ex parte, quae dixi¬ 
-      <lb ed="#W" n="18"/>mus. Certius enim usu scripturae docebit spiri¬ 
-      <lb ed="#W" n="19"/>tus. Neque potest nisi a spiritualibus intelligi 
-      <lb ed="#W" n="20"/>haec libertas.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e1292">
-               <lb ed="#W" n="21"/>Dices autem si liberi sunt qui spiritum Chri¬ 
-      <lb ed="#W" n="22"/>sti habent, igitur &amp; Dauid &amp; Moses liberi 
-      <lb ed="#W" n="23"/>erant? maxime. Nam hoc est quod ait Petrs, 
-      <lb ed="#W" n="24"/>Neque nos, neque patres nostri portare potui¬ 
-      <!--234.xml-->
-      <pb ed="#W" n="117-r"/>
-               <lb ed="#W" n="1"/>mus, sed per gratiam domini nostri lesu Chri 
-      <lb ed="#W" n="2"/>sti credimus saluari, quemadmodum &amp; illi. 
-      <lb ed="#W" n="3"/>Hoc est, agnorunt patres omnia sua opera 
-      <lb ed="#W" n="4"/>peccata esse. agnorunt se non mereri salutem  
-      <lb ed="#W" n="5"/>operibus suis ullis, sed misericordia dei ege 
-      <lb ed="#W" n="6"/>re. Itaque crediderunt, suntque misericordiae fi¬ 
-      <lb ed="#W" n="7"/>ducia seruati, &amp; concepto spiritu dei, sense¬ 
-      <lb ed="#W" n="8"/>runt se liberos esse a legis maledictione, adeo 
-      <lb ed="#W" n="9"/>quod ab omni onere uel exactione legis. Sed que 
-      <lb ed="#W" n="10"/>ceremonias non omittebant, in caussa est, que 
-      <lb ed="#W" n="11"/>nondum libertas reuelata erat, nondum Euan¬ 
-      <lb ed="#W" n="12"/>gelium libertatis, euulgatum erat. Quare legem 
-      <lb ed="#W" n="13"/>tulere nihil grauatim, cum se fide iustificari 
-      <lb ed="#W" n="14"/>sentitent. Vides etiam nonnunquam libertatis 
-      <lb ed="#W" n="15"/>priuilegio recte usos esse, ut. i. Regu. xxi. Da 
-      <lb ed="#W" n="16"/>uid panes propositiois edit, quos edere fas 
-      <lb ed="#W" n="17"/>non erat, nisi sacerdoti. Et Dauid egregie 
-      <lb ed="#W" n="18"/>de libertate praefatus inquit, Viam quidem 
-      <lb ed="#W" n="19"/>pollutam esse, sed sanctificari in uasis, hoc 
-      <lb ed="#W" n="20"/>est, mundos esse se, que fideles essent, &amp; san¬ 
-      <lb ed="#W" n="21"/>ctificari omnia, uictum, operas &amp;c, fide san 
-      <lb ed="#W" n="22"/>ctorum. Non aliter atque Paulus ait, omnia 
-      <lb ed="#W" n="23"/>munda mundis esse, coinquinatis nihil 
-      <lb ed="#W" n="24"/>mundum.
-    </p>
-            <p xml:id="erf8hf-d1e1311-d1e1360">
-      <!--235.xml-->
-               <pb ed="#W" n="117-v"/>
-               <lb ed="#W" n="1"/>Summa, Liberi sumus per fidem ab uni 
-      <lb ed="#W" n="2"/>uersa lege, sed eadem fides, ille ipse spiritus 
-      <lb ed="#W" n="3"/>Christi, quam concepimus, teliquias peccati 
-      <lb ed="#W" n="4"/>in carne mortificat. Non que exigat lex, sed 
-      <lb ed="#W" n="5"/>quod illa ipsa sit spiritus natura, ut non possit 
-      <lb ed="#W" n="6"/>non mortificare canem. Hoc est quod ait 
-      <lb ed="#W" n="7"/>Paulus. Nihil nunc damnationis est his qui  
-      <lb ed="#W" n="8"/>sunt in Christo lesu, id est, qui credunt, quia 
-      <lb ed="#W" n="9"/>iam a legis maledicto redempti sunt, salui 
-      <lb ed="#W" n="10"/>sunt, Sed illi iidem non secundum camem  
-      <lb ed="#W" n="11"/>ambulant, hoc est, quia in eis regnat spi¬ 
-      <lb ed="#W" n="12"/>ritus, ideo camis reliquiae crucifiguntur. Et 
-      <lb ed="#W" n="13"/>leges praescribuntur fidelibus per quas spiri 
-      <lb ed="#W" n="14"/>tus mortificet canem. Nondum enim con 
-      <lb ed="#W" n="15"/>sumata in nobis libertas est, sed uindicatur 
-      <lb ed="#W" n="16"/>dum &amp; augescit spiritus, &amp; necatur caro. 
-      <lb ed="#W" n="17"/>Estque decalogi usus in mortificanda caime. 
-      <lb ed="#W" n="18"/>Ceremonialium legum aut ludicialium non item. 
-      <lb ed="#W" n="19"/>lta fit, ut decalogo opus sit fidelibus, reliqus 
-      <lb ed="#W" n="20"/>legibus non item. Sed ceremonias, &amp; externas 
-      <lb ed="#W" n="21"/>obseruationes pro arbitrio concipit spiritus.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2020-12-04">December 04, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="106-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="erf8hf-d1e1311">
+        <head xml:id="erf8hf-d1e1311-Hd1e105">Praeambulum</head>
+        <p xml:id="erf8hf-d1e1311-d1e108">
+          <lb ed="#W" n="14"/>DE DISCRIMINE VETERIS 
+          <lb ed="#W" n="15"/>ac noui testamenti. Item de 
+          <lb ed="#W" n="16"/>abrogatione legis.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e117">
+          <lb ed="#W" n="17"/>
+          <pc type="indent"/>Ex iis quae de lege ac Euangelio, deque legis 
+          <lb ed="#W" n="18"/>&amp; Euangelii officio diximus, colligi facile 
+          <lb ed="#W" n="19"/>potest, qid intersit inter uetus testamentum ac 
+          <lb ed="#W" n="20"/>nouum. Qua in re non aliter, atque in discrimie 
+          <lb ed="#W" n="21"/>legis ac Euangelii misere laborant scholae, cum 
+          <lb ed="#W" n="22"/>uetus testamentum uocant, lege quandam, qui
+          ex<lb ed="#W" n="23" break="no"/>terna tantum opera exigat. Nouum, lege, quae 
+          <lb ed="#W" n="24"/>praeter externa opera etiam adfectus exigat. 
+          <!--214.xml-->
+          <pb ed="#W" n="107-r"/>
+          <lb ed="#W" n="1"/>Quo fit ut obscuretur gratiae maiestas &amp;
+          am<lb ed="#W" n="2" break="no"/>plitudo, quam oportuit uelut in illustri
+          posi<lb ed="#W" n="3" break="no"/>tam loco undique omnibus conspicuam ostendi,  
+          <lb ed="#W" n="4"/>&amp; uel solam praedicati. Nos rem paucis
+          absol<lb ed="#W" n="5" break="no"/>uemus. Quid lex sit, quid Euangelium ex
+          su<lb ed="#W" n="6" break="no"/>perioribus pete. In usu uocum hic laboratur.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e156">
+          <lb ed="#W" n="7"/>Qui uetus testamentum simpliciter id 
+          <lb ed="#W" n="8"/>quod legem uocant, consuetudinem
+          lo<lb ed="#W" n="9" break="no"/>quendi, ut mihi uidetur, magis quam
+          ratio<lb ed="#W" n="10" break="no"/>nem sequuntur, &amp; nomine testamenti commu 
+          <lb ed="#W" n="11"/>niter pro constitutione seu instituto
+          utun<lb ed="#W" n="12" break="no"/>tur. Ego uetus testamentum uoco
+          promi<lb ed="#W" n="13" break="no"/>ssionem rerum corporalium, coniunctam 
+          <lb ed="#W" n="14"/>cum exactione legis. Nam &amp; per legem
+          exi<lb ed="#W" n="15" break="no"/>git iusticiam deus, &amp; mercedem illius
+          pollice<lb ed="#W" n="16" break="no"/>tur, Chananeam terram, opes &amp;c, ut ex 
+          <lb ed="#W" n="17"/>Deuteronomio adparet cap. xxxix. uos sta 
+          <lb ed="#W" n="18"/>tis hodie cuncti coram domino deo uestro, 
+          <lb ed="#W" n="19"/>principes uestri, &amp; tribus, ac maiores
+          na<lb ed="#W" n="20" break="no"/>tu, atque doctores, omnis populus Israel,  
+          <lb ed="#W" n="21"/>liberi &amp; uxores uestrae, &amp; aduenae qui tecum 
+          <lb ed="#W" n="22"/>morantur in castris, exceptis lixis, ut
+          tran<lb ed="#W" n="23" break="no"/>seas in foedere domini dei tui, &amp; in
+          iureiu<lb ed="#W" n="24" break="no"/>rando quod hodie dominus percutit tecum, 
+          <!--215.xml-->
+          <pb ed="#W" n="107-v"/>
+          <lb ed="#W" n="1"/>ut suscitet te sibi in populum, &amp; ipse sit
+          do<lb ed="#W" n="2" break="no"/>minus tuus, sicut locutus est tibi &amp;c. Contra 
+          <lb ed="#W" n="3"/>nouum testamentum, non aliud est, nisi bono 
+          <lb ed="#W" n="4"/>rum omnium promissio citra legem, nullo 
+          <lb ed="#W" n="5"/>iusticiarum nostrarum respectu. Veteri
+          testa<lb ed="#W" n="6" break="no"/>mento promittebantur bona, sed simul
+          exi<lb ed="#W" n="7" break="no"/>gebatur a populo legis impletio. Nouo,
+          pro<lb ed="#W" n="8" break="no"/>mittuntur bona citra conditionem, cum nihil 
+          <lb ed="#W" n="9"/>a nobis uicissim exigatur. Atque hic uides quae 
+          <lb ed="#W" n="10"/>sit amplitudo gratiae, quae sit misericordiae 
+          <lb ed="#W" n="11"/>diuinae prodigalitas. Preuiter quae sit Euan 
+          <lb ed="#W" n="12"/>gelii gloria, cum gratis, nullo nostrae iusticiae,  
+          <lb ed="#W" n="13"/>nostrorum operum respectu salutem donat. 
+          <lb ed="#W" n="14"/>An non exclamet de tanta profusione
+          gra<lb ed="#W" n="15" break="no"/>tiae pectus humanum? Quis credat fuic
+          au<lb ed="#W" n="16" break="no"/>ditui. Atque hoc discrimen ueteris ac noui
+          te<lb ed="#W" n="17" break="no"/>stamenti Hieremias cap. xxxi. indicat. Qd 
+          <lb ed="#W" n="18"/>ut cognosci certius possit, de abrogatione 
+          <lb ed="#W" n="19"/>legis disserendum est.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e243">
+          <lb ed="#W" n="20"/>Et cum legis tres partes sint, exequamur 
+          <lb ed="#W" n="21"/>quatenus singulae sint abrogatae. praesertim 
+          <lb ed="#W" n="22"/>cum non uideantur eodem antiquatae modo., 
+          <lb ed="#W" n="23"/>Et consensus scriptorum obtinuit
+          iudicia<lb ed="#W" n="24" break="no"/>lia &amp; cerimonialia exoleuisse. Moralia no¬ 
+          <!--216.xml-->
+          <pb ed="#W" n="108-r"/>
+          <lb ed="#W" n="1"/>uata esse. Nos de moralibs primum dicemus.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e264">
+          <lb ed="#W" n="2"/>Esse antiquata nouo testamento partem 
+          <lb ed="#W" n="3"/>legis, quam decalogum, seu praecepta mora 
+          <lb ed="#W" n="4"/>lia uocant. Primum hoc probat, quod ex 
+          <lb ed="#W" n="5"/>Hieremia relatum est in Epistolam ad
+          He<lb ed="#W" n="6" break="no"/>braeos, ubi caussatur propheta, ideo
+          abro<lb ed="#W" n="7" break="no"/>gandam esse legem diuinitus, que irritam fece 
+          <lb ed="#W" n="8"/>rit populus. Non autem in cerimonias tantum 
+          <lb ed="#W" n="9"/>peccauit Israel, sed in decalogum summam 
+          <lb ed="#W" n="10"/>potius legis partem, ut uocat Christus in 
+          <lb ed="#W" n="11"/>Euangelio. Item cum propheta nouum pactum 
+          <lb ed="#W" n="12"/>appellat Euangelium, antiquari sentit uetus,  
+          <lb ed="#W" n="13"/>ut auctor Epistolae ad Hebreos
+          argumenta<lb ed="#W" n="14" break="no"/>tur, dicens, nouum ueterauit prius. Ad
+          He<lb ed="#W" n="15" break="no"/>bre. viii. &amp; ad Timoth. i. Iusto non est lex 
+          <lb ed="#W" n="16"/>posita. Hoc genus multa sunt, &amp; in
+          Roma<lb ed="#W" n="17" break="no"/>nis &amp; in Calatis, libertatis testimonia. Quis 
+          <lb ed="#W" n="18"/>erum ignorat uulgatam ex Calatis sententians 
+          <lb ed="#W" n="19"/>Eiberi estis, ueruntamen ne detis libertatem 
+          <lb ed="#W" n="20"/>occasionem cami. Immo &amp; uilissima fuerit 
+          <lb ed="#W" n="21"/>libertas Christiana, &amp; plus quam seruitus, si 
+          <lb ed="#W" n="22"/>solas cerimonias tollat, partem legis omnium 
+          <lb ed="#W" n="23"/>facilime ferendam. Quis enim non pecus 
+          <lb ed="#W" n="24"/>mactet, minore negotio, quam irae, amori, 
+          <!--217.xml-->
+          <pb ed="#W" n="108-v"/>
+          <lb ed="#W" n="1"/>aut similibus cupiditatibus impetet.
+          Nece<lb ed="#W" n="2" break="no"/>sse est itaque fateri decalogum etiam antiqua 
+          <lb ed="#W" n="3"/>tum esse.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e327">
+          <lb ed="#W" n="4"/>Licebit igitur quiduis, necare insontes,  
+          <lb ed="#W" n="5"/>peierare &amp;c? Eadem quaestio apud Paulum est 
+          <lb ed="#W" n="6"/>Roma. vi. cum inquit. Siquidem non sumus 
+          <lb ed="#W" n="7"/>sub lege, peccabimus ergo? Est autem
+          liber<lb ed="#W" n="8" break="no"/>tas in eo, quod ius omne legi ereptum est ad 
+          <lb ed="#W" n="9"/>cusandi, ac damnandi nos. Maledicit lex 
+          <lb ed="#W" n="10"/>eos qui non uniuersam lege semel
+          absolue<lb ed="#W" n="11" break="no"/>rint. At uniuersa lex nonne summum amorem 
+          <lb ed="#W" n="12"/>erga deum, uehementissimum metum dei
+          exi<lb ed="#W" n="13" break="no"/>git? a quibus cum tota natura sit
+          alienissi<lb ed="#W" n="14" break="no"/>ma, ut maxime pulcherrimum pharisaismum 
+          <lb ed="#W" n="15"/>praestemus, maledictionis tamem rei sumus. 
+          <lb ed="#W" n="16"/>Eam maledictionem legis, id ius legis sustulit 
+          <lb ed="#W" n="17"/>Christus, ut quanquam peccauens, quanquam 
+          <lb ed="#W" n="18"/>iam nunc peccatum habeas, est em utendum 
+          <lb ed="#W" n="19"/>sermone scripturae, tamen saluus es. Vim 
+          <lb ed="#W" n="20"/>mortis, uim prccati, portas inferi Sanso no 
+          <lb ed="#W" n="21"/>ster effregit. Hoc illud est quod ad Calatas 
+          <lb ed="#W" n="22"/>Paulus scribit. Christus nos redemit de ma 
+          <lb ed="#W" n="23"/>ledicto legis, factus pro nobis maledictum. 
+          <!--218.xml-->
+          <pb ed="#W" n="109-r"/>
+          <lb ed="#W" n="1"/>Item, <quote xml:id="erf8hf-d1e1311-Qd1e379" source="http://scta.info/resource/gal4_4 http://scta.info/resource/gal4_5">Vbi uenit plenitudo temporis, misit 
+          <lb ed="#W" n="2"/>deus filium suum, factum ex muliere, factum 
+          <lb ed="#W" n="3"/>sub lege, ut eos, qui sub lege erant,
+          redime<lb ed="#W" n="4" break="no"/>ret</quote>. Et Roma. vi. Peccatum uobis non
+          do<lb ed="#W" n="5" break="no"/>minabitur. Non enim sub lege estis, sed sub 
+          <lb ed="#W" n="6"/>gratia. Atque haec securitas est, quam adeo
+          ple<lb ed="#W" n="7" break="no"/>no ore, nusquam non celebrant prophetae. 
+          <lb ed="#W" n="8"/>nulla non potentia legis superiores esse eos,  
+          <lb ed="#W" n="9"/>qui sunt in Christo, hoc est, tametsi pecca 
+          <lb ed="#W" n="10"/>ris, tametsi habeas peccatum, damnari non 
+          <lb ed="#W" n="11"/>posse. Iuxta illud, Absorpta est mors in
+          ui<lb ed="#W" n="12" break="no"/>ctoria, ubi est mors uictoria tuat? &amp;c. Haec 
+          <lb ed="#W" n="13"/>inculcari Christianis debebant cum semper 
+          <lb ed="#W" n="14"/>alias, tum maxime morituris, quibus haec 
+          <lb ed="#W" n="15"/>una anchora reliqua est, uere sacra, ut
+          pro<lb ed="#W" n="16" break="no"/>uerbio dici solet. Atque haec libertas est, quam 
+          <lb ed="#W" n="17"/>fere ubique Paulus praedicat. Cerimonias uix 
+          <lb ed="#W" n="18"/>uno atque altero loco attingit. Nec aliud est 
+          <lb ed="#W" n="19"/>nouum testamentum, nisi huius libertatis 
+          <lb ed="#W" n="20"/>promulgatio. ld quod adposite secundo 
+          <lb ed="#W" n="21"/>psalmo significauit propheta. Ego constitui 
+          <lb ed="#W" n="22"/>rege meum super Sion montem sanctum. Hic pa 
+          <lb ed="#W" n="23"/>rer inquit se rege designaturum monti Sion¬ 
+          <!--219.xml-->
+          <pb ed="#W" n="109-v"/>
+          <lb ed="#W" n="1"/>post quale regnum sit futurum aperit, nempe 
+          <lb ed="#W" n="2"/>ubi uerbo suo deus, non humanis uiribus 
+          <lb ed="#W" n="3"/>aut mundi potentia regnet. ldeo subicit. 
+          <lb ed="#W" n="4"/>Praedicabo mandatum. Dominus dixit ad 
+          <lb ed="#W" n="5"/>me, filius meus es tu. Quae haec noua praedi 
+          <lb ed="#W" n="6"/>catio erit? An non ante uerbum dei praedica 
+          <lb ed="#W" n="7"/>tum est in monte ion, nempe lex? Ea
+          ue<lb ed="#W" n="8" break="no"/>ro nunc noua praedicatione abrogatur, ubi 
+          <lb ed="#W" n="9"/>de filio Christ sermoo instituitur. Quod si 
+          <lb ed="#W" n="10"/>non aliud praedicatur, nisi filium esse Chri 
+          <lb ed="#W" n="11"/>stum, consequitur legis iusticiam, opera non 
+          <lb ed="#W" n="12"/>exigi, nec aliud praecipi, quam ut filium illum 
+          <lb ed="#W" n="13"/>exosculemur. ld quod paulo post apertius 
+          <lb ed="#W" n="14"/>dicit. Deati omnes qui fidunt eo, non
+          serua<lb ed="#W" n="15" break="no"/>bit uos iusticia uestra, non seruabit uos
+          sa<lb ed="#W" n="16" break="no"/>pientia uestra, sed hic filius seruabit, rex
+          ue<lb ed="#W" n="17" break="no"/>ster, propugnaculum uestrum &amp;c, Sunt hu 
+          <lb ed="#W" n="18"/>iusmodi multa in scripturis, quae hanc
+          no<lb ed="#W" n="19" break="no"/>bis libertatem commendent. Nam quid in 
+          <lb ed="#W" n="20"/>uniuersum aliud est Euangelium, nisi huius 
+          <lb ed="#W" n="21"/>libertatis praeconium. Postremo libertas est 
+          <lb ed="#W" n="22"/>Christianismus, quia, qui spiritum Christi 
+          <lb ed="#W" n="23"/>non habent, lege facere neutiquam possunt,  
+          <lb ed="#W" n="24"/>suntque maledictionum legis rei. Qui spiritu¬ 
+          <!--220.xml-->
+          <pb ed="#W" n="110-r"/>
+          <lb ed="#W" n="1"/>Christi innouati sunt, ii iam sua sponte,  
+          <lb ed="#W" n="2"/>etiam non praeeunte lege, feruntur ad ea quae 
+          <lb ed="#W" n="3"/>lex iubebat. Voluntas dei lex est. Nec aliud 
+          <lb ed="#W" n="4"/>spiritus sanctus est, nisi uiua dei uoluntas,  
+          <lb ed="#W" n="5"/>&amp; agitatio, quare ubi spiritu dei, qui uiua uo 
+          <lb ed="#W" n="6"/>luntas dei est, regenerati sumus, iam idipsum 
+          <lb ed="#W" n="7"/>uolumus sponte, quod exigebat lex. In hanc 
+          <lb ed="#W" n="8"/>sententiam dictum est a Paulo. Iusto non esse 
+          <lb ed="#W" n="9"/>legem positam. Et ad Roma. viii. Eex spiri 
+          <lb ed="#W" n="10"/>us uitae, id est, lex motio spiritus uiuifican 
+          <lb ed="#W" n="11"/>tis, liberauit me a lege peccati &amp; mortis. Et 
+          <lb ed="#W" n="12"/>libertatem Christianam Augustinus ad eum 
+          <lb ed="#W" n="13"/>modum copiose tractat, in libro de
+          spiritu<lb ed="#W" n="14" break="no"/>&amp; litera. Et Hiere. xxxi. Ecce dies uenient, di 
+          <lb ed="#W" n="15"/>cit dominus, &amp; feriam domui Israel, &amp; do 
+          <lb ed="#W" n="16"/>mui luda foedus nouum. Non secundum
+          pa<lb ed="#W" n="17" break="no"/>ctum, quod pepigi cum patribus uestris, in 
+          <lb ed="#W" n="18"/>die qua adprehendi manum eorum, ut
+          edu<lb ed="#W" n="19" break="no"/>cerem eos de terra Aegypti, pactum, quod 
+          <lb ed="#W" n="20"/>itritum fecerunt, &amp; succensui eis dicit domi 
+          <lb ed="#W" n="21"/>nus. Sed hoc erit pactum, quod feriam cum 
+          <lb ed="#W" n="22"/>domo lsrael. Post dies illos dicit dominus,  
+          <lb ed="#W" n="23"/>Dabo legem meam in uisceribus eorum, &amp;  
+          <lb ed="#W" n="24"/>in corde eorum scribam eam, &amp; ero eis  
+          <!--221.xml-->
+          <pb ed="#W" n="110-v"/>
+          <lb ed="#W" n="1"/>deum, &amp; ipsi erunt mihi in populum. Et 
+          <lb ed="#W" n="2"/>non docebit ultra uir proximum suum, &amp; uir 
+          <lb ed="#W" n="3"/>fratrem suum dicens, cognosce dominum. 
+          <lb ed="#W" n="4"/>Omnes em cognoscent me a minimo eor 
+          <lb ed="#W" n="5"/>usque ad maxiinum, ait dominus, Quia pro 
+          <lb ed="#W" n="6"/>piciabor iniquit ati eorum, &amp; peccati eorum 
+          <lb ed="#W" n="7"/>non recordabor amplius. Quo in loco
+          du<lb ed="#W" n="8" break="no"/>plex pactum commemorat propheta, uetus,  
+          <lb ed="#W" n="9"/>ac nouum, uetus, iustificationem per lege,  
+          <lb ed="#W" n="10"/>dicit irritum factum esse. Quis enim legem 
+          <lb ed="#W" n="11"/>exprimere potuit? propterea sublata
+          exa<lb ed="#W" n="12" break="no"/>ctione, iam legem cordibus inscribendam 
+          <lb ed="#W" n="13"/>esse, ut exprimi possit. Ergo libertas est, non 
+          <lb ed="#W" n="14"/>ne faciamus legem, sed sponte ab animo,  
+          <lb ed="#W" n="15"/>uelle ac cupere, quod lex poscit. ld quod an 
+          <lb ed="#W" n="16"/>tea nemo potuit. ldem Exech. xi. Auferam  
+          <lb ed="#W" n="17"/>cor lapideum de came eorum, &amp; dabo eis 
+          <lb ed="#W" n="18"/>cor cameum, ut in praeceptis meis
+          ambu<lb ed="#W" n="19" break="no"/>lent, &amp; iudicia mea custodiant, faciantque 
+          <lb ed="#W" n="20"/>ea &amp; sint mihi in populum.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e587">
+          <lb ed="#W" n="21"/>Habes quatenus a decalogo liberi simus 
+          <lb ed="#W" n="22"/>Primum, que tametsi peccatores, damnare non 
+          <lb ed="#W" n="23"/>possit, eos qui in Christo sunt. Deinde qua 
+          <lb ed="#W" n="24"/>qui sunt in Christo, spiritu trahuntur ad le 
+          <!--222.xml-->
+          <pb ed="#W" n="111-r"/>
+          <lb ed="#W" n="1"/>gem faciendam, &amp; spiritu faciunt, amant,  
+          <lb ed="#W" n="2"/>timent deum, proximi necessitatibus se ad 
+          <lb ed="#W" n="3"/>comodant, atque ea ipsa cupiunt, quae lex 
+          <lb ed="#W" n="4"/>praecipiebat, facturi, etiamsi nulla esset lex 
+          <lb ed="#W" n="5"/>lata. Nec aliud est eorum uoluntas, nempe 
+          <lb ed="#W" n="6"/>spiritus, quam uiua lex.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e616">
+          <lb ed="#W" n="7"/>Ad eum modum fuerunt liberi etiam
+          pa<lb ed="#W" n="8" break="no"/>tres ante Christi incamationem, quotquot 
+          <lb ed="#W" n="9"/>spiritum Christi habuere. ld quod uidit Pe 
+          <lb ed="#W" n="10"/>trus in Actis cap. xv. cum negat eos potuisse 
+          <lb ed="#W" n="11"/>legem facere. Neque nos, inquiens, neque
+          pa<lb ed="#W" n="12" break="no"/>tres nostri portare potuimus. Sed fide
+          iusti<lb ed="#W" n="13" break="no"/>ficati sunt. ld est, cum non possent prestare 
+          <lb ed="#W" n="14"/>legm patres, agnouerunt se quoque liberos 
+          <lb ed="#W" n="15"/>esse per Christum, suntque fide in Christum 
+          <lb ed="#W" n="16"/>iustificati, non operum, non iusticiatum suarum 
+          <lb ed="#W" n="17"/>meritis. Non enim eo loco i Actis de cerimoniis 
+          <lb ed="#W" n="18"/>tantum Petrs loqtur, sed de tota lege. Nam lex ce 
+          <lb ed="#W" n="19"/>remoniarum, ni paestes &amp; decalogum, prestari 
+          <lb ed="#W" n="20"/>neutiquam potest. Non enim fiunt ceremoniae coram 
+          <lb ed="#W" n="21"/>deo, nisi fideli spontaneo corde fiant. Et Petra 
+          <lb ed="#W" n="22"/>non hoc agebat, non posse externa opera cere 
+          <lb ed="#W" n="23"/>moniag fieri. Quid enim facilis e, quam paucu 
+          <lb ed="#W" n="24"/>lis adeo ceremoniis defungi. Nam si numeres 
+          <!--223.xml-->
+          <pb ed="#W" n="111-v"/>
+          <lb ed="#W" n="1"/>quanto plus rituum papisticorum hodie in 
+          <lb ed="#W" n="2"/>Ecclesia est, qua in Mose uideas. Et
+          Mosai<lb ed="#W" n="3" break="no"/>cas ceremonias in uniuersum pauculis
+          uer<lb ed="#W" n="4" break="no"/>sibus complecti queas, cum papisticis tam 
+          <lb ed="#W" n="5"/>magna decretorum &amp; decretalium uolumi 
+          <lb ed="#W" n="6"/>na non satis sint. . Quam dissimiles Romani 
+          <lb ed="#W" n="7"/>pontifices Petri sunt, quo praecessore
+          glo<lb ed="#W" n="8" break="no"/>riantur. Ille iure diuino traditas, easque
+          pau<lb ed="#W" n="9" break="no"/>culas ceremonias abrogauit. hi nullo non
+          se<lb ed="#W" n="10" break="no"/>culo nouas &amp; stultas commenti sunt. Non 
+          <lb ed="#W" n="11"/>igitur de ceremoniis tantum uideri potest 
+          <lb ed="#W" n="12"/>in Actis egisse Petrus, sed de tota lege.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e688">
+          <lb ed="#W" n="13"/>In Romanis de hac libertate latius dispu 
+          <lb ed="#W" n="14"/>tat Apostolus cap. vi. vii. &amp;. viii. docens no 
+          <lb ed="#W" n="15"/>uum tantum hominem liberum esse.
+          Pro<lb ed="#W" n="16" break="no"/>inde, quatenus spiritu nouati sumus,
+          eate<lb ed="#W" n="17" break="no"/>nus liberi sumus, quatenus caro &amp; uetustas 
+          <lb ed="#W" n="18"/>sumus, sub lege sumus. Quanquam credenti 
+          <lb ed="#W" n="19"/>bus, quod reliquum est uetustatis, propter
+          fi<lb ed="#W" n="20" break="no"/>dem condonetur. In summa, quatenus cre 
+          <lb ed="#W" n="21"/>dimus, liberi sumus, quatenus diffidimus 
+          <lb ed="#W" n="22"/>sub lege sumus. In Antilatomo copiose dis 
+          <lb ed="#W" n="23"/>putauit Eutherus de peccatis sanctorum, seu 
+          <lb ed="#W" n="24"/>de reliquiis uetustatis in regeneratis ut mihi 
+          <!--224.xml-->
+          <pb ed="#W" n="112-r"/>
+          <lb ed="#W" n="1"/>ea de te non sit necesse multis agere. Praeser 
+          <lb ed="#W" n="2"/>tim cum tam clare dicat Paulus se adhuc cap 
+          <lb ed="#W" n="3"/>tiuum esse peccati. Idem non uno loco
+          Au<lb ed="#W" n="4" break="no"/>gustinus, &amp; Cyprianus. Nam iustificari hic 
+          <lb ed="#W" n="5"/>cepimus, nondum absoluimus iustificatio  
+          <lb ed="#W" n="6"/>nem. Sic Paulus subinde iubet reformari 
+          <lb ed="#W" n="7"/>nos nouitate sensus nostri. Et ad Philippen 
+          <lb ed="#W" n="8"/>ses ait se nondum accepisse, nondum
+          perfe<lb ed="#W" n="9" break="no"/>ctum esse, sed sequi ut comprehendat. Ergo 
+          <lb ed="#W" n="10"/>cum de legis abrogatione disputatur, hoc 
+          <lb ed="#W" n="11"/>potius agendum erat, quatenus decalogum 
+          <lb ed="#W" n="12"/>antiquarit Euangelium, quam, ut ceremoniae, 
+          <lb ed="#W" n="13"/>ut iudicialia sublata sint. Nam ex decalogi 
+          <lb ed="#W" n="14"/>abrogatione, gratiae amplitudo uel
+          proxi<lb ed="#W" n="15" break="no"/>me cognosci potest, cum citra legis exactio 
+          <lb ed="#W" n="16"/>nem, nullo respectu operum nostrorum
+          sal<lb ed="#W" n="17" break="no"/>uari credentes arguit. Ergo abrogata lex est 
+          <lb ed="#W" n="18"/>non, ut ne fat, sed ut et non facta, non
+          dam<lb ed="#W" n="19" break="no"/>net, &amp; fieri possit. De iudicialibus ac
+          cere<lb ed="#W" n="20" break="no"/>moniis, utinam exactius disseruissent, qui  
+          <lb ed="#W" n="21"/>libertatem ad ea sola retulerunt. Et in his ac 
+          <lb ed="#W" n="22"/>curate obseruandum est, id quod Paulus ait,  
+          <lb ed="#W" n="23"/>Circumcisionem nihil esse. Et in Galatis, In 
+          <lb ed="#W" n="24"/>Christo Iesu neque circumcisionem, neque pre 
+          <!--225.xml-->
+          <pb ed="#W" n="112-v"/>
+          <lb ed="#W" n="1"/>preputium sed nouam creaturam ualerte. Item 
+          <lb ed="#W" n="2"/>illud, quod ad Corinthios scribit,
+          Domi<lb ed="#W" n="3" break="no"/>ni est terra, &amp; plenitudo eius. Quae
+          liberta<lb ed="#W" n="4" break="no"/>tem Christianam hanc esse probant, ut uel 
+          <lb ed="#W" n="5"/>uti huiusmodi rebus extenis, uel non uti 
+          <lb ed="#W" n="6"/>possis. Sic alium Paulus circumcidit, alium 
+          <lb ed="#W" n="7"/>non circumcidit. Alias attemperauit se iis,  
+          <lb ed="#W" n="8"/>qui ritus ludaicos obseruabant, alias
+          refra<lb ed="#W" n="9" break="no"/>gabatur. Eadem nobis libertas esto. Non pec 
+          <lb ed="#W" n="10"/>cant, neque qui ciicumciduntur, neque qui
+          in<lb ed="#W" n="11" break="no"/>termittunt circumcisionem. Durius igitur est 
+          <lb ed="#W" n="12"/>quod Hieronymus confinxit, de antiquatis 
+          <lb ed="#W" n="13"/>ceremoniis. Atqui hunc hodie fere sequuntur. 
+          <lb ed="#W" n="14"/>Sed hi peccant, qui necessariam putant esse 
+          <lb ed="#W" n="15"/>circumcisionem, qui in hoc
+          circumcidun<lb ed="#W" n="16" break="no"/>tur, ut iustificentur, ut bonum opus faciant.  
+          <lb ed="#W" n="17"/>Rursum peccant, &amp; qui intermitrunt
+          cir<lb ed="#W" n="18" break="no"/>cumcisionem in hoc ut iustificentur. Tam 
+          <lb ed="#W" n="19"/>errat Hierony, uetans circumcisionem, quam 
+          <lb ed="#W" n="20"/>ertabant ludaei, sicubi requirebant circumci 
+          <lb ed="#W" n="21"/>sionem. Tam errauerit, si quis praecipiat, suillam 
+          <lb ed="#W" n="22"/>camem edere, quam errauerit, si quis uetet. Atque 
+          <lb ed="#W" n="23"/>haec Paulo ratio fuit. Circuncidere Titum
+          no<lb ed="#W" n="24" break="no"/>luit, cum uideret exigi a ludaeis circuncisionem, 
+          <!--226.xml-->
+          <pb ed="#W" n="113-r"/>
+          <lb ed="#W" n="1"/>adeoque obscurati doctrinam fidei, cum
+          cir<lb ed="#W" n="2" break="no"/>cumcisioni, non fidei iustificatiouem
+          tri<lb ed="#W" n="3" break="no"/>buerent. Idem seruandum est in moralibus 
+          <lb ed="#W" n="4"/>operibus, ut sicut non in hoc edis, aut
+          bi<lb ed="#W" n="5" break="no"/>bis, ut iustificeris, ita nec in hoc largiare elee 
+          <lb ed="#W" n="6"/>mosynen, ut iustificeris. Sed ut in hoc edis 
+          <lb ed="#W" n="7"/>ac bibis, ut necessitati corporis seruias. Ita 
+          <lb ed="#W" n="8"/>in hoc largiare eleemosynen, diligas fratrem 
+          <lb ed="#W" n="9"/>&amp;c, ut communi necessitati seruias, in hoc 
+          <lb ed="#W" n="10"/>libidinem coherceas, ut corpus sit obnoxium 
+          <lb ed="#W" n="11"/>spiritui &amp;c. Quam non iustificant edere,  
+          <lb ed="#W" n="12"/>bibere, dormire, stare, sedere, tam non iusti 
+          <lb ed="#W" n="13"/>ficant non modo circumcisio, sed &amp; mora 
+          <lb ed="#W" n="14"/>lia illa. castitas, seruire fratrum necessitatibs 
+          <lb ed="#W" n="15"/>&amp; similia. Sola enim fides iustificat, iuxta illud 
+          <lb ed="#W" n="16"/>lustus ex fide uiuet. Porro haec in moralibs 
+          <lb ed="#W" n="17"/>libertas, quam est necessaria cognitu, tam obscu 
+          <lb ed="#W" n="18"/>ra est, nec nisi a spiritualibus intelligi potest.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e873">
+          <lb ed="#W" n="19"/>Valeat igitur quod diximus, non esse iu 
+          <lb ed="#W" n="20"/>dicialia aut ceremonias ita sublatas, ut
+          pec<lb ed="#W" n="21" break="no"/>cet, si quis ex illis quidpiam usurpet. Sed 
+          <lb ed="#W" n="22"/>quia Christianismus libertas quaedam est,  
+          <lb ed="#W" n="23"/>uti illis, uel non uti penes nos est, non
+          ali<lb ed="#W" n="24" break="no"/>ter atque edere aut bibere penes nos est.  
+          <!--227.xml-->
+          <pb ed="#W" n="113-v"/>
+          <lb ed="#W" n="1"/>Caeterum optarim etiam uti Christianos. 
+          <lb ed="#W" n="2"/>ea forma iudiciorum quam Moses prodidit. 
+          <lb ed="#W" n="3"/>Item plerisque ceremoniis. Praestaret enim quan 
+          <lb ed="#W" n="4"/>doquidem iudiciis carere necessitas huius
+          ui<lb ed="#W" n="5" break="no"/>tae non potest, nec, ut opinor, ceremoniis. 
+          <lb ed="#W" n="6"/>uti Mosaicis illis, quam tum gentilibus
+          legi<lb ed="#W" n="7" break="no"/>bus, tum papisticis ceremoniis.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e909">
+          <lb ed="#W" n="8"/>Et ut propius ad rem accedamus una ea 
+          <lb ed="#W" n="9"/>demque caussa est, cur uniuersa lex abrogata 
+          <lb ed="#W" n="10"/>sit, non ceremoniae tantum &amp; iudiciorum 
+          <lb ed="#W" n="11"/>formae, sed &amp; decalogus, que prestari non po 
+          <lb ed="#W" n="12"/>tuetit. Hanc abrogandae legis caussam pro 
+          <lb ed="#W" n="13"/>didit &amp; Petrus in Actis, &amp; Hietemias cum 
+          <lb ed="#W" n="14"/>ideo nouum pactum iniri docet, que uetus illud 
+          <lb ed="#W" n="15"/>irritum fecerimus. Atque eo loco nullam
+          le<lb ed="#W" n="16" break="no"/>gis partem excipit, ut satis appareat eum de 
+          <lb ed="#W" n="17"/>tota lege loqui. Est autem in iis antiquata 
+          <lb ed="#W" n="18"/>tantum, qui pacto posteriori, hoc est, Euam 
+          <lb ed="#W" n="19"/>gelio crediderunt, adeoque in quibus
+          spiri<lb ed="#W" n="20" break="no"/>tus Christi est. hi prorsus ab omni lege libe 
+          <lb ed="#W" n="21"/>ri sunt.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e942">
+          <lb ed="#W" n="22"/>Quod autem decalogum faciunt sancti, hoc 
+          <lb ed="#W" n="23"/>in caussa est, &amp; qued decalogus praeter cordis 
+          <lb ed="#W" n="24"/>iusticiam non exigit certa locorum, tem¬ 
+          <!--228.xml-->
+          <pb ed="#W" n="114-r"/>
+          <lb ed="#W" n="1"/>porum, rerum, personarum discrimina &amp; 
+          <lb ed="#W" n="2"/>piritus ipsa cordis iustificatio sit. Non
+          po<lb ed="#W" n="3" break="no"/>test non praestari decalogus abrogata
+          lege<lb ed="#W" n="4" break="no"/>ut sub exortum solis nequit fieri, quin
+          illu<lb ed="#W" n="5" break="no"/>cescat, ita non potest non praestari
+          deca<lb ed="#W" n="6" break="no"/>logus effuso in corda sanctorum spiritu.
+          Cae<lb ed="#W" n="7" break="no"/>terum spiritualis sic liber est, ut nisi adferret 
+          <lb ed="#W" n="8"/>ipse secum spiritus pro sua natura decalogi 
+          <lb ed="#W" n="9"/>impletionem, ne deberemus quidem. Nunc 
+          <lb ed="#W" n="10"/>cum adfert spiritus eiusmodi uoluntatem,  
+          <lb ed="#W" n="11"/>quae sit ipsa decalogi impletio, fit lex, non 
+          <lb ed="#W" n="12"/>quod exigatur, sed quia ne potest quidem a spi 
+          <lb ed="#W" n="13"/>rituali diuersum fieri.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e984">
+          <lb ed="#W" n="14"/>Iudicialia &amp; ceremoniae praeter cordis iu 
+          <lb ed="#W" n="15"/>sticiam extemae obseruationes sunt, rebus,  
+          <lb ed="#W" n="16"/>personis, locis, temporibus circumscriptae. 
+          <lb ed="#W" n="17"/>Quas obseruationes quia non necessario se 
+          <lb ed="#W" n="18"/>cum spiritus adfert, ideo non est cur a
+          no<lb ed="#W" n="19" break="no"/>bis fiant. Esse non potest in humano corde 
+          <lb ed="#W" n="20"/>spiritus dei, quin exprimat decalogum. Fit 
+          <lb ed="#W" n="21"/>igitur necessario decalogus. Esse potest
+          spi<lb ed="#W" n="22" break="no"/>ritus in humano corde, etiam sine externis
+          il<lb ed="#W" n="23" break="no"/>lis obseruationibus. Non igitur fiunt necessa 
+          <lb ed="#W" n="24"/>rio iudicialia &amp; ceremoniae. Hinc adparet, 
+          <!--229.xml-->
+          <pb ed="#W" n="114-v"/>
+          <lb ed="#W" n="1"/>cur decalogus fere negatiuas leges contineat,  
+          <lb ed="#W" n="2"/>ut significetur nullum certum opus,
+          circum<lb ed="#W" n="3" break="no"/>scriptum personis, locis, temporibus, sed po 
+          <lb ed="#W" n="4"/>tius codis iusticiam exigi. Reliquae leges res 
+          <lb ed="#W" n="5"/>externas distribuunt ac dispensant. Sed hanc 
+          <lb ed="#W" n="6"/>libertatis rationem relinquo meditandam  
+          <lb ed="#W" n="7"/>sublimioribus spiritibus. Ego contentus sum 
+          <lb ed="#W" n="8"/>monuisse decalogum antiquatum esse, non ut 
+          <lb ed="#W" n="9"/>ne fiat, sed ut ne damnet, si quid
+          deliqui<lb ed="#W" n="10" break="no"/>mus, deinde ut &amp; exprimi possit. Adeoque li 
+          <lb ed="#W" n="11"/>bertas haec conscientiae est, fide sencientis con 
+          <lb ed="#W" n="12"/>donari peccatum.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e1041">
+          <lb ed="#W" n="13"/>Ceremonias esse abrogatas fere ideo
+          iu<lb ed="#W" n="14" break="no"/>dicant, que umbrae Euangelii fuerint, quibs 
+          <lb ed="#W" n="15"/>cum corpus, hoc est, ipsum Euangelium nunc 
+          <lb ed="#W" n="16"/>extet, nihil ops sit. Quam caussam haud scio 
+          <lb ed="#W" n="17"/>an usquam secutus sit Paulus. In Coloss, inqt,  
+          <lb ed="#W" n="18"/>Nemo uos iudicet in cibo aut potu, aut in 
+          <lb ed="#W" n="19"/>parte diei festi, aut Neomeniae, aut sabbato 
+          <lb ed="#W" n="20"/>rum, quae sunt umbrae futurorum. corpus autem 
+          <lb ed="#W" n="21"/>Christi. Quo in loco typi rationem caussatus 
+          <lb ed="#W" n="22"/>uideri fortasse potest. Certe in Calatis ideo 
+          <lb ed="#W" n="23"/>ceremonias reicit, que non iustificent. Idem  
+          <lb ed="#W" n="24"/>in Hebreis agitur per totam Epistolam, non ce 
+          <!--230.xml-->
+          <pb ed="#W" n="115-r"/>
+          <lb ed="#W" n="1"/>remonias modo, sed totam legem ideo
+          anti<lb ed="#W" n="2" break="no"/>quari, que iustificare non potuerit, seu ut
+          su<lb ed="#W" n="3" break="no"/>pra diximus, que exprimi non potuetit. Sic enim 
+          <lb ed="#W" n="4"/>cap. vii. scribitur. Reprobatio quidem
+          praece<lb ed="#W" n="5" break="no"/>dentis mandati propter infirmitatem eius &amp; 
+          <lb ed="#W" n="6"/>inutilitatem. Et ubi de sacerdote late
+          disse<lb ed="#W" n="7" break="no"/>tuit, hoc constituit. ldeo sacerdotium
+          Reuiti<lb ed="#W" n="8" break="no"/>cum antiquari, que remissionem peccati non im 
+          <lb ed="#W" n="9"/>pertatit. Impetret autem noster pontifex 
+          <lb ed="#W" n="10"/>Christus. Vides unam hanc abrogatae legis 
+          <lb ed="#W" n="11"/>caussam in scripturis premi, ac urgeri, lege 
+          <lb ed="#W" n="12"/>ideo antiquari, que non iustificarit, seuque expri 
+          <lb ed="#W" n="13"/>mi non potuetit. Scholae ceremonias tollunt 
+          <lb ed="#W" n="14"/>solas, que Euangelii typi fuernt. Decalogus 
+          <lb ed="#W" n="15"/>manetque αγίδαα non uideatur. Sed quid 
+          <lb ed="#W" n="16"/>hoc ad gratiae commendationem? Scriptura 
+          <lb ed="#W" n="17"/>sic de abrogatione legis disserit, ut ubique no 
+          <lb ed="#W" n="18"/>bis in ea gratiae amplitudinem commendet. Sic  
+          <lb ed="#W" n="19"/>ceremonias tollit ut uniuersam lege
+          adpa<lb ed="#W" n="20" break="no"/>reat sublatam. Sic ceremonias reicit, ut adpa 
+          <lb ed="#W" n="21"/>reat ppter decalogum abrogandum, abrogari 
+          <lb ed="#W" n="22"/>ceremonias. Quae commendatio gratiae &amp; so 
+          <lb ed="#W" n="23"/>Iam &amp; suma est. Sic ergo ceremoniae sublatae 
+          <lb ed="#W" n="24"/>sut, non ne fiant, sedque nullo conscientiae periclo 
+          <!--231.xml-->
+          <pb ed="#W" n="115-v"/>
+          <lb ed="#W" n="1"/>aut fieri aut omitti possint, que non damnent 
+          <lb ed="#W" n="2"/>intermissae, nec iustificent si feceris. Haec satis 
+          <lb ed="#W" n="3"/>sit indicasse, quorum rationem ex Calatarum 
+          <lb ed="#W" n="4"/>Epistola, &amp; ex Hebraeis petas. Augustinus 
+          <lb ed="#W" n="5"/>alicubi caussam abrogatae legis inquirens,  
+          <lb ed="#W" n="6"/>nihil praeter figuras caussatur, Scriptura ideo 
+          <lb ed="#W" n="7"/>legem abrogat, que non iustificet. Quid igitur 
+          <lb ed="#W" n="8"/>erat cur ferretur lexx ut ostenderet peccatum, 
+          <lb ed="#W" n="9"/>seu ut peccati coargueret, &amp; palam fieret opus 
+          <lb ed="#W" n="10"/>esse nobis misericordia dei.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e1152">
+          <lb ed="#W" n="11"/>De formis iudiciog sic sentio. Eas quoque 
+          <lb ed="#W" n="12"/>antiquatas esse, que externae obseruationes 
+          <lb ed="#W" n="13"/>sint, non aliter atque ceremoniae quibus liber 
+          <lb ed="#W" n="14"/>spiritus uel uti, uel non uti possit.
+          Conten<lb ed="#W" n="15" break="no"/>dere iudicio Christianis non licet, sed ea non 
+          <lb ed="#W" n="16"/>est abrogandae legis caussa. Nam ut peccent 
+          <lb ed="#W" n="17"/>qui litigant, necesse est tamen leges &amp;
+          iudi<lb ed="#W" n="18" break="no"/>cia esse, quibus coherceantur flagitiosi. Nec 
+          <lb ed="#W" n="19"/>peccant qui iudicia exercent, seu ius dicunt. 
+          <lb ed="#W" n="20"/>Nec in hoc lata Mosi lex est, ut litigandi 
+          <lb ed="#W" n="21"/>materia ciuibus esset, sed ut iudicandi
+          for<lb ed="#W" n="22" break="no"/>mula magistratui esset. Non in hoc igitur 
+          <lb ed="#W" n="23"/>disputandum est, Mosaica ne, an quauis 
+          <lb ed="#W" n="24"/>lege uti possit qui litigate uelit. Non enim 
+          <!--232.xml-->
+          <pb ed="#W" n="116-r"/>
+          <lb ed="#W" n="1"/>Christianus est, qui litigat. Sed Mosaica ne 
+          <lb ed="#W" n="2"/>lege sola uti debeat iudex Christianus? Hic 
+          <lb ed="#W" n="3"/>respondeo, penes iudicem esse, uti uel non 
+          <lb ed="#W" n="4"/>uti Mosi lege. Est enim rerum externarum 
+          <lb ed="#W" n="5"/>dispositio quaedam, quae ad Christianismum 
+          <lb ed="#W" n="6"/>nihil pertinet non aliter, atque edere ac
+          bibe<lb ed="#W" n="7" break="no"/>re. Paulus tantum sapientem uirum, &amp; in quo 
+          <lb ed="#W" n="8"/>sit Christi spiritus iudicem postulat. i.
+          Co<lb ed="#W" n="9" break="no"/>rinth. vi. An nescitis que sancti de hoc
+          mun<lb ed="#W" n="10" break="no"/>do iudicabunt. Item, Adeo non est inter uos 
+          <lb ed="#W" n="11"/>sapiens quisquam qui possit iudicare &amp;c. Qui  
+          <lb ed="#W" n="12"/>bus locis adparet, eum non legem aliquam 
+          <lb ed="#W" n="13"/>certam, sed spiritualis uiri iudicium
+          requi<lb ed="#W" n="14" break="no"/>rere. Alias etiam gladium gentium probat,  
+          <lb ed="#W" n="15"/>de quo postea dicemus, uocatque dei ordina 
+          <lb ed="#W" n="16"/>tionem. Porro gladii potissima pars leges 
+          <lb ed="#W" n="17"/>sunt. Atque ita usi sunt gentium gladio, &amp; gen 
+          <lb ed="#W" n="18"/>tium legibus Naaman Syrus. Nabugdono 
+          <lb ed="#W" n="19"/>sor, &amp; si qui alii ex gentibus pii principes fue 
+          <lb ed="#W" n="20"/>runt. Et haud scio an gesserint etiam Daniel,  
+          <lb ed="#W" n="21"/>&amp; alii lsraelitae inter Assyrios. Certe gentium 
+          <lb ed="#W" n="22"/>gladium gessit Romanum praesidium ludaeae 
+          <lb ed="#W" n="23"/>impositum. Et probauit lohannes Eucae. iii. 
+          <lb ed="#W" n="24"/>Neminem concutiatis, neque calumniam fa¬ 
+          <!--233.xml-->
+          <pb ed="#W" n="116-v"/>
+          <lb ed="#W" n="1"/>ciatis, &amp; contenti estote stipendiis uestris.
+          Ta<lb ed="#W" n="2" break="no"/>lis &amp; Cornelius fuit Actorum. x. talis fuit &amp; 
+          <lb ed="#W" n="3"/>Procos, Sergius Actorum. xiii. Haec ideo recen 
+          <lb ed="#W" n="4"/>sui, ut intelligatur, ad iusticiam spiritus, nihil 
+          <lb ed="#W" n="5"/>pertinere ciuilem illam &amp; externam rerum dispen 
+          <lb ed="#W" n="6"/>sationem, non aliter atque agrum fodere, aut 
+          <lb ed="#W" n="7"/>aedificare, aut suere calceos nihil referunt
+          iu<lb ed="#W" n="8" break="no"/>sticiae spiritus, esseque penes Christianos uti,  
+          <lb ed="#W" n="9"/>uel non uti formis iudicandi Mosaicis. Quam 
+          <lb ed="#W" n="10"/>quam optarim pro gentilibus &amp; saepe stultis 
+          <lb ed="#W" n="11"/>legibus Mosaicas recipi. Sumus enim oleae illi 
+          <lb ed="#W" n="12"/>inserti. Et uerbum dei decebat praeferre huma 
+          <lb ed="#W" n="13"/>nis constitutionibus. Nec hodie alius fere
+          Ro<lb ed="#W" n="14" break="no"/>mani illius iuris usus est, quam in litigando,  
+          <lb ed="#W" n="15"/>ut habeant unde se alant rabulae forenses.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e1278">
+          <lb ed="#W" n="16"/>Quatenus sit antiquata lex opinor, ex 
+          <lb ed="#W" n="17"/>his cognosci posse, aliqu ex parte, quae
+          dixi<lb ed="#W" n="18" break="no"/>mus. Certius enim usu scripturae docebit
+          spiri<lb ed="#W" n="19" break="no"/>tus. Neque potest nisi a spiritualibus intelligi 
+          <lb ed="#W" n="20"/>haec libertas.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e1292">
+          <lb ed="#W" n="21"/>Dices autem si liberi sunt qui spiritum
+          Chri<lb ed="#W" n="22" break="no"/>sti habent, igitur &amp; Dauid &amp; Moses liberi 
+          <lb ed="#W" n="23"/>erant? maxime. Nam hoc est quod ait Petrs, 
+          <lb ed="#W" n="24"/>Neque nos, neque patres nostri portare potui¬ 
+          <!--234.xml-->
+          <pb ed="#W" n="117-r"/>
+          <lb ed="#W" n="1"/>mus, sed per gratiam domini nostri lesu Chri 
+          <lb ed="#W" n="2"/>sti credimus saluari, quemadmodum &amp; illi. 
+          <lb ed="#W" n="3"/>Hoc est, agnorunt patres omnia sua opera 
+          <lb ed="#W" n="4"/>peccata esse. agnorunt se non mereri salutem  
+          <lb ed="#W" n="5"/>operibus suis ullis, sed misericordia dei ege 
+          <lb ed="#W" n="6"/>re. Itaque crediderunt, suntque misericordiae
+          fi<lb ed="#W" n="7" break="no"/>ducia seruati, &amp; concepto spiritu dei,
+          sense<lb ed="#W" n="8" break="no"/>runt se liberos esse a legis maledictione, adeo 
+          <lb ed="#W" n="9"/>quod ab omni onere uel exactione legis. Sed que 
+          <lb ed="#W" n="10"/>ceremonias non omittebant, in caussa est, que 
+          <lb ed="#W" n="11"/>nondum libertas reuelata erat, nondum
+          Euan<lb ed="#W" n="12" break="no"/>gelium libertatis, euulgatum erat. Quare legem 
+          <lb ed="#W" n="13"/>tulere nihil grauatim, cum se fide iustificari 
+          <lb ed="#W" n="14"/>sentitent. Vides etiam nonnunquam libertatis 
+          <lb ed="#W" n="15"/>priuilegio recte usos esse, ut. i. Regu. xxi. Da 
+          <lb ed="#W" n="16"/>uid panes propositiois edit, quos edere fas 
+          <lb ed="#W" n="17"/>non erat, nisi sacerdoti. Et Dauid egregie 
+          <lb ed="#W" n="18"/>de libertate praefatus inquit, Viam quidem 
+          <lb ed="#W" n="19"/>pollutam esse, sed sanctificari in uasis, hoc 
+          <lb ed="#W" n="20"/>est, mundos esse se, que fideles essent, &amp;
+          san<lb ed="#W" n="21" break="no"/>ctificari omnia, uictum, operas &amp;c, fide san 
+          <lb ed="#W" n="22"/>ctorum. Non aliter atque Paulus ait, omnia 
+          <lb ed="#W" n="23"/>munda mundis esse, coinquinatis nihil 
+          <lb ed="#W" n="24"/>mundum.
+        </p>
+        <p xml:id="erf8hf-d1e1311-d1e1360">
+          <!--235.xml-->
+          <pb ed="#W" n="117-v"/>
+          <lb ed="#W" n="1"/>Summa, Liberi sumus per fidem ab uni 
+          <lb ed="#W" n="2"/>uersa lege, sed eadem fides, ille ipse spiritus 
+          <lb ed="#W" n="3"/>Christi, quam concepimus, teliquias peccati 
+          <lb ed="#W" n="4"/>in carne mortificat. Non que exigat lex, sed 
+          <lb ed="#W" n="5"/>quod illa ipsa sit spiritus natura, ut non possit 
+          <lb ed="#W" n="6"/>non mortificare canem. Hoc est quod ait 
+          <lb ed="#W" n="7"/>Paulus. Nihil nunc damnationis est his qui  
+          <lb ed="#W" n="8"/>sunt in Christo lesu, id est, qui credunt, quia 
+          <lb ed="#W" n="9"/>iam a legis maledicto redempti sunt, salui 
+          <lb ed="#W" n="10"/>sunt, Sed illi iidem non secundum camem  
+          <lb ed="#W" n="11"/>ambulant, hoc est, quia in eis regnat
+          spi<lb ed="#W" n="12" break="no"/>ritus, ideo camis reliquiae crucifiguntur. Et 
+          <lb ed="#W" n="13"/>leges praescribuntur fidelibus per quas spiri 
+          <lb ed="#W" n="14"/>tus mortificet canem. Nondum enim con 
+          <lb ed="#W" n="15"/>sumata in nobis libertas est, sed uindicatur 
+          <lb ed="#W" n="16"/>dum &amp; augescit spiritus, &amp; necatur caro. 
+          <lb ed="#W" n="17"/>Estque decalogi usus in mortificanda caime. 
+          <lb ed="#W" n="18"/>Ceremonialium legum aut ludicialium non item. 
+          <lb ed="#W" n="19"/>lta fit, ut decalogo opus sit fidelibus, reliqus 
+          <lb ed="#W" n="20"/>legibus non item. Sed ceremonias, &amp; externas 
+          <lb ed="#W" n="21"/>obseruationes pro arbitrio concipit spiritus.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

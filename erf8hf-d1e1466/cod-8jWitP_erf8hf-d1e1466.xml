@@ -1,169 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>De privatis confessionibus</title>
-            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>De privatis confessionibus</title>
-               <date when="2020-12-04">December 04, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-12-04" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#W" n="132-r"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="erf8hf-d1e1466">
-            <head xml:id="erf8hf-d1e1466-Hd1e105">De privatis confessionibus</head>
-            <head xml:id="erf8hf-d1e1466-Hd1e108" type="question-title">De privatis confessionibus</head>
-            <p xml:id="erf8hf-d1e1466-d1e111">
-      <!--264.xml-->
-               <pb ed="#W" n="132-r"/>
-               <lb ed="#W" n="1"/>DE PRIVATIS CONFESSIONIBVS 
-      <lb ed="#W" n="2"/>⁋ Praeter publicam poenitentiam, priuatae 
-      <lb ed="#W" n="3"/>confessiones sunt, Primum illae, cum priuatim 
-      <lb ed="#W" n="4"/>reconciliamus eos quos offendimus. De quo 
-      <lb ed="#W" n="5"/>genere dictum est Matth. v. Si offers munus 
-      <lb ed="#W" n="6"/>tuum ad altare, &amp; ibi recordatus fueris, quia 
-      <lb ed="#W" n="7"/>frater tuus habet aliquid aduersum te &amp;c. 
-      <lb ed="#W" n="8"/>uade reconciliare fratri tuo. Et Iacobi ult.  
-      <lb ed="#W" n="9"/>Confitemini alter alteri peccata, id est, alter 
-      <lb ed="#W" n="10"/>alterum deprecetur offensam &amp;c¬ 
-      <lb ed="#W" n="11"/>Deinde sunt ecclesiasticae illae, quarum fere 
-      <lb ed="#W" n="12"/>usus hodie est. Eas quondam tales fuisse adpa 
-      <lb ed="#W" n="13"/>ret, ut quorum conscientiae angebantur aliqua 
-      <lb ed="#W" n="14"/>de re, sanctos &amp; peritos rerum spiritualium con 
-      <lb ed="#W" n="15"/>sulerent, &amp; ab illis absoluerentur. Huius men 
-      <lb ed="#W" n="16"/>tio facta est a Dasilio, si titulus non fallit,  
-      <lb ed="#W" n="17"/>in opere de institutis monachorum, quod 
-      <lb ed="#W" n="18"/>a Rufino latinitate donatum putant. Et tot 
-      <lb ed="#W" n="19"/>quidem genera confessionum mihi com¬ 
-      <lb ed="#W" n="20"/>perta sunt, quae cum alia sint iure diuino 
-      <lb ed="#W" n="21"/>tradita, alia hominum inuenta, prudenter 
-      <lb ed="#W" n="22"/>discernenda sunt.
-    </p>
-            <p xml:id="erf8hf-d1e1466-d1e166">
-               <lb ed="#W" n="23"/>Exigi iure diuino confessionem eam quae 
-      <lb ed="#W" n="24"/>deo fit satit constat, uel ex illa. i. Ioham. I, sen¬ 
-      <!--265.xml-->
-      <pb ed="#W" n="132-v"/>
-               <lb ed="#W" n="1"/>tentia, quam supra citauimus. Nec eum remit¬ 
-      <lb ed="#W" n="2"/>titur peccatum, nisi confiteamur deo, hoc 
-      <lb ed="#W" n="3"/>est &amp; damnemus nosipsos, &amp; fidamus mi¬ 
-      <lb ed="#W" n="4"/>sericondia dei condonari noxam. 
-    </p>
-            <p xml:id="erf8hf-d1e1466-d1e186">
-               <lb ed="#W" n="5"/>De confessione publica, publicorum crimi 
-      <lb ed="#W" n="6"/>num coram ecclesia ubi testibus res geritur, 
-      <lb ed="#W" n="7"/>quid attinet disputare? Fateri res ipsa cogit 
-      <lb ed="#W" n="8"/>non ius tantum diuinum, si adcuseris, cogit 
-      <lb ed="#W" n="9"/>item ius diuinum ut fratrem places.
-    </p>
-            <p xml:id="erf8hf-d1e1466-d1e200">
-               <lb ed="#W" n="10"/>⁋ Reliquae confessiones sunt hominum tra¬ 
-      <lb ed="#W" n="11"/>ditiones. Nam si te ultro ecclesiae offeras, &amp; 
-      <lb ed="#W" n="12"/>absolui uelis, siue clam, siue publice deli¬ 
-      <lb ed="#W" n="13"/>queris, non exigit ius diuinum recensionem 
-      <lb ed="#W" n="14"/>factorum. Sic Christus absoluit plerosque, sic 
-      <lb ed="#W" n="15"/>Apostoli in Actis absoluunt aliquot milia, 
-      <lb ed="#W" n="16"/>nihil postulantes recenseri catalogum pec¬ 
-      <lb ed="#W" n="17"/>catorum. Haec dicuntur in hoc ut imbecilli¬ 
-      <lb ed="#W" n="18"/>bus eorum conscienciis consulatur, qui si 
-      <lb ed="#W" n="19"/>quid in recensenda confessione praeterierint,  
-      <lb ed="#W" n="20"/>tantum non desperant.
-    </p>
-            <p xml:id="erf8hf-d1e1466-d1e226">
-               <lb ed="#W" n="21"/>Absolutio priuata sic necessaria est, ut 
-      <lb ed="#W" n="22"/>baptismus. Tametsi enim audias Euange¬ 
-      <!--266.xml-->
-      <pb ed="#W" n="133-r"/>
-               <lb ed="#W" n="1"/>lium communiter uniuersae Ecclesiae praedi¬ 
-      <lb ed="#W" n="2"/>cari, tamem tum demum certus es id ad te pro 
-      <lb ed="#W" n="3"/>prie pertinere, quom tu priuatim ac pro¬ 
-      <lb ed="#W" n="4"/>prie absoluetis. Non sitit gratiam qui non 
-      <lb ed="#W" n="5"/>efflictim cupit audire sententiam de se di¬ 
-      <lb ed="#W" n="6"/>uinam. Est enim dei non hominum senten 
-      <lb ed="#W" n="7"/>tia, qua absolueris. modo absolutioni cre¬ 
-      <lb ed="#W" n="8"/>das. Quam certa erat mulier peccatrix Eu¬ 
-      <lb ed="#W" n="9"/>cae. vii, culpam omnem sibi condonatam 
-      <lb ed="#W" n="10"/>esse, cum audiret Christi uocem. Remittun 
-      <lb ed="#W" n="11"/>tur tibi peccata, tam certus esto tu quoque 
-      <lb ed="#W" n="12"/>cum a fratre, quisquis est, absolueris. Neque 
-      <lb ed="#W" n="13"/>uero absoluuntur, nisi qui &amp; absolui se op¬ 
-      <lb ed="#W" n="14"/>tant &amp; credunt, quare non absoluuntur ii 
-      <lb ed="#W" n="15"/>qui coacti pontificia constitutione, quot¬ 
-      <lb ed="#W" n="16"/>annis confessionem &amp; poenitentiam simu¬ 
-      <lb ed="#W" n="17"/>lant. Immo ludibrio habent Christum, qui  
-      <lb ed="#W" n="18"/>adacti lege pontificia non desiderio spiri¬ 
-      <lb ed="#W" n="19"/>tus, absolutionem petunt.
-    </p>
-            <p xml:id="erf8hf-d1e1466-d1e278">
-               <lb ed="#W" n="20"/>⁋ Satisfactio nulla est praeter Christi mor¬ 
-      <lb ed="#W" n="21"/>tem. Esaiae. liii. Ipse iniquitates nostras 
-      <lb ed="#W" n="22"/>portauit. Quae uero nunc poenitentibus 
-      <lb ed="#W" n="23"/>satisfactiones imperantur, hominum in¬ 
-      <!--267.xml-->
-      <pb ed="#W" n="133-v"/>
-               <lb ed="#W" n="1"/>inuentum sunt, &amp; ortae e canonibus poeni¬ 
-      <lb ed="#W" n="2"/>tentialibus, qui de publicis quondam poe¬ 
-      <lb ed="#W" n="3"/>nitenciis conditi sunt. Hoc satisfactionum con 
-      <lb ed="#W" n="4"/>mento Christi satisfactio, &amp; fides in uerbum 
-      <lb ed="#W" n="5"/>absolutionis egregie extincta sunt, Sunt qui  
-      <lb ed="#W" n="6"/>dem in scripturis poenae peccatorum alicubi,  
-      <lb ed="#W" n="7"/>sed non omnium. Quare satisfactiones eas 
-      <lb ed="#W" n="8"/>poenas nemo recte dixerit. Ex satisfactioni¬ 
-      <lb ed="#W" n="9"/>bus indulgentiae, Merx Romana, ortae sunt,  
-      <lb ed="#W" n="10"/>quae remittebant poenas illas canonicas pub 
-      <lb ed="#W" n="11"/>licarum poenitentiarum. Has impii homines 
-      <lb ed="#W" n="12"/>pro diuina condonatione uendi instituerunt,  
-      <lb ed="#W" n="13"/>ut suo potius, quam dei uerbo fideretur. Por¬ 
-      <lb ed="#W" n="14"/>ro, ut finiam tandem, poenitentiae partes 
-      <lb ed="#W" n="15"/>duae sunt, Mortificatio &amp; uiuificatio, Mor 
-      <lb ed="#W" n="16"/>tificatio fit cum conscientia lege terretur. Vi¬ 
-      <lb ed="#W" n="17"/>uificatio cum per absolutionem erigeris &amp; 
-      <lb ed="#W" n="18"/>confirmaris. Est enim absolutio Euangelium 
-      <lb ed="#W" n="19"/>quo Christus tibi condonat noxam. Signum 
-      <lb ed="#W" n="20"/>poenitentiae aliud non est praeter baptismum.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De privatis confessionibus</title>
+        <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De privatis confessionibus</title>
+          <date when="2020-12-04">December 04, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="132-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="erf8hf-d1e1466">
+        <head xml:id="erf8hf-d1e1466-Hd1e105">De privatis confessionibus</head>
+        <head xml:id="erf8hf-d1e1466-Hd1e108" type="question-title">De privatis confessionibus</head>
+        <p xml:id="erf8hf-d1e1466-d1e111">
+          <!--264.xml-->
+          <pb ed="#W" n="132-r"/>
+          <lb ed="#W" n="1"/>DE PRIVATIS CONFESSIONIBVS 
+          <lb ed="#W" n="2"/>⁋ Praeter publicam poenitentiam, priuatae 
+          <lb ed="#W" n="3"/>confessiones sunt, Primum illae, cum priuatim 
+          <lb ed="#W" n="4"/>reconciliamus eos quos offendimus. De quo 
+          <lb ed="#W" n="5"/>genere dictum est Matth. v. Si offers munus 
+          <lb ed="#W" n="6"/>tuum ad altare, &amp; ibi recordatus fueris, quia 
+          <lb ed="#W" n="7"/>frater tuus habet aliquid aduersum te &amp;c. 
+          <lb ed="#W" n="8"/>uade reconciliare fratri tuo. Et Iacobi ult.  
+          <lb ed="#W" n="9"/>Confitemini alter alteri peccata, id est, alter 
+          <lb ed="#W" n="10"/>alterum deprecetur offensam &amp;c¬ 
+          <lb ed="#W" n="11"/>Deinde sunt ecclesiasticae illae, quarum fere 
+          <lb ed="#W" n="12"/>usus hodie est. Eas quondam tales fuisse adpa 
+          <lb ed="#W" n="13"/>ret, ut quorum conscientiae angebantur aliqua 
+          <lb ed="#W" n="14"/>de re, sanctos &amp; peritos rerum spiritualium con 
+          <lb ed="#W" n="15"/>sulerent, &amp; ab illis absoluerentur. Huius men 
+          <lb ed="#W" n="16"/>tio facta est a Dasilio, si titulus non fallit,  
+          <lb ed="#W" n="17"/>in opere de institutis monachorum, quod 
+          <lb ed="#W" n="18"/>a Rufino latinitate donatum putant. Et tot 
+          <lb ed="#W" n="19"/>quidem genera confessionum mihi
+          com<lb ed="#W" n="20" break="no"/>perta sunt, quae cum alia sint iure diuino 
+          <lb ed="#W" n="21"/>tradita, alia hominum inuenta, prudenter 
+          <lb ed="#W" n="22"/>discernenda sunt.
+        </p>
+        <p xml:id="erf8hf-d1e1466-d1e166">
+          <lb ed="#W" n="23"/>Exigi iure diuino confessionem eam quae 
+          <lb ed="#W" n="24"/>deo fit satit constat, uel ex illa. i. Ioham. I, sen¬ 
+          <!--265.xml-->
+          <pb ed="#W" n="132-v"/>
+          <lb ed="#W" n="1"/>tentia, quam supra citauimus. Nec eum
+          remit<lb ed="#W" n="2" break="no"/>titur peccatum, nisi confiteamur deo, hoc 
+          <lb ed="#W" n="3"/>est &amp; damnemus nosipsos, &amp; fidamus
+          mi<lb ed="#W" n="4" break="no"/>sericondia dei condonari noxam. 
+        </p>
+        <p xml:id="erf8hf-d1e1466-d1e186">
+          <lb ed="#W" n="5"/>De confessione publica, publicorum crimi 
+          <lb ed="#W" n="6"/>num coram ecclesia ubi testibus res geritur, 
+          <lb ed="#W" n="7"/>quid attinet disputare? Fateri res ipsa cogit 
+          <lb ed="#W" n="8"/>non ius tantum diuinum, si adcuseris, cogit 
+          <lb ed="#W" n="9"/>item ius diuinum ut fratrem places.
+        </p>
+        <p xml:id="erf8hf-d1e1466-d1e200">
+          <lb ed="#W" n="10"/>⁋ Reliquae confessiones sunt hominum
+          tra<lb ed="#W" n="11" break="no"/>ditiones. Nam si te ultro ecclesiae offeras, &amp; 
+          <lb ed="#W" n="12"/>absolui uelis, siue clam, siue publice
+          deli<lb ed="#W" n="13" break="no"/>queris, non exigit ius diuinum recensionem 
+          <lb ed="#W" n="14"/>factorum. Sic Christus absoluit plerosque, sic 
+          <lb ed="#W" n="15"/>Apostoli in Actis absoluunt aliquot milia, 
+          <lb ed="#W" n="16"/>nihil postulantes recenseri catalogum
+          pec<lb ed="#W" n="17" break="no"/>catorum. Haec dicuntur in hoc ut
+          imbecilli<lb ed="#W" n="18" break="no"/>bus eorum conscienciis consulatur, qui si 
+          <lb ed="#W" n="19"/>quid in recensenda confessione praeterierint,  
+          <lb ed="#W" n="20"/>tantum non desperant.
+        </p>
+        <p xml:id="erf8hf-d1e1466-d1e226">
+          <lb ed="#W" n="21"/>Absolutio priuata sic necessaria est, ut 
+          <lb ed="#W" n="22"/>baptismus. Tametsi enim audias Euange¬ 
+          <!--266.xml-->
+          <pb ed="#W" n="133-r"/>
+          <lb ed="#W" n="1"/>lium communiter uniuersae Ecclesiae
+          praedi<lb ed="#W" n="2" break="no"/>cari, tamem tum demum certus es id ad te pro 
+          <lb ed="#W" n="3"/>prie pertinere, quom tu priuatim ac
+          pro<lb ed="#W" n="4" break="no"/>prie absoluetis. Non sitit gratiam qui non 
+          <lb ed="#W" n="5"/>efflictim cupit audire sententiam de se
+          di<lb ed="#W" n="6" break="no"/>uinam. Est enim dei non hominum senten 
+          <lb ed="#W" n="7"/>tia, qua absolueris. modo absolutioni
+          cre<lb ed="#W" n="8" break="no"/>das. Quam certa erat mulier peccatrix
+          Eu<lb ed="#W" n="9" break="no"/>cae. vii, culpam omnem sibi condonatam 
+          <lb ed="#W" n="10"/>esse, cum audiret Christi uocem. Remittun 
+          <lb ed="#W" n="11"/>tur tibi peccata, tam certus esto tu quoque 
+          <lb ed="#W" n="12"/>cum a fratre, quisquis est, absolueris. Neque 
+          <lb ed="#W" n="13"/>uero absoluuntur, nisi qui &amp; absolui se
+          op<lb ed="#W" n="14" break="no"/>tant &amp; credunt, quare non absoluuntur ii 
+          <lb ed="#W" n="15"/>qui coacti pontificia constitutione,
+          quot<lb ed="#W" n="16" break="no"/>annis confessionem &amp; poenitentiam
+          simu<lb ed="#W" n="17" break="no"/>lant. Immo ludibrio habent Christum, qui  
+          <lb ed="#W" n="18"/>adacti lege pontificia non desiderio
+          spiri<lb ed="#W" n="19" break="no"/>tus, absolutionem petunt.
+        </p>
+        <p xml:id="erf8hf-d1e1466-d1e278">
+          <lb ed="#W" n="20"/>⁋ Satisfactio nulla est praeter Christi
+          mor<lb ed="#W" n="21" break="no"/>tem. Esaiae. liii. Ipse iniquitates nostras 
+          <lb ed="#W" n="22"/>portauit. Quae uero nunc poenitentibus 
+          <lb ed="#W" n="23"/>satisfactiones imperantur, hominum in¬ 
+          <!--267.xml-->
+          <pb ed="#W" n="133-v"/>
+          <lb ed="#W" n="1"/>inuentum sunt, &amp; ortae e canonibus
+          poeni<lb ed="#W" n="2" break="no"/>tentialibus, qui de publicis quondam
+          poe<lb ed="#W" n="3" break="no"/>nitenciis conditi sunt. Hoc satisfactionum con 
+          <lb ed="#W" n="4"/>mento Christi satisfactio, &amp; fides in uerbum 
+          <lb ed="#W" n="5"/>absolutionis egregie extincta sunt, Sunt qui  
+          <lb ed="#W" n="6"/>dem in scripturis poenae peccatorum alicubi,  
+          <lb ed="#W" n="7"/>sed non omnium. Quare satisfactiones eas 
+          <lb ed="#W" n="8"/>poenas nemo recte dixerit. Ex
+          satisfactioni<lb ed="#W" n="9" break="no"/>bus indulgentiae, Merx Romana, ortae sunt,  
+          <lb ed="#W" n="10"/>quae remittebant poenas illas canonicas pub 
+          <lb ed="#W" n="11"/>licarum poenitentiarum. Has impii homines 
+          <lb ed="#W" n="12"/>pro diuina condonatione uendi instituerunt,  
+          <lb ed="#W" n="13"/>ut suo potius, quam dei uerbo fideretur.
+          Por<lb ed="#W" n="14" break="no"/>ro, ut finiam tandem, poenitentiae partes 
+          <lb ed="#W" n="15"/>duae sunt, Mortificatio &amp; uiuificatio, Mor 
+          <lb ed="#W" n="16"/>tificatio fit cum conscientia lege terretur.
+          Vi<lb ed="#W" n="17" break="no"/>uificatio cum per absolutionem erigeris &amp; 
+          <lb ed="#W" n="18"/>confirmaris. Est enim absolutio Euangelium 
+          <lb ed="#W" n="19"/>quo Christus tibi condonat noxam. Signum 
+          <lb ed="#W" n="20"/>poenitentiae aliud non est praeter baptismum.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
