@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De humanis legibus</title>
+            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De humanis legibus</title>
+               <date when="2020-12-04">December 04, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-12-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#W" n="45-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="erf8hf-d1e861">
+            <head xml:id="erf8hf-d1e861-Hd1e105">De humanis legibus</head>
+            <head xml:id="erf8hf-d1e861-Hd1e108" type="question-title">De humanis legibus</head>
+            <p xml:id="erf8hf-d1e861-d1e111">
+               <lb ed="#W" n="16"/>DE HVMANIS LEGIBVS
+      <lb ed="#W" n="17"/>⁋ Leges humanae, sunt quaecunque tandem  
+      <lb ed="#W" n="18"/>ab hominibus constituuntur. Et ut nunc ha¬ 
+      <lb ed="#W" n="19"/>bent hominum res, REegum humanarum aliae 
+      <lb ed="#W" n="20"/>sunt ciuiles, aliae pontificiae. Ciuiles, quas in 
+      <lb ed="#W" n="21"/>re publica sanciunt magisrtatus, principes,  
+      <lb ed="#W" n="22"/>reges, ciuitates. Huiusmodi legum auctori¬ 
+      <lb ed="#W" n="23"/>tas quae censeri debeat, docet Paulus ad 
+      <lb ed="#W" n="24"/>Roma. xiii, cum inquit, Omnis anima po 
+      <!--93.xml-->
+      <pb ed="#G" n="45-v"/>
+               <lb ed="#W" n="1"/>testatibus sublimioribus subdita sit non est 
+      <lb ed="#W" n="2"/>eni potestas nisi a deo. Quae uero sunt po¬ 
+      <lb ed="#W" n="3"/>testates, a deo ordinatae sunt. ltaque qui resi¬ 
+      <lb ed="#W" n="4"/>tit potestati, dei ondinationi resistit. Qui au 
+      <lb ed="#W" n="5"/>tem resistunt, ipsi sibi damnationem acquirunt. 
+      <lb ed="#W" n="6"/>Nam principes non sunt timori boni operis, 
+      <lb ed="#W" n="7"/>sed mali. Nam magistratuum &amp; legum ciuilium non 
+      <lb ed="#W" n="8"/>est aliud officium, nisi punire &amp; arcere iniu 
+      <lb ed="#W" n="9"/>rias. In hoc sanciuntur leges de rerum diuisio¬ 
+      <lb ed="#W" n="10"/>ne, de contrahendi formis, de poenis malefi 
+      <lb ed="#W" n="11"/>ciorum. Dei enim minister est magisrtatus, ultor 
+      <lb ed="#W" n="12"/>ad iram ei qui deliquerit. Porro non licet ma¬ 
+      <lb ed="#W" n="13"/>ig istratui statuete aduetsus ius diuinum, nec 
+      <lb ed="#W" n="14"/>obtemperari aduersus ius diuinum debet. iuxta 
+      <lb ed="#W" n="15"/>illud in actis Apostolicis. Oportet deo ma¬ 
+      <lb ed="#W" n="16"/>gis obedire quam hominibus. Et ex hac sentem 
+      <lb ed="#W" n="17"/>tia facile aestimabit prudens lector, quate¬ 
+      <lb ed="#W" n="18"/>nus humanis legibus obnoxii simus. Dice¬ 
+      <lb ed="#W" n="19"/>imus autem infra ubi de hominum conditione 
+      <lb ed="#W" n="20"/>agetur, fortasse de magistratibus plura.
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e181">
+               <lb ed="#W" n="21"/>⁋ Quid autem de pontificiis legibuss? quatenus 
+      <lb ed="#W" n="22"/>pontifices statuunt de litibus &amp; iudicis plane 
+      <lb ed="#W" n="23"/>mundi principes agunt. alioqui quod ad li¬ 
+      <lb ed="#W" n="24"/>tes &amp; iudicia pertinebat &amp; ipsos sacerdotes 
+      <!--94.xml-->
+      <pb ed="#G" n="46-r"/>
+               <lb ed="#W" n="1"/>lubiecit ius diuinum magistratibus ciuilibus,  
+      <lb ed="#W" n="2"/>regibus ac principibus. Nunc conniuentibus 
+      <lb ed="#W" n="3"/>principibus, ipsi sibi iura condiderunt, &amp; im 
+      <lb ed="#W" n="4"/>pia &amp; egregie tyrannica, de immunitatibus 
+      <lb ed="#W" n="5"/>ecclesiarum, de reditibus suis &amp;c. Hic postula 
+      <lb ed="#W" n="6"/>bat charitatis officium, ut qui sunt opulen¬ 
+      <lb ed="#W" n="7"/>tissimi, publicam inopiam, communi pecuniaa 
+      <lb ed="#W" n="8"/>&amp; sumptu iuuarent, cum proscribunt &amp; diris 
+      <lb ed="#W" n="9"/>deuouent, quisquies postulet a sacerdote tribu¬ 
+      <lb ed="#W" n="10"/>tum, uectigal, aut hoc genus alia quae in con¬ 
+      <lb ed="#W" n="11"/>mune pro publica necessitate conferuntur. Sed 
+      <lb ed="#W" n="12"/>de his alias, satis sit monuisse sacerdotum le¬ 
+      <lb ed="#W" n="13"/>ges de ciuilibus rebus constra charitatem &amp; per 
+      <lb ed="#W" n="14"/>meram tyrannidem conditas esse.
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e227">
+               <lb ed="#W" n="15"/>⁋ De fide non habent ius neque pontifices,  
+      <lb ed="#W" n="16"/>neque concilia, neque uniuersa ecclesia, quid¬ 
+      <lb ed="#W" n="17"/>quam mutandi aut statuendi. Sed simpli¬ 
+      <lb ed="#W" n="18"/>citer ad praescriptum sacrarum literatum exi¬ 
+      <lb ed="#W" n="19"/>gendi sunt articuli fidei. Nec habendum est 
+      <lb ed="#W" n="20"/>pro articulo fidei, quod citra scripturam 
+      <lb ed="#W" n="21"/>proditum est. Primum, ne quid mutetur 
+      <lb ed="#W" n="22"/>Paulus iubet ad Calatas cum ait, Si quis uo¬ 
+      <lb ed="#W" n="23"/>bis praedicauerit aliud quam, quod accepi¬ 
+      <lb ed="#W" n="24"/>stis, anathema sit. Item qui potest spiritus esse  
+      <!--95.xml-->
+      <pb ed="#G" n="46-v"/>
+               <lb ed="#W" n="1"/>propheticus qui dissidet a scriptura? Quin 
+      <lb ed="#W" n="2"/>potius spiritus mendax est, qui pronunciat 
+      <lb ed="#W" n="3"/>aduersus ueritatem. Et ad Timotheum. Si  
+      <lb ed="#W" n="4"/>quis aliter docet, &amp; non acquiescit sanis ser 
+      <lb ed="#W" n="5"/>monibus lesu Christi, superbus est. Porro 
+      <lb ed="#W" n="6"/>contra scripturam impie multa decreta sunt,  
+      <lb ed="#W" n="7"/>de quibus paulo post.
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e272">
+               <lb ed="#W" n="8"/>Deinde non esse habendum pro fidei ar 
+      <lb ed="#W" n="9"/>ticulo, quod homines, seu ecclesia, seu pon 
+      <lb ed="#W" n="10"/>tifex statuit, praeter scripturam, testatur Pau¬ 
+      <lb ed="#W" n="11"/>lus ad Timotheum. Tu permane in his quae 
+      <lb ed="#W" n="12"/>didicisti, sciens a quo didiceris. Referre cen 
+      <lb ed="#W" n="13"/>set, scire unde didicerimus. Iam quod ho¬ 
+      <lb ed="#W" n="14"/>mines decernunt, qui sciemus unde sit pro 
+      <lb ed="#W" n="15"/>fectum si ad scripturam exigi non potest : 
+      <lb ed="#W" n="16"/>nam hoc, demum constat a spiritu sancto 
+      <lb ed="#W" n="17"/>profectum esse quod scripturae confirmant. 
+      <lb ed="#W" n="18"/>Quod praeter scripturas proditur, ambiguum 
+      <lb ed="#W" n="19"/>est, utrum a spiritu dei an a spiritu menda¬ 
+      <lb ed="#W" n="20"/>ci proficiscatur. Thessalonicensibus praeci 
+      <lb ed="#W" n="21"/>pit Paulus, ut omnia probent, quod bonum 
+      <lb ed="#W" n="22"/>est teneant. Et alias iubet probari spiritus 
+      <lb ed="#W" n="23"/>utrum ex deo sint. Quaeso te quomodo pro¬ 
+      <lb ed="#W" n="24"/>babimus spiritus, nisi ad certam aliquam re¬ 
+      <!--96.xml-->
+      <pb ed="#G" n="47-r"/>
+               <lb ed="#W" n="1"/>gulam adeoque ad scripturam exigantur? quam 
+      <lb ed="#W" n="2"/>solam certo constat spiritu dei conditam esse. 
+      <lb ed="#W" n="3"/>Temere tribuitur Conciliis auctoritas con¬ 
+      <lb ed="#W" n="4"/>dendi articulos fidei, uel hoc nomineque fie 
+      <lb ed="#W" n="5"/>ri potest, ut in toto senatu concilii nemo sit 
+      <lb ed="#W" n="6"/>qui spiritum dei habeat. In Samaria pro¬ 
+      <lb ed="#W" n="7"/>phetabant sacerdotes Daal, &amp; ex eorum ora¬ 
+      <lb ed="#W" n="8"/>culis omnia gerebantur a regibus Israel. Quid 
+      <lb ed="#W" n="9"/>mirum si nunc quoque prophetent impii &amp; 
+      <lb ed="#W" n="10"/>expertes spiritus dei? Adrogabant idem sibi 
+      <lb ed="#W" n="11"/>sacerdotes in luda, qui aduersabantur Hie¬ 
+      <lb ed="#W" n="12"/>remiae &amp; spiritui dei, cum dicerent. Venite 
+      <lb ed="#W" n="13"/>&amp; cogitemus contra Hieremiam cogitationes. 
+      <lb ed="#W" n="14"/>Non enim peribit lex a sacerdote, neque con 
+      <lb ed="#W" n="15"/>silium a sapiente, nec sermo a propheta. Qd 
+      <lb ed="#W" n="16"/>quid aliud est, quam quod hodie dicit Eccle¬ 
+      <lb ed="#W" n="17"/>sia papistica, Penes nos est auctoritas statu¬ 
+      <lb ed="#W" n="18"/>endi, Concilium regitur immediate a spiritu¬ 
+      <lb ed="#W" n="19"/>sancto, nec potest errare, sacrae literae sunt 
+      <lb ed="#W" n="20"/>obscurae &amp; ambiguae, penes nos est earum 
+      <lb ed="#W" n="21"/>interpretandarum ius &amp; facultas, &amp; hoc genus 
+      <lb ed="#W" n="22"/>multa. Iam &amp; palam praedictum est fore,  
+      <lb ed="#W" n="23"/>ut errent principes Ecclesiae Eech. vii. Rex 
+      <lb ed="#W" n="24"/>peribit a sacerdote, &amp; consilium a senioribus, 
+      <!--97.xml-->
+      <pb ed="#G" n="47-v"/>
+               <lb ed="#W" n="1"/>Et Matth. xxiiii: Surgent pseudochristi &amp; 
+      <lb ed="#W" n="2"/>pseudoprophetae &amp; dabunt signa magna 
+      <lb ed="#W" n="3"/>&amp;c. Deinde ut maxime spiritum dei habeat 
+      <lb ed="#W" n="4"/>senatus conciliorum, errare tamen posse in 
+      <lb ed="#W" n="5"/>dicat scriptura Eech. xiiii. Propheta cum er¬ 
+      <lb ed="#W" n="6"/>rauerit &amp; locutus fuerit uerbum, ego domi 
+      <lb ed="#W" n="7"/>nus qui decepi prophetam illum. Et in. iii. 
+      <lb ed="#W" n="8"/>Regum capite ultimo. Egrediar &amp; ero spiri¬ 
+      <lb ed="#W" n="9"/>tus mendax in ore omnium prophetarum. 
+      <lb ed="#W" n="10"/>Et quid attinet multis rem agere, a Paulus 
+      <lb ed="#W" n="11"/>ait se non adquieuisse cani &amp; sanguini,  
+      <lb ed="#W" n="12"/>inos cami &amp; sanguini credamus? Quaeso te 
+      <lb ed="#W" n="13"/>cur Nicenae Synodo potius quae Ariminensi 
+      <lb ed="#W" n="14"/>credis? Num quia eam Romani Pontifi¬ 
+      <lb ed="#W" n="15"/>cis comprobauit auctoritas? At hac ratio¬ 
+      <lb ed="#W" n="16"/>ne pontificis auctoritatem &amp; concilio &amp; 
+      <lb ed="#W" n="17"/>scripturae praefers, quod non modo im¬ 
+      <lb ed="#W" n="18"/>pium, sed &amp; stultum est. Cur enim Antioche 
+      <lb ed="#W" n="19"/>nam Synodum probas, quae Paulum Sa¬ 
+      <lb ed="#W" n="20"/>mosatenum negantem Christi diuinitatem 
+      <lb ed="#W" n="21"/>damnauit, cum res omnis citra Romani 
+      <lb ed="#W" n="22"/>pontificis auctoritatem gesta sit? In Alexan¬ 
+      <lb ed="#W" n="23"/>drino concilio ubi de tribus hypostasibus 
+      <lb ed="#W" n="24"/>diuinis decretum est aduersus Sabelium, nulla  
+      <!--98.xml-->
+      <pb ed="#G" n="48-r"/>
+               <lb ed="#W" n="1"/>fuit mentio Romani Pontificis. In concilio 
+      <lb ed="#W" n="2"/>Niceno Romani pontifices nusquam fuisse 
+      <lb ed="#W" n="3"/>leguntur Costantinopolitanae Synodi scrip 
+      <lb ed="#W" n="4"/>tores graeci, Item Ephesinae, nullam fecerunt. 
+      <lb ed="#W" n="5"/>Romani pontificis mentionem, ut uerisi¬ 
+      <lb ed="#W" n="6"/>mile sit, aut non interfuisse Synodis illis,  
+      <lb ed="#W" n="7"/>aut certe non praefuisse. Neque uero raro erra 
+      <lb ed="#W" n="8"/>tum est &amp; in iis Synodis, quibus praefuere 
+      <lb ed="#W" n="9"/>Romani Pontifices. Stephanus. vi. Formo¬ 
+      <lb ed="#W" n="10"/>si pontificis acta rescidit auctoritate conci¬ 
+      <lb ed="#W" n="11"/>lii. Huius sententiam lohannes. x, tursus dam 
+      <lb ed="#W" n="12"/>nauit Rauennae comiciis. Hic cum pugnent 
+      <lb ed="#W" n="13"/>inter se Synodi, necesse est alteram errasse.  
+      <lb ed="#W" n="14"/>Eugdunense concilium quia libros decre¬ 
+      <lb ed="#W" n="15"/>talium comprobauit, pro impio haberi de¬ 
+      <lb ed="#W" n="16"/>bet, nempeque in illis tam multa crudelia &amp; 
+      <lb ed="#W" n="17"/>impia constituta sunt. Porro papisticis co¬ 
+      <lb ed="#W" n="18"/>miciis pene nihil uidemus actum praeter cau¬ 
+      <lb ed="#W" n="19"/>ssas tyrannidis Romanae, de subigendis Im¬ 
+      <lb ed="#W" n="20"/>peratoribus, de tuendo patrimonio Petri, 
+      <lb ed="#W" n="21"/>de augendis sacerdotum opibs, de opprimen¬ 
+      <lb ed="#W" n="22"/>da graeca Ecclesia. Palam haeretica est constitu¬ 
+      <lb ed="#W" n="23"/>tio, ad abolendam de haereticis, qui execratur omnes 
+      <lb ed="#W" n="24"/>u de sacramentis aliter sentiunt, aut docent,  
+      <!--99.xml-->
+      <pb ed="#G" n="48-v"/>
+               <lb ed="#W" n="1"/>quam uel docet, uel obseruat ecclesia Roma¬ 
+      <lb ed="#W" n="2"/>na. Nec enim sunt haeretici, graeci, qui in ple¬ 
+      <lb ed="#W" n="3"/>risque uariant a Romanae Ecclesiae ritibus, &amp; 
+      <lb ed="#W" n="4"/>traditionibus. Impia sunt quae de indulgenciis. 
+      <lb ed="#W" n="5"/>decreta sunt in plerisque Conciliis. Damnauit 
+      <lb ed="#W" n="6"/>Costantiensis synodus cum alia, tum senten 
+      <lb ed="#W" n="7"/>tiam Euangelicissimam, de discrimine operum. 
+      <lb ed="#W" n="8"/>Omne opus bonum esse, aut malum, non indi¬ 
+      <lb ed="#W" n="9"/>fferens, iuxta illud Euangeli, Aut facite ar¬ 
+      <lb ed="#W" n="10"/>borem bonam &amp;c. Et quid attinet multa 
+      <lb ed="#W" n="11"/>commemorare, cum extent abominabiles pon¬ 
+      <lb ed="#W" n="12"/>tificiatum legum codices, e quibus decerpe 
+      <lb ed="#W" n="13"/>quantum uoles. Haec ideo adnotauimus, ut 
+      <lb ed="#W" n="14"/>moneremus temere receptam esse opinio¬ 
+      <lb ed="#W" n="15"/>nem illam uulgarem, qua iactari solet, con¬ 
+      <lb ed="#W" n="16"/>cilia non posse errare. Proinde cum constet lu 
+      <lb ed="#W" n="17"/>ce metidiana clarius &amp; errasse saepe concilia, 
+      <lb ed="#W" n="18"/>&amp; errare posse, quaeso te, lector, cur tandem 
+      <lb ed="#W" n="19"/>pro fidei articulo haberi debet, quod a con¬ 
+      <lb ed="#W" n="20"/>cilio citra scripturae suffragium decretum est: 
+      <lb ed="#W" n="21"/>Quando quidem perspicuum est errare posse  
+      <lb ed="#W" n="22"/>concilia, cur non exiguntur eorum decreta 
+      <lb ed="#W" n="23"/>ad scripturam? Absit a Christiana mente, ut 
+      <lb ed="#W" n="24"/>articulum fidei condere arbitretur eum, quem 
+      <!--100.xml-->
+      <pb ed="#G" n="49-r"/>
+               <lb ed="#W" n="1"/>non sit certum fallere aut falli non posse. Ne¬ 
+      <lb ed="#W" n="2"/>gat Petrus priuatae, hoc est, humanae expo 
+      <lb ed="#W" n="3"/>utionis esse scripturae interpretationem. Nos 
+      <lb ed="#W" n="4"/>hominibus permittemus articulos fidei con 
+      <lb ed="#W" n="5"/>dere? Quin scripturam praeeuntem, &amp; ut 
+      <lb ed="#W" n="6"/>Petrs ait, Aὑxρον qαsoss&amp; &amp; Q&amp;αxαugα Toxφ 
+      <lb ed="#W" n="7"/>sequimur? maxime cum neget propheta fu 
+      <lb ed="#W" n="8"/>turam lucem matutinam iis, qui non e legis &amp; 
+      <lb ed="#W" n="9"/>testimonii iudicio pendet. Notus locus est 
+      <lb ed="#W" n="10"/>in octauo cap. Esa. Huc etiam Pauli locus per 
+      <lb ed="#W" n="11"/>tinet in priore ad Corinthios, ubi de do¬ 
+      <lb ed="#W" n="12"/>ctrina Christiana dissetit. Fundamentum 
+      <lb ed="#W" n="13"/>aliud poni non posse, praeter id quod posi 
+      <lb ed="#W" n="14"/>tum est, hoc est, ad salutem nullam doctri¬ 
+      <lb ed="#W" n="15"/>nam, nullos articulos necessarios esse, praeter 
+      <lb ed="#W" n="16"/>scripturam. Quae superstruuntur ait diem doc 
+      <lb ed="#W" n="17"/>mini probaturum. Quod si probanda sunt in 
+      <lb ed="#W" n="18"/>die domini, cur recipiuntur non modo, pro 
+      <lb ed="#W" n="19"/>probae monetae doctrina, sed pro necessa¬ 
+      <lb ed="#W" n="20"/>ria etiam ad salutem? Decretum est de transsub 
+      <lb ed="#W" n="21"/>stantiatione panis in corpus Christi, in sa¬ 
+      <lb ed="#W" n="22"/>cramento, decretum est de Papae primatu, 
+      <lb ed="#W" n="23"/>idque contra ueterum synodorum constitutiones. 
+      <lb ed="#W" n="24"/>Quae cum citra certum scripturae suffragium 
+      <!--101.xml-->
+      <pb ed="#G" n="49-v"/>
+               <lb ed="#W" n="1"/>prodita sunt, quid est, cur pro certis dog¬ 
+      <lb ed="#W" n="2"/>matis recipiantur? Apostoli in Actis &amp; ubique 
+      <lb ed="#W" n="3"/>Paulus, doctrinam suam, auctoritate scriptu 
+      <lb ed="#W" n="4"/>rae comp robant. Christus sibi fidem per scrip 
+      <lb ed="#W" n="5"/>turas facit, cum iubet ut scrutemur scripturas 
+      <lb ed="#W" n="6"/>quae de se testimonium perhibent, cum ait pa¬ 
+      <lb ed="#W" n="7"/>trem sibi suffragari, &amp; duorum testimonium reci 
+      <lb ed="#W" n="8"/>piendum esse, &amp; hoc genus multa. In Deute¬ 
+      <lb ed="#W" n="9"/>ronomio praecepit dominus, ne addatur ad 
+      <lb ed="#W" n="10"/>uerbum suum aut detrahatur, quae sententia 
+      <lb ed="#W" n="11"/>palam docet nemini fas esse, id pro articu¬ 
+      <lb ed="#W" n="12"/>elo fidei docere, quod non certo sciat diui¬ 
+      <lb ed="#W" n="13"/>num uerbum esse. Prophetae, Christus, Apo¬ 
+      <lb ed="#W" n="14"/>stoli, certo sciebant dei uerbum esse, id qo 
+      <lb ed="#W" n="15"/>docebant. ldeo sibi, immo suae uoci credi 
+      <lb ed="#W" n="16"/>uolebant. 
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e632">
+               <lb ed="#W" n="17"/>⁋ Haec mihi plane persuadent, nihil pro ar 
+      <lb ed="#W" n="18"/>ticulo fidei habendum esse, quod non palam  
+      <lb ed="#W" n="19"/>scriptura docet. Vt rumpantur interim Pa¬ 
+      <lb ed="#W" n="20"/>Crisienses, qui in sua illa inepta, &amp; impia con 
+      <lb ed="#W" n="21"/>demnatione Rutheri, principia fidei uocant 
+      <lb ed="#W" n="22"/>conciliorum, &amp; scholarum dogmata. De di¬ 
+      <lb ed="#W" n="23"/>quinitate filii credo Niceno Concilio, quia 
+      <lb ed="#W" n="24"/>scripturae credo, quae Christi diuinitatem 
+      <!--102.xml-->
+      <pb ed="#G" n="50-r"/>
+               <lb ed="#W" n="1"/>tam clare nobis probat, ut ne ludaei quidem 
+      <lb ed="#W" n="2"/>tergiuersari possint, quantumuis caeci, quo 
+      <lb ed="#W" n="3"/>minus Messiae diuinitatem tribuant. Rocus 
+      <lb ed="#W" n="4"/>est apertus pter alios in capite. xxiii: apud 
+      <lb ed="#W" n="5"/>Hieremiam. Et hoc est nomen quod uocabunt 
+      <lb ed="#W" n="6"/>eum. Deus iustus nostet. Sic iudicandum 
+      <lb ed="#W" n="7"/>puto per scripturam &amp; de reliquis synodis.
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e671">
+               <lb ed="#W" n="8"/>⁋ At de moribus constituet Ecclesia, item 
+      <lb ed="#W" n="9"/>de ceremoniis? De moribus non uideo, qd 
+      <lb ed="#W" n="10"/>sit constitutum a Pontificibus, aut a synodis,  
+      <lb ed="#W" n="11"/>nisi fortasse ad mores pertinent leges papi¬ 
+      <lb ed="#W" n="12"/>sticae, de bellis, litibus, coelibatu, quae si ad 
+      <lb ed="#W" n="13"/>regulam euangelicam exigantur, quid minus 
+      <lb ed="#W" n="14"/>pium uel a Scythis potuit constitui.
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e689">
+               <lb ed="#W" n="15"/>⁋ Sed de ceremoniis dicemus, quas suum 
+      <lb ed="#W" n="16"/>regnum putant Papistae. Principio, ut uno 
+      <lb ed="#W" n="17"/>fasce complectar &amp; moralia, &amp; ceremonias,  
+      <lb ed="#W" n="18"/>non licet Episcopis quidquam mandare prae 
+      <lb ed="#W" n="19"/>ter ea quae diuinis literis prodita sunt. Misit 
+      <lb ed="#W" n="20"/>enim Christus Apostolos docere, quae ipse  
+      <lb ed="#W" n="21"/>tradiderat. Matthaei ultimo. Iocentes eos 
+      <lb ed="#W" n="22"/>seruare omnia quae mandaui uobis. Ade¬ 
+      <lb ed="#W" n="23"/>mit igitur potestatem nouas leges, nouos ri¬ 
+      <lb ed="#W" n="24"/>tus condendi. Non praecipit Christus Aposto 
+      <!--103.xml-->
+      <pb ed="#G" n="50-v"/>
+               <lb ed="#W" n="1"/>lis docere, nisi Euangelium. Vnde igitur proba 
+      <lb ed="#W" n="2"/>bunt Episcopi ius sibi esse condendi leges 
+      <lb ed="#W" n="3"/>An ex hac sententia, cum ait, Qui uos audit,  
+      <lb ed="#W" n="4"/>me audit? At in decimo cap. pphetum uult 
+      <lb ed="#W" n="5"/>nomine pphetae recipi. Non uult igitur recipi 
+      <lb ed="#W" n="6"/>pseudoprophetam, hoc est, eum qui huma¬ 
+      <lb ed="#W" n="7"/>na commenta, traditiones hominum docet.
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e733">
+               <lb ed="#W" n="8"/>⁋ Nam hos scriptura uocat somniatores. 
+      <lb ed="#W" n="9"/>Quaeso autem uos Solones Papistae, ac uoxo¬ 
+      <lb ed="#W" n="10"/>Seγίαt, uel syllabam e scripturis producite, 
+      <lb ed="#W" n="11"/>quae uobis auctoritatem faciat, condendi le¬ 
+      <lb ed="#W" n="12"/>ges? Adimit autem scriptura facultatem condem 
+      <lb ed="#W" n="13"/>di leges, cum praecipit, ne quid uel addatur, uel 
+      <lb ed="#W" n="14"/>detrahatur legi dei. Adimit &amp; Paulus, cum 
+      <lb ed="#W" n="15"/>uocat spiritus ministros, Episcopos noui 
+      <lb ed="#W" n="16"/>testamenti. Nam minister spiritus est, qui  
+      <lb ed="#W" n="17"/>per legem dei omnium corda damnat, &amp; con 
+      <lb ed="#W" n="18"/>esolatur tursus per Euangelium, efficax spiri¬ 
+      <lb ed="#W" n="19"/>tu dei. Ad eam functionem quid quaeso fa¬ 
+      <lb ed="#W" n="20"/>ciunt traditiones humanae, quae de exter¬ 
+      <lb ed="#W" n="21"/>nis tantum operibns iudicant. Damnat tradi 
+      <lb ed="#W" n="22"/>tiones scriptura saepius, quam ut obscurum esse  
+      <lb ed="#W" n="23"/>possit, quid de eis sentiat. Hieremias. xxiii: 
+      <lb ed="#W" n="24"/>paleas uocat. Quid paleis ad triticum? item 
+      <!--104.xml-->
+      <pb ed="#G" n="51-r"/>
+               <lb ed="#W" n="1"/>mendacium, item somnia. Esaias uomitum 
+      <lb ed="#W" n="2"/>sordium, scoriam, Eechiel fornicationes,  
+      <lb ed="#W" n="3"/>cames asininas, hippomanes. alii prophe¬ 
+      <lb ed="#W" n="4"/>tae, aliter. Paulus blandiloquentias seu uρ 
+      <lb ed="#W" n="5"/>ογδφ. Et ut multa omittam, indicat Pau 
+      <lb ed="#W" n="6"/>lus unde proficiscantur traditiones humanae 
+      <lb ed="#W" n="7"/>in priore ad Timotheum. In nouissimis tem 
+      <lb ed="#W" n="8"/>poribus discedent quidam a fide attendentes 
+      <lb ed="#W" n="9"/>spiritibus ertoris &amp; doctrinis daemoniorum,, 
+      <lb ed="#W" n="10"/>in hypocrisi loquentium mendacium, &amp; cau 
+      <lb ed="#W" n="11"/>teriatam habentium suam conscientiam, prohiben 
+      <lb ed="#W" n="12"/>tium nubere, abstinere a cibis, quos deus crea 
+      <lb ed="#W" n="13"/>uit &amp;c. Viden spiritum fallacem auctorem esse  
+      <lb ed="#W" n="14"/>traditionum de coelibatu, de discrimine ci¬ 
+      <lb ed="#W" n="15"/>borum &amp;c. At quid aliud sunt poutificii ca¬ 
+      <lb ed="#W" n="16"/>nones nisi traditiones de coelibatu, de ci¬ 
+      <lb ed="#W" n="17"/>borum discrimine, &amp; de similibus nugis. 
+      <lb ed="#W" n="18"/>Matth. xv. Frustra colunt me mandatis ho 
+      <lb ed="#W" n="19"/>minum, quem locum ex Esaia repetit Christus. 
+      <lb ed="#W" n="20"/>⁋ Quid igitur, quomodo obstringut con 
+      <lb ed="#W" n="21"/>scientias traditiones humanaec peccant ne,  
+      <lb ed="#W" n="22"/>qui uiolant hominum constitutiones? Re¬ 
+      <lb ed="#W" n="23"/>spondeo, lta ferendas esse pontificum leges,  
+      <lb ed="#W" n="24"/>ut feirmus quancumque iniuriam, aut tyran 
+      <!--105.xml-->
+      <pb ed="#G" n="51-v"/>
+               <lb ed="#W" n="1"/>nidem. Iuxta illud Matth. v. Qui te adege 
+      <lb ed="#W" n="2"/>rit ad mille passus, uade cum illo &amp; alia duo¬ 
+      <lb ed="#W" n="3"/>Sunt autem eatenus ferendae, quatenus non 
+      <lb ed="#W" n="4"/>periclitatur conscientia per eas Actuum. v¬ 
+      <lb ed="#W" n="5"/>Oportet deo magis obedire quam homini¬ 
+      <lb ed="#W" n="6"/>bus, ut cum fidem obscurant traditiones,  
+      <lb ed="#W" n="7"/>cum occasio sunt peccato, uiolandae sunt,  
+      <lb ed="#W" n="8"/>nec peccat qui citra scandalum iuditio spi¬ 
+      <lb ed="#W" n="9"/>ritus uiolat. Dicemus autem de scandalo po¬ 
+      <lb ed="#W" n="10"/>gstea. Habes autem non obscuras sententias 
+      <lb ed="#W" n="11"/>scripturae, quae docent, non obstringi con¬ 
+      <lb ed="#W" n="12"/>scientias traditionib. humanis. i. Corint. iii¬ 
+      <lb ed="#W" n="13"/>Omnia uestra sunt, siue Paulus, siue Apol¬ 
+      <lb ed="#W" n="14"/>lo, id est, Nec Paulus, nec Sepha habet au 
+      <lb ed="#W" n="15"/>ctoritatem obligandi conscientias uestras,  
+      <lb ed="#W" n="16"/>EEt clare in eadem Epistola capite. vii. Precio 
+      <lb ed="#W" n="17"/>empti estis, nolite fieri hominum serui, at fiunt 
+      <lb ed="#W" n="18"/>hominum serui, quorum conscienciis libertas 
+      <lb ed="#W" n="19"/>per traditiones est erepta. Nam ut Christia 
+      <lb ed="#W" n="20"/>na libertas est, conscientiae libertas, ita Chri¬ 
+      <lb ed="#W" n="21"/>stianorum seruitus, est conscientiae seruitus. 
+      <lb ed="#W" n="22"/>Apertissimus locus est in Colossensium Epi¬ 
+      <lb ed="#W" n="23"/>stola, Siquidem una cum Christo commortui 
+      <lb ed="#W" n="24"/>estis, qd ad huc tanqua uiuentes mudo, tra 
+      <!--106.xml-->
+      <pb ed="#G" n="52-r"/>
+               <lb ed="#W" n="1"/>ditionibus uexamini, &amp; subicit uἔ.incns,  
+      <lb ed="#W" n="2"/>illorum traditiones repetens. Ne tetigeritis, ne 
+      <lb ed="#W" n="3"/>gustaueritis, ne contrectaueritis, quae sunt 
+      <lb ed="#W" n="4"/>omnia in interitum ipso usu secundum prae¬ 
+      <lb ed="#W" n="5"/>cepta &amp; doctrinas hominum, quae sunt ratio 
+      <lb ed="#W" n="6"/>nem quidem habentia sapientiae, in superstitio¬ 
+      <lb ed="#W" n="7"/>ne, &amp; humilitate, &amp; non ad parcendum cor¬t 
+      <lb ed="#W" n="8"/>pori, non in honore aliquo, qui debetur 
+      <lb ed="#W" n="9"/>necessitati camis. Hieremiae. xxiii: uetat do¬ 
+      <lb ed="#W" n="10"/>minus ne audiantur pseudoprophetae, qe 
+      <lb ed="#W" n="11"/>haud dubie ad eum casum referri debet, ubi 
+      <lb ed="#W" n="12"/>conscientiae perielitantur. Sic autem inquit,  
+      <lb ed="#W" n="13"/>iNolite audire uerba prophetarum, qui pro 
+      <lb ed="#W" n="14"/>phetant uobis, &amp; decipiunt uos, uisionem 
+      <lb ed="#W" n="15"/>cordis sui loquuntur, non de ore domini¬ 
+      <lb ed="#W" n="16"/>Habeo in hoc loco adstipulatores etiam  
+      <lb ed="#W" n="17"/>recentiores quosdam, &amp; potissimum Ger¬ 
+      <lb ed="#W" n="18"/>sonem, qui nobiscum sentit, non obstringi 
+      <lb ed="#W" n="19"/>conscientias humanis traditionibus, hoc est,  
+      <lb ed="#W" n="20"/>non peccare eum qui traditionem humanam 
+      <lb ed="#W" n="21"/>uiolat, nisi intercedat casus scandali. Vel¬ 
+      <lb ed="#W" n="22"/>lem bernardum de his paulo liberius iudi¬ 
+      <lb ed="#W" n="23"/>casse, ubi de dispensatione scribit, Iudica¬ 
+      <lb ed="#W" n="24"/>bit autem certissime spiritus, iuxta illud,  
+      <!--107.xml-->
+      <pb ed="#G" n="52-v"/>
+               <lb ed="#W" n="1"/>Vbi spiritus domini, ibi libertas. Et spiritus 
+      <lb ed="#W" n="2"/>omia diiudicat, &amp; ipse a nemine diiudicatur. 
+      <lb ed="#W" n="3"/>⁋ Qualia sint quae constituta sunt a conci¬ 
+      <lb ed="#W" n="4"/>liis, a pontificib. non possim equidem re¬ 
+      <lb ed="#W" n="5"/>censere, ni uelim repetere, &amp; uniuersum ius 
+      <lb ed="#W" n="6"/>canonicum, &amp; totam rerum ecclesiasticarum 
+      <lb ed="#W" n="7"/>historiam. Verum pauca exempla huiusmodi 
+      <lb ed="#W" n="8"/>traditionum repetemus, e quibus aestimari 
+      <lb ed="#W" n="9"/>possit, id quod toties monet scriptura, nihil 
+      <lb ed="#W" n="10"/>perinde pietati aduersari, atque hominum do¬ 
+      <lb ed="#W" n="11"/>ctrinas. In Synodo Nicena constiturae sunt 
+      <lb ed="#W" n="12"/>quaedam poenitentiae formae, non pronun¬ 
+      <lb ed="#W" n="13"/>cio, quo spiritu decreuerint patres, at uideo 
+      <lb ed="#W" n="14"/>bonam Euangeli partem, immo uim germa 
+      <lb ed="#W" n="15"/>nam Euangelii obscuratam esse ea traditione. 
+      <lb ed="#W" n="16"/>Nam inde primum natae sunt satis factiones,  
+      <lb ed="#W" n="17"/>quae principio fortasse toletabiles erant, cum 
+      <lb ed="#W" n="18"/>adhuc purior esset Euangelii intellectus pe 
+      <lb ed="#W" n="19"/>nes Ecclesiam, sed paulo post ex satisfactio 
+      <lb ed="#W" n="20"/>nibus, quae conscientiarum carnificina facta 
+      <lb ed="#W" n="21"/>est? Obscurata gratia est, &amp; quod Euange¬ 
+      <lb ed="#W" n="22"/>lium fidei tribuit, coeptum est satisfactionibus 
+      <lb ed="#W" n="23"/>tribui, quo quid est &amp; impium magis, &amp; per¬ 
+      <lb ed="#W" n="24"/>niciosius? Et his malis certe occasionem de 
+      <!--108.xml-->
+      <pb ed="#G" n="53-r"/>
+               <lb ed="#W" n="1"/>dit Nicena synodus. Quanto satius fuerat,  
+      <lb ed="#W" n="2"/>sequi Pauli exemplum in formis poenitentiae, 
+      <lb ed="#W" n="3"/>qui citra omnem satisfactionem, moechum 
+      <lb ed="#W" n="4"/>illum Corinthium, ubi resipuit, recepit, mo¬ 
+      <lb ed="#W" n="5"/>nens etiam, ut est in postetiore Epistola ad 
+      <lb ed="#W" n="6"/>Corinthios, sufficere obiurgationem. Porro, 
+      <lb ed="#W" n="7"/>nostrorum temporum theologastri secuti 
+      <lb ed="#W" n="8"/>priscam traditionem Synodi Nicenae, fecerunt 
+      <lb ed="#W" n="9"/>ex satisfactionibus partem poenitentiae, quo 
+      <lb ed="#W" n="10"/>ertore plane non est alius nocentior.
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e1024">
+               <lb ed="#W" n="11"/>⁋ Quid negocii fecit etiam piorum conscien¬ 
+      <lb ed="#W" n="12"/>ciis confessio illa papistica, quot millia ani 
+      <lb ed="#W" n="13"/>marum illa sola perdidit? Cum Paulus Co¬ 
+      <lb ed="#W" n="14"/>rinthios cauere uoluerit, ne nimia tristitia 
+      <lb ed="#W" n="15"/>adfsigeretur moechus ille. At pontifices Ro¬ 
+      <lb ed="#W" n="16"/>mani, quorum inuentum confessio est, quaeso, 
+      <lb ed="#W" n="17"/>qd aliud agunt, qui ut miserrime &amp; crudelissi 
+      <lb ed="#W" n="18"/>me diuexent pauidas &amp; uere pias conscientias
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e1045">
+               <lb ed="#W" n="19"/>⁋ Iam in tot genera uiuendi scissus Chri¬ 
+      <lb ed="#W" n="20"/>stianismus, quid refert Christianae caritatis,  
+      <lb ed="#W" n="21"/>&amp; simplicitatis? Alii laici, alii monachi, 
+      <lb ed="#W" n="22"/>alii clerici sunt, &amp; in his innumerae sectae 
+      <lb ed="#W" n="23"/>sunt, quae tolerari possent fortasse, nisi &amp; 
+      <lb ed="#W" n="24"/>studiis, &amp; ambitione certaretur. Deinde qui¬ 
+      <!--109.xml-->
+      <pb ed="#G" n="53-v"/>
+               <lb ed="#W" n="1"/>bufdam uiuendi generibus addita est into¬ 
+      <lb ed="#W" n="2"/>lerabilis sarcina, Coelibatus, actumque de coe¬ 
+      <lb ed="#W" n="3"/>libatu est, etiam in Nicena synodo, Quidau 
+      <lb ed="#W" n="4"/>tem per eam traditionem profectum sit, nihil atti 
+      <lb ed="#W" n="5"/>net referre, quando non alio consilio uulgari 
+      <lb ed="#W" n="6"/>libidines indulgentius potuerte. In cap. vii. 
+      <lb ed="#W" n="7"/>ad Corint. ubi de uirginitate disserit Pau¬ 
+      <lb ed="#W" n="8"/>lus, nihil audet praecipere, ne laqueum iniice 
+      <lb ed="#W" n="9"/>ret, uultque hoc deligi, per quod possint ser¬ 
+      <lb ed="#W" n="10"/>uire deo absque ulla distractione, &amp; assiduo,  
+      <lb ed="#W" n="11"/>tVγραγίαδραή Qα ugsue om &amp;Tφρααί αSαφ. sic enim 
+      <lb ed="#W" n="12"/>inqut Apostolus, at qui minus adsidui, seu 
+      <lb ed="#W" n="13"/>ὑὑγρααδρoi sunt, qui uehementius a deo di¬ 
+      <lb ed="#W" n="14"/>uelluntur, quam, quos urunt fiammae canmis. 
+      <lb ed="#W" n="15"/>Haec prospiciens Paulus non praecipit coeli¬ 
+      <lb ed="#W" n="16"/>batum, immo &amp; ad Timotheum scribens, do¬ 
+      <lb ed="#W" n="17"/>ctrinam daemoniorum uocat traditionem de 
+      <lb ed="#W" n="18"/>coelibatu. Vicit Satan, &amp; recepta lex est, &amp; 
+      <lb ed="#W" n="19"/>uulgata in tot hominum millia magna cum 
+      <lb ed="#W" n="20"/>pernicie rei Christianae.
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e1108">
+               <lb ed="#W" n="21"/>⁋ Iam &amp; Eucharistia ablegata est ad pecu¬ 
+      <lb ed="#W" n="22"/>liare quoddam genus hominum, ad sacerdo 
+      <lb ed="#W" n="23"/>tes, &amp; qui communis esse uolebat omnium 
+      <lb ed="#W" n="24"/>piorum Christus, iam asolis sacerdotibus 
+      <!--110.xml-->
+      <pb ed="#G" n="54-r"/>
+               <lb ed="#W" n="1"/>usurpatur, atque ita &amp; missae fructus, &amp; uis 
+      <lb ed="#W" n="2"/>eucharistiae prorsus obscurata est, nec aliud 
+      <lb ed="#W" n="3"/>nunc est Eucharistia, nisi nondinatio sacer 
+      <lb ed="#W" n="4"/>dotum, cum repertum est a Satana, oporte¬ 
+      <lb ed="#W" n="5"/>re sacerdotes esse, qui pro populo sacrificent,  
+      <lb ed="#W" n="6"/>Missas uulgo uendi posse, &amp; huiusmodi¬ 
+      <lb ed="#W" n="7"/>alia. Non perisset Missae usus, ni scissae fui¬ 
+      <lb ed="#W" n="8"/>ssent uiuendi conditiones, in sacerdotes &amp; 
+      <lb ed="#W" n="9"/>laicos. O horrendam &amp; abominabilem im¬ 
+      <lb ed="#W" n="10"/>pietatem, quae regnat hodie in Papisticis 
+      <lb ed="#W" n="11"/>Missis.
+    </p>
+            <p xml:id="erf8hf-d1e861-d1e1147">
+               <lb ed="#W" n="12"/>⁋ Et quid attinet multa commemorare? ui¬ 
+      <lb ed="#W" n="13"/>des in his exemplis nullam fuisse tam piam 
+      <lb ed="#W" n="14"/>traditionem in speciem, quae non magno 
+      <lb ed="#W" n="15"/>malo fuerit rei Christianae. Quid enim uidetur 
+      <lb ed="#W" n="16"/>magis conuenire, quam ut sint in Ecclesia 
+      <lb ed="#W" n="17"/>publicorum scelerum satisfactiones? at illae 
+      <lb ed="#W" n="18"/>obscurarunt gratiam. Quid decentius, quam 
+      <lb ed="#W" n="19"/>Episcopos coelibes degeret at per eum coe¬ 
+      <lb ed="#W" n="20"/>libatum uia libidinibus facta est. Quid reue¬ 
+      <lb ed="#W" n="21"/>rentius, sic enim iudicant homines, non 
+      <lb ed="#W" n="22"/>spiritus, quam non uulgari usum euchari¬ 
+      <lb ed="#W" n="23"/>stiae in quosuis? At ita Missae fructus periit. 
+      <!--111.xml-->
+      <pb ed="#G" n="54-v"/>
+               <lb ed="#W" n="1"/>lta fit, ut traditiones habeant quidem ratio¬ 
+      <lb ed="#W" n="2"/>nem sapientiae, sed ea ipsa species, ille ipe 
+      <lb ed="#W" n="3"/>impiae ac consceleratae lexabelae fucus laedit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

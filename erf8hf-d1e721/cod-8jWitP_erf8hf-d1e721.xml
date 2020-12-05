@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De naturalibus legibus</title>
+            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De naturalibus legibus</title>
+               <date when="2020-12-04">December 04, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-12-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#W" n="32-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="erf8hf-d1e721">
+            <head xml:id="erf8hf-d1e721-Hd1e105">De naturalibus legibus</head>
+            <head xml:id="erf8hf-d1e721-Hd1e108" type="question-title">De naturalibus legibus</head>
+            <p xml:id="erf8hf-d1e721-d1e111">
+               <lb ed="#W" n="14"/>DE LEGE 
+      <lb ed="#W" n="15"/>⁋ Locus de legibus non paulo clarius ape¬ 
+      <lb ed="#W" n="16"/>riet uim rationemque peccati, siquidem pec¬ 
+      <lb ed="#W" n="17"/>cati cognitio lex esse dicitur. Quare, si quid 
+      <lb ed="#W" n="18"/>superiori loco deesse uidebitur, sarciet hic,  
+      <lb ed="#W" n="19"/>ni fallor, qui sequitur. Quanquam non hoc agi 
+      <lb ed="#W" n="20"/>mus ut omnia, quae de singulis fortasse capiti 
+      <lb ed="#W" n="21"/>bus dici queant coaceruemus, sed nomencla¬ 
+      <lb ed="#W" n="22"/>turam tantum communissimorum locorum facimus. 
+      <!--67.xml-->
+      <pb ed="#G" n="32-v"/>
+               <lb ed="#W" n="1"/>ut uideas unde summa Christianae doctri¬ 
+      <lb ed="#W" n="2"/>nae pendeat &amp; quorsum scriptura potissi¬ 
+      <lb ed="#W" n="3"/>mum referenda sit. Atque hos locos uolo non 
+      <lb ed="#W" n="4"/>uti me magistro, sed monitore, e scriptura, 
+      <lb ed="#W" n="5"/>non e meo commentario, discas. Nam crede 
+      <lb ed="#W" n="6"/>mihi multum refert, e fontibus petas, an ex 
+      <lb ed="#W" n="7"/>Iacunis tantarum rerum materiem.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e153">
+               <lb ed="#W" n="8"/>⁋ Hic non modo dulciores aquae e fonte,  
+      <lb ed="#W" n="9"/>ut poeta dixit, sed &amp; puriores hauriuntur. 
+      <lb ed="#W" n="10"/>Quanto certius enim est, quod scripturae 
+      <lb ed="#W" n="11"/>praescribunt, quam quod e commentariis decerpitur.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e164">
+               <lb ed="#W" n="12"/>⁋ Est autem lex sententia, qua bona tum 
+      <lb ed="#W" n="13"/>praecipiuntur, tum mala prohibentur. Ius 
+      <lb ed="#W" n="14"/>est auctoritas agendi secundum legem. Pro 
+      <lb ed="#W" n="15"/>legibus, &amp; contra leges multa sunt a ueteri¬ 
+      <lb ed="#W" n="16"/>bus dicta, quae ex quo fonte manarint pau 
+      <lb ed="#W" n="17"/>lo post indicabimus.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e181">
+               <lb ed="#W" n="18"/>⁋ Legum aliae naturales sunt, aliae diuinae, 
+      <lb ed="#W" n="19"/>aliae humanae. De naturalibus legibus, non¬ 
+      <lb ed="#W" n="20"/>dum uidi neque a Theologis, neque a luriscon¬ 
+      <lb ed="#W" n="21"/>sultis aliquid digne scriptum. Nam cum na¬ 
+      <lb ed="#W" n="22"/>turales dicantur, oportebat a rationis hu¬ 
+      <lb ed="#W" n="23"/>manae methodo earum formulas colligi per 
+      <lb ed="#W" n="24"/>naturalem syllogismum. ld quod nondum 
+      <!--68.xml-->
+      <pb ed="#G" n="33-r"/>
+               <lb ed="#W" n="1"/>uideo a quoquam factum, &amp; haud scio an 
+      <lb ed="#W" n="2"/>omnino possit fieri, nempe usque adeo cap¬ 
+      <lb ed="#W" n="3"/>ta, occaecataque ratione humana. Porro esse 
+      <lb ed="#W" n="4"/>in nobis legem naturae Paulus mire elegan 
+      <lb ed="#W" n="5"/>ti &amp; arguto enthymemate, in secundo ca¬ 
+      <lb ed="#W" n="6"/>pite ad Romanos docet, cum sic colligit. Est. 
+      <lb ed="#W" n="7"/>in gentibus conscientia factum defendens uel 
+      <lb ed="#W" n="8"/>adcusans, est igitur lex. Quid enim aliud 
+      <lb ed="#W" n="9"/>est conscientia, quam facti nostri iudicium, 
+      <lb ed="#W" n="10"/>quod a lege aliqua aut communi formula pe 
+      <lb ed="#W" n="11"/>titur? Est itaque lex naturae sententia commu¬ 
+      <lb ed="#W" n="12"/>nis, cui orumes homines pariter adsentimur, 
+      <lb ed="#W" n="13"/>atque adeo quam deus insculpsit cuiusque anio,  
+      <lb ed="#W" n="14"/>ad formandos mores adcommodata. Nam 
+      <lb ed="#W" n="15"/>ut sunt in disciplinis theoricis, ut mathe¬ 
+      <lb ed="#W" n="16"/>matis, quaedam communia principia siue 
+      <lb ed="#W" n="17"/>aones Quolαt ὑγργδ as, quale illud est, to¬ 
+      <lb ed="#W" n="18"/>tum esse maius partibus. Ita sunt quaedam  
+      <lb ed="#W" n="19"/>in moralibus tum principia communia, tum 
+      <lb ed="#W" n="20"/>conclusiones primae, utendum est enim do 
+      <lb ed="#W" n="21"/>cendi gratia istorum uocabulis, regulae om¬ 
+      <lb ed="#W" n="22"/>nium humanarum functionum. Has recte uo 
+      <lb ed="#W" n="23"/>caueris leges naturae. M. Cicero in libris da 
+      <lb ed="#W" n="24"/>legibus Platonem imitatus ex natura ho¬ 
+      <!--69.xml-->
+      <pb ed="#G" n="33-v"/>
+               <lb ed="#W" n="1"/>minis formulas legum deriuat, quod ut non 
+      <lb ed="#W" n="2"/>damno, ita urbane magis quam exacte fieri 
+      <lb ed="#W" n="3"/>uideo. Incidunt autem in eam Ciceronis dis¬ 
+      <lb ed="#W" n="4"/>utationem etiam pleraque impia, id quod 
+      <lb ed="#W" n="5"/>fere solet accidere cum methodos potius &amp; 
+      <lb ed="#W" n="6"/>compendia rationis nostrae sectamur, quam 
+      <lb ed="#W" n="7"/>diuinarum literarum praescriptum. Est enim 
+      <lb ed="#W" n="8"/>in uniuersum fallax humani captus iudi¬ 
+      <lb ed="#W" n="9"/>cium propter cognatam caecitatem, ita ut 
+      <lb ed="#W" n="10"/>etiamsi sint in animos nostros insculptae 
+      <lb ed="#W" n="11"/>quaedam formae morum, tamen eae depre 
+      <lb ed="#W" n="12"/>hendi uix possint. Quod uero dico leges na 
+      <lb ed="#W" n="13"/>turae a deo impressas mentibus humanis,  
+      <lb ed="#W" n="14"/>uolo earum cognitionem esse quosdam, ut isti 
+      <lb ed="#W" n="15"/>loquuntur habitus concreatos, non inuen 
+      <lb ed="#W" n="16"/>tam a nostris ingeniis, sed insitam nobis a 
+      <lb ed="#W" n="17"/>deo regulam iudicandi de moribus. ld ut con 
+      <lb ed="#W" n="18"/>ueniat cum Aristotelis philosophia non labo¬ 
+      <lb ed="#W" n="19"/>to. Quid enim ad me quid senserit ille rixatore 
+      <lb ed="#W" n="20"/>Omitto autem ea quae cum brutis communia ha 
+      <lb ed="#W" n="21"/>bemus, uitam tueri, gignereque &amp; aliud ex 
+      <lb ed="#W" n="22"/>sese procreare, quae in ius naturae referunt lu¬ 
+      <lb ed="#W" n="23"/>risconsulti, ego naturales quosdam adfectus 
+      <lb ed="#W" n="24"/>animantibus communiter infitos uoco.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e311">
+      <!--70.xml-->
+               <pb ed="#G" n="34-r"/>
+               <lb ed="#W" n="1"/>Legum autem quae proprie ad hominem 
+      <lb ed="#W" n="2"/>pertinent, haec uidentur esse capita quae subie 
+      <lb ed="#W" n="3"/>cimus.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e324">
+               <lb ed="#W" n="4"/>Deus colendus est.  
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e329">
+               <lb ed="#W" n="5"/>Quia nascimur in quandam uitae societa¬ 
+      <lb ed="#W" n="6"/>tem, nemo ledendus est.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e336">
+               <lb ed="#W" n="7"/>Poscit humana societas, ut omnibus rebus 
+      <lb ed="#W" n="8"/>communiter utamur.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e343">
+               <lb ed="#W" n="9"/>⁋ Primam legem de colendo deo accepi¬ 
+      <lb ed="#W" n="10"/>mus ex primo cap. ad Romanos, ubi non 
+      <lb ed="#W" n="11"/>dubium est, quin inter naturales leges, eam  
+      <lb ed="#W" n="12"/>recenseat Apostolus, cum inquit, deum de 
+      <lb ed="#W" n="13"/>clarasse omnibus hominibus maiestatem 
+      <lb ed="#W" n="14"/>suam conditione &amp; administratione uni¬ 
+      <lb ed="#W" n="15"/>uersitatis mundi. Sed ut possit syllogismo 
+      <lb ed="#W" n="16"/>humano colligi esse deum, curiosi magis 
+      <lb ed="#W" n="17"/>est quam pii disputare, maxime cum ra¬ 
+      <lb ed="#W" n="18"/>tioni humanae non sit tutum, de tantis re¬ 
+      <lb ed="#W" n="19"/>bus argutari, ut huius compendii princi¬ 
+      <lb ed="#W" n="20"/>pio monui.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e373">
+               <lb ed="#W" n="21"/>Secundam lege, qua cauetur, ne quis ledatur,  
+      <lb ed="#W" n="22"/>non dubium est tolli ex necessitudine communi 
+      <lb ed="#W" n="23"/>qua omnes oibsdeuincti, copulatique nascimur, 
+      <lb ed="#W" n="24"/>ut scriptura indicat cum inqt, Non conuenire, 
+      <!--71.xml-->
+      <pb ed="#G" n="34-v"/>
+               <lb ed="#W" n="1"/>ut homo solitarius degat, sed addendum 
+      <lb ed="#W" n="2"/>ci esse auxilium uitae. lubet itaque lex ne quis 
+      <lb ed="#W" n="3"/>ledatur, hoc est, ut certatim inter nos ame¬ 
+      <lb ed="#W" n="4"/>mus omnes, ut beneuolentiam nostram stu¬ 
+      <lb ed="#W" n="5"/>dio &amp; officio omnes experiantur. Itaque haec 
+      <lb ed="#W" n="6"/>lex complectitur diuinas, ne quem oecida 
+      <lb ed="#W" n="7"/>mus, ne rapiamus aliena &amp; similes.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e404">
+               <lb ed="#W" n="8"/>⁋ Si dicas, cur igitur Magisrtatus, sontes 
+      <lb ed="#W" n="9"/>occidunt? Respondeo. Quando quidem  
+      <lb ed="#W" n="10"/>ea est rerum humanarum conditio, ex quo pro¬ 
+      <lb ed="#W" n="11"/>lapsus Adam inussit nobis omnibus notam 
+      <lb ed="#W" n="12"/>peccati, ut saepe a malis boni laedantur, ad¬ 
+      <lb ed="#W" n="13"/>nitendum esse humano generi ut lex de non 
+      <lb ed="#W" n="14"/>laedendo in plurimis conseruetur, ideoque co¬ 
+      <lb ed="#W" n="15"/>hercendos, refrenandos, tollendosque esse e 
+      <lb ed="#W" n="16"/>medio, qui publicam pacem interturbant,  
+      <lb ed="#W" n="17"/>qui innocentes laedunt, quo plures seruari 
+      <lb ed="#W" n="18"/>possint, sublatis iis qui laeserant. Manet lex, 
+      <lb ed="#W" n="19"/>neminem laede. At si laesus quispiam fuerit iam 
+      <lb ed="#W" n="20"/>hoc agendum est, ne plures laedantur, tol¬ 
+      <lb ed="#W" n="21"/>lendusque is qui laesit. Pluris est uniuersam 
+      <lb ed="#W" n="22"/>multitudinem seruare quam unum, aut alte¬ 
+      <lb ed="#W" n="23"/>rum, ideo tollitur is, qui malum uniuersae 
+      <lb ed="#W" n="24"/>multitudini uno aut altero fatinore mali 
+      <!--72.xml-->
+      <pb ed="#G" n="35-r"/>
+               <lb ed="#W" n="1"/>exempli minatur. Hinc in re publica magi¬ 
+      <lb ed="#W" n="2"/>stratus sunt, hinc sontium poenae, hinc bel¬ 
+      <lb ed="#W" n="3"/>la, quae omnia lurisconsulti referunt in ius 
+      <lb ed="#W" n="4"/>gentium.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e456">
+               <lb ed="#W" n="5"/>⁋ Tertia lex de rerum communione plane 
+      <lb ed="#W" n="6"/>ex ratione societatis humani generis oritur. 
+      <lb ed="#W" n="7"/>Nam si inter pauculos amicos ualere debet 
+      <lb ed="#W" n="8"/>quod uulgo dicitur <foreign>Tα xαή qφuἔoή xanc</foreign>, id 
+      <lb ed="#W" n="9"/>est, ut sint inter amicos omnia communia, 
+      <lb ed="#W" n="10"/>cur non idem ualeat inter omnes homines, 
+      <lb ed="#W" n="11"/>siquidem debebant ita inter se omnes co¬ 
+      <lb ed="#W" n="12"/>haerere, ut cohaerent fratres cum fratribus,  
+      <lb ed="#W" n="13"/>liberi cum parentibus, parentes cum libe¬ 
+      <lb ed="#W" n="14"/>tis. Nam hoc iubebat lex de non laedendo. 
+      <lb ed="#W" n="15"/>Sed quia humana cupiditas non patitur ut 
+      <lb ed="#W" n="16"/>communiter omnibus utamur, corrigenda 
+      <lb ed="#W" n="17"/>est haec lex, superiore, scilicet, ne quis laeda 
+      <lb ed="#W" n="18"/>tur. Et eatenus communicandae sunt res, qua 
+      <lb ed="#W" n="19"/>tenus permittit pax publica, &amp; salus multi¬ 
+      <lb ed="#W" n="20"/>tudinis. Nam fere superioribus legibus cor¬ 
+      <lb ed="#W" n="21"/>riguntur inferiores, &amp; uocanda est uulga¬ 
+      <lb ed="#W" n="22"/>ris communio ad modum quendam. Proin 
+      <lb ed="#W" n="23"/>de pro tertia lege alia supponenda est. Sci¬ 
+      <lb ed="#W" n="24"/>licet res diuidendas esse, quando quidem ita 
+      <!--73.xml-->
+      <pb ed="#G" n="35-v"/>
+               <lb ed="#W" n="1"/>postulet communis multorum salus. Porro 
+      <lb ed="#W" n="2"/>quia rerum humanarum ea est conditio ut 
+      <lb ed="#W" n="3"/>aliqua saltem communicatione rerum opus 
+      <lb ed="#W" n="4"/>sit, cum deberent esse res natura communes,  
+      <lb ed="#W" n="5"/>institutum est ut usu communicentur, nem¬ 
+      <lb ed="#W" n="6"/>pe per contractus, emptionem, uenditio¬ 
+      <lb ed="#W" n="7"/>nem, locationem, conductionem &amp; caete¬ 
+      <lb ed="#W" n="8"/>ros. Et hic cermis quae sit contractuum ori¬ 
+      <lb ed="#W" n="9"/>go. Vidit haec Plato cum in libro quinto de 
+      <lb ed="#W" n="10"/>legibus inquit eam ciuitatem optime ad¬ 
+      <lb ed="#W" n="11"/>ministrari, in qua quam proxime accedat 
+      <lb ed="#W" n="12"/>ad uulgare illud dictum, Amicorum om¬ 
+      <lb ed="#W" n="13"/>nia esse communia, adeoque ubi non modo 
+      <lb ed="#W" n="14"/>res inter se ciuium communes sint, sed etiam  
+      <lb ed="#W" n="15"/>sua cuiusque membra, oculi, manus, pedes,  
+      <lb ed="#W" n="16"/>os, omnium publicae utilitati seruiant, nec 
+      <lb ed="#W" n="17"/>aliud quaerendum esse exemplar bene con¬ 
+      <lb ed="#W" n="18"/>stitutae reipublicae, nisi eam ciuitatem in qua 
+      <lb ed="#W" n="19"/>possit illud Tα CRoή icon&amp; obseruari, sunt 
+      <lb ed="#W" n="20"/>itaque reperti contractus per quos suae cuiusque 
+      <lb ed="#W" n="21"/>res communicarentur multis, ne nulla pror¬ 
+      <lb ed="#W" n="22"/>sus esset rerum communio. Et haec de genera¬ 
+      <lb ed="#W" n="23"/>libus formulis legum naturae, quas hoc mo 
+      <lb ed="#W" n="24"/>do potes digerete.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e561">
+      <!--74.xml-->
+               <pb ed="#G" n="36-r"/>
+               <lb ed="#W" n="1"/>⁋ Deum cole.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e570">
+               <lb ed="#W" n="2"/>⁋ Quia nascimur in quandam communem  
+      <lb ed="#W" n="3"/>uitae societatem, neminem lede, sed officis 
+      <lb ed="#W" n="4"/>quosuis iuuato.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e579">
+               <lb ed="#W" n="5"/>⁋ Si fieri nequit ut prorsus nemo. ledatur,  
+      <lb ed="#W" n="6"/>hoc agatur, ut paucissimi laedantur, subla¬ 
+      <lb ed="#W" n="7"/>tis iis qui publicam quietem interturbant,  
+      <lb ed="#W" n="8"/>&amp; in hoc magisrtatus, poenaeque sontibus con 
+      <lb ed="#W" n="9"/>stituantur.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e593">
+               <lb ed="#W" n="10"/>⁋ Res diuidunto, propter publicam pa¬ 
+      <lb ed="#W" n="11"/>cem. Caeterum per contractus alii aliorum 
+      <lb ed="#W" n="12"/>inopiam subleuent.
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e602">
+               <lb ed="#W" n="13"/>⁋ Iam qui uolet e Poetis. Oratoribus, Hi¬ 
+      <lb ed="#W" n="14"/>storicis adiungat peculiares sententias, quae 
+      <lb ed="#W" n="15"/>ad ius gentium referri solent, qualia sunt 
+      <lb ed="#W" n="16"/>quae de connubiis, de adulteriis, de redden 
+      <lb ed="#W" n="17"/>da gratia, de ingratitudine, de hospitali¬ 
+      <lb ed="#W" n="18"/>tate, de permutatione rerum, &amp; hoc genus 
+      <lb ed="#W" n="19"/>alis passim leguntur. Nam mihi satis ui¬ 
+      <lb ed="#W" n="20"/>debatur communissimas formas adno¬ 
+      <lb ed="#W" n="21"/>tate. Neque uero temere quasuis gentilium 
+      <lb ed="#W" n="22"/>scriptorum sententias pro legibus habeto. 
+      <!--75.xml-->
+      <pb ed="#G" n="36-v"/>
+               <lb ed="#W" n="1"/>Imitantur enim pleraeque uulgares sententiae 
+      <lb ed="#W" n="2"/>prauos adfectus naturae nostrae, non leges. 
+      <lb ed="#W" n="3"/>Qualis est haec apud Hesiodum. 
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e637">
+               <lb ed="#W" n="4"/>ro. &amp; ἔαouiα &amp;ncu, ⁋ui sα. γρααιαα γραα φα. 
+      <lb ed="#W" n="5"/>⁋ AQ αVQ καν QQOQI λNλV ἔS λν QV Son. 
+      <lb ed="#W" n="6"/>Nam his uersibs amicitiam prorsus utilitate me 
+      <lb ed="#W" n="7"/>titur. Tale e &amp; uulgatum illud Aαg Tπα ααα Ti. 
+      <lb ed="#W" n="8"/>Huc pertinet quod uim ui repellendam di¬ 
+      <lb ed="#W" n="9"/>cunt, quale illud est apud Euripidem in lone. 
+      <lb ed="#W" n="10"/>u A dαραή, &amp; xχοααι Nκ, AεD 
+      <lb ed="#W" n="11"/>TiQ QVεTαV &amp; πλVIXα σραααI Aανcg 
+      <lb ed="#W" n="12"/>Sἔρ Tδφ, oδQλQ ἔNχααι RλITαt VNov
+    </p>
+            <p xml:id="erf8hf-d1e721-d1e659">
+               <lb ed="#W" n="13"/>⁋ Sunt &amp; in iure ciuili, quod ita uocant,  
+      <lb ed="#W" n="14"/>pleraque adfectus magis humanos, quam na¬ 
+      <lb ed="#W" n="15"/>turales leges prae se ferentia. Quid enim est a le 
+      <lb ed="#W" n="16"/>ge naturae alienius seruorum captiuitate? Et 
+      <lb ed="#W" n="17"/>inciuiliter nullis non contractibus praetexitu 
+      <lb ed="#W" n="18"/>id quod interest. Sed de his alias. Ponus uir 
+      <lb ed="#W" n="19"/>attempetabit ciuiles constitutiones aequo ac 
+      <lb ed="#W" n="20"/>bono, hoc est, tum diuinis, tum naturali¬ 
+      <lb ed="#W" n="21"/>bus legibus, contra quas quidquid constituitur, 
+      <lb ed="#W" n="22"/>non potest non iniquum esse. Et de legibus na 
+      <lb ed="#W" n="23"/>turae hactenus, quas si potes exactiore sub¬ 
+      <lb ed="#W" n="24"/>tilioreque ratione digerito.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

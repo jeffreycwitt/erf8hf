@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epistola</title>
+            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Epistola</title>
+               <date when="2020-12-04">December 04, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-12-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#W" n="1-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="erf8hf-d1eV9">
+            <head xml:id="erf8hf-d1eV9-Hd1e105">Epistola</head>
+            <p xml:id="erf8hf-d1eV9-d1e108">
+    <!--5.xml-->
+               <pb ed="#G" n="1-v"/>
+               <lb ed="#W" n="1"/>IVXTA PIO ATQVE ERVDI¬ 
+      <lb ed="#W" n="2"/>to uito D. Tilomano Plettenero 
+      <lb ed="#W" n="3"/>Ph. Mel. S. 
+      <lb ed="#W" n="4"/>NNO superiore, a Paulinam Epi¬ 
+      <lb ed="#W" n="5"/>stolam quae Romanis inscripta 
+      <lb ed="#W" n="6"/>est, enarraturi, communissimos 
+      <lb ed="#W" n="7"/>rerum theologicarum locos, adeoque illius 
+      <lb ed="#W" n="8"/>Epistolae farraginem ceu methodica ratio¬ 
+      <lb ed="#W" n="9"/>ne digessimus. Quae lucubratiuncula, cum 
+      <lb ed="#W" n="10"/>in hoc tantum esset parata, ut Paulinae dispu 
+      <lb ed="#W" n="11"/>tationis argumentum  και ἔλεχον quam pin¬ 
+      <lb ed="#W" n="12"/>guissime iis indicaret, quos priuatim doce¬ 
+      <lb ed="#W" n="13"/>bamus, tamen nescio a quibus euulgari ce¬ 
+      <lb ed="#W" n="14"/>pit, quorum mihi, quicunque tandem publi¬ 
+      <lb ed="#W" n="15"/>cauetunt, studium magis, quam iudicium 
+      <lb ed="#W" n="16"/>probatur, nempeque ita scripsissem ut sine 
+      <lb ed="#W" n="17"/>Pauli Epistola, non satis intelligi posset,  
+      <lb ed="#W" n="18"/>quid in toto opere secutus essem. Nunc, quia 
+      <lb ed="#W" n="19"/>mihi non est in manu libellum, prope mo 
+      <lb ed="#W" n="20"/>dum publici iuris factum premere, uisum est 
+      <lb ed="#W" n="21"/>recognoscere ac sub incudem reuocare, de¬ 
+      <lb ed="#W" n="22"/>sidetabant enim pleraque accuratiorem dispu¬ 
+      <lb ed="#W" n="23"/>tationem, pleraque etiam, limam. Porro, 
+      <!--6.xml-->
+      <pb ed="#G" n="2-r"/>
+               <lb ed="#W" n="1"/>quod ad argumenti summam attinet, in¬ 
+      <lb ed="#W" n="2"/>dicantur hic Christianae disciplinae praecipui 
+      <lb ed="#W" n="3"/>loci, ut intelligat iuuentus, &amp; quae sint in 
+      <lb ed="#W" n="4"/>scripturis potissimum requirenda, &amp; quam 
+      <lb ed="#W" n="5"/>foede hallucinati sint ubique in re theologica 
+      <lb ed="#W" n="6"/>qui nobis pro Christi doctrina Aristoteli¬ 
+      <lb ed="#W" n="7"/>cas argutias prodidere. Parce uero ac breui¬ 
+      <lb ed="#W" n="8"/>ter omnia tractamus, que indicis magis, quam 
+      <lb ed="#W" n="9"/>commentarii uice fungimur, dum nomen 
+      <lb ed="#W" n="10"/>claturam tantum facimus locorum, ad quos 
+      <lb ed="#W" n="11"/>ueluti diuertendum est erranti per diuina 
+      <lb ed="#W" n="12"/>uolumina, dum paucis tantum uerbis mo 
+      <lb ed="#W" n="13"/>nemus e quibus summa Christianae doctri 
+      <lb ed="#W" n="14"/>nae pendeat. Non hoc ago, ut ad obscuras 
+      <lb ed="#W" n="15"/>aliquas &amp; impeditas disputationes a scrip¬ 
+      <lb ed="#W" n="16"/>turis auocem studiosos, sed ut, si quos queam, 
+      <lb ed="#W" n="17"/>ad scripturas inuitem. Nam in uniuersum 
+      <lb ed="#W" n="18"/>non admodum aequus sum commentariis, 
+      <lb ed="#W" n="19"/>ne ueterum quidem, tantum abest, ut ullo 
+      <lb ed="#W" n="20"/>meo longiore scripto uelim quenquam a ca¬ 
+      <lb ed="#W" n="21"/>nonicae scripturae studio retraherte. Immo 
+      <lb ed="#W" n="22"/>nihil perinde optarim atque si fieri possit,  
+      <lb ed="#W" n="23"/>Christianos omneis in solis diuinis literis li 
+      <lb ed="#W" n="24"/>bertime uersari, &amp; in illarum indolem plane 
+      <!--7.xml-->
+      <pb ed="#G" n="2-v"/>
+               <lb ed="#W" n="1"/>tranfformati. Nam cum in illis absolutissimam 
+      <lb ed="#W" n="2"/>sui imaginem expresserit diuinitas, non pote¬ 
+      <lb ed="#W" n="3"/>rit aliunde, neque certius, neque ppius cognosci. 
+      <lb ed="#W" n="4"/>Fallitur quisquis aliunde christianismi formam 
+      <lb ed="#W" n="5"/>petit, quam e scriptura Canonica. Quantum eni 
+      <lb ed="#W" n="6"/>ab huis puritate absunt commentariit? In hac 
+      <lb ed="#W" n="7"/>nihil reperias non augustum, in illis, quam mul 
+      <lb ed="#W" n="8"/>ta quae a philosophia, ab humanae rationis 
+      <lb ed="#W" n="9"/>aestimatoe pendent, qui cum iudicio spirits pror 
+      <lb ed="#W" n="10"/>sus ex diametro pugnant. Non sic detriuerant. 
+      <lb ed="#W" n="11"/>o Iuxntos scriptores, ut nihil nisi gα uxα¬ 
+      <lb ed="#W" n="12"/>&amp;t&amp; spitatent. Ex Origene, si tollas, inconcin 
+      <lb ed="#W" n="13"/>nas allegorias, &amp; philosophicarum sententia¬ 
+      <lb ed="#W" n="14"/>rum syluam, quantulum erit reliquum? Et tum hunc 
+      <lb ed="#W" n="15"/>auctorem magno consensu sequuntur Oraeci, &amp; 
+      <lb ed="#W" n="16"/>ex latinis, qui uidentur esse columnae, Ambro¬ 
+      <lb ed="#W" n="17"/>sius &amp; Hieronymus. Post hos fere quo quisque 
+      <lb ed="#W" n="18"/>recentior est, eo est insincerior, degenera¬ 
+      <lb ed="#W" n="19"/>uitque tandem disciplina Christiana in schola 
+      <lb ed="#W" n="20"/>sticas nugas, de qbus dubites, impiae magis 
+      <lb ed="#W" n="21"/>sint, an stultae. Preuiterifieri neqt, quin cau 
+      <lb ed="#W" n="22"/>to etiam lectori saepe imponant humana scrip 
+      <lb ed="#W" n="23"/>ta. Qd si oino prophetia &amp; adssatus quidam 
+      <lb ed="#W" n="24"/>est, cognitio sacrarum rex, cur non hoc literape 
+      <lb ed="#W" n="25"/>genus amplectimur, per quod illabitur spiri¬ 
+      <!--8.xml-->
+      <pb ed="#G" n="3-r"/>
+               <lb ed="#W" n="1"/>tus. An non onia sui sermonis opera deus effi 
+      <lb ed="#W" n="2"/>cit? Multa enim docebit scripturarum usu spiri¬ 
+      <lb ed="#W" n="3"/>tus, seu ut lohannes ait, unctio, qui quantauis 
+      <lb ed="#W" n="4"/>humani ingenii industria, non queat adsequi. 
+      <lb ed="#W" n="5"/>Nos certe non aliud agimus, quam ut eorum qui 
+      <lb ed="#W" n="6"/>in scripturis uersari uolent, studia utcumque iu 
+      <lb ed="#W" n="7"/>uemus, ld si non uidebitur praestare libellus,  
+      <lb ed="#W" n="8"/>pereat sane, nihil enim mea referre censeo, qd 
+      <lb ed="#W" n="9"/>de publico opere publice iudicetur.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

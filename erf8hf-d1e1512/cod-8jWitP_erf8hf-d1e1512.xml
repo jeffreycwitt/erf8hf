@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De caritate</title>
+            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De caritate</title>
+               <date when="2020-12-04">December 04, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-12-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#W" n="135-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="erf8hf-d1e1512">
+            <head xml:id="erf8hf-d1e1512-Hd1e105">De caritate</head>
+            <head xml:id="erf8hf-d1e1512-Hd1e108" type="question-title">De caritate</head>
+            <p xml:id="erf8hf-d1e1512-d1e111">
+      DE CARITATE. 
+    </p>
+            <p xml:id="erf8hf-d1e1512-d1e114">
+               <lb ed="#W" n="6"/>De peccato, lege, gratia, Euangelio,  
+      <lb ed="#W" n="7"/>adeoque &amp; iustificatione hactenus, quae quae¬ 
+      <lb ed="#W" n="8"/>stio omnium hominum semper communis 
+      <lb ed="#W" n="9"/>fuit, eritque. Qui nam iustificari homo possit.  
+      <lb ed="#W" n="10"/>Philosophi &amp; pharisaei docuerunt hominem 
+      <lb ed="#W" n="11"/>suis uirtutibus &amp; conatibus iustificati. Nos 
+      <lb ed="#W" n="12"/>docuimus iustificari sola fide, hoc est. Chri 
+      <lb ed="#W" n="13"/>sti iusticiam nostram iusticiam esse per fidem, 
+      <lb ed="#W" n="14"/>opera nostra, conatus nostros nihil nisi pec 
+      <lb ed="#W" n="15"/>catum esse. Haec qui tenet, summam scripturae 
+      <lb ed="#W" n="16"/>tenet, uidelicet iustificari credentes MIS E 
+      <lb ed="#W" n="17"/>RICORDIA dei. Postremo res postu¬ 
+      <lb ed="#W" n="18"/>lat ut de caritate dicamus. Supra monui 
+      <lb ed="#W" n="19"/>amorem dei esse fructum fidei. Non potest enim 
+      <lb ed="#W" n="20"/>non redamare deum, qui fide misericordiam  
+      <lb ed="#W" n="21"/>comprehendit. adeoque amor dei, fidei fru¬ 
+      <lb ed="#W" n="22"/>ctus est. Ex amore dei nascitur &amp; proximi 
+      <lb ed="#W" n="23"/>amor, cum deo in omnibus creaturis seruire 
+      <lb ed="#W" n="24"/>cupimus. Et huius quidem amoris ego nullam 
+      <!--272.xml-->
+      <pb ed="#G" n="136-r"/>
+               <lb ed="#W" n="1"/>regulam breuiorem aut aptiorem possum 
+      <lb ed="#W" n="2"/>tradere, quam haec est. Dilige proximum sicut 
+      <lb ed="#W" n="3"/>teipsum. Augustinus ordinem diligendog. 
+      <lb ed="#W" n="4"/>concepit, ut primum animas, postea corpo 
+      <lb ed="#W" n="5"/>ra. primum nostros, postea alienos diliga¬ 
+      <lb ed="#W" n="6"/>mus. Nos fidem caritati semper praeferimus. 
+      <lb ed="#W" n="7"/>Ergo &amp; ea quae sunt animae, corporis nece¬ 
+      <lb ed="#W" n="8"/>ssitatibus fere praeferimus. Caeterum alienos,  
+      <lb ed="#W" n="9"/>inimicos iuxta atque amicos diligi Christus 
+      <lb ed="#W" n="10"/>iubet Matth. v. &amp; Paulus Rom. xii. Quibus 
+      <lb ed="#W" n="11"/>benefacere debeas, cum amicis, tum inimi¬ 
+      <lb ed="#W" n="12"/>cis facile iudicabit spuns. Certe Paulus maxi¬ 
+      <lb ed="#W" n="13"/>me domesticorum rationem haberi uoluit 
+      <lb ed="#W" n="14"/>ad Calat, &amp; ad Timoth. Nolo enim liberta 
+      <lb ed="#W" n="15"/>tem spiritus eiusmodi disputationibus uin¬ 
+      <lb ed="#W" n="16"/>ciri, quales illae sunt uel sumulariorum, uel 
+      <lb ed="#W" n="17"/>Ciceronis in. iii, officiorum, ubi disserit de 
+      <lb ed="#W" n="18"/>officio eius, qui ex naufragio in tabulam 
+      <lb ed="#W" n="19"/>eandem peruenerit, quam &amp; sapiens quispiam 
+      <lb ed="#W" n="20"/>tenuit. Apagesis illas stultas quaestioes qua¬ 
+      <lb ed="#W" n="21"/>rum exempla nulla facile in res humanas 
+      <lb ed="#W" n="22"/>cadunt.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

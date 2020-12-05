@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De monachorum votis</title>
+            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De monachorum votis</title>
+               <date when="2020-12-04">December 04, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-12-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#W" n="42-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="erf8hf-d1e833">
+            <head xml:id="erf8hf-d1e833-Hd1e105">De monachorum votis</head>
+            <head xml:id="erf8hf-d1e833-Hd1e108" type="question-title">De monachorum votis</head>
+            <p xml:id="erf8hf-d1e833-d1e111">
+      <!--87.xml-->
+               <pb ed="#G" n="42-v"/>
+               <lb ed="#W" n="1"/>DE MONACHORVM VOTIS.
+    </p>
+            <p xml:id="erf8hf-d1e833-d1e120">
+               <lb ed="#W" n="2"/>⁋ Quid autem de monachorum uotis? Pri¬ 
+      <lb ed="#W" n="3"/>mum quod ad ipsam uoti rationem adti¬ 
+      <lb ed="#W" n="4"/>net, neque praecipit neque consulit scriptura, ut 
+      <lb ed="#W" n="5"/>quidpiam deuoueatur. Non probat autem 
+      <lb ed="#W" n="6"/>deus, nisi quae uel praecipit uel consulit. Qua 
+      <lb ed="#W" n="7"/>re non uideo quid accedat pietati per uotum. 
+      <lb ed="#W" n="8"/>Non exigebat Mosaica lex uoueri quidpiam, 
+      <lb ed="#W" n="9"/>sed permittebat. Euangelium cum in totum 
+      <lb ed="#W" n="10"/>sit libertas quaedam spiritus, prorsum igno 
+      <lb ed="#W" n="11"/>rat uotorum seruitutem. Et quantum mihi 
+      <lb ed="#W" n="12"/>uidetur, sola fidei &amp; Euangelicae libertatis 
+      <lb ed="#W" n="13"/>ignoratione factum est, cur recepta sit uo¬ 
+      <lb ed="#W" n="14"/>uendi consuetudo. Nec nihil pugnat cum 
+      <lb ed="#W" n="15"/>fide, cum libertate spiritus uouendi ritus. 
+      <lb ed="#W" n="16"/>Docent etiam scholastici opus e uoto factum 
+      <lb ed="#W" n="17"/>praestare operi, quod citra uotum fit. Impii 
+      <lb ed="#W" n="18"/>homines pietatem ab operibus aestimantes 
+      <lb ed="#W" n="19"/>&amp; non potius a spiritu &amp; fide. Et cur prop¬ 
+      <lb ed="#W" n="20"/>ter uotum praeferunt opus, cum tamen nec 
+      <lb ed="#W" n="21"/>exigatur, nec consulatur uotum. Deinde 
+      <lb ed="#W" n="22"/>quaeso considera quid deuoueatur. Promit 
+      <lb ed="#W" n="23"/>tuntur coelibatus, paupertas, &amp; obedien¬ 
+      <lb ed="#W" n="24"/>tia. Coelibatum non nego consuli. Sed cum 
+      <!--88.xml-->
+      <pb ed="#G" n="43-r"/>
+               <lb ed="#W" n="1"/>ea sit imbecillitas camis nostrae, ut Christus 
+      <lb ed="#W" n="2"/>etiam neget omnes capere sermonem de coe¬ 
+      <lb ed="#W" n="3"/>libatu, quid attinet uulgare in tot homi¬ 
+      <lb ed="#W" n="4"/>num milia rem adeo ancipitem &amp; periculo 
+      <lb ed="#W" n="5"/>sam? Ex ueteribus heremitis, quantum ex 
+      <lb ed="#W" n="6"/>historiis colligi potest, pauci adeo fuere qui  
+      <lb ed="#W" n="7"/>foeliciter cum carne dimicarint, cum tamen 
+      <lb ed="#W" n="8"/>sedulo emacerarent corpora fame ac siti 
+      <lb ed="#W" n="9"/>essentque aduersus insidias daemonis diuina¬ 
+      <lb ed="#W" n="10"/>rum literarum cognitione munitissimi. Nos 
+      <lb ed="#W" n="11"/>quomodo uincemus in tanto luxu, in al¬ 
+      <lb ed="#W" n="12"/>tissimo ocio, adeo inermes, adeo ignari sa 
+      <lb ed="#W" n="13"/>crarum literarum, &amp; Euangeli, quo nisi sis 
+      <lb ed="#W" n="14"/>instructissimus infoeliciter cum Satana con¬ 
+      <lb ed="#W" n="15"/>grediere. Et successus docet, quam prudenter 
+      <lb ed="#W" n="16"/>uoueamus. Porro paupertas ab omnibus 
+      <lb ed="#W" n="17"/>Christianis exigitur iure diuino, adeo non 
+      <lb ed="#W" n="18"/>tantum ad monachos pertinet. Est autem pau¬ 
+      <lb ed="#W" n="19"/>pertas Euangelica, non mendicitas illa uul¬ 
+      <lb ed="#W" n="20"/>garis, sed sua cum omnibus habere commu¬ 
+      <lb ed="#W" n="21"/>nia, largiri, donare omnibus egentibus, &amp; 
+      <lb ed="#W" n="22"/>rem facere, in hoc ut alienam inopiam suble¬ 
+      <lb ed="#W" n="23"/>ues. Non est euangelica paupertas nihil possi 
+      <lb ed="#W" n="24"/>dere, sed ita possidere, ut alienae rei procu¬ 
+      <!--89.xml-->
+      <pb ed="#G" n="43-v"/>
+               <lb ed="#W" n="1"/>ratorem te agere sentias, non tuae. ld quod do¬ 
+      <lb ed="#W" n="2"/>cet Paulus ad Ephes. iiii. Magis autem laboret 
+      <lb ed="#W" n="3"/>operando manibus suis, quod bonum est, ut 
+      <lb ed="#W" n="4"/>habeat unde tribuat necessitatem pacienti. 
+      <lb ed="#W" n="5"/>Huc etiam referri potest, quod est in Euange¬ 
+      <lb ed="#W" n="6"/>lio, Vade &amp; uende omnia quae habes &amp; da pau 
+      <lb ed="#W" n="7"/>peribus. Nam sic illum uolebat Christus paupe 
+      <lb ed="#W" n="8"/>rem esse, ut daret. Nunc nos paupertatem 
+      <lb ed="#W" n="9"/>nihil uocamus, nisi ab aliis accipere. Vides 
+      <lb ed="#W" n="10"/>quantum absit ab Euangelio mendicandi in¬ 
+      <lb ed="#W" n="11"/>stitutum? ut exigitur paupertas ita &amp; labor pa 
+      <lb ed="#W" n="12"/>randae rei, non nostra sed fratrum caussa. Tan¬ 
+      <lb ed="#W" n="13"/>tum abest ut mendicitas probetur. Postremo 
+      <lb ed="#W" n="14"/>obedientiam promittunt, sed hanc singuli pa 
+      <lb ed="#W" n="15"/>rentibus, praeceptoribus, magistratibus, iu¬ 
+      <lb ed="#W" n="16"/>re diuino debemus. Quare nulla est perfe¬ 
+      <lb ed="#W" n="17"/>ctio peculiaris in instituto monastico. Sed 
+      <lb ed="#W" n="18"/>nunc de monachis non libet disputare. ui¬ 
+      <lb ed="#W" n="19"/>derint isti quam Christiane senserint, qui mo 
+      <lb ed="#W" n="20"/>nachorum conditionem usque adeo nulli non ge 
+      <lb ed="#W" n="21"/>neri hominum praetulerunt, aestimantes non a 
+      <lb ed="#W" n="22"/>spiritu Christianismum, sed ab externorum 
+      <lb ed="#W" n="23"/>operum specie. Quondam monasteria nihil nisi 
+      <lb ed="#W" n="24"/>sholae erant, degebant coelibes sua sponte scho 
+      <!--90.xml-->
+      <pb ed="#G" n="44-r"/>
+               <lb ed="#W" n="1"/>lastici &amp; quandiu libebat, utebantur cum condif¬ 
+      <lb ed="#W" n="2"/>cipulis communiter oibus rebus, obsequebantr 
+      <lb ed="#W" n="3"/>parebant liberaliter praeceptoribus, una psal¬ 
+      <lb ed="#W" n="4"/>lebatur, orabatur, disserebatur, habebaturque totum 
+      <lb ed="#W" n="5"/>uitae genus, non pro peculiari quodam Chri¬ 
+      <lb ed="#W" n="6"/>stianismo, pro statu perfectionis, ut nunc lo 
+      <lb ed="#W" n="7"/>quumtur, sed potius p imperfectorum tyrocinio 
+      <lb ed="#W" n="8"/>ac rudimento esset. Atque utinam eadem hodie 
+      <lb ed="#W" n="9"/>monasteriorum conditio. Nam ita &amp; scholas ha 
+      <lb ed="#W" n="10"/>beremus sanctiores &amp; minus superstitionis 
+      <lb ed="#W" n="11"/>&amp; impietatis. In qua enim Christianarum rerum 
+      <lb ed="#W" n="12"/>parte potentius regnat Antichristus, quam 
+      <lb ed="#W" n="13"/>in seruitute monastica. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

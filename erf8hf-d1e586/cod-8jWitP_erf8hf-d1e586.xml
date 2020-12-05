@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Unde peccatum originale</title>
+            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Unde peccatum originale</title>
+               <date when="2020-12-04">December 04, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-12-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#W" n="13-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="erf8hf-d1e586">
+            <head xml:id="erf8hf-d1e586-Hd1e105">Unde peccatum originale</head>
+            <head xml:id="erf8hf-d1e586-Hd1e108" type="question-title">Unde peccatum originale</head>
+            <p xml:id="erf8hf-d1e586-d1e111">
+               <lb ed="#W" n="13"/>VNDE peccatum Orig.
+    </p>
+            <p xml:id="erf8hf-d1e586-d1e116">
+               <lb ed="#W" n="14"/>⁋ Deus Opt. Max,. cum condidisset homi¬ 
+      <lb ed="#W" n="15"/>nem sine peccato, aderat ei per spiritum suum, 
+      <lb ed="#W" n="16"/>qui hominem ad recta infsammaret. Idem  
+      <lb ed="#W" n="17"/>o spiritus gubernaturus erat omnem Adae po¬ 
+      <lb ed="#W" n="18"/>steritatem, nisi lapsus fuisset Adam. Iam  
+      <lb ed="#W" n="19"/>posteaquam deliquit Adam, auetsatus est 
+      <lb ed="#W" n="20"/>deus hominem, ut non adsit ei gubernator 
+      <lb ed="#W" n="21"/>ndei spiritus. Ita fit, ut anima luce, uitaque coe¬ 
+      <lb ed="#W" n="22"/>lesti carens excecetur, &amp; sese ardentissime 
+      <lb ed="#W" n="23"/>amet, sua quaerat, non cupiat, non uelit,  
+      <lb ed="#W" n="24"/>nisi carnalia, contemnens dei, &amp; qui possum 
+      <!--30.xml-->
+      <pb ed="#G" n="14-r"/>
+               <lb ed="#W" n="1"/>ego uerbis consequi, humani cordis praui¬ 
+      <lb ed="#W" n="2"/>tatem. Fieri enim nequit, quin sese maxime 
+      <lb ed="#W" n="3"/>amet creatura, quam non absorpsit amor dei 
+      <lb ed="#W" n="4"/>Fieri neqt ut spiritalia amet caro. Sic enim in 
+      <lb ed="#W" n="5"/>Genesi legitur. Non permanebit spuns meus in 
+      <lb ed="#W" n="6"/>hoie, quia caro est. Et apud Paulum ad Ro, ca. 
+      <lb ed="#W" n="7"/>viii. Qui secundum camem sunt, id est, qui sine 
+      <lb ed="#W" n="8"/>spiritu dei sunt? Nam uel ex illo genesis loco 
+      <lb ed="#W" n="9"/>liquet canem esse uires humanas, sine dei spi 
+      <lb ed="#W" n="10"/>ritu lqui camis sunt adfectant. Et tursus, adfe¬ 
+      <lb ed="#W" n="11"/>ctus camis inimicitia est aduersus deum, Itaque 
+      <lb ed="#W" n="12"/>cum tradunt Sophistae. Peccatum originale, esse 
+      <lb ed="#W" n="13"/>iusticiae originalis carentiam, sic loquumtur ipsi,  
+      <lb ed="#W" n="14"/>recte dicunt. Sed cur non addunt, que ubi non est 
+      <lb ed="#W" n="15"/>originalis iusticia, seu spirits, ibi esse reuera 
+      <lb ed="#W" n="16"/>camem, reuera impietatem, reuera contemptum 
+      <lb ed="#W" n="17"/>rerum spiritualium. Primus itaque adfectus, &amp; su 
+      <lb ed="#W" n="18"/>mus naturae hois est amor sui, a quo rapitur,  
+      <lb ed="#W" n="19"/>ut uelit, desideretque ea tantum qui suae naturae 
+      <lb ed="#W" n="20"/>bona, iucunda, dulcia, gloriosa uidemtur, odio 
+      <lb ed="#W" n="21"/>habeat, &amp; formidet ea qui naturae aduersa uim 
+      <lb ed="#W" n="22"/>dentur, auerseturque eum qui arcet ab iis qui cupit, 
+      <lb ed="#W" n="23"/>aut qui pcipit ea sectari, ea quaeri quie displicent. 
+      <lb ed="#W" n="24"/>Proh quae hoim incomprehensibilis miseria est. 
+      <!--31.xml-->
+      <pb ed="#G" n="14-v"/>
+               <lb ed="#W" n="1"/>Hinc in homine dei &amp; legis diuinae odium 
+      <lb ed="#W" n="2"/>oritur, hinc homini, ut mox latius explica 
+      <lb ed="#W" n="3"/>bimus, ignis consumens deus est.
+    </p>
+            <p xml:id="erf8hf-d1e586-d1e209">
+               <lb ed="#W" n="4"/>⁋ Esse uero peccatum originale Pelagianim 
+      <lb ed="#W" n="5"/>negasse feruntur, quorum dogma reuellit Au 
+      <lb ed="#W" n="6"/>gustinus aliquot uoluminibus erudite. Nam 
+      <lb ed="#W" n="7"/>in hac disputatione, potissimum regnat, ita, 
+      <lb ed="#W" n="8"/>ut caetera fere quae praeter Pelagianam cau¬ 
+      <lb ed="#W" n="9"/>sam scripsit, frigidiora uideantur. Nos subi¬ 
+      <lb ed="#W" n="10"/>ciemus locos aliquot testantes esse peccatum 
+      <lb ed="#W" n="11"/>originale. Et quid potuit clarius dici eo, quod 
+      <lb ed="#W" n="12"/>est scriptum ad Ephesios secundo capite. 
+      <lb ed="#W" n="13"/>Eramus natura filii irae, sicut &amp; caeteri. Quod
+      <lb ed="#W" n="14"/>si natura sumus filii irae, certe nascimur fili 
+      <lb ed="#W" n="15"/>irae. Quid enim ibi aliud agit Paulus, quam om 
+      <lb ed="#W" n="16"/>nes uires nostras peccato obnoxias nasci. 
+      <lb ed="#W" n="17"/>nihil ullo tempore in ullis hominum uiribus 
+      <lb ed="#W" n="18"/>boni esse. Capite quinto ad Romanos in¬ 
+      <lb ed="#W" n="19"/>stituit disputationem de peccato, gratia, &amp; 
+      <lb ed="#W" n="20"/>lege, ubi peccatum docet propagatum in omns 
+      <lb ed="#W" n="21"/>homines. Quomodo uero propagatum est 
+      <lb ed="#W" n="22"/>unius peccatum, si non ab uno omnes nascun 
+      <lb ed="#W" n="23"/>tur peccatores? Neque uero negari potest, quin 
+      <lb ed="#W" n="24"/>de originali peccato eo loco Paulus disse¬ 
+      <!--32.xml-->
+      <pb ed="#G" n="15-r"/>
+               <lb ed="#W" n="1"/>tat. Nam si de suo cuiusque peccato loquere¬ 
+      <lb ed="#W" n="2"/>tur, non posset dicere, unius delicto, mul¬ 
+      <lb ed="#W" n="3"/>tos mortuos esse, quod de actuali, quod uo 
+      <lb ed="#W" n="4"/>cant, peccato non posse dici quis non ui¬ 
+      <lb ed="#W" n="5"/>det? nisi calumniari quis textum uelit. Iam  
+      <lb ed="#W" n="6"/>si non est auctor peccati Adam, non erit so 
+      <lb ed="#W" n="7"/>lus Christus auctor iustitiae, sed etiam Adam.  
+      <lb ed="#W" n="8"/>Item si de suo cuiusque peccato loquitur, cur 
+      <lb ed="#W" n="9"/>pueri moriuntur, qui nondum admiserunt 
+      <lb ed="#W" n="10"/>peccatum, quod uocant, actuale? Et cum 
+      <lb ed="#W" n="11"/>non nisi per peccatum mors irrumpat, necesse 
+      <lb ed="#W" n="12"/>est pueros peccati reos esse, peccatumque ha¬ 
+      <lb ed="#W" n="13"/>bere, at quod? certe originale. Roquitur autem 
+      <lb ed="#W" n="14"/>Paulus de eo peccato, per quod omnes morti 
+      <lb ed="#W" n="15"/>adiudicati sunt. Quin consideramus Pau¬ 
+      <lb ed="#W" n="16"/>lini sermonis figuram. Perinde eni atque hic  
+      <lb ed="#W" n="17"/>ad Romanos, alias etiam Corinthiis scribit. 
+      <lb ed="#W" n="18"/>Sicut in Adam omnes moriuntur, ita in 
+      <lb ed="#W" n="19"/>Christo omnes uiuificabuntur. Huc pertinet 
+      <lb ed="#W" n="20"/>Prophetae exclamatio. Ecce in iniquitatibs 
+      <lb ed="#W" n="21"/>conceptus sum, &amp; in peccatis concepit me 
+      <lb ed="#W" n="22"/>mater mea. Significat enim Dauid, se natum 
+      <lb ed="#W" n="23"/>esse peccatorem, Praeterea, si omne deside¬ 
+      <lb ed="#W" n="24"/>rium cogitationum humani cordis uanum 
+      <!--33.xml-->
+      <pb ed="#G" n="15-v"/>
+               <lb ed="#W" n="1"/>est &amp; prauum omni tempore, ut Genesis vi. scri 
+      <lb ed="#W" n="2"/>bitur, necesse est cum peccato nascamur. Iam  
+      <lb ed="#W" n="3"/>si in Christo omnes benedicimur, necesse est in 
+      <lb ed="#W" n="4"/>Adam maled cti simus, At qd est maledi¬ 
+      <lb ed="#W" n="5"/>ci, nisi peccati nos damnari? Huc pertinent 
+      <lb ed="#W" n="6"/>immundiciae in typis legis, huc pertinent 
+      <lb ed="#W" n="7"/>caedes primogenitorum Aegypti. Et quid ar¬ 
+      <lb ed="#W" n="8"/>tinet multis rem agere, cum Christus apud 
+      <lb ed="#W" n="9"/>lohannem satis clare dicat, Quod ex cane 
+      <lb ed="#W" n="10"/>natum est, caro est. si caro est, ut supra monui 
+      <lb ed="#W" n="11"/>mus, ergo sua quaerit, sese amat. Qd si non 
+      <lb ed="#W" n="12"/>est obnoxia peccato prima natiuitas, quid 
+      <lb ed="#W" n="13"/>attinet renasci? Imo si camis natiuitas bo¬ 
+      <lb ed="#W" n="14"/>na est, quid attinet renasci ex spiritu?
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

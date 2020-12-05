@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De Gratia</title>
+            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De Gratia</title>
+               <date when="2020-12-04">December 04, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-12-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#W" n="71-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="erf8hf-d1e1025">
+            <head xml:id="erf8hf-d1e1025-Hd1e105">De Gratia</head>
+            <head xml:id="erf8hf-d1e1025-Hd1e108" type="question-title">De Gratia</head>
+            <p xml:id="erf8hf-d1e1025-d1e111">
+               <lb ed="#W" n="10"/>DE GRATIA. 
+      <lb ed="#W" n="11"/>⁋ Sicut lex peccati cognitio est, ita Euan¬ 
+      <lb ed="#W" n="12"/>lium promissio gratiae &amp; iustitiae. Proinde quia 
+      <lb ed="#W" n="13"/>de uerbo gratiae &amp; iustitiae, nempe de Eua¬ 
+      <lb ed="#W" n="14"/>gelio dictum est, hic subiciendae sunt gra¬ 
+      <lb ed="#W" n="15"/>tiae &amp; iustificationis formulae. Nam ita Euan¬ 
+      <lb ed="#W" n="16"/>gelii ratio plenius cognosci poterit.
+    </p>
+            <p xml:id="erf8hf-d1e1025-d1e129">
+               <lb ed="#W" n="17"/>⁋ Hic uero merito quis expostulet cum scho 
+      <lb ed="#W" n="18"/>lasticis, qui sacro sancto uocabulo gratiae 
+      <lb ed="#W" n="19"/>tam foede abusi sunt, cum pro qualitate, quae 
+      <lb ed="#W" n="20"/>sit in animis sanctorum usurpant, &amp; pn¬ 
+      <lb ed="#W" n="21"/>guissime omnium Thomistae, qui qualitatem, 
+      <lb ed="#W" n="22"/>gratiam, in animae natura posuere, fidem, spem 
+      <lb ed="#W" n="23"/>caritatem, in potenciis animae. Atque hic quam 
+      <lb ed="#W" n="24"/>aniliter, quam stulte digiadiantur de potencis 
+      <!--145.xml-->
+      <pb ed="#G" n="71-v"/>
+               <lb ed="#W" n="1"/>animae. Sed sordescant prolioe impii ho¬ 
+      <lb ed="#W" n="2"/>mines, &amp; contempti Euangeli poenas dent. 
+      <lb ed="#W" n="3"/>nugando. Tu mi lector precare ut Euange¬ 
+      <lb ed="#W" n="4"/>lium suum cordibus nostris reuelet spiritus 
+      <lb ed="#W" n="5"/>idei. Est enim uerbum spiritus, quod doceri 
+      <lb ed="#W" n="6"/>nisi per spiritum non potest, id quod Esaias 
+      <lb ed="#W" n="7"/>lait, omnes esse Seodid&amp; cous.
+    </p>
+            <p xml:id="erf8hf-d1e1025-d1e168">
+               <lb ed="#W" n="8"/>⁋ In literis noui testamenti fere gratiae uo¬ 
+      <lb ed="#W" n="9"/>cabulum usurpatum est pro hebraico iR quod 
+      <lb ed="#W" n="10"/>χορή uerterunt septuaginta Interpretes, ut 
+      <lb ed="#W" n="11"/>Exodi. xxxiii. Inuenisti gratiam coram me &amp;c.  
+      <lb ed="#W" n="12"/>&amp; saepe alias. Significat autem plane id quod 
+      <lb ed="#W" n="13"/>latinis fauor, atque utinam uerbo fauoris uti 
+      <lb ed="#W" n="14"/>maluissent interpretes, quam uocabulo gra¬ 
+      <lb ed="#W" n="15"/>tiae. Defuisset enim hoc loco ineptiendi occa¬ 
+      <lb ed="#W" n="16"/>sio Sophistis. Proinde sicut grammatici dicunt 
+      <lb ed="#W" n="17"/>lulium fauete Curioni, cum significant in lulio 
+      <lb ed="#W" n="18"/>esse fauorem, quo sit complexus Curionem. Ita 
+      <lb ed="#W" n="19"/>in sacris literis gratia fauorem designat, estque 
+      <lb ed="#W" n="20"/>gratia seu fauor in deo, quo complexus est 
+      <lb ed="#W" n="21"/>sanctos. Facessant Aristotelica figmenta de 
+      <lb ed="#W" n="22"/>qualitatibus. Non aliud enim est gratia, si exa¬ 
+      <lb ed="#W" n="23"/>ctissime describenda sit, nisi dei beneuolen 
+      <lb ed="#W" n="24"/>tia erga nos, seu uoluntas dei miserta nostri. 
+      <!--146.xml-->
+      <pb ed="#G" n="72-r"/>
+               <lb ed="#W" n="1"/>Non significat ergo gratiae uocabulum quali 
+      <lb ed="#W" n="2"/>tatem aliquam in nobis, sed potius ipsam dei 
+      <lb ed="#W" n="3"/>uoluntatem, seu benetolentiam dei erga nos. 
+    </p>
+            <p xml:id="erf8hf-d1e1025-d1e219">
+               <lb ed="#W" n="4"/>⁋ Paulus ad Ro. v. distinguit a gratia do 
+      <lb ed="#W" n="5"/>num. Si unius delicto multi mortui sunt,  
+      <lb ed="#W" n="6"/>multo magis gratia dei, &amp; donum in gratia, 
+      <lb ed="#W" n="7"/>ea, quae est unius hominis lesu Christi, in 
+      <lb ed="#W" n="8"/>multos exundauit. Oratiam uocat fauorem  
+      <lb ed="#W" n="9"/>dei, quo ille Christum complexus est, &amp; in 
+      <lb ed="#W" n="10"/>Christo, &amp; propter Christum omnes san¬ 
+      <lb ed="#W" n="11"/>ctos. Deinde, quia fauet, non potest deus,  
+      <lb ed="#W" n="12"/>non effundere dona sua in eos quorum mi¬ 
+      <lb ed="#W" n="13"/>sertus est. Sic homines, quibus fauent, eorum 
+      <lb ed="#W" n="14"/>res adiuuant, iis sua impertiunt. Donum ue¬ 
+      <lb ed="#W" n="15"/>ro dei est ipse spiritus sanctus, quem effundit 
+      <lb ed="#W" n="16"/>des in corda suorum. Ioham. xx. Insufflauit &amp; 
+      <lb ed="#W" n="17"/>dixit, Accipite spiritum sanctum. Et ad Ro¬ 
+      <lb ed="#W" n="18"/>viii. Accepistis spiritum adoptionis filiorum 
+      <lb ed="#W" n="19"/>in quo clamamus abba pater. Porro spiri¬ 
+      <lb ed="#W" n="20"/>tus sancti opera sunt in sanctorum cordibus,  
+      <lb ed="#W" n="21"/>fides, pax, gaudium, caritas &amp;c. Ad Cala¬ 
+      <lb ed="#W" n="22"/>tas quinto, Petrum Rongobardum quod 
+      <lb ed="#W" n="23"/>alicubi spiritum sanctum potius gratiam 
+      <lb ed="#W" n="24"/>uocarit, quam Parifiensem, hoc est, ficticiam  
+      <!--147.xml-->
+      <pb ed="#G" n="72-v"/>
+               <lb ed="#W" n="1"/>illam qualitatem, mitum est quo supercilio 
+      <lb ed="#W" n="2"/>tractent Sophistae, qui tamen quanto re¬ 
+      <lb ed="#W" n="3"/>ctius, quam isti, sentit
+    </p>
+            <p xml:id="erf8hf-d1e1025-d1e278">
+               <lb ed="#W" n="4"/>⁋ Sed nos simplicissime nomenclaturam 
+      <lb ed="#W" n="5"/>hanc facimus gratiae, secuti phrasin scriptu 
+      <lb ed="#W" n="6"/>rae, ut sit gratia, fauor, misericondia, gra¬ 
+      <lb ed="#W" n="7"/>tuita beneuolentia dei erga nons. Donum, 
+      <lb ed="#W" n="8"/>ipse spiritus sanctus, quem in eorum corda 
+      <lb ed="#W" n="9"/>effundit, quorum est misertus. Fructus spiri¬ 
+      <lb ed="#W" n="10"/>tus sancti fides, spes, caritas, &amp; reliquae uir¬ 
+      <lb ed="#W" n="11"/>tutes. Et haec quidem de nomine gratiae. In 
+      <lb ed="#W" n="12"/>summa, non aliud est gratia, nisi condo¬ 
+      <lb ed="#W" n="13"/>natio seu remissio peccati. Donum est spiri¬ 
+      <lb ed="#W" n="14"/>tus sanctus regenerans &amp; sanctificans corda. 
+      <lb ed="#W" n="15"/>Iuxta illud, Emitte spiritum tuum &amp; creabuntur,  
+      <lb ed="#W" n="16"/>&amp; renouabis faciem terrae. Tam gratiam, quam do¬ 
+      <lb ed="#W" n="17"/>num promittit Euangelium. In promptu 
+      <lb ed="#W" n="18"/>sunt scripturae, quare satis uidetur unum lo¬ 
+      <lb ed="#W" n="19"/>cum indicasse. Hiere. xxxi. Post dies illos 
+      <lb ed="#W" n="20"/>dicit dominus dabo legem meam in uisceri¬ 
+      <lb ed="#W" n="21"/>bus eorum, &amp; in corde eorum scribam eam, quae 
+      <lb ed="#W" n="22"/>uerba certe ad donum pertinent. Ad gratiam  
+      <lb ed="#W" n="23"/>ea quae sequuntur. Omnes cognoscent mea 
+      <lb ed="#W" n="24"/>minimo eorum usque ad maximum, ait duns,  
+      <!--148.xml-->
+      <pb ed="#G" n="73-r"/>
+               <lb ed="#W" n="1"/>quia propitiabor iniquitati eorum, &amp; peccati 
+      <lb ed="#W" n="2"/>eorum non recordabor amplius.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De scandalo</title>
+            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De scandalo</title>
+               <date when="2020-12-04">December 04, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-12-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#W" n="138-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="erf8hf-d1e1571">
+            <head xml:id="erf8hf-d1e1571-Hd1e105">De scandalo</head>
+            <head xml:id="erf8hf-d1e1571-Hd1e108" type="question-title">De scandalo</head>
+            <p xml:id="erf8hf-d1e1571-d1e111">
+               <lb ed="#W" n="11"/>DE SCANDALO 
+      <lb ed="#W" n="12"/>Quaeris autem quatenus habenda sit scan¬ 
+      <lb ed="#W" n="13"/>dali ratio? Primum omnium moneo, quod &amp;  
+      <lb ed="#W" n="14"/>antea, fidem &amp; caritatem regulas esse om¬ 
+      <lb ed="#W" n="15"/>nium functionum humanarum, sed in his 
+      <lb ed="#W" n="16"/>fides potior est. 
+    </p>
+            <p xml:id="erf8hf-d1e1571-d1e127">
+               <lb ed="#W" n="17"/>Est autem scandalum offensio, qua in 
+      <lb ed="#W" n="18"/>proximo aut fides aut caritas laeditur. Fides 
+      <lb ed="#W" n="19"/>ut si quid a sacris lite, is doceatur diuersum,  
+      <lb ed="#W" n="20"/>fides proximi offenditur. Huiusmodi scan¬ 
+      <lb ed="#W" n="21"/>dalum tota doctrina scholastica est, quae 
+      <lb ed="#W" n="22"/>satis factiones, quae opera libeti arbitrii pro 
+      <lb ed="#W" n="23"/>bans obscurauit gratiam. De hoc genere Chri 
+      <lb ed="#W" n="24"/>stus loquitur Matth. xviii. Qui scandaliza¬ 
+      <!--278.xml-->
+      <pb ed="#G" n="139-r"/>
+               <lb ed="#W" n="1"/>uerit unum de pusillis istis qui in me credunt 
+      <lb ed="#W" n="2"/>satius fuerat eum mola asinaria de collo sus¬ 
+      <lb ed="#W" n="3"/>pensa demersum esse &amp;c. Caritas laeditur si 
+      <lb ed="#W" n="4"/>quis egentem non adiuuet, interturbet pub 
+      <lb ed="#W" n="5"/>licam pacem. De hoc genere Christus loqui  
+      <lb ed="#W" n="6"/>tur Matth. xvii: de tributo persoluendo, ne 
+      <lb ed="#W" n="7"/>scandaligemus eos
+    </p>
+            <p xml:id="erf8hf-d1e1571-d1e166">
+               <lb ed="#W" n="8"/>In iis quae exiguntur iure diuino, nullo  
+      <lb ed="#W" n="9"/>respectu scandali, iuri diuino obtemperan 
+      <lb ed="#W" n="10"/>dum est, faciendum, &amp; docendum quod 
+      <lb ed="#W" n="11"/>exigitur iure diuino, Semper enim fides cari¬ 
+      <lb ed="#W" n="12"/>tati praeferenda est. Atque huc iterum facit qd 
+      <lb ed="#W" n="13"/>est in Actis. v. Oportet deo magis obedire 
+      <lb ed="#W" n="14"/>quam hominibus. Et Christus inquit, Non ue¬ 
+      <lb ed="#W" n="15"/>ni pacem mittere sed gladium. Sic Daniel 
+      <lb ed="#W" n="16"/>non obtempetabat legi de statua aurea ado 
+      <lb ed="#W" n="17"/>randa. Nec nos pareamus impiis principi¬ 
+      <lb ed="#W" n="18"/>bus damnantibus Euangelium hoc tempore.
+    </p>
+            <p xml:id="erf8hf-d1e1571-d1e193">
+               <lb ed="#W" n="19"/>In iis quae sunt iuris humani &amp; media, ut 
+      <lb ed="#W" n="20"/>coelibatus, abstinere a canibus, non obli¬ 
+      <lb ed="#W" n="21"/>gat traditio humana in casu necessitatis. 
+      <lb ed="#W" n="22"/>Nam &amp; Christus de diuina lege, in casu ne 
+      <lb ed="#W" n="23"/>cessitatis dispensat. Matth. xi. Discipulis spi 
+      <lb ed="#W" n="24"/>cas uellentibus. Quanto magis licet homi¬ 
+      <!--279.xml-->
+      <pb ed="#G" n="139-v"/>
+               <lb ed="#W" n="1"/>num traditiones si necessitas uitae postulet 
+      <lb ed="#W" n="2"/>uiolare. Multo magis uiolare liceat, si peri¬ 
+      <lb ed="#W" n="3"/>clitetur anima, ut si uratur sacerdos, ut uo¬ 
+      <lb ed="#W" n="4"/>cant. Iuxta illud, ii. Corint. ult. Data est no¬ 
+      <lb ed="#W" n="5"/>bis potestas in aedificationem non in destru¬ 
+      <lb ed="#W" n="6"/>ctionem. Paulus ad Colos. ii. damnat le¬ 
+      <lb ed="#W" n="7"/>ges quae corpus immodice onerant. 
+    </p>
+            <p xml:id="erf8hf-d1e1571-d1e228">
+               <lb ed="#W" n="8"/>Coram pharisaeis exigentibus suarum tra¬ 
+      <lb ed="#W" n="9"/>ditionum obseruationem, quasi necessariae 
+      <lb ed="#W" n="10"/>sint ad salutem, nullo respectu scandali uio 
+      <lb ed="#W" n="11"/>lentur. Fecit hoc in iure diuino Paulus, cum 
+      <lb ed="#W" n="12"/>Titum circumcidere nollet, ad Galat. i. Quan¬ 
+      <lb ed="#W" n="13"/>to magis liceat in stultis traditionibus pa¬ 
+      <lb ed="#W" n="14"/>pisticis. Et Christus iubet sinendos esse eos 
+      <lb ed="#W" n="15"/>qui scandalizabantur quod coeci essent, &amp; coe¬ 
+      <lb ed="#W" n="16"/>corum duces.
+    </p>
+            <p xml:id="erf8hf-d1e1571-d1e250">
+               <lb ed="#W" n="17"/>Docendae libertatis gratia uiolare licet 
+      <lb ed="#W" n="18"/>traditiones humanas, ut intelligant impe¬ 
+      <lb ed="#W" n="19"/>riti, non peccari etiamsi quid contra tradi¬ 
+      <lb ed="#W" n="20"/>tiones hominum admittant. Plane in tali 
+      <lb ed="#W" n="21"/>casu reprehendit Petrum Paulus, que cesserat 
+      <lb ed="#W" n="22"/>imperitis, leges stulte obseruantibus &amp; ig¬ 
+      <lb ed="#W" n="23"/>natis libertatis Euangelicae.
+    </p>
+            <p xml:id="erf8hf-d1e1571-d1e268">
+               <lb ed="#W" n="24"/>Apud infirmos &amp; qui nondum audierunt 
+      <!--280.xml-->
+      <pb ed="#G" n="140-r"/>
+               <lb ed="#W" n="1"/>Euangelium, faciendum est caritatis offi¬ 
+      <lb ed="#W" n="2"/>cium, &amp; seruiendum traditionibus huma¬ 
+      <lb ed="#W" n="3"/>nis, modo contra diuinum ius nihil admit 
+      <lb ed="#W" n="4"/>tamus. Sic Paulus in Actis, Hierosolymis ra 
+      <lb ed="#W" n="5"/>sus est, cum in tanta multitudine pauci ad 
+      <lb ed="#W" n="6"/>modum essent, qui libertatem Euangelicam 
+      <lb ed="#W" n="7"/>satis intelligerent. Et hic Paulus perpetuo 
+      <lb ed="#W" n="8"/>mauult carnibus abstinere, quam fratris ani¬ 
+      <lb ed="#W" n="9"/>mam perdere. Et Roma. xiiii. Infirmum in 
+      <lb ed="#W" n="10"/>fide suscipite. Quanquam illis temporibus de 
+      <lb ed="#W" n="11"/>diuina lege agebatur, nunc cum de tradi¬ 
+      <lb ed="#W" n="12"/>tionibus humanis agatur, liberius dispense 
+      <lb ed="#W" n="13"/>mus. Immo impium est obtemperare, sicubi 
+      <lb ed="#W" n="14"/>sunt Episcopi qui earum obseruationem exigunt 
+      <lb ed="#W" n="15"/>ita ut conscientiam pcccato oneratam uelint si 
+      <lb ed="#W" n="16"/>uiolentur. Sunt enim cum exiguntur daemonio¬ 
+      <lb ed="#W" n="17"/>rum doctrinae, caeterum si non exigantur, 
+      <lb ed="#W" n="18"/>Pauli regula seruetur. Neque abundat qui mandu 
+      <lb ed="#W" n="19"/>cat, neque eget qui non manducat. i. Corin. viii.
+    </p>
+            <p xml:id="erf8hf-d1e1571-d1e318">
+               <lb ed="#W" n="20"/>Habes rerum theologicarum communissi¬ 
+      <lb ed="#W" n="21"/>mos locos, quorum exactiorem rationem e 
+      <lb ed="#W" n="22"/>scripturis pete, nos contenti sumus indicasse 
+      <lb ed="#W" n="23"/>quid obserues. Adeoque mecum etiam bene 
+      <lb ed="#W" n="24"/>actum puto, que tenuius res tantas, quam de¬ 
+      <!--281.xml-->
+      <pb ed="#G" n="140-v"/>
+               <lb ed="#W" n="1"/>bui, tractaui, ne quem infoelici diligentia a 
+      <lb ed="#W" n="2"/>scripturis ad meas disputatioes auocarem.  
+      <lb ed="#W" n="3"/>Censeo enim non aliter atque pestem fugien 
+      <lb ed="#W" n="4"/>dos hominum commentarios in rebus sacris. 
+      <lb ed="#W" n="5"/>Quod doctrina spiritus pure, nisi e scriptu¬ 
+      <lb ed="#W" n="6"/>ris hauriri non possit. Quis enim spiritum 
+      <lb ed="#W" n="7"/>dei propius expresserit, quam ipse sese  
+      <lb ed="#W" n="8"/>out  Dγα i Rαcἔλiα xv 
+      <lb ed="#W" n="9"/>Sios, QRαα dud &amp;e 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

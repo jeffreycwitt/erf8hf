@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quid Evangelium</title>
+            <author ref="#PhilipMelanchthon">Philip Melanchthon</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quid Evangelium</title>
+               <date when="2020-12-04">December 04, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="W" n="cod-8jWitP">Wittenberg 1521</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-12-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#W" n="55-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="erf8hf-d1e926">
+            <head xml:id="erf8hf-d1e926-Hd1e105">Quid Evangelium</head>
+            <head xml:id="erf8hf-d1e926-Hd1e108" type="question-title">Quid Evangelium</head>
+            <p xml:id="erf8hf-d1e926-d1e111">
+               <lb ed="#W" n="16"/>Quid Euangelium.
+    </p>
+            <p xml:id="erf8hf-d1e926-d1e116">
+               <lb ed="#W" n="17"/>⁋ Sicut lex est, qua recta mandantur, qua pec 
+      <lb ed="#W" n="18"/>catum ostenditur, ita Euangelium est promissio 
+      <lb ed="#W" n="19"/>gratiae, seu misericondiae dei, adeoque condo¬ 
+      <lb ed="#W" n="20"/>natio peccati, &amp; testimonium beneuolentiae 
+      <lb ed="#W" n="21"/>dei erga nos, quo testimonio certi animi 
+      <lb ed="#W" n="22"/>nostri, de beneuolentia dei, credant sibi condo 
+      <lb ed="#W" n="23"/>natam omnem cuspam, &amp; erecti ament, laudent. 
+      <lb ed="#W" n="24"/>deum, exhilarentur &amp; exultent in deo, ut infra 
+      <!--114.xml-->
+      <pb ed="#G" n="56-r"/>
+               <lb ed="#W" n="1"/>de uim euangelii dicemus. Porro illarum promissi 
+      <lb ed="#W" n="2"/>onum omnium pignus est Christus, quare in eum 
+      <lb ed="#W" n="3"/>referendae sunt omnes scripturae promissiones, qui 
+      <lb ed="#W" n="4"/>obscure primum, postea subinde clarius re 
+      <lb ed="#W" n="5"/>uelatus est.
+    </p>
+            <p xml:id="erf8hf-d1e926-d1e151">
+               <lb ed="#W" n="6"/>⁋ Posteaquam Adam deliquerat, &amp; iam morti 
+      <lb ed="#W" n="7"/>aeternae destinatus erat, perisset haud dubie 
+      <lb ed="#W" n="8"/>ni dominus eum promissione gratiae consola¬ 
+      <lb ed="#W" n="9"/>tus fuisset. Tyrannis peccati describitur, cum in 
+      <lb ed="#W" n="10"/>quit ad serpentem, Inimicitias ponam inter te 
+      <lb ed="#W" n="11"/>&amp; mulierem, &amp; semen tuum, &amp; semen illius. Et 
+      <lb ed="#W" n="12"/>statim uictoria promittitur. Ipsum semen 
+      <lb ed="#W" n="13"/>mulieris conculcabit caput tuum. Rectius enim 
+      <lb ed="#W" n="14"/>meo iudicio refertur pronomen, eo loco, ad 
+      <lb ed="#W" n="15"/>semen, quam ad mulierem ut in nostris codici¬ 
+      <lb ed="#W" n="16"/>bus legitur. Ea prima promissio est. primum 
+      <lb ed="#W" n="17"/>Euangelium, quo subleuatus Adam, concepit 
+      <lb ed="#W" n="18"/>certam suae salutis spem, adeoque &amp; iustificatus 
+      <lb ed="#W" n="19"/>est. Deinde facta est promissio Abrahae, futu¬ 
+      <lb ed="#W" n="20"/>rum ut in ipsius semine, benedicerentur omnes gen¬ 
+      <lb ed="#W" n="21"/>tes, quae certe nisi de Christo intelligi non po 
+      <lb ed="#W" n="22"/>tuit, estque hic Abrahae sinus, in quem qui recepti 
+      <lb ed="#W" n="23"/>sunt, seruati sunt, id est, seruati sunt, qui promi¬ 
+      <lb ed="#W" n="24"/>ssioni illi, quae Abrahae facta est, crediderunt. 
+      <!--115.xml-->
+      <pb ed="#G" n="56-v"/>
+               <lb ed="#W" n="1"/>Atque haec promissio est, quam ubique iactat 
+      <lb ed="#W" n="2"/>scriptura noui testamenti. Poterit diligens 
+      <lb ed="#W" n="3"/>lector omnes promissiones de Christo in 
+      <lb ed="#W" n="4"/>hunc locum congerere. Quae plane non 
+      <lb ed="#W" n="5"/>aliud sunt, nisi Euangelium, Deutero. xviii: 
+      <lb ed="#W" n="6"/>Prophetam suscitabo eis de medio fratrum 
+      <lb ed="#W" n="7"/>suorum similem tui, &amp; ponam uerba mea in 
+      <lb ed="#W" n="8"/>gore eius, loqueturque ad eos omnia quae prae 
+      <lb ed="#W" n="9"/>cepero illi. Qui autem uerba eius, quae loquetur 
+      <lb ed="#W" n="10"/>in nomine meo audire noluerit, ego ultor 
+      <lb ed="#W" n="11"/>gexistam. In secundo uolumine historiae re¬ 
+      <lb ed="#W" n="12"/>gum cap. vii. promittitur Dauidi Christus. 
+      <lb ed="#W" n="13"/>Suscitabo semen tuum post te, quod egre¬ 
+      <lb ed="#W" n="14"/>dietur de utero tuo, &amp; firmabo regnum eius. 
+      <lb ed="#W" n="15"/>lpse aedificabit domum nomini meo, &amp; sta¬ 
+      <lb ed="#W" n="16"/>biliam thronum regni eius usque in sempiter¬ 
+      <lb ed="#W" n="17"/>num. Et ob hanc promissionem filius Dauid 
+      <lb ed="#W" n="18"/>Christus adpellatur a prophetis. Immo Da¬ 
+      <lb ed="#W" n="19"/>uidem etiam Ezechiel nominat. Prophetae in 
+      <lb ed="#W" n="20"/>totum &amp; legem repetunt, &amp; Christum pro¬ 
+      <lb ed="#W" n="21"/>&amp;mittunt. Proderitque piae menti subnotare,  
+      <lb ed="#W" n="22"/>&amp; in promptu habere promissiones diui¬ 
+      <lb ed="#W" n="23"/>nas, que ad confirmandas, erigendasque con¬ 
+      <lb ed="#W" n="24"/>iscientias mire efficaces sunt.
+    </p>
+            <p xml:id="erf8hf-d1e926-d1e252">
+      <!--116.xml-->
+               <pb ed="#G" n="57-r"/>
+               <lb ed="#W" n="1"/>⁋ Et in hune modum reuelauit deus Euange 
+      <lb ed="#W" n="2"/>lium statim post Adae lapsum, &amp; subinde cla 
+      <lb ed="#W" n="3"/>rius apetuit, donec exhibuit Christum. ld 
+      <lb ed="#W" n="4"/>est quod scribit Paulus ad Roma. i. In Euam 
+      <lb ed="#W" n="5"/>gelium filii sui, quod iam ante promisit per pro¬ 
+      <lb ed="#W" n="6"/>phetas, in scripturis sanctis, de filio suo. Et 
+      <lb ed="#W" n="7"/>literae nostrorum Euangelistarum, non aliud aguntu 
+      <lb ed="#W" n="8"/>nisi ut testentur exhibitas esse promissiones.,  
+      <lb ed="#W" n="9"/>Atque id est, cur sic ondiatur Mattheus, RTiber 
+      <lb ed="#W" n="10"/>generationis lesu Christi, filii Dauid, fili 
+      <lb ed="#W" n="11"/>Abraham. Vocoque Euangelium promissionem 
+      <lb ed="#W" n="12"/>gratiae, benedictionis, beneuolentiae dei per 
+      <lb ed="#W" n="13"/>Christum. Sunt in scripturis, praeter hanc pro 
+      <lb ed="#W" n="14"/>missionem aethernae benedictionis, etiam pro¬ 
+      <lb ed="#W" n="15"/>missiones rerum temporalium, qualis est ea, quae 
+      <lb ed="#W" n="16"/>facta est Nohae, quales pleraeque sunt in lege,  
+      <lb ed="#W" n="17"/>de terra, de opulentia &amp;c, quae non modo fi 
+      <lb ed="#W" n="18"/>gurae sunt spiritualium promissionum, sed per 
+      <lb ed="#W" n="19"/>ese sunt testimonia gratiae &amp; misericordiae 
+      <lb ed="#W" n="20"/>dei, ita, ut consolentur, &amp; erigant conscientias 
+      <lb ed="#W" n="21"/>nostras, ut deum glorificent. Et de his quiden 
+      <lb ed="#W" n="22"/>promissionibus infra agetur, ubi de fide di¬ 
+      <lb ed="#W" n="23"/>cemus, quae fides, &amp; quomodo iustificet.
+    </p>
+            <p xml:id="erf8hf-d1e926-d1e309">
+               <lb ed="#W" n="24"/>⁋ Vides consilium diuini spiritus in scriptu¬ 
+      <!--117.xml-->
+      <pb ed="#G" n="57-v"/>
+               <lb ed="#W" n="1"/>ris, quam suauiter, quam blande erudiat pios,  
+      <lb ed="#W" n="2"/>ut nihil aliud agat, quam, ut saluemur. Tota 
+      <lb ed="#W" n="3"/>scriptura alias lex est, alias Euangelium, Ribri 
+      <lb ed="#W" n="4"/>Mosi alias lege tradunt, alias Euangelium, 
+      <lb ed="#W" n="5"/>deoque Euangelium intra ipsam etiam lege ab 
+      <lb ed="#W" n="6"/>ditum est. Quid enim magis Euangelicum reperias 
+      <lb ed="#W" n="7"/>quam promissio illa est, quam spiritus dei, pro 
+      <lb ed="#W" n="8"/>&amp;coAαγίδ primi praecepti subiecit. Faciens 
+      <lb ed="#W" n="9"/>misericordiam in millia his qui diligunt me, 
+      <lb ed="#W" n="10"/>&amp; custodiunt praecepta mea. Et uide ex le¬ 
+      <lb ed="#W" n="11"/>gislatore Mose, quomodo Euangelista, hoc 
+      <lb ed="#W" n="12"/>est, gratiae &amp; misericordiae praeco subito fa¬ 
+      <lb ed="#W" n="13"/>ctus sit? cum inquit in Exodo cap. xxxiiii: 
+      <lb ed="#W" n="14"/>Dominator domine deus, miserator &amp; cle¬ 
+      <lb ed="#W" n="15"/>o mens, patiens &amp; multae miserationis, ac ue¬ 
+      <lb ed="#W" n="16"/>rax, qui custodis misericondiam in millia, qui 
+      <lb ed="#W" n="17"/>aufers inquitatem, et scelera, atque peccata, nul 
+      <lb ed="#W" n="18"/>lusque apud te per se innocens est. Da in om 
+      <lb ed="#W" n="19"/>nibus noui testamenti literis, magis Euange¬ 
+      <lb ed="#W" n="20"/>licam contionem. Et ad hunc modum alias lege 
+      <lb ed="#W" n="21"/>alias Euangelium Mosaici libri docent. Nihil 
+      <lb ed="#W" n="22"/>iam de figuris loquor, sed de iis, quae palam  
+      <lb ed="#W" n="23"/>litera prae se fert. Nam illa potissimum spectam 
+      <lb ed="#W" n="24"/>da sunt. Historiae sacrae, alias legum, alias euam 
+      <!--118.xml-->
+      <pb ed="#G" n="58-r"/>
+               <lb ed="#W" n="1"/>gelii exempla sunt. Nam ad leges haud du 
+      <lb ed="#W" n="2"/>bie pertinet horrendus Saulis casus. Ad Euam 
+      <lb ed="#W" n="3"/>gelium Dauid, qui cum oppressisset alienam uxo 
+      <lb ed="#W" n="4"/>rem, tamen gratiam impetrauit, fuitque plane 
+      <lb ed="#W" n="5"/>Euangelica uox, illa prophetae denuncia¬ 
+      <lb ed="#W" n="6"/>tio, ii. Reg. xii. IPominus sustulit peccatum 
+      <lb ed="#W" n="7"/>tuum, Non morieris. Ad eum modum de simili¬ 
+      <lb ed="#W" n="8"/>bus exemplis iudicandum est. Prophetae lege 
+      <lb ed="#W" n="9"/>docent, cum insectantur hypocrisin, cum im¬ 
+      <lb ed="#W" n="10"/>pietatem, securitatem, &amp; hoc genus alia. Nam 
+      <lb ed="#W" n="11"/>obscura uicia, seu hypocrisin potissimum re¬ 
+      <lb ed="#W" n="12"/>prehendunt, Euangelium quoque denunciant. 
+      <lb ed="#W" n="13"/>quoties illis suis uiuacissimis promissionibus 
+      <lb ed="#W" n="14"/>de Christo erigunt labefactatas conscientias,  
+      <lb ed="#W" n="15"/>animant, atque ita implent, ut plane id Apo 
+      <lb ed="#W" n="16"/>stolicum sonare possit. Quis separabit nos a 
+      <lb ed="#W" n="17"/>dilectione deit Eiterae Apostolicae Matthe 
+      <lb ed="#W" n="18"/>Marci, Eucae, Iohannis, ad eundem alias lege,  
+      <lb ed="#W" n="19"/>alias promissiones tradunt, &amp; in his exem¬ 
+      <lb ed="#W" n="20"/>pla tum gratiae, tum irae dei. Sachei, Cen¬ 
+      <lb ed="#W" n="21"/>turionis, Syrophoenissae exempla, miseri¬ 
+      <lb ed="#W" n="22"/>condiam testantur. Phariseoxe cecitas &amp; furor 
+      <lb ed="#W" n="23"/>exemplum est irae dei. Quanquam hoc differunt 
+      <lb ed="#W" n="24"/>historiae Apostolicae a ueteribus, que testant 
+      <!--119.xml-->
+      <pb ed="#G" n="58-v"/>
+               <lb ed="#W" n="1"/>exhibitum Christum, quem ueteres tantum pro¬ 
+      <lb ed="#W" n="2"/>miserant. Deinde promissiones de gratia, 
+      <lb ed="#W" n="3"/>iusticia, uita aeterna clarius explicant, quam 
+      <lb ed="#W" n="4"/>illae quondam Mosaicae, aut propheticae lite¬ 
+      <lb ed="#W" n="5"/>rae. Paulus Apostolus Aioxinos Euangelium 
+      <lb ed="#W" n="6"/>cum lege, peccatum cum gratia contulit, potissi¬ 
+      <lb ed="#W" n="7"/>mum in Epistola ad Romanos, quam ego pu¬ 
+      <lb ed="#W" n="8"/>to uniuersae scripturae uelut Indicem quen¬ 
+      <lb ed="#W" n="9"/>dam esse  και λαοα. Reliquae Epistolae cum 
+      <lb ed="#W" n="10"/>pene σαρααααxαή sint, ad legem pertinent,  
+      <lb ed="#W" n="11"/>Quanquam nulla sit, in qua non alicubi attin 
+      <lb ed="#W" n="12"/>gat Euangelii rationes. ld quod per sese di¬ 
+      <lb ed="#W" n="13"/>ligens lector animaduertet.
+    </p>
+            <p xml:id="erf8hf-d1e926-d1e459">
+               <lb ed="#W" n="14"/>⁋ Haec monuimus ob hoc potissimum, ut 
+      <lb ed="#W" n="15"/>uulgatum illum ertorem conuelleremus, quem 
+      <lb ed="#W" n="16"/>de discrimine legis, &amp; Euangelii ueteris &amp; no 
+      <lb ed="#W" n="17"/>ui testamenti, prodiderunt impii Sophisticae 
+      <lb ed="#W" n="18"/>theologiae professores. Mosi Christum succe¬ 
+      <lb ed="#W" n="19"/>ssisse, nouamque legem dedisse, quae noua lex 
+      <lb ed="#W" n="20"/>Euangelium uocetur, contineaturque iis capi¬ 
+      <lb ed="#W" n="21"/>tibus, quae sunt Matth. V, &amp;. VI. Inter Mosi 
+      <lb ed="#W" n="22"/>lege, ac Christi hoc interesse, que Mosi lex ex 
+      <lb ed="#W" n="23"/>terna tantum opera, Christi lex etiam adfectus 
+      <lb ed="#W" n="24"/>exigat, quasi uero Mosaica lex doceat, quam 
+      <!--120.xml-->
+      <pb ed="#G" n="59-r"/>
+               <lb ed="#W" n="1"/>dam hypocriticam &amp; pharisaicam iusticiam 
+      <lb ed="#W" n="2"/>Quid enim est aliud operum externorum simula 
+      <lb ed="#W" n="3"/>tio, quam pharisaismus? Porro exigi a lege 
+      <lb ed="#W" n="4"/>Mosaica adfectus uel prophetae testentur, qui  
+      <lb ed="#W" n="5"/>toties praecipiunt agnoscere deum, timere 
+      <lb ed="#W" n="6"/>deum, facere iudicium, &amp; iusticiam, quae dabunt 
+      <lb ed="#W" n="7"/>mihi fortasse Sophistae, ante Christi incar¬ 
+      <lb ed="#W" n="8"/>nationem, &amp; suorum temporum homines do¬ 
+      <lb ed="#W" n="9"/>cuisse. Quid autem illa Hieremiae sententia 
+      <lb ed="#W" n="10"/>apertius, quam, uelint nolint Sophistae, re¬ 
+      <lb ed="#W" n="11"/>ferre oportet ad Mosi legem. Ait autem cap¬ 
+      <lb ed="#W" n="12"/>VI. Non sum locutus cum patribus uestris,  
+      <lb ed="#W" n="13"/>&amp; non praecepi eis in die qua eduxi eos de tere 
+      <lb ed="#W" n="14"/>ra Aegypti, de uerbo holocaustomatum, &amp;  
+      <lb ed="#W" n="15"/>uictimarum, sed hoc uerbum praecepi eis, dicens,  
+      <lb ed="#W" n="16"/>Audite uocem meam, &amp; ero uobis deus, &amp; 
+      <lb ed="#W" n="17"/>uos eritis mihi populus. Dic Thoma quid 
+      <lb ed="#W" n="18"/>in mentem uenerit, cur doceres Mosaica lege 
+      <lb ed="#W" n="19"/>nihil exigi praeter pharisaismum, hoc est, ex¬ 
+      <lb ed="#W" n="20"/>terna opera? cum toties etiam Moses exigat 
+      <lb ed="#W" n="21"/>nihil obscuris uerbis adfectus, &amp; ut multos 
+      <lb ed="#W" n="22"/>locos omittam, nonne uetat concupiscere 
+      <lb ed="#W" n="23"/>rem alterius &amp;c. Exodi. xx. Opus iam ante in¬ 
+      <lb ed="#W" n="24"/>terdixerat, cum furari, cum moechari prohibe¬ 
+      <!--121.xml-->
+      <pb ed="#G" n="59-v"/>
+               <lb ed="#W" n="1"/>tet. Dabis igitur de adfectu caueri, his uci¬ 
+      <lb ed="#W" n="2"/>bis. Non concupisces domum proximi tus,  
+      <lb ed="#W" n="3"/>nec desidetabis uxorem eius, non seruu &amp;c. 
+      <lb ed="#W" n="4"/>Et Deuteronomii. x. Et nunc Israel quid 
+      <lb ed="#W" n="5"/>dominus deus tuus petit a te, nisi ut timeas 
+      <lb ed="#W" n="6"/>dominum deum tuum, &amp; ambules in uiis 
+      <lb ed="#W" n="7"/>eius, &amp; diligas eum, ac seruias domino deo 
+      <lb ed="#W" n="8"/>tuo, in toto corde tuo et in tota anima tua, 
+      <lb ed="#W" n="9"/>a custodiasque mandata domini, &amp; ceremonias 
+      <lb ed="#W" n="10"/>eius, quas ego hodie praecipio tibi, ut benem 
+      <lb ed="#W" n="11"/>sit tibi. Et tursus, Circuncidite praepucium 
+      <lb ed="#W" n="12"/>cordis uestri, &amp; ceruicem uestram ne indu¬ 
+      <lb ed="#W" n="13"/>retis &amp;c. Hoc genus in Mose sexcentos locos 
+      <lb ed="#W" n="14"/>reperias, ut nihil sit obscurum &amp; adfectus &amp; 
+      <lb ed="#W" n="15"/>opera a Mose exigi.
+    </p>
+            <p xml:id="erf8hf-d1e926-d1e578">
+               <lb ed="#W" n="16"/>⁋ Proinde exponit legem Christus, non 
+      <lb ed="#W" n="17"/>enim potest praedicari gratia sine lege, &amp; 
+      <lb ed="#W" n="18"/>phariseorum ac scribarum interpretationem 
+      <lb ed="#W" n="19"/>reprehendit, cum a principio ait, non in¬ 
+      <lb ed="#W" n="20"/>gressuros in regnum coelorum, ni nostram 
+      <lb ed="#W" n="21"/>iustitia superet phariseorum ac scribarum 
+      <lb ed="#W" n="22"/>iustitiam. Sic interpretabantur Pharisaei, 
+      <lb ed="#W" n="23"/>satisfactum legi, non occides, si manu cen¬ 
+      <lb ed="#W" n="24"/>dem non faceres. Eegi, non moechaberis, si 
+      <!--122.xml-->
+      <pb ed="#G" n="60-r"/>
+               <lb ed="#W" n="1"/>alterius uxorem non comprireres. Chri¬ 
+      <lb ed="#W" n="2"/>stus docet cordis adfectus exigi a lege, non 
+      <lb ed="#W" n="3"/>externam tantum operum simulationem,  
+      <lb ed="#W" n="4"/>uetat enim lex concupiscere. Vindictam lex 
+      <lb ed="#W" n="5"/>etiam prohibebat, adeoque exigebat inimi¬ 
+      <lb ed="#W" n="6"/>cos diligi. Eeuitici. xix. Non oderis fratreme 
+      <lb ed="#W" n="7"/>tuum in corde tuo sed publice argue eum, nec 
+      <lb ed="#W" n="8"/>portes aduersum illum peccatum. Ne uindi¬ 
+      <lb ed="#W" n="9"/>ca, nec memor esto iniuriae filiorum populit 
+      <lb ed="#W" n="10"/>tui. Diliges proximum tuum sicut teipsum,  
+      <lb ed="#W" n="11"/>quod enim scio cur maluerit Hieronymus uer 
+      <lb ed="#W" n="12"/>tere amicum, sic enim in nostris codicibus legi¬ 
+      <lb ed="#W" n="13"/>tur, cum uox hebraea magis cognatum signi¬ 
+      <lb ed="#W" n="14"/>ncet, &amp; septuaginta Interpretes uerterint. 
+      <lb ed="#W" n="15"/>QQuαsou, quos secutus est ad Ro. xiii. Pau¬ 
+      <lb ed="#W" n="16"/>lus, ubi hanc ex lege paraenesin citat. Est au 
+      <lb ed="#W" n="17"/>tem haec summa Mosaicae illius sententiae, 
+      <lb ed="#W" n="18"/>ut inter se ludaei ament, tum amicos, tum 
+      <lb ed="#W" n="19"/>inimico ut bene mereantur, etiam de male 
+      <lb ed="#W" n="20"/>merentibus. Accedit huc caput Esaiae. Iviii. 
+      <lb ed="#W" n="21"/>Quod plane uetat uindicari, &amp; exigit amo 
+      <lb ed="#W" n="22"/>rem etiam inimicorum. Et Prouerbiorumi 
+      <lb ed="#W" n="23"/>xx. Ne dicas reddam malum, pro malo, ex¬ 
+      <lb ed="#W" n="24"/>pecta dominum &amp; liberabit te.
+    </p>
+            <p xml:id="erf8hf-d1e926-d1e656">
+      <!--123.xml-->
+               <pb ed="#G" n="60-v"/>
+               <lb ed="#W" n="1"/>⁋ Iam in lege, quod ego sciam, iusquam re 
+      <lb ed="#W" n="2"/>perias haec uerba. Odio habebis inimicum 
+      <lb ed="#W" n="3"/>tuum, ut satis adpareat, non legis sententiam, 
+      <lb ed="#W" n="4"/>sed pharisaicam traditionem Christum retulisse,  
+      <lb ed="#W" n="5"/>ut damnaret. De Chananeis acceperant lu 
+      <lb ed="#W" n="6"/>daei praeceptum, ut eos perderent, Exodi. 
+      <lb ed="#W" n="7"/>xxiii, quorsum adlusisse Christum nonnulli 
+      <lb ed="#W" n="8"/>opinantur, cum ait dictum esse de persequendis 
+      <lb ed="#W" n="9"/>inimicis. Quod si uerum est, quid aliud dice¬ 
+      <lb ed="#W" n="10"/>mus uoluisse Christum, quam ut reuelato Euan¬ 
+      <lb ed="#W" n="11"/>gelio, &amp; diruto interstitio maceriae, ut Pau 
+      <lb ed="#W" n="12"/>lus ait, &amp; sublato inductoque discrimine gen 
+      <lb ed="#W" n="13"/>tium ac ludaeorum, sicut antea ludaeis ludaeos 
+      <lb ed="#W" n="14"/>diligere, tum amicos, tum inimicos manda 
+      <lb ed="#W" n="15"/>datum fuerat, ita nos tum gentes tum ludaeos, cum 
+      <lb ed="#W" n="16"/>amicos tum inimicos diligerems. Quid ant 
+      <lb ed="#W" n="17"/>quod de solis etiam Cananaeis lsraeli pceptum fu¬ 
+      <lb ed="#W" n="18"/>it? Quid quod aduenas etiam iubentur diligere  
+      <lb ed="#W" n="19"/>Huc pertinet, quod de foenore decretum em, exte¬ 
+      <lb ed="#W" n="20"/>ris foenerandum, non cognatis. Nunc cum nulli 
+      <lb ed="#W" n="21"/>sint exteri, omnes cognati, in uniuersum inter 
+      <lb ed="#W" n="22"/>dictum est foenus.
+    </p>
+            <p xml:id="erf8hf-d1e926-d1e711">
+               <lb ed="#W" n="23"/>⁋ Quamquam negari non pont, quin aliqua in le 
+      <lb ed="#W" n="24"/>ge nouarit Christus, quale illud est de diuor 
+      <!--124.xml-->
+      <pb ed="#G" n="61-r"/>
+               <lb ed="#W" n="1"/>cio, quale item est, quod cum Iudaeis praeceptum fuerit 
+      <lb ed="#W" n="2"/>gladio legalia defendere, euangelium non iubet 
+      <lb ed="#W" n="3"/>Christus armis defendi, imo Petro ait, Conuer 
+      <lb ed="#W" n="4"/>te gladium in locum suum, Qui gladium acceperit. 
+      <lb ed="#W" n="5"/>gladio peribit. Tamen non est Christi primarium ac 
+      <lb ed="#W" n="6"/>proprium officium legem condere, sed gratiam dona 
+      <lb ed="#W" n="7"/>re. Moses legum lator est, &amp; iudex Christus sal 
+      <lb ed="#W" n="8"/>uator, sicut ipse de sese testatur Iohan. iii. Non 
+      <lb ed="#W" n="9"/>misit deus filium suum in mundum, ut iudicet mun 
+      <lb ed="#W" n="10"/>dum, sed ut saluetur mundus per ipsum. Lex dan¬ 
+      <lb ed="#W" n="11"/>nat, quandoquidem per nos ei satisferi nequit.  
+      <lb ed="#W" n="12"/>Christus gratiam peccati donat credentibus, Sae 
+      <lb ed="#W" n="13"/>pe quidem legem etiam Christo praedicat, quod sine le¬ 
+      <lb ed="#W" n="14"/>ge peccatum cognosci non possit, quod nisi sen¬ 
+      <lb ed="#W" n="15"/>tiamus, uim gratiae &amp; amplitudinem non intel 
+      <lb ed="#W" n="16"/>ligemus. Proinde simul &amp; lex &amp; Euangelium 
+      <lb ed="#W" n="17"/>praedicari debet, ostendi debent &amp; peccatum &amp; 
+      <lb ed="#W" n="18"/>gratia. Duo Cherubim arcae impositi erat,  
+      <lb ed="#W" n="19"/>Lex &amp; Euangelium, quare fieri nequit, ut Euan¬ 
+      <lb ed="#W" n="20"/>gelium sine lege, lege sine Euangelio recte aut 
+      <lb ed="#W" n="21"/>foeliciter doceas. Et ut cum Euangelio Christus 
+      <lb ed="#W" n="22"/>lege coniunxit, ita cum lege Euangelium, prophe 
+      <lb ed="#W" n="23"/>tae. Habes huius rei exempla etiam in Aposto 
+      <lb ed="#W" n="24"/>lorum toncionibus in Actis. In primis autem  
+      <!--125.xml-->
+      <pb ed="#G" n="61-v"/>
+               <lb ed="#W" n="1"/>Epistolas Pauli ons, in quibus fere primum 
+      <lb ed="#W" n="2"/>de ratione Euangelii disserit, postea parae¬ 
+      <lb ed="#W" n="3"/>neses praescribit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
