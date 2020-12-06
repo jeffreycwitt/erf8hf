@@ -161,8 +161,8 @@
         <p xml:id="erf8hf-d1e1311-d1e327">
           <lb ed="#W" n="4"/>Licebit igitur quiduis, necare insontes,  
           <lb ed="#W" n="5"/>peierare &amp;c? Eadem quaestio apud Paulum est 
-          <lb ed="#W" n="6"/>Roma. vi. cum inquit. Siquidem non sumus 
-          <lb ed="#W" n="7"/>sub lege, peccabimus ergo? Est autem
+          <lb ed="#W" n="6"/>Roma. vi. cum inquit. <quote xml:id="erf8hf-d1e1311-Qd1e335" source="http://scta.info/resource/rom6_15" synch="1-8" type="paraphrase"><!-- dbcheck -->Siquidem non sumus 
+          <lb ed="#W" n="7"/>sub lege, peccabimus ergo?</quote> Est autem
           liber<lb ed="#W" n="8" break="no"/>tas in eo, quod ius omne legi ereptum est ad 
           <lb ed="#W" n="9"/>cusandi, ac damnandi nos. Maledicit lex 
           <lb ed="#W" n="10"/>eos qui non uniuersam lege semel
@@ -176,7 +176,7 @@
           <lb ed="#W" n="18"/>iam nunc peccatum habeas, est em utendum 
           <lb ed="#W" n="19"/>sermone scripturae, tamen saluus es. Vim 
           <lb ed="#W" n="20"/>mortis, uim prccati, portas inferi Sanso no 
-          <lb ed="#W" n="21"/>ster effregit. Hoc illud est quod ad Calatas 
+          <lb ed="#W" n="21"/>ster effregit. Hoc illud est quod ad Galatas 
           <lb ed="#W" n="22"/>Paulus scribit. Christus nos redemit de ma 
           <lb ed="#W" n="23"/>ledicto legis, factus pro nobis maledictum. 
           <!--218.xml-->
@@ -184,9 +184,9 @@
           <lb ed="#W" n="1"/>Item, <quote xml:id="erf8hf-d1e1311-Qd1e379" source="http://scta.info/resource/gal4_4 http://scta.info/resource/gal4_5">Vbi uenit plenitudo temporis, misit 
           <lb ed="#W" n="2"/>deus filium suum, factum ex muliere, factum 
           <lb ed="#W" n="3"/>sub lege, ut eos, qui sub lege erant,
-          redime<lb ed="#W" n="4" break="no"/>ret</quote>. Et Roma. vi. Peccatum uobis non
+            redime<lb ed="#W" n="4" break="no"/>ret</quote>. Et <ref xml:id="erf8hf-d1e1311-Rd1e392">Roma. vi.</ref> <quote xml:id="erf8hf-d1e1311-Qd1e395" source="http://scta.info/resource/rom6_14" synch="1-13">Peccatum uobis non
           do<lb ed="#W" n="5" break="no"/>minabitur. Non enim sub lege estis, sed sub 
-          <lb ed="#W" n="6"/>gratia. Atque haec securitas est, quam adeo
+          <lb ed="#W" n="6"/>gratia</quote>. Atque haec securitas est, quam adeo
           ple<lb ed="#W" n="7" break="no"/>no ore, nusquam non celebrant prophetae. 
           <lb ed="#W" n="8"/>nulla non potentia legis superiores esse eos,  
           <lb ed="#W" n="9"/>qui sunt in Christo, hoc est, tametsi pecca 
