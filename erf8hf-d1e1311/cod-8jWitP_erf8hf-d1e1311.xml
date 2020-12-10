@@ -178,7 +178,8 @@
           <lb ed="#W" n="20"/>mortis, uim prccati, portas inferi Sanso no 
           <lb ed="#W" n="21"/>ster effregit. Hoc illud est quod ad Galatas 
           <lb ed="#W" n="22"/>Paulus scribit. Christus nos redemit de ma 
-          <lb ed="#W" n="23"/>ledicto legis, factus pro nobis maledictum. 
+          <lb ed="#W" n="23"/>ledicto legis, factus pro nobis maledictum.
+          <!-- para break -->
           <!--218.xml-->
           <pb ed="#W" n="109-r"/>
           <lb ed="#W" n="1"/>Item, <quote xml:id="erf8hf-d1e1311-Qd1e379" source="http://scta.info/resource/gal4_4 http://scta.info/resource/gal4_5">Vbi uenit plenitudo temporis, misit 
@@ -200,7 +201,7 @@
           <lb ed="#W" n="17"/>fere ubique Paulus praedicat. Cerimonias uix 
           <lb ed="#W" n="18"/>uno atque altero loco attingit. Nec aliud est 
           <lb ed="#W" n="19"/>nouum testamentum, nisi huius libertatis 
-          <lb ed="#W" n="20"/>promulgatio. ld quod adposite secundo 
+          <lb ed="#W" n="20"/>promulgatio. Id quod adposite secundo 
           <lb ed="#W" n="21"/>psalmo significauit propheta. Ego constitui 
           <lb ed="#W" n="22"/>rege meum super Sion montem sanctum. Hic pa 
           <lb ed="#W" n="23"/>rer inquit se rege designaturum monti Sion¬ 
@@ -208,7 +209,7 @@
           <pb ed="#W" n="109-v"/>
           <lb ed="#W" n="1"/>post quale regnum sit futurum aperit, nempe 
           <lb ed="#W" n="2"/>ubi uerbo suo deus, non humanis uiribus 
-          <lb ed="#W" n="3"/>aut mundi potentia regnet. ldeo subicit. 
+          <lb ed="#W" n="3"/>aut mundi potentia regnet. Ideo subicit. 
           <lb ed="#W" n="4"/>Praedicabo mandatum. Dominus dixit ad 
           <lb ed="#W" n="5"/>me, filius meus es tu. Quae haec noua praedi 
           <lb ed="#W" n="6"/>catio erit? An non ante uerbum dei praedica 
@@ -218,8 +219,8 @@
           <lb ed="#W" n="10"/>non aliud praedicatur, nisi filium esse Chri 
           <lb ed="#W" n="11"/>stum, consequitur legis iusticiam, opera non 
           <lb ed="#W" n="12"/>exigi, nec aliud praecipi, quam ut filium illum 
-          <lb ed="#W" n="13"/>exosculemur. ld quod paulo post apertius 
-          <lb ed="#W" n="14"/>dicit. Deati omnes qui fidunt eo, non
+          <lb ed="#W" n="13"/>exosculemur. Id quod paulo post apertius 
+          <lb ed="#W" n="14"/>dicit. Beati omnes qui fidunt eo, non
           serua<lb ed="#W" n="15" break="no"/>bit uos iusticia uestra, non seruabit uos
           sa<lb ed="#W" n="16" break="no"/>pientia uestra, sed hic filius seruabit, rex
           ue<lb ed="#W" n="17" break="no"/>ster, propugnaculum uestrum &amp;c, Sunt hu 
@@ -240,9 +241,9 @@
           <lb ed="#W" n="6"/>luntas dei est, regenerati sumus, iam idipsum 
           <lb ed="#W" n="7"/>uolumus sponte, quod exigebat lex. In hanc 
           <lb ed="#W" n="8"/>sententiam dictum est a Paulo. Iusto non esse 
-          <lb ed="#W" n="9"/>legem positam. Et ad Roma. viii. Eex spiri 
+          <lb ed="#W" n="9"/>legem positam. Et <ref xml:id="erf8hf-d1e1311-Rd1e521">ad Roma. viii.</ref> <quote xml:id="erf8hf-d1e1311-Qd1e524" source="http://scta.info/resource/rom8_2" synch="1-14">Lex spiri 
           <lb ed="#W" n="10"/>us uitae, id est, lex motio spiritus uiuifican 
-          <lb ed="#W" n="11"/>tis, liberauit me a lege peccati &amp; mortis. Et 
+          <lb ed="#W" n="11"/>tis, liberauit me a lege peccati &amp; mortis</quote>. Et 
           <lb ed="#W" n="12"/>libertatem Christianam Augustinus ad eum 
           <lb ed="#W" n="13"/>modum copiose tractat, in libro de
           spiritu<lb ed="#W" n="14" break="no"/>&amp; litera. Et Hiere. xxxi. Ecce dies uenient, di 
@@ -272,7 +273,7 @@
           exa<lb ed="#W" n="12" break="no"/>ctione, iam legem cordibus inscribendam 
           <lb ed="#W" n="13"/>esse, ut exprimi possit. Ergo libertas est, non 
           <lb ed="#W" n="14"/>ne faciamus legem, sed sponte ab animo,  
-          <lb ed="#W" n="15"/>uelle ac cupere, quod lex poscit. ld quod an 
+          <lb ed="#W" n="15"/>uelle ac cupere, quod lex poscit. Id quod an 
           <lb ed="#W" n="16"/>tea nemo potuit. ldem Exech. xi. Auferam  
           <lb ed="#W" n="17"/>cor lapideum de came eorum, &amp; dabo eis 
           <lb ed="#W" n="18"/>cor cameum, ut in praeceptis meis
@@ -296,11 +297,11 @@
         <p xml:id="erf8hf-d1e1311-d1e616">
           <lb ed="#W" n="7"/>Ad eum modum fuerunt liberi etiam
           pa<lb ed="#W" n="8" break="no"/>tres ante Christi incamationem, quotquot 
-          <lb ed="#W" n="9"/>spiritum Christi habuere. ld quod uidit Pe 
+          <lb ed="#W" n="9"/>spiritum Christi habuere. Id quod uidit Pe 
           <lb ed="#W" n="10"/>trus in Actis cap. xv. cum negat eos potuisse 
           <lb ed="#W" n="11"/>legem facere. Neque nos, inquiens, neque
           pa<lb ed="#W" n="12" break="no"/>tres nostri portare potuimus. Sed fide
-          iusti<lb ed="#W" n="13" break="no"/>ficati sunt. ld est, cum non possent prestare 
+          iusti<lb ed="#W" n="13" break="no"/>ficati sunt. Id est, cum non possent prestare 
           <lb ed="#W" n="14"/>legm patres, agnouerunt se quoque liberos 
           <lb ed="#W" n="15"/>esse per Christum, suntque fide in Christum 
           <lb ed="#W" n="16"/>iustificati, non operum, non iusticiatum suarum 
@@ -514,7 +515,7 @@
           <lb ed="#W" n="4"/>cap. vii. scribitur. Reprobatio quidem
           praece<lb ed="#W" n="5" break="no"/>dentis mandati propter infirmitatem eius &amp; 
           <lb ed="#W" n="6"/>inutilitatem. Et ubi de sacerdote late
-          disse<lb ed="#W" n="7" break="no"/>tuit, hoc constituit. ldeo sacerdotium
+          disse<lb ed="#W" n="7" break="no"/>tuit, hoc constituit. Ideo sacerdotium
           Reuiti<lb ed="#W" n="8" break="no"/>cum antiquari, que remissionem peccati non im 
           <lb ed="#W" n="9"/>pertatit. Impetret autem noster pontifex 
           <lb ed="#W" n="10"/>Christus. Vides unam hanc abrogatae legis 
@@ -652,12 +653,12 @@
           <lb ed="#W" n="4"/>in carne mortificat. Non que exigat lex, sed 
           <lb ed="#W" n="5"/>quod illa ipsa sit spiritus natura, ut non possit 
           <lb ed="#W" n="6"/>non mortificare canem. Hoc est quod ait 
-          <lb ed="#W" n="7"/>Paulus. Nihil nunc damnationis est his qui  
-          <lb ed="#W" n="8"/>sunt in Christo lesu, id est, qui credunt, quia 
+          <lb ed="#W" n="7"/><name xml:id="erf8hf-d1e1311-Nd1e1401">Paulus</name>. <quote xml:id="erf8hf-d1e1311-Qd1e1404" source="http://scta.info/resource/rom8_1" synch="1-11">Nihil nunc damnationis est his qui  
+          <lb ed="#W" n="8"/>sunt in Christo Iesu</quote>, id est, qui credunt, quia 
           <lb ed="#W" n="9"/>iam a legis maledicto redempti sunt, salui 
-          <lb ed="#W" n="10"/>sunt, Sed illi iidem non secundum camem  
-          <lb ed="#W" n="11"/>ambulant, hoc est, quia in eis regnat
-          spi<lb ed="#W" n="12" break="no"/>ritus, ideo camis reliquiae crucifiguntur. Et 
+          <lb ed="#W" n="10"/>sunt, Sed illi iidem <quote xml:id="erf8hf-d1e1311-Qd1e1414" source="http://scta.info/resource/rom8_1" synch="13-16">non secundum camem  
+          <lb ed="#W" n="11"/>ambulant</quote>, hoc est, quia in eis regnat
+          spi<lb ed="#W" n="12" break="no"/>ritus, ideo carnis reliquiae crucifiguntur. Et 
           <lb ed="#W" n="13"/>leges praescribuntur fidelibus per quas spiri 
           <lb ed="#W" n="14"/>tus mortificet canem. Nondum enim con 
           <lb ed="#W" n="15"/>sumata in nobis libertas est, sed uindicatur 
